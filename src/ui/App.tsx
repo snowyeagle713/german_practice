@@ -4,6 +4,7 @@ import { entriesForBlock } from '../domain/content/selectors';
 import type { ContentPack } from '../domain/content/types';
 import { BlockCard } from './BlockCard';
 import { Learn } from './Learn';
+import { Icon } from './Icon';
 
 type LoadState = { status: 'loading' } | { status: 'ready'; pack: ContentPack } | { status: 'error'; message: string };
 
@@ -45,19 +46,27 @@ export function App() {
 
   function screen(pack: ContentPack) {
     if (page === 'home' && route.length <= 1) return <>
-      <p className="lead">Build familiarity with German verb constructions, from everyday conversations to technical work.</p>
-      <section className="overview" aria-label="Study overview">
-        <div><strong>{pack.blocks.length}</strong><span>Available block</span></div>
-        <div><strong>{pack.entries.length}</strong><span>Verb constructions</span></div>
-        <div><strong>Ungraded</strong><span>Study at your own pace</span></div>
+      <section className="welcome-panel" aria-label="Your learning space">
+        <div><p className="eyebrow">Make room for learning</p><p className="welcome-title">Small steps. Useful German.</p>
+        <p className="lead">Build familiarity with German verb constructions, from everyday conversations to technical work.</p></div>
+        <div className="welcome-emblem" aria-hidden="true"><Icon name="book" /><span>Everyday<br />+ Technical</span></div>
       </section>
-      <section aria-labelledby="start-title"><h2 id="start-title">Start with the essentials</h2>
+      <section className="overview" aria-label="Study overview">
+        <div className="stat-card"><span className="icon-tile"><Icon name="blocks" /></span><div><strong>{pack.blocks.length}</strong><span>Available block</span></div></div>
+        <div className="stat-card"><span className="icon-tile mint"><Icon name="book" /></span><div><strong>{pack.entries.length}</strong><span>Verb constructions</span></div></div>
+        <div className="stat-card"><span className="icon-tile blue"><Icon name="leaf" /></span><div><strong>Ungraded</strong><span>Study at your own pace</span></div></div>
+      </section>
+      <div className="dashboard-grid"><section aria-labelledby="start-title"><div className="section-heading"><div><p className="eyebrow">Your learning path</p><h2 id="start-title">Start with the essentials</h2></div></div>
         {pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} />)}
         <a className="text-link" href="#/blocks">Browse blocks →</a>
       </section>
-      <section className="empty-state" aria-labelledby="session-title"><h2 id="session-title">Practice &amp; recent progress</h2>
+      <section className="progress-card" aria-labelledby="session-title"><div className="section-heading"><span className="icon-tile mint"><Icon name="progress" /></span><span className="badge neutral">Not available yet</span></div>
+        <p className="eyebrow">Your progress</p><h2 id="session-title">A place for your progress</h2>
+        <div className="progress-empty" aria-hidden="true"><span /><span /><span /><span /><span /><span /><span /></div>
         <p>Practice sessions and saved results are not available yet. You can study every construction in Learn.</p>
-      </section>
+        <div className="progress-summary"><span>Practice results</span><strong>Not recorded</strong></div>
+        <p className="muted">Learning here is ungraded. Take your time with the examples.</p>
+      </section></div>
     </>;
     if (page === 'blocks' && route.length === 1) return <>
       <p className="lead">Study each construction with its rule, meaning, and two real-world examples.</p>
@@ -79,19 +88,22 @@ export function App() {
 
   return <>
     <a className="skip-link" href="#main-content" onClick={event => { event.preventDefault(); document.getElementById('main-content')?.focus(); }}>Skip to content</a>
-    <header className="site-header"><div className="header-inner">
-      <a className="brand" href="#/"><span className="brand-mark" aria-hidden="true">GT</span><span>German Trainer<small>Fluency + Technical</small></span></a>
+    <div className="app-shell"><aside className="learning-sidebar" aria-label="Learning sidebar">
+      <a className="brand" href="#/"><span className="brand-mark" aria-hidden="true"><Icon name="book" /></span><span>German Trainer<small>Fluency + Technical</small></span></a>
+      <p className="sidebar-label">Your workspace</p>
       <nav aria-label="Main navigation">{(['home', 'blocks', 'progress', 'settings'] as const).map(item =>
-        <a key={item} href={item === 'home' ? '#/' : `#/${item}`} aria-current={navPage === item ? 'page' : undefined}>{item.charAt(0).toUpperCase() + item.slice(1)}</a>
+        <a key={item} href={item === 'home' ? '#/' : `#/${item}`} aria-current={navPage === item ? 'page' : undefined}><Icon name={item} /><span>{item.charAt(0).toUpperCase() + item.slice(1)}</span></a>
       )}</nav>
-    </div></header>
-    <main id="main-content" tabIndex={-1} className="main-content">
-      <p className="eyebrow">Fluency + Technical</p>
-      <h1 ref={heading} tabIndex={-1}>{title}</h1>
+      <div className="sidebar-note"><Icon name="leaf" /><p>A little, often.</p><small>Explore a construction.<br />Connect it to everyday life.</small></div>
+      <div className="sidebar-foot"><span className="language-mark" lang="de">DE</span><span>German learning<small>Personal study space</small></span></div>
+    </aside>
+    <div className="workspace"><main id="main-content" tabIndex={-1} className="main-content">
+      <div className="page-header"><div><p className="eyebrow">Your German learning space</p>
+      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />Study preview</span></div>
       {content.status === 'loading' && <p role="status">Loading your study material…</p>}
       {content.status === 'error' && <section className="error-state" role="alert"><h2>Study material could not be opened</h2><p>The content must load and pass validation before you can study. Check that the app server is running; if validation fails, restore a valid content pack.</p><details><summary>Error details</summary><p>{content.message}</p></details><button onClick={() => setRetry(value => value + 1)}>Try again</button></section>}
       {content.status === 'ready' && screen(content.pack)}
     </main>
-    <footer>German Trainer · Learn is ungraded.</footer>
+    <footer>German Trainer · Learn is ungraded.</footer></div></div>
   </>;
 }

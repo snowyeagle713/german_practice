@@ -47,6 +47,9 @@ for (const width of [768, 1280, 1920]) {
     await page.goto('/#/blocks');
     const learn = page.getByRole('link', { name: 'Learn', exact: true });
     await expect(learn).toBeVisible();
+    const sidebarBounds = await page.getByRole('complementary', { name: 'Learning sidebar' }).boundingBox();
+    const mainBounds = await page.getByRole('main').boundingBox();
+    expect(sidebarBounds!.x + sidebarBounds!.width).toBeLessThan(mainBounds!.x);
     await learn.focus();
     await page.keyboard.press('Enter');
     await expect(page.getByRole('article')).toBeVisible();

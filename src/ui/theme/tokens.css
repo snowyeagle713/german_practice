@@ -1,0 +1,86 @@
+/* Semantic palette contract. Components use these names, never palette literals.
+   Lingua is also the fallback before the default data-theme is applied. */
+:root,
+:root[data-theme="lingua-learning"] {
+  color-scheme: light;
+  --app-background: #f3f2f8;
+  --shell-background: #faf9fe;
+  --sidebar-background: #faf9fe;
+  --sidebar-text: #292638;
+  --sidebar-text-secondary: #676176;
+  --surface-background: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #f6f5fa;
+  --border: #e4e1ee;
+  --text-primary: #292638;
+  --text-secondary: #676176;
+  --text-inverse: #ffffff;
+  --accent-primary: #6947c7;
+  --accent-primary-hover: #5534ab;
+  --accent-primary-subtle: #eee8fc;
+  --accent-secondary: #267567;
+  --accent-secondary-subtle: #e4f3ed;
+  --success: #246b4d;
+  --success-subtle: #e4f3e9;
+  --warning: #875315;
+  --warning-subtle: #fff3dc;
+  --error: #a33246;
+  --error-subtle: #fff0f2;
+  --info: #365f9a;
+  --info-subtle: #eaf0fb;
+  --progress-track: #e8e3f3;
+  --progress-fill: #7956d3;
+  --progress-secondary: #267567;
+  --nav-active-background: #eae3fa;
+  --nav-active-text: #5834ad;
+  --nav-inactive-text: #676176;
+  --nav-hover-background: #f0edf7;
+  --disabled-background: #f1eff5;
+  --disabled-text: #777080;
+  --focus-ring: #5534ab;
+  --shadow-card: 0 5px 24px #36246006;
+  --shadow-elevated: 0 12px 40px #3624600a;
+}
+
+/* Prepared internal palette; no user switching or persistence is implemented.
+   Same components, layout, typography and semantic roles as Lingua. */
+:root[data-theme="finance-dashboard"] {
+  color-scheme: light;
+  --app-background: #eff3f7;
+  --shell-background: #f7f9fc;
+  --sidebar-background: #172b45;
+  --sidebar-text: #ffffff;
+  --sidebar-text-secondary: #c5d3e7;
+  --surface-background: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #f3f6fa;
+  --border: #dce3ec;
+  --text-primary: #20334d;
+  --text-secondary: #596b82;
+  --text-inverse: #ffffff;
+  --accent-primary: #245db2;
+  --accent-primary-hover: #194689;
+  --accent-primary-subtle: #e9f0fc;
+  --accent-secondary: #176d66;
+  --accent-secondary-subtle: #e3f3ef;
+  --success: #206b4b;
+  --success-subtle: #e4f3ea;
+  --warning: #875314;
+  --warning-subtle: #fff3dd;
+  --error: #a93243;
+  --error-subtle: #fff0f2;
+  --info: #245db2;
+  --info-subtle: #e9f0fc;
+  --progress-track: #e0e7f2;
+  --progress-fill: #245db2;
+  --progress-secondary: #176d66;
+  --nav-active-background: #314f76;
+  --nav-active-text: #ffffff;
+  --nav-inactive-text: #c5d3e7;
+  --nav-hover-background: #263f60;
+  --disabled-background: #edf1f6;
+  --disabled-text: #69778a;
+  --focus-ring: #b8791a;
+  --shadow-card: 0 5px 24px #14263f06;
+  --shadow-elevated: 0 12px 40px #14263f0a;
+}
