@@ -1,0 +1,394 @@
+{
+  "source": "verbs-reference.md",
+  "numberedEntries": 200,
+  "distinctExactHeadings": 37,
+  "duplicateNumberedEntries": 163,
+  "method": "Exact heading match after removing numbering; not a count of distinct lemmas or fully reviewed senses.",
+  "groups": [
+    {
+      "heading": "sich freuen auf + Akkusativ",
+      "sourceNumbers": [
+        1,
+        38,
+        75,
+        112,
+        149,
+        186
+      ]
+    },
+    {
+      "heading": "sich freuen über + Akkusativ",
+      "sourceNumbers": [
+        2,
+        39,
+        76,
+        113,
+        150,
+        187
+      ]
+    },
+    {
+      "heading": "sich [Dat.] vorstellen + Akkusativ",
+      "sourceNumbers": [
+        3,
+        40,
+        77,
+        114,
+        151,
+        188
+      ]
+    },
+    {
+      "heading": "sich [Akk.] vorstellen + Dativ",
+      "sourceNumbers": [
+        4,
+        41,
+        78,
+        115,
+        152,
+        189
+      ]
+    },
+    {
+      "heading": "sich einstellen auf + Akkusativ",
+      "sourceNumbers": [
+        5,
+        42,
+        79,
+        116,
+        153,
+        190
+      ]
+    },
+    {
+      "heading": "einstellen + Akkusativ",
+      "sourceNumbers": [
+        6,
+        43,
+        80,
+        117,
+        154,
+        191
+      ]
+    },
+    {
+      "heading": "sprechen über + Akkusativ",
+      "sourceNumbers": [
+        7,
+        44,
+        81,
+        118,
+        155,
+        192
+      ]
+    },
+    {
+      "heading": "sprechen mit + Dativ / von + Dativ",
+      "sourceNumbers": [
+        8,
+        45,
+        82,
+        119,
+        156,
+        193
+      ]
+    },
+    {
+      "heading": "bestehen aus + Dativ",
+      "sourceNumbers": [
+        9,
+        46,
+        83,
+        120,
+        157,
+        194
+      ]
+    },
+    {
+      "heading": "bestehen auf + Dativ",
+      "sourceNumbers": [
+        10,
+        47,
+        84,
+        121,
+        158,
+        195
+      ]
+    },
+    {
+      "heading": "halten von + Dativ",
+      "sourceNumbers": [
+        11,
+        48,
+        85,
+        122,
+        159,
+        196
+      ]
+    },
+    {
+      "heading": "halten für + Akkusativ",
+      "sourceNumbers": [
+        12,
+        49,
+        86,
+        123,
+        160,
+        197
+      ]
+    },
+    {
+      "heading": "warten auf + Akkusativ",
+      "sourceNumbers": [
+        13,
+        50,
+        87,
+        124,
+        161,
+        198
+      ]
+    },
+    {
+      "heading": "denken an + Akkusativ",
+      "sourceNumbers": [
+        14,
+        51,
+        88,
+        125,
+        162,
+        199
+      ]
+    },
+    {
+      "heading": "sich erinnern an + Akkusativ",
+      "sourceNumbers": [
+        15,
+        52,
+        89,
+        126,
+        163,
+        200
+      ]
+    },
+    {
+      "heading": "sich interessieren für + Akkusativ",
+      "sourceNumbers": [
+        16,
+        53,
+        90,
+        127,
+        164
+      ]
+    },
+    {
+      "heading": "antworten auf + Akkusativ",
+      "sourceNumbers": [
+        17,
+        54,
+        91,
+        128,
+        165
+      ]
+    },
+    {
+      "heading": "glauben an + Akkusativ",
+      "sourceNumbers": [
+        18,
+        55,
+        92,
+        129,
+        166
+      ]
+    },
+    {
+      "heading": "hoffen auf + Akkusativ",
+      "sourceNumbers": [
+        19,
+        56,
+        93,
+        130,
+        167
+      ]
+    },
+    {
+      "heading": "danken [Dat.] für + Akkusativ",
+      "sourceNumbers": [
+        20,
+        57,
+        94,
+        131,
+        168
+      ]
+    },
+    {
+      "heading": "diskutieren über + Akkusativ",
+      "sourceNumbers": [
+        21,
+        58,
+        95,
+        132,
+        169
+      ]
+    },
+    {
+      "heading": "sich informieren über + Akkusativ",
+      "sourceNumbers": [
+        22,
+        59,
+        96,
+        133,
+        170
+      ]
+    },
+    {
+      "heading": "abhängen von + Dativ",
+      "sourceNumbers": [
+        23,
+        60,
+        97,
+        134,
+        171
+      ]
+    },
+    {
+      "heading": "sich konzentrieren auf + Akkusativ",
+      "sourceNumbers": [
+        24,
+        61,
+        98,
+        135,
+        172
+      ]
+    },
+    {
+      "heading": "rechnen mit + Dativ",
+      "sourceNumbers": [
+        25,
+        62,
+        99,
+        136,
+        173
+      ]
+    },
+    {
+      "heading": "sich befassen mit + Dativ",
+      "sourceNumbers": [
+        26,
+        63,
+        100,
+        137,
+        174
+      ]
+    },
+    {
+      "heading": "führen zu + Dativ",
+      "sourceNumbers": [
+        27,
+        64,
+        101,
+        138,
+        175
+      ]
+    },
+    {
+      "heading": "sich bewerben um + Akkusativ",
+      "sourceNumbers": [
+        28,
+        65,
+        102,
+        139,
+        176
+      ]
+    },
+    {
+      "heading": "sich beziehen auf + Akkusativ",
+      "sourceNumbers": [
+        29,
+        66,
+        103,
+        140,
+        177
+      ]
+    },
+    {
+      "heading": "eingehen auf + Akkusativ",
+      "sourceNumbers": [
+        30,
+        67,
+        104,
+        141,
+        178
+      ]
+    },
+    {
+      "heading": "sich eignen für + Akkusativ",
+      "sourceNumbers": [
+        31,
+        68,
+        105,
+        142,
+        179
+      ]
+    },
+    {
+      "heading": "beitragen zu + Dativ",
+      "sourceNumbers": [
+        32,
+        69,
+        106,
+        143,
+        180
+      ]
+    },
+    {
+      "heading": "Einfluss nehmen auf + Akkusativ",
+      "sourceNumbers": [
+        33,
+        70,
+        107,
+        144,
+        181
+      ]
+    },
+    {
+      "heading": "in Betracht ziehen + Akkusativ",
+      "sourceNumbers": [
+        34,
+        71,
+        108,
+        145,
+        182
+      ]
+    },
+    {
+      "heading": "zur Verfügung stehen + Dativ",
+      "sourceNumbers": [
+        35,
+        72,
+        109,
+        146,
+        183
+      ]
+    },
+    {
+      "heading": "zur Folge haben + Akkusativ",
+      "sourceNumbers": [
+        36,
+        73,
+        110,
+        147,
+        184
+      ]
+    },
+    {
+      "heading": "in Anspruch nehmen + Akkusativ",
+      "sourceNumbers": [
+        37,
+        74,
+        111,
+        148,
+        185
+      ]
+    }
+  ]
+}

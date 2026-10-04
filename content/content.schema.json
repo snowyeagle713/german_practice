@@ -1,0 +1,327 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/german-trainer/content.schema.json",
+  "title": "German Trainer content pack v1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "packVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "kind": {
+            "const": "verb"
+          },
+          "lemma": {
+            "type": "string",
+            "minLength": 1
+          },
+          "construction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaningEn": {
+            "type": "string",
+            "minLength": 1
+          },
+          "preposition": {
+            "type": "string",
+            "minLength": 1
+          },
+          "governedCase": {
+            "enum": [
+              "accusative",
+              "dative",
+              "genitive"
+            ]
+          },
+          "reflexiveCase": {
+            "enum": [
+              null,
+              "accusative",
+              "dative"
+            ]
+          },
+          "cefr": {
+            "enum": [
+              null,
+              "A1",
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "examples": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "domain": {
+                  "enum": [
+                    "everyday",
+                    "technical"
+                  ]
+                },
+                "de": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "domain",
+                "de",
+                "en"
+              ]
+            }
+          },
+          "editorialStatus": {
+            "enum": [
+              "prototype-reviewed",
+              "reviewed"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "lemma",
+          "construction",
+          "meaningEn",
+          "preposition",
+          "governedCase",
+          "reflexiveCase",
+          "cefr",
+          "tags",
+          "examples",
+          "editorialStatus"
+        ]
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "entryId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "exampleId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "explanation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "const": "preposition_cloze"
+              },
+              "acceptedAnswers": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "id",
+              "revision",
+              "entryId",
+              "prompt",
+              "exampleId",
+              "explanation",
+              "type",
+              "acceptedAnswers"
+            ]
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "entryId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1
+              },
+              "exampleId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "explanation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "enum": [
+                  "case_choice",
+                  "meaning_choice"
+                ]
+              },
+              "choices": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "text"
+                  ]
+                }
+              },
+              "correctChoiceId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+              }
+            },
+            "required": [
+              "id",
+              "revision",
+              "entryId",
+              "prompt",
+              "exampleId",
+              "explanation",
+              "type",
+              "choices",
+              "correctChoiceId"
+            ]
+          }
+        ]
+      }
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "questionIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+            },
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "description",
+          "questionIds"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "packId",
+    "packVersion",
+    "title",
+    "entries",
+    "questions",
+    "blocks"
+  ]
+}

@@ -1,0 +1,1159 @@
+{
+  "schemaVersion": 1,
+  "packId": "verbs-starter",
+  "packVersion": 1,
+  "title": "Fluency + Technical — Starter verbs",
+  "entries": [
+    {
+      "id": "verb-freuen-auf",
+      "kind": "verb",
+      "lemma": "sich freuen",
+      "construction": "sich freuen auf",
+      "meaningEn": "to look forward to",
+      "preposition": "auf",
+      "governedCase": "accusative",
+      "reflexiveCase": "accusative",
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-freuen-auf-everyday",
+          "domain": "everyday",
+          "de": "Ich freue mich auf den Urlaub nächste Woche.",
+          "en": "I am looking forward to the holiday next week."
+        },
+        {
+          "id": "verb-freuen-auf-technical",
+          "domain": "technical",
+          "de": "Wir freuen uns auf die Ergebnisse der neuen Testreihe.",
+          "en": "We are looking forward to the results of the new test series."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-freuen-ueber",
+      "kind": "verb",
+      "lemma": "sich freuen",
+      "construction": "sich freuen über",
+      "meaningEn": "to be happy about",
+      "preposition": "über",
+      "governedCase": "accusative",
+      "reflexiveCase": "accusative",
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-freuen-ueber-everyday",
+          "domain": "everyday",
+          "de": "Er freut sich über das Geschenk.",
+          "en": "He is happy about the gift."
+        },
+        {
+          "id": "verb-freuen-ueber-technical",
+          "domain": "technical",
+          "de": "Das Team freut sich über die erfolgreiche Validierung.",
+          "en": "The team is happy about the successful validation."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-bestehen-aus",
+      "kind": "verb",
+      "lemma": "bestehen",
+      "construction": "bestehen aus",
+      "meaningEn": "to consist of",
+      "preposition": "aus",
+      "governedCase": "dative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-bestehen-aus-everyday",
+          "domain": "everyday",
+          "de": "Das Menü besteht aus einer Vorspeise und einem Hauptgang.",
+          "en": "The menu consists of a starter and a main course."
+        },
+        {
+          "id": "verb-bestehen-aus-technical",
+          "domain": "technical",
+          "de": "Die Konstruktion besteht aus hochfestem Stahl.",
+          "en": "The structure consists of high-strength steel."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-warten-auf",
+      "kind": "verb",
+      "lemma": "warten",
+      "construction": "warten auf",
+      "meaningEn": "to wait for",
+      "preposition": "auf",
+      "governedCase": "accusative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-warten-auf-everyday",
+          "domain": "everyday",
+          "de": "Ich warte auf den Bus.",
+          "en": "I am waiting for the bus."
+        },
+        {
+          "id": "verb-warten-auf-technical",
+          "domain": "technical",
+          "de": "Das Team wartet auf die Freigabe der CAD-Zeichnung.",
+          "en": "The team is waiting for the release of the CAD drawing."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-erinnern-an",
+      "kind": "verb",
+      "lemma": "sich erinnern",
+      "construction": "sich erinnern an",
+      "meaningEn": "to remember",
+      "preposition": "an",
+      "governedCase": "accusative",
+      "reflexiveCase": "accusative",
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-erinnern-an-everyday",
+          "domain": "everyday",
+          "de": "Erinnerst du dich an unseren ersten Ausflug?",
+          "en": "Do you remember our first trip?"
+        },
+        {
+          "id": "verb-erinnern-an-technical",
+          "domain": "technical",
+          "de": "Ich erinnere mich an die Parameter des alten Tests.",
+          "en": "I remember the parameters of the old test."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-interessieren-fuer",
+      "kind": "verb",
+      "lemma": "sich interessieren",
+      "construction": "sich interessieren für",
+      "meaningEn": "to be interested in",
+      "preposition": "für",
+      "governedCase": "accusative",
+      "reflexiveCase": "accusative",
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-interessieren-fuer-everyday",
+          "domain": "everyday",
+          "de": "Mein Bruder interessiert sich für moderne Architektur.",
+          "en": "My brother is interested in modern architecture."
+        },
+        {
+          "id": "verb-interessieren-fuer-technical",
+          "domain": "technical",
+          "de": "Die Kunden interessieren sich für nachhaltige Werkstoffe.",
+          "en": "The customers are interested in sustainable materials."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-antworten-auf",
+      "kind": "verb",
+      "lemma": "antworten",
+      "construction": "antworten auf",
+      "meaningEn": "to reply to",
+      "preposition": "auf",
+      "governedCase": "accusative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-antworten-auf-everyday",
+          "domain": "everyday",
+          "de": "Ich werde auf deine E-Mail antworten.",
+          "en": "I will reply to your email."
+        },
+        {
+          "id": "verb-antworten-auf-technical",
+          "domain": "technical",
+          "de": "Der Lieferant hat auf unsere Anfrage geantwortet.",
+          "en": "The supplier has replied to our inquiry."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-glauben-an",
+      "kind": "verb",
+      "lemma": "glauben",
+      "construction": "glauben an",
+      "meaningEn": "to believe in",
+      "preposition": "an",
+      "governedCase": "accusative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-glauben-an-everyday",
+          "domain": "everyday",
+          "de": "Du musst an dich selbst glauben.",
+          "en": "You must believe in yourself."
+        },
+        {
+          "id": "verb-glauben-an-technical",
+          "domain": "technical",
+          "de": "Der Projektleiter glaubt an den Erfolg des neuen Konzepts.",
+          "en": "The project manager believes in the success of the new concept."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-hoffen-auf",
+      "kind": "verb",
+      "lemma": "hoffen",
+      "construction": "hoffen auf",
+      "meaningEn": "to hope for",
+      "preposition": "auf",
+      "governedCase": "accusative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-hoffen-auf-everyday",
+          "domain": "everyday",
+          "de": "Wir hoffen auf schöneres Wetter.",
+          "en": "We are hoping for better weather."
+        },
+        {
+          "id": "verb-hoffen-auf-technical",
+          "domain": "technical",
+          "de": "Das Team hofft auf eine schnelle Genehmigung.",
+          "en": "The team is hoping for quick approval."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    },
+    {
+      "id": "verb-diskutieren-ueber",
+      "kind": "verb",
+      "lemma": "diskutieren",
+      "construction": "diskutieren über",
+      "meaningEn": "to discuss",
+      "preposition": "über",
+      "governedCase": "accusative",
+      "reflexiveCase": null,
+      "cefr": null,
+      "tags": [
+        "everyday",
+        "technical"
+      ],
+      "examples": [
+        {
+          "id": "verb-diskutieren-ueber-everyday",
+          "domain": "everyday",
+          "de": "Wir diskutieren über dieses Thema.",
+          "en": "We are discussing this topic."
+        },
+        {
+          "id": "verb-diskutieren-ueber-technical",
+          "domain": "technical",
+          "de": "Die Ingenieure diskutieren über die Ergebnisse der Simulation.",
+          "en": "The engineers are discussing the simulation results."
+        }
+      ],
+      "editorialStatus": "prototype-reviewed"
+    }
+  ],
+  "questions": [
+    {
+      "id": "verb-freuen-auf-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-freuen-auf",
+      "type": "preposition_cloze",
+      "prompt": "Ich freue mich ___ den Urlaub nächste Woche.",
+      "exampleId": "verb-freuen-auf-everyday",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-auf-prep-technical",
+      "revision": 1,
+      "entryId": "verb-freuen-auf",
+      "type": "preposition_cloze",
+      "prompt": "Wir freuen uns ___ die Ergebnisse der neuen Testreihe.",
+      "exampleId": "verb-freuen-auf-technical",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-auf-case",
+      "revision": 1,
+      "entryId": "verb-freuen-auf",
+      "type": "case_choice",
+      "prompt": "In the construction ‘sich freuen auf’, which case does ‘auf’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-auf-meaning",
+      "revision": 1,
+      "entryId": "verb-freuen-auf",
+      "type": "meaning_choice",
+      "prompt": "What does ‘sich freuen auf’ mean in this sentence? Ich freue mich auf den Urlaub nächste Woche.",
+      "exampleId": "verb-freuen-auf-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to look forward to"
+        },
+        {
+          "id": "option-2",
+          "text": "to be happy about something that has happened"
+        },
+        {
+          "id": "option-3",
+          "text": "to wait for"
+        },
+        {
+          "id": "option-4",
+          "text": "to be interested in"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-ueber-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-freuen-ueber",
+      "type": "preposition_cloze",
+      "prompt": "Er freut sich ___ das Geschenk.",
+      "exampleId": "verb-freuen-ueber-everyday",
+      "acceptedAnswers": [
+        "über"
+      ],
+      "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-ueber-prep-technical",
+      "revision": 1,
+      "entryId": "verb-freuen-ueber",
+      "type": "preposition_cloze",
+      "prompt": "Das Team freut sich ___ die erfolgreiche Validierung.",
+      "exampleId": "verb-freuen-ueber-technical",
+      "acceptedAnswers": [
+        "über"
+      ],
+      "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-ueber-case",
+      "revision": 1,
+      "entryId": "verb-freuen-ueber",
+      "type": "case_choice",
+      "prompt": "In the construction ‘sich freuen über’, which case does ‘über’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+    },
+    {
+      "id": "verb-freuen-ueber-meaning",
+      "revision": 1,
+      "entryId": "verb-freuen-ueber",
+      "type": "meaning_choice",
+      "prompt": "What does ‘sich freuen über’ mean in this sentence? Er freut sich über das Geschenk.",
+      "exampleId": "verb-freuen-ueber-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to be happy about"
+        },
+        {
+          "id": "option-2",
+          "text": "to look forward to a future event"
+        },
+        {
+          "id": "option-3",
+          "text": "to believe in"
+        },
+        {
+          "id": "option-4",
+          "text": "to adapt to"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+    },
+    {
+      "id": "verb-bestehen-aus-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-bestehen-aus",
+      "type": "preposition_cloze",
+      "prompt": "Das Menü besteht ___ einer Vorspeise und einem Hauptgang.",
+      "exampleId": "verb-bestehen-aus-everyday",
+      "acceptedAnswers": [
+        "aus"
+      ],
+      "explanation": "Composition is expressed with bestehen aus + Dativ."
+    },
+    {
+      "id": "verb-bestehen-aus-prep-technical",
+      "revision": 1,
+      "entryId": "verb-bestehen-aus",
+      "type": "preposition_cloze",
+      "prompt": "Die Konstruktion besteht ___ hochfestem Stahl.",
+      "exampleId": "verb-bestehen-aus-technical",
+      "acceptedAnswers": [
+        "aus"
+      ],
+      "explanation": "Composition is expressed with bestehen aus + Dativ."
+    },
+    {
+      "id": "verb-bestehen-aus-case",
+      "revision": 1,
+      "entryId": "verb-bestehen-aus",
+      "type": "case_choice",
+      "prompt": "In the construction ‘bestehen aus’, which case does ‘aus’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "dative",
+      "explanation": "Composition is expressed with bestehen aus + Dativ."
+    },
+    {
+      "id": "verb-bestehen-aus-meaning",
+      "revision": 1,
+      "entryId": "verb-bestehen-aus",
+      "type": "meaning_choice",
+      "prompt": "What does ‘bestehen aus’ mean in this sentence? Das Menü besteht aus einer Vorspeise und einem Hauptgang.",
+      "exampleId": "verb-bestehen-aus-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to consist of"
+        },
+        {
+          "id": "option-2",
+          "text": "to insist on"
+        },
+        {
+          "id": "option-3",
+          "text": "to reply to"
+        },
+        {
+          "id": "option-4",
+          "text": "to hope for"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "Composition is expressed with bestehen aus + Dativ."
+    },
+    {
+      "id": "verb-warten-auf-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-warten-auf",
+      "type": "preposition_cloze",
+      "prompt": "Ich warte ___ den Bus.",
+      "exampleId": "verb-warten-auf-everyday",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The thing awaited follows warten auf + Akkusativ."
+    },
+    {
+      "id": "verb-warten-auf-prep-technical",
+      "revision": 1,
+      "entryId": "verb-warten-auf",
+      "type": "preposition_cloze",
+      "prompt": "Das Team wartet ___ die Freigabe der CAD-Zeichnung.",
+      "exampleId": "verb-warten-auf-technical",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The thing awaited follows warten auf + Akkusativ."
+    },
+    {
+      "id": "verb-warten-auf-case",
+      "revision": 1,
+      "entryId": "verb-warten-auf",
+      "type": "case_choice",
+      "prompt": "In the construction ‘warten auf’, which case does ‘auf’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The thing awaited follows warten auf + Akkusativ."
+    },
+    {
+      "id": "verb-warten-auf-meaning",
+      "revision": 1,
+      "entryId": "verb-warten-auf",
+      "type": "meaning_choice",
+      "prompt": "What does ‘warten auf’ mean in this sentence? Ich warte auf den Bus.",
+      "exampleId": "verb-warten-auf-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to wait for"
+        },
+        {
+          "id": "option-2",
+          "text": "to think of"
+        },
+        {
+          "id": "option-3",
+          "text": "to consist of"
+        },
+        {
+          "id": "option-4",
+          "text": "to be happy about"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The thing awaited follows warten auf + Akkusativ."
+    },
+    {
+      "id": "verb-erinnern-an-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-erinnern-an",
+      "type": "preposition_cloze",
+      "prompt": "Erinnerst du dich ___ unseren ersten Ausflug?",
+      "exampleId": "verb-erinnern-an-everyday",
+      "acceptedAnswers": [
+        "an"
+      ],
+      "explanation": "The remembered person or thing follows sich erinnern an + Akkusativ."
+    },
+    {
+      "id": "verb-erinnern-an-prep-technical",
+      "revision": 1,
+      "entryId": "verb-erinnern-an",
+      "type": "preposition_cloze",
+      "prompt": "Ich erinnere mich ___ die Parameter des alten Tests.",
+      "exampleId": "verb-erinnern-an-technical",
+      "acceptedAnswers": [
+        "an"
+      ],
+      "explanation": "The remembered person or thing follows sich erinnern an + Akkusativ."
+    },
+    {
+      "id": "verb-erinnern-an-case",
+      "revision": 1,
+      "entryId": "verb-erinnern-an",
+      "type": "case_choice",
+      "prompt": "In the construction ‘sich erinnern an’, which case does ‘an’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The remembered person or thing follows sich erinnern an + Akkusativ."
+    },
+    {
+      "id": "verb-erinnern-an-meaning",
+      "revision": 1,
+      "entryId": "verb-erinnern-an",
+      "type": "meaning_choice",
+      "prompt": "What does ‘sich erinnern an’ mean in this sentence? Erinnerst du dich an unseren ersten Ausflug?",
+      "exampleId": "verb-erinnern-an-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to remember"
+        },
+        {
+          "id": "option-2",
+          "text": "to hope for"
+        },
+        {
+          "id": "option-3",
+          "text": "to be interested in"
+        },
+        {
+          "id": "option-4",
+          "text": "to reply to"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The remembered person or thing follows sich erinnern an + Akkusativ."
+    },
+    {
+      "id": "verb-interessieren-fuer-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-interessieren-fuer",
+      "type": "preposition_cloze",
+      "prompt": "Mein Bruder interessiert sich ___ moderne Architektur.",
+      "exampleId": "verb-interessieren-fuer-everyday",
+      "acceptedAnswers": [
+        "für"
+      ],
+      "explanation": "The subject of interest follows sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "verb-interessieren-fuer-prep-technical",
+      "revision": 1,
+      "entryId": "verb-interessieren-fuer",
+      "type": "preposition_cloze",
+      "prompt": "Die Kunden interessieren sich ___ nachhaltige Werkstoffe.",
+      "exampleId": "verb-interessieren-fuer-technical",
+      "acceptedAnswers": [
+        "für"
+      ],
+      "explanation": "The subject of interest follows sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "verb-interessieren-fuer-case",
+      "revision": 1,
+      "entryId": "verb-interessieren-fuer",
+      "type": "case_choice",
+      "prompt": "In the construction ‘sich interessieren für’, which case does ‘für’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The subject of interest follows sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "verb-interessieren-fuer-meaning",
+      "revision": 1,
+      "entryId": "verb-interessieren-fuer",
+      "type": "meaning_choice",
+      "prompt": "What does ‘sich interessieren für’ mean in this sentence? Mein Bruder interessiert sich für moderne Architektur.",
+      "exampleId": "verb-interessieren-fuer-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to be interested in"
+        },
+        {
+          "id": "option-2",
+          "text": "to wait for"
+        },
+        {
+          "id": "option-3",
+          "text": "to consist of"
+        },
+        {
+          "id": "option-4",
+          "text": "to believe in"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The subject of interest follows sich interessieren für + Akkusativ."
+    },
+    {
+      "id": "verb-antworten-auf-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-antworten-auf",
+      "type": "preposition_cloze",
+      "prompt": "Ich werde ___ deine E-Mail antworten.",
+      "exampleId": "verb-antworten-auf-everyday",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The message or question answered follows antworten auf + Akkusativ. A person can also be expressed separately in the dative."
+    },
+    {
+      "id": "verb-antworten-auf-prep-technical",
+      "revision": 1,
+      "entryId": "verb-antworten-auf",
+      "type": "preposition_cloze",
+      "prompt": "Der Lieferant hat ___ unsere Anfrage geantwortet.",
+      "exampleId": "verb-antworten-auf-technical",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "The message or question answered follows antworten auf + Akkusativ. A person can also be expressed separately in the dative."
+    },
+    {
+      "id": "verb-antworten-auf-case",
+      "revision": 1,
+      "entryId": "verb-antworten-auf",
+      "type": "case_choice",
+      "prompt": "In the construction ‘antworten auf’, which case does ‘auf’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The message or question answered follows antworten auf + Akkusativ. A person can also be expressed separately in the dative."
+    },
+    {
+      "id": "verb-antworten-auf-meaning",
+      "revision": 1,
+      "entryId": "verb-antworten-auf",
+      "type": "meaning_choice",
+      "prompt": "What does ‘antworten auf’ mean in this sentence? Ich werde auf deine E-Mail antworten.",
+      "exampleId": "verb-antworten-auf-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to reply to"
+        },
+        {
+          "id": "option-2",
+          "text": "to be interested in"
+        },
+        {
+          "id": "option-3",
+          "text": "to discuss"
+        },
+        {
+          "id": "option-4",
+          "text": "to look forward to"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The message or question answered follows antworten auf + Akkusativ. A person can also be expressed separately in the dative."
+    },
+    {
+      "id": "verb-glauben-an-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-glauben-an",
+      "type": "preposition_cloze",
+      "prompt": "Du musst ___ dich selbst glauben.",
+      "exampleId": "verb-glauben-an-everyday",
+      "acceptedAnswers": [
+        "an"
+      ],
+      "explanation": "Belief in someone or something uses glauben an + Akkusativ."
+    },
+    {
+      "id": "verb-glauben-an-prep-technical",
+      "revision": 1,
+      "entryId": "verb-glauben-an",
+      "type": "preposition_cloze",
+      "prompt": "Der Projektleiter glaubt ___ den Erfolg des neuen Konzepts.",
+      "exampleId": "verb-glauben-an-technical",
+      "acceptedAnswers": [
+        "an"
+      ],
+      "explanation": "Belief in someone or something uses glauben an + Akkusativ."
+    },
+    {
+      "id": "verb-glauben-an-case",
+      "revision": 1,
+      "entryId": "verb-glauben-an",
+      "type": "case_choice",
+      "prompt": "In the construction ‘glauben an’, which case does ‘an’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "Belief in someone or something uses glauben an + Akkusativ."
+    },
+    {
+      "id": "verb-glauben-an-meaning",
+      "revision": 1,
+      "entryId": "verb-glauben-an",
+      "type": "meaning_choice",
+      "prompt": "What does ‘glauben an’ mean in this sentence? Du musst an dich selbst glauben.",
+      "exampleId": "verb-glauben-an-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to believe in"
+        },
+        {
+          "id": "option-2",
+          "text": "to consist of"
+        },
+        {
+          "id": "option-3",
+          "text": "to remember"
+        },
+        {
+          "id": "option-4",
+          "text": "to wait for"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "Belief in someone or something uses glauben an + Akkusativ."
+    },
+    {
+      "id": "verb-hoffen-auf-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-hoffen-auf",
+      "type": "preposition_cloze",
+      "prompt": "Wir hoffen ___ schöneres Wetter.",
+      "exampleId": "verb-hoffen-auf-everyday",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "A hoped-for outcome follows hoffen auf + Akkusativ."
+    },
+    {
+      "id": "verb-hoffen-auf-prep-technical",
+      "revision": 1,
+      "entryId": "verb-hoffen-auf",
+      "type": "preposition_cloze",
+      "prompt": "Das Team hofft ___ eine schnelle Genehmigung.",
+      "exampleId": "verb-hoffen-auf-technical",
+      "acceptedAnswers": [
+        "auf"
+      ],
+      "explanation": "A hoped-for outcome follows hoffen auf + Akkusativ."
+    },
+    {
+      "id": "verb-hoffen-auf-case",
+      "revision": 1,
+      "entryId": "verb-hoffen-auf",
+      "type": "case_choice",
+      "prompt": "In the construction ‘hoffen auf’, which case does ‘auf’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "A hoped-for outcome follows hoffen auf + Akkusativ."
+    },
+    {
+      "id": "verb-hoffen-auf-meaning",
+      "revision": 1,
+      "entryId": "verb-hoffen-auf",
+      "type": "meaning_choice",
+      "prompt": "What does ‘hoffen auf’ mean in this sentence? Wir hoffen auf schöneres Wetter.",
+      "exampleId": "verb-hoffen-auf-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to hope for"
+        },
+        {
+          "id": "option-2",
+          "text": "to reply to"
+        },
+        {
+          "id": "option-3",
+          "text": "to consist of"
+        },
+        {
+          "id": "option-4",
+          "text": "to remember"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "A hoped-for outcome follows hoffen auf + Akkusativ."
+    },
+    {
+      "id": "verb-diskutieren-ueber-prep-everyday",
+      "revision": 1,
+      "entryId": "verb-diskutieren-ueber",
+      "type": "preposition_cloze",
+      "prompt": "Wir diskutieren ___ dieses Thema.",
+      "exampleId": "verb-diskutieren-ueber-everyday",
+      "acceptedAnswers": [
+        "über"
+      ],
+      "explanation": "The topic of discussion follows diskutieren über + Akkusativ."
+    },
+    {
+      "id": "verb-diskutieren-ueber-prep-technical",
+      "revision": 1,
+      "entryId": "verb-diskutieren-ueber",
+      "type": "preposition_cloze",
+      "prompt": "Die Ingenieure diskutieren ___ die Ergebnisse der Simulation.",
+      "exampleId": "verb-diskutieren-ueber-technical",
+      "acceptedAnswers": [
+        "über"
+      ],
+      "explanation": "The topic of discussion follows diskutieren über + Akkusativ."
+    },
+    {
+      "id": "verb-diskutieren-ueber-case",
+      "revision": 1,
+      "entryId": "verb-diskutieren-ueber",
+      "type": "case_choice",
+      "prompt": "In the construction ‘diskutieren über’, which case does ‘über’ govern?",
+      "exampleId": null,
+      "choices": [
+        {
+          "id": "accusative",
+          "text": "Accusative"
+        },
+        {
+          "id": "dative",
+          "text": "Dative"
+        },
+        {
+          "id": "genitive",
+          "text": "Genitive"
+        },
+        {
+          "id": "nominative",
+          "text": "Nominative"
+        }
+      ],
+      "correctChoiceId": "accusative",
+      "explanation": "The topic of discussion follows diskutieren über + Akkusativ."
+    },
+    {
+      "id": "verb-diskutieren-ueber-meaning",
+      "revision": 1,
+      "entryId": "verb-diskutieren-ueber",
+      "type": "meaning_choice",
+      "prompt": "What does ‘diskutieren über’ mean in this sentence? Wir diskutieren über dieses Thema.",
+      "exampleId": "verb-diskutieren-ueber-everyday",
+      "choices": [
+        {
+          "id": "option-1",
+          "text": "to discuss"
+        },
+        {
+          "id": "option-2",
+          "text": "to look forward to"
+        },
+        {
+          "id": "option-3",
+          "text": "to wait for"
+        },
+        {
+          "id": "option-4",
+          "text": "to believe in"
+        }
+      ],
+      "correctChoiceId": "option-1",
+      "explanation": "The topic of discussion follows diskutieren über + Akkusativ."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "verbs-starter-01",
+      "title": "Starter Block 1",
+      "description": "10 constructions, 40 questions: everyday and technical prepositions, case and meaning.",
+      "questionIds": [
+        "verb-freuen-auf-prep-everyday",
+        "verb-freuen-auf-prep-technical",
+        "verb-freuen-auf-case",
+        "verb-freuen-auf-meaning",
+        "verb-freuen-ueber-prep-everyday",
+        "verb-freuen-ueber-prep-technical",
+        "verb-freuen-ueber-case",
+        "verb-freuen-ueber-meaning",
+        "verb-bestehen-aus-prep-everyday",
+        "verb-bestehen-aus-prep-technical",
+        "verb-bestehen-aus-case",
+        "verb-bestehen-aus-meaning",
+        "verb-warten-auf-prep-everyday",
+        "verb-warten-auf-prep-technical",
+        "verb-warten-auf-case",
+        "verb-warten-auf-meaning",
+        "verb-erinnern-an-prep-everyday",
+        "verb-erinnern-an-prep-technical",
+        "verb-erinnern-an-case",
+        "verb-erinnern-an-meaning",
+        "verb-interessieren-fuer-prep-everyday",
+        "verb-interessieren-fuer-prep-technical",
+        "verb-interessieren-fuer-case",
+        "verb-interessieren-fuer-meaning",
+        "verb-antworten-auf-prep-everyday",
+        "verb-antworten-auf-prep-technical",
+        "verb-antworten-auf-case",
+        "verb-antworten-auf-meaning",
+        "verb-glauben-an-prep-everyday",
+        "verb-glauben-an-prep-technical",
+        "verb-glauben-an-case",
+        "verb-glauben-an-meaning",
+        "verb-hoffen-auf-prep-everyday",
+        "verb-hoffen-auf-prep-technical",
+        "verb-hoffen-auf-case",
+        "verb-hoffen-auf-meaning",
+        "verb-diskutieren-ueber-prep-everyday",
+        "verb-diskutieren-ueber-prep-technical",
+        "verb-diskutieren-ueber-case",
+        "verb-diskutieren-ueber-meaning"
+      ]
+    }
+  ]
+}

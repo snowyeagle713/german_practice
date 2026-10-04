@@ -1,0 +1,498 @@
+[
+  {
+    "candidateId": "source-001",
+    "heading": "sich freuen auf + Akkusativ",
+    "sourceNumbers": [
+      1,
+      38,
+      75,
+      112,
+      149,
+      186
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{1. sich freuen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich freue mich riesig auf den Urlaub nächste Woche. \\\\\n    \\textcolor{gray}{\\textit{I am really looking forward to the vacation next week.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Wir freuen uns auf die Ergebnisse der neuen Testreihe. \\\\\n    \\textcolor{gray}{\\textit{We are looking forward to the results of the new test series.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to look forward to (future)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-002",
+    "heading": "sich freuen über + Akkusativ",
+    "sourceNumbers": [
+      2,
+      39,
+      76,
+      113,
+      150,
+      187
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{2. sich freuen über + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Er freut sich sehr über das nette Geschenk seiner Kollegen. \\\\\n    \\textcolor{gray}{\\textit{He is very happy about the thoughtful gift from his colleagues.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Das Team freut sich über die erfolgreiche Validierung der Simulation. \\\\\n    \\textcolor{gray}{\\textit{The team is happy about the successful validation of the simulation.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to be happy about (present/past)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-003",
+    "heading": "sich [Dat.] vorstellen + Akkusativ",
+    "sourceNumbers": [
+      3,
+      40,
+      77,
+      114,
+      151,
+      188
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{3. sich [Dat.] vorstellen + Akkusativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV (REFL.)}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich kann mir gar nicht vorstellen, wie das ohne dich klappen soll. \\\\\n    \\textcolor{gray}{\\textit{I can't imagine at all how this is supposed to work without you.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Kannst du dir die Belastung auf diesen Querträger vorstellen? \\\\\n    \\textcolor{gray}{\\textit{Can you imagine the load placed on this crossbeam?}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to imagine / visualize}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-004",
+    "heading": "sich [Akk.] vorstellen + Dativ",
+    "sourceNumbers": [
+      4,
+      41,
+      78,
+      115,
+      152,
+      189
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{4. sich [Akk.] vorstellen + Dativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV (REFL.)}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Darf ich mich kurz dem neuen Team vorstellen? \\\\\n    \\textcolor{gray}{\\textit{May I briefly introduce myself to the new team?}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der Projektleiter stellt sich den neuen Ansprechpartnern vor. \\\\\n    \\textcolor{gray}{\\textit{The project manager introduces himself to the new contact persons.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to introduce oneself (to someone)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-005",
+    "heading": "sich einstellen auf + Akkusativ",
+    "sourceNumbers": [
+      5,
+      42,
+      79,
+      116,
+      153,
+      190
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{5. sich einstellen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir müssen uns schnell auf die neuen Bedingungen einstellen. \\\\\n    \\textcolor{gray}{\\textit{We need to quickly adapt to the new conditions.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Messgeräte müssen sich auf schwankende Temperaturen einstellen. \\\\\n    \\textcolor{gray}{\\textit{The measuring devices must adapt to fluctuating temperatures.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to adapt/adjust to}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-006",
+    "heading": "einstellen + Akkusativ",
+    "sourceNumbers": [
+      6,
+      43,
+      80,
+      117,
+      154,
+      191
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{6. einstellen + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Die Firma möchte dieses Jahr zwei neue Entwickler einstellen. \\\\\n    \\textcolor{gray}{\\textit{The company wants to hire two new developers this year.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Wegen des Sicherheitsdefekts mussten wir die Versuche sofort einstellen. \\\\\n    \\textcolor{gray}{\\textit{Due to the safety defect, we had to cease testing immediately.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to hire (staff) / to cease, stop (activity)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-007",
+    "heading": "sprechen über + Akkusativ",
+    "sourceNumbers": [
+      7,
+      44,
+      81,
+      118,
+      155,
+      192
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{7. sprechen über + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir haben gestern lange über unsere Pläne für die Zukunft gesprochen. \\\\\n    \\textcolor{gray}{\\textit{Yesterday we talked for a long time about our plans for the future.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Im Meeting sprechen wir über die Optimierung des Fertigungsprozesses. \\\\\n    \\textcolor{gray}{\\textit{In the meeting, we are speaking about optimizing the manufacturing process.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to talk / speak about (topic)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-008",
+    "heading": "sprechen mit + Dativ / von + Dativ",
+    "sourceNumbers": [
+      8,
+      45,
+      82,
+      119,
+      156,
+      193
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{8. sprechen mit + Dativ / von + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich muss dringend mit meinem Vermieter sprechen. \\\\\n    \\textcolor{gray}{\\textit{I urgently need to speak with my landlord.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der Chefingenieur spricht von einer signifikanten Leistungssteigerung. \\\\\n    \\textcolor{gray}{\\textit{The chief engineer speaks of a significant performance increase.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to speak with (person) / speak of (subject)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-009",
+    "heading": "bestehen aus + Dativ",
+    "sourceNumbers": [
+      9,
+      46,
+      83,
+      120,
+      157,
+      194
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{9. bestehen aus + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Das Menü besteht aus einer Vorspeise, einem Hauptgang und Nachspeise. \\\\\n    \\textcolor{gray}{\\textit{The menu consists of a starter, main course, and dessert.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Brückenkonstruktion besteht aus hochfestem Stahl und Beton. \\\\\n    \\textcolor{gray}{\\textit{The bridge structure consists of high-strength steel and concrete.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to consist of / be made of}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-010",
+    "heading": "bestehen auf + Dativ",
+    "sourceNumbers": [
+      10,
+      47,
+      84,
+      121,
+      158,
+      195
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{10. bestehen auf + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Er besteht auf seinem Recht, die Meinung frei zu äußern. \\\\\n    \\textcolor{gray}{\\textit{He insists on his right to express his opinion freely.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der Kunde besteht auf der Einhaltung aller Toleranzgrenzen. \\\\\n    \\textcolor{gray}{\\textit{The customer insists on compliance with all tolerance limits.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to insist on}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-011",
+    "heading": "halten von + Dativ",
+    "sourceNumbers": [
+      11,
+      48,
+      85,
+      122,
+      159,
+      196
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{11. halten von + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Was hältst du von dem Vorschlag für den Wochenendausflug? \\\\\n    \\textcolor{gray}{\\textit{What do you think of the proposal for the weekend trip?}} \\\\[3pt]\n    \\textbf{ENGINEERING} Was hält der Prüfer von der geänderten Schaltungsarchitektur? \\\\\n    \\textcolor{gray}{\\textit{What does the auditor think of the modified circuit architecture?}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to think of / have an opinion on}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-012",
+    "heading": "halten für + Akkusativ",
+    "sourceNumbers": [
+      12,
+      49,
+      86,
+      123,
+      160,
+      197
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{12. halten für + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich halte diese Lösung für absolut sinnvoll. \\\\\n    \\textcolor{gray}{\\textit{I consider this solution to be entirely reasonable.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Wir halten das Risiko eines Materialversagens für vernachlässigbar. \\\\\n    \\textcolor{gray}{\\textit{We deem the risk of material failure to be negligible.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to consider / deem to be}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-013",
+    "heading": "warten auf + Akkusativ",
+    "sourceNumbers": [
+      13,
+      50,
+      87,
+      124,
+      161,
+      198
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{13. warten auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich warte seit zwanzig Minuten an der Haltestelle auf den Bus. \\\\\n    \\textcolor{gray}{\\textit{I have been waiting for the bus at the stop for twenty minutes.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Das Entwicklungsteam wartet noch auf die Freigabe der CAD-Zeichnung. \\\\\n    \\textcolor{gray}{\\textit{The development team is still waiting for the release of the CAD drawing.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to wait for}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-014",
+    "heading": "denken an + Akkusativ",
+    "sourceNumbers": [
+      14,
+      51,
+      88,
+      125,
+      162,
+      199
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{14. denken an + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Denk bitte daran, heute Abend nach der Arbeit Brot zu kaufen! \\\\\n    \\textcolor{gray}{\\textit{Please remember to buy bread after work tonight!}} \\\\[3pt]\n    \\textbf{ENGINEERING} Bei der Dimensionierung muss man stets an die Maximallast denken. \\\\\n    \\textcolor{gray}{\\textit{When dimensioning, one must always keep the maximum load in mind.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to think of / keep in mind}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-015",
+    "heading": "sich erinnern an + Akkusativ",
+    "sourceNumbers": [
+      15,
+      52,
+      89,
+      126,
+      163,
+      200
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{15. sich erinnern an + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Erinnerst du dich noch an unseren ersten gemeinsamen Ausflug? \\\\\n    \\textcolor{gray}{\\textit{Do you still remember our first trip together?}} \\\\[3pt]\n    \\textbf{ENGINEERING} Ich kann mich kaum an die genauen Parameter des alten Tests erinnern. \\\\\n    \\textcolor{gray}{\\textit{I can barely recall the exact parameters of the old test.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to remember / recall}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-016",
+    "heading": "sich interessieren für + Akkusativ",
+    "sourceNumbers": [
+      16,
+      53,
+      90,
+      127,
+      164
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{16. sich interessieren für + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Mein Bruder interessiert sich sehr für moderne Architektur. \\\\\n    \\textcolor{gray}{\\textit{My brother is very interested in modern architecture.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Immer mehr Kunden interessieren sich für nachhaltige Werkstoffe. \\\\\n    \\textcolor{gray}{\\textit{More and more customers are interested in sustainable materials.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to be interested in}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-017",
+    "heading": "antworten auf + Akkusativ",
+    "sourceNumbers": [
+      17,
+      54,
+      91,
+      128,
+      165
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{17. antworten auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich werde heute Nachmittag auf deine E-Mail antworten. \\\\\n    \\textcolor{gray}{\\textit{I will answer your email this afternoon.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der Lieferant hat noch nicht auf unsere technische Anfrage geantwortet. \\\\\n    \\textcolor{gray}{\\textit{The supplier has not yet replied to our technical inquiry.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to answer / reply to}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-018",
+    "heading": "glauben an + Akkusativ",
+    "sourceNumbers": [
+      18,
+      55,
+      92,
+      129,
+      166
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{18. glauben an + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Du musst an dich selbst glauben, um deine Ziele zu erreichen. \\\\\n    \\textcolor{gray}{\\textit{You have to believe in yourself to achieve your goals.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der Projektleiter glaubt an den Erfolg des neuen Konzepts. \\\\\n    \\textcolor{gray}{\\textit{The project manager believes in the success of the new concept.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to believe in}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-019",
+    "heading": "hoffen auf + Akkusativ",
+    "sourceNumbers": [
+      19,
+      56,
+      93,
+      130,
+      167
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{19. hoffen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir hoffen alle auf schöneres Wetter am Wochenende. \\\\\n    \\textcolor{gray}{\\textit{We are all hoping for better weather over the weekend.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Das Team hofft auf eine schnelle Genehmigung des Antrags. \\\\\n    \\textcolor{gray}{\\textit{The team is hoping for quick approval of the application.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to hope for}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-020",
+    "heading": "danken [Dat.] für + Akkusativ",
+    "sourceNumbers": [
+      20,
+      57,
+      94,
+      131,
+      168
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{20. danken [Dat.] für + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich danke dir herzlich für deine wertvolle Unterstützung. \\\\\n    \\textcolor{gray}{\\textit{I thank you warmly for your valuable support.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Wir danken dem Prüfer für die gründliche Durchsicht des Berichts. \\\\\n    \\textcolor{gray}{\\textit{We thank the auditor for the thorough review of the report.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to thank (someone) for}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-021",
+    "heading": "diskutieren über + Akkusativ",
+    "sourceNumbers": [
+      21,
+      58,
+      95,
+      132,
+      169
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{21. diskutieren über + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir haben in der Gruppe lange über dieses Thema diskutiert. \\\\\n    \\textcolor{gray}{\\textit{We discussed this topic for a long time in the group.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Ingenieure diskutieren über eine effizientere Kühlung. \\\\\n    \\textcolor{gray}{\\textit{The engineers are discussing a more efficient cooling system.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to discuss / debate about}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-022",
+    "heading": "sich informieren über + Akkusativ",
+    "sourceNumbers": [
+      22,
+      59,
+      96,
+      133,
+      170
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{22. sich informieren über + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Vor der Reise sollte man sich gründlich über das Land informieren. \\\\\n    \\textcolor{gray}{\\textit{Before traveling, one should thoroughly inform oneself about the country.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Ich informiere mich über die neuesten DIN-Normen für Baustoffe. \\\\\n    \\textcolor{gray}{\\textit{I am informing myself about the latest DIN standards for building materials.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to inform oneself about}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-023",
+    "heading": "abhängen von + Dativ",
+    "sourceNumbers": [
+      23,
+      60,
+      97,
+      134,
+      171
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{23. abhängen von + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Was wir am Wochenende machen, hängt stark vom Wetter ab. \\\\\n    \\textcolor{gray}{\\textit{What we do on the weekend depends heavily on the weather.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Statik des Gebäudes hängt von den definierten Randbedingungen ab. \\\\\n    \\textcolor{gray}{\\textit{The statics of the building depend on the defined boundary conditions.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to depend on}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-024",
+    "heading": "sich konzentrieren auf + Akkusativ",
+    "sourceNumbers": [
+      24,
+      61,
+      98,
+      135,
+      172
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{24. sich konzentrieren auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Bitte leise sein, ich muss mich auf meine Arbeit konzentrieren. \\\\\n    \\textcolor{gray}{\\textit{Please be quiet, I need to concentrate on my work.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Ich konzentriere mich in dieser Phase vollkommen auf die FEM-Analyse. \\\\\n    \\textcolor{gray}{\\textit{In this phase, I am concentrating completely on the FEM analysis.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to concentrate / focus on}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-025",
+    "heading": "rechnen mit + Dativ",
+    "sourceNumbers": [
+      25,
+      62,
+      99,
+      136,
+      173
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{25. rechnen mit + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir müssen heute Abend leider mit starkem Regen rechnen. \\\\\n    \\textcolor{gray}{\\textit{Unfortunately, we have to expect heavy rain this evening.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Bei der Belastungsprobe müssen wir mit dynamischen Kräften rechnen. \\\\\n    \\textcolor{gray}{\\textit{During the load test, we must account for dynamic forces.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to expect / calculate with / account for}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-026",
+    "heading": "sich befassen mit + Dativ",
+    "sourceNumbers": [
+      26,
+      63,
+      100,
+      137,
+      174
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{26. sich befassen mit + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} In meiner Freizeit befasse ich mich am liebsten mit Literatur. \\\\\n    \\textcolor{gray}{\\textit{In my free time, I prefer to deal with literature.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Diese wissenschaftliche Studie befasst sich mit Matrizenrechnung. \\\\\n    \\textcolor{gray}{\\textit{This scientific study deals with matrix calculations.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to deal with / address / study}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-027",
+    "heading": "führen zu + Dativ",
+    "sourceNumbers": [
+      27,
+      64,
+      101,
+      138,
+      175
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{27. führen zu + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ständiger Schlafmangel führt oft zu gesundheitlichen Problemen. \\\\\n    \\textcolor{gray}{\\textit{Constant lack of sleep often leads to health problems.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Ein kleiner Eingabefehler kann zum Abbruch der Simulation führen. \\\\\n    \\textcolor{gray}{\\textit{A small input error can lead to the termination of the simulation.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to lead to / result in}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-028",
+    "heading": "sich bewerben um + Akkusativ",
+    "sourceNumbers": [
+      28,
+      65,
+      102,
+      139,
+      176
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{28. sich bewerben um + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Er bewirbt sich um ein Stipendium für sein Auslandssemester. \\\\\n    \\textcolor{gray}{\\textit{He is applying for a scholarship for his semester abroad.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Sie bewirbt sich um die Stelle als leitende Ingenieurin. \\\\\n    \\textcolor{gray}{\\textit{She is applying for the position as lead engineer.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to apply for (job/scholarship)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-029",
+    "heading": "sich beziehen auf + Akkusativ",
+    "sourceNumbers": [
+      29,
+      66,
+      103,
+      140,
+      177
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{29. sich beziehen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Ich beziehe mich auf unser Telefonat vom vergangenen Dienstag. \\\\\n    \\textcolor{gray}{\\textit{I am referring to our phone call from last Tuesday.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Messwerte beziehen sich auf den unbelasteten Zustand des Bauteils. \\\\\n    \\textcolor{gray}{\\textit{The measured values refer to the unloaded state of the component.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to refer to / relate to}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-030",
+    "heading": "eingehen auf + Akkusativ",
+    "sourceNumbers": [
+      30,
+      67,
+      104,
+      141,
+      178
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{30. eingehen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Der Redner möchte am Ende noch auf Fragen des Publikums eingehen. \\\\\n    \\textcolor{gray}{\\textit{The speaker would like to address audience questions at the end.}} \\\\[3pt]\n    \\textbf{ENGINEERING} In der Präsentation müssen wir näher auf die Ursachen des Defekts eingehen. \\\\\n    \\textcolor{gray}{\\textit{In the presentation, we need to address the causes of the defect in more detail.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to address / detail / respond to}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-031",
+    "heading": "sich eignen für + Akkusativ",
+    "sourceNumbers": [
+      31,
+      68,
+      105,
+      142,
+      179
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{31. sich eignen für + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Dieses Buch eignet sich hervorragend für fortgeschrittene Sprachlerner. \\\\\n    \\textcolor{gray}{\\textit{This book is exceptionally well-suited for advanced language learners.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Der gewählte Kunststoff eignet sich gut für den Einsatz im Außenbereich. \\\\\n    \\textcolor{gray}{\\textit{The chosen plastic is well-suited for outdoor use.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to be suitable / well-suited for}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-032",
+    "heading": "beitragen zu + Dativ",
+    "sourceNumbers": [
+      32,
+      69,
+      106,
+      143,
+      180
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{32. beitragen zu + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Jeder Mitarbeiter kann zur Verbesserung des Arbeitsklimas beitragen. \\\\\n    \\textcolor{gray}{\\textit{Every employee can contribute to improving the working atmosphere.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die neue Software trägt entscheidend zur Reduzierung der Rechenzeit bei. \\\\\n    \\textcolor{gray}{\\textit{The new software contributes decisively to reducing calculation time.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to contribute to}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-033",
+    "heading": "Einfluss nehmen auf + Akkusativ",
+    "sourceNumbers": [
+      33,
+      70,
+      107,
+      144,
+      181
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{33. Einfluss nehmen auf + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Eltern möchten positiven Einfluss auf die Entwicklung ihrer Kinder nehmen. \\\\\n    \\textcolor{gray}{\\textit{Parents want to exert a positive influence on their children's development.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Die Temperatur nimmt direkten Einfluss auf die Viskosität des Öls. \\\\\n    \\textcolor{gray}{\\textit{Temperature exerts direct influence on the oil's viscosity.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to exert influence on / affect (= beeinflussen)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-034",
+    "heading": "in Betracht ziehen + Akkusativ",
+    "sourceNumbers": [
+      34,
+      71,
+      108,
+      145,
+      182
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{34. in Betracht ziehen + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Wir sollten bei unserer Urlaubsplanung alle Optionen in Betracht ziehen. \\\\\n    \\textcolor{gray}{\\textit{We should take all options into consideration when planning our vacation.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Bei der Konstruktion müssen wir alternative Materialien in Betracht ziehen. \\\\\n    \\textcolor{gray}{\\textit{When designing, we must take alternative materials into consideration.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to take into consideration (= überlegen)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-035",
+    "heading": "zur Verfügung stehen + Dativ",
+    "sourceNumbers": [
+      35,
+      72,
+      109,
+      146,
+      183
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{35. zur Verfügung stehen + Dativ}} \\hfill \\colorbox{datblue}{\\color{white}\\tiny\\textbf{DATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Für Rückfragen stehe ich Ihnen gerne jederzeit zur Verfügung. \\\\\n    \\textcolor{gray}{\\textit{I am gladly available at any time for further questions.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Das neue Prüflabor steht ab nächster Woche für Testläufe zur Verfügung. \\\\\n    \\textcolor{gray}{\\textit{The new testing lab is available for test runs starting next week.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to be available for use (= verfügbar sein)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-036",
+    "heading": "zur Folge haben + Akkusativ",
+    "sourceNumbers": [
+      36,
+      73,
+      110,
+      147,
+      184
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{36. zur Folge haben + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Unachtsamkeit im Verkehr kann schwere Unfälle zur Folge haben. \\\\\n    \\textcolor{gray}{\\textit{Carelessness in traffic can result in severe accidents.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Eine Überhitzung der Turbine kann einen Systemausfall zur Folge haben. \\\\\n    \\textcolor{gray}{\\textit{Overheating of the turbine can result in a total system failure.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to result in / lead to consequences (= bewirken)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  },
+  {
+    "candidateId": "source-037",
+    "heading": "in Anspruch nehmen + Akkusativ",
+    "sourceNumbers": [
+      37,
+      74,
+      111,
+      148,
+      185
+    ],
+    "status": "needs-editorial-review",
+    "latex": "\\begin{tcolorbox}[colback=boxbg, colframe=navyheader!20, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]\n\\begin{minipage}[t]{0.68\\textwidth}\n    {\\large \\textbf{37. in Anspruch nehmen + Akkusativ}} \\hfill \\colorbox{akkred}{\\color{white}\\tiny\\textbf{AKKUSATIV}} \\\\[4pt]\n    \\small\n    \\textbf{EVERYDAY} Die Bearbeitung des Antrags wird einige Tage in Anspruch nehmen. \\\\\n    \\textcolor{gray}{\\textit{Processing the application will take up a few days.}} \\\\[3pt]\n    \\textbf{ENGINEERING} Wir müssen für das Projekt externe Beratungsleistungen in Anspruch nehmen. \\\\\n    \\textcolor{gray}{\\textit{We must utilize external consulting services for the project.}}\n\\end{minipage}\n\\hfill\n\\begin{minipage}[t]{0.28\\textwidth}\n    \\raggedleft\n    \\textcolor{subblue}{\\textbf{to utilize / take up time or resources (= nutzen)}}\n\\end{minipage}\n\\end{tcolorbox}"
+  }
+]
