@@ -8,7 +8,7 @@ The default CSS map also lives on `:root`, so the initial render has a palette.
 The Lingua Learning layout uses a rounded learning sidebar, soft canvas, study
 overview cards, a block card and an honest progress empty state. A study-position
 bar on Learn represents the current URL-selected construction, not completion,
-accuracy or mastery. No practice results, gamification or storage are introduced.
+accuracy or mastery. Theme selection creates no practice records or gamification.
 
 | Role | Token names (all prefixed with `--`) |
 |---|---|
@@ -41,5 +41,5 @@ Do not implement that persistence before its stage.
 
 Radius tokens are shared across palettes; swapping a palette does not change the
 product structure. Current browser tests exercise both palette maps, core text
-contrast, navigation, disabled practice and honest progress semantics. They do not
+contrast, navigation, enabled practice entry points and honest progress semantics. They do not
 constitute a complete accessibility audit or Windows/Edge device verification.

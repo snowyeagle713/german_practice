@@ -16,7 +16,7 @@ for (const theme of ['lingua-learning', 'finance-dashboard']) {
     const sidebarBounds = (await sidebar.boundingBox())!;
     const mainBounds = (await main.boundingBox())!;
     expect(sidebarBounds.x + sidebarBounds.width).toBeLessThan(mainBounds.x);
-    await expect(page.getByRole('button', { name: 'Start full block' })).toBeDisabled();
+    await expect(page.getByRole('button', { name: 'Start full block' })).toBeEnabled();
 
     const contrasts = await page.evaluate(() => {
       function luminance(color: string) {
@@ -54,7 +54,7 @@ for (const theme of ['lingua-learning', 'finance-dashboard']) {
     await page.getByRole('link', { name: 'Next' }).click();
     await expect(page.getByRole('progressbar', { name: 'Position in study material' })).toHaveAttribute('value', '2');
     await expect(page.getByText('Study position · not a completion score')).toBeVisible();
-    await expect(page.getByRole('button', { name: 'Start practice' })).toBeDisabled();
+    await expect(page.getByRole('button', { name: 'Start practice' })).toBeEnabled();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Settings' }).click();
     await expect(page.getByRole('combobox')).toHaveCount(0);

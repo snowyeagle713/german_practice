@@ -138,3 +138,143 @@ to later stages and must be verified when those features exist.
 content loader, adaptable desktop shell, Blocks and Learn, strict typecheck, production
 build, and preserved source pack. This result is not a Windows-verified V1 release.
 Stage 2 may begin as a separate task using the existing implementation plan.
+
+# Stage 2 — Practice handoff
+
+Completed 4 October 2026. Stage 1.5 Lingua UI is retained; Stage 2 adds in-memory
+full-block practice and summaries. Stages 3–5 have not begun. Earlier sections above
+are historical Stage 1 results; this section describes the current checkpoint.
+
+## Delivered and files
+
+- New `src/domain/practice/types.ts`, `shuffle.ts`, `grading.ts`, `session.ts` and
+  `summary.ts`: serializable contracts, Fisher–Yates, authored grading, immutable
+  lifecycle and first-pass summaries. Updated the practice boundary README.
+- New `src/ui/usePractice.ts`, `Practice.tsx` and `Summary.tsx`; updated App, BlockCard
+  and Learn entry points. Extended the accepted stylesheet using existing semantic
+  tokens; the default and internal Finance maps are unchanged. Updated theme README
+  wording to describe enabled practice entry points.
+- Added domain practice tests and browser practice tests. Existing Foundation/theme
+  assertions now expect enabled practice entry points; their other checks remain.
+- Updated this implementation handoff. Original starter files and all content/specs
+  remain unchanged. No dependency, schema, storage or PWA changes.
+
+## Session architecture and grading
+
+One in-memory session is owned above page navigation. Creation validates content,
+clones only the selected block's questions and referenced entries, injects random/
+clock/ID sources, and retains a full question permutation plus per-question choice
+orders. The real seed always produces exactly 40 unique authored questions.
+Commands carry question IDs. The pure reducer guards lifecycle and ID before acting:
+answering -> feedback -> answering (Next) -> completed after the final feedback.
+Empty input cannot submit; unanswered questions cannot advance. Duplicate submit and
+stale/repeated Next cannot create extra attempts or affect the next question.
+
+The seed contains 20 `preposition_cloze`, 10 `case_choice` and 10 `meaning_choice`
+questions. Text uses Unicode NFC, trim, collapsed whitespace and lowercase, then
+matches the finite authored accepted-answer list. Diacritics/ß are preserved; there
+is no fuzzy or free-sentence grading. Choices are compared by stable ID, independent
+of display order. Raw learner responses remain visible and are cloned into attempts.
+
+Hint reveals construction/case and meaning; Reveal displays the authored answer.
+Both are explicitly marked as assistance. The learner still submits a nonempty text
+or chosen answer. Correct/wrong report authored matching; assisted may overlap either.
+Unaided correct requires a correct answer without hint or reveal. Revealed answers
+never earn unaided credit, even when the solution is subsequently entered correctly.
+
+Feedback keeps the prompt and response, labels correctness/assistance in text,
+provides the accepted answer, authored explanation, full example, translation and
+construction meaning. For case questions with null exampleId, feedback uses the
+entry's first authored example as context. No extra answer/rule is displayed before
+submission unless Hint or Reveal is explicitly requested.
+
+Keyboard: Enter checks an answer; a subsequent Enter advances from focused Next.
+Held/repeated Enter is ignored. Native radio inputs support Tab, Space and arrow
+selection. Next is separate from the answering action and ignores second clicks in
+a double-click sequence. Focus moves to feedback's Next action, then the next input
+or question heading. All primary actions have visible focus and text status.
+
+## Summary and Stage 3 boundary
+
+Summary reports total correct/wrong, assisted, unaided score over the full pool,
+exact coverage and evidence per question type. The wrong/assisted list includes
+question IDs, prompt, response, accepted answer and explanation. It is reviewable
+information, not a revision session. Repeat starts a fresh shuffled full pool.
+Correct/wrong counts sum to 40; assisted is an overlapping label, not a third bucket.
+Scores describe first-pass evidence and do not claim mastery or exam readiness.
+
+Sessions include IDs, pack/version, timestamps, order/choiceOrders, current index,
+draft and assistance flags, feedback, content snapshot, attempts and submitted IDs.
+Attempts include session/question/revision/entry IDs, timestamp, response, correct,
+hint/reveal and unaided flags. Summary includes exact counts, type evidence and
+unique wrong/assisted IDs. All are JSON-serializable; they can be used by Stage 3
+application operations with a transactional storage adapter. No adapter or database
+was created. Stage 3 must save an initial session before displaying it and persist
+attempt/session changes atomically before claiming a successful save.
+
+Navigating within the app retains the current run/feedback. Starting while active
+requires Resume or an explicit Abandon and start action. Replacement discards the
+old in-memory run. Reload/closing the page discards everything; the UI states this
+and does not claim Saved. Home shows only the current page visit's run/result;
+Progress explains that saved history is unavailable. No history, durable resume,
+revision sessions, backups, export/import, PWA or offline work is implemented.
+
+## Results and run commands
+
+| Check | Result |
+|---|---|
+| `npm run validate:content` | Passed: 10 entries, 40 questions, one block |
+| `npm run typecheck` | Passed: strict application, domain and test checks |
+| `npm run test` | Passed: 117 tests across content and practice suites |
+| `npm run build` | Passed: validation + typecheck + production Vite output |
+| `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm run test:e2e` | Passed: 17 built-app browser tests |
+| Starter/content/theme preservation | Passed: no changes against Stage 1.5 baseline |
+| Visual inspection | Passed: Practice prompt/answer and Wrong-feedback views |
+| Windows/Edge real-device checks | Not run: Linux cloud only |
+| Stage 3 saving/revision and Stage 4 offline checks | Not run: outside this task |
+
+Unit checks cover 30 random seeds with exact full-pool membership, known different
+shuffle sources, stable choice IDs, source/snapshot isolation, normalization and
+near-misses, grading every authored question correctly/incorrectly, missing input,
+assistance, first/intermediate/final lifecycle, stale/duplicate events, immutable
+feedback responses, 0%/100% and mixed summaries, overlap, timestamps and serialization.
+
+Browser checks complete all 40 real questions once (not a reduced pool) and verify
+mixed expected totals: 30 correct, 10 wrong, 20 assisted, 10 unaided correct/40 = 25%.
+They also test repeat, empty submissions, held Enter, native radio keys, double-clicks,
+active-run replacement/resume within the page visit, reset after reload, all three
+viewport widths, and existing Learn, invalid-content, safe-text and palette behavior.
+Automation ran in Linux Chromium 151.0.7922.173. No unresolved cloud tooling blocker.
+
+Use the existing commands with Node 24 LTS and npm 10+:
+
+```sh
+npm ci
+npm run dev
+npm run validate:content
+npm run typecheck
+npm run test
+npm run build
+npm run preview
+npx playwright install chromium
+npm run test:e2e
+```
+
+The cloud uses the supplied Chromium override above; ordinary Playwright-managed
+browser runs need no override. Existing development preview is on port 5174. Local
+server must remain running; there is no offline claim. Nothing was deployed or pushed
+as part of Stage 2. The completed checkpoint is committed locally on `work`.
+
+## Windows follow-up and acceptance
+
+On Windows Edge, verify full-block start from Blocks/Learn, all three answer formats,
+Tab/Space/radio arrows/Enter, held Enter and mouse double-clicks, visible focus and
+feedback with the original answer, Hint/Reveal labels, the last question -> summary
+transition, repeat, explicit active-run replacement, and readability/no horizontal
+scroll at 768/1280/1920 px. Check that the in-memory limitation is clear. Reload is
+expected to discard the run in Stage 2; durable recovery is a Stage 3 check. Review
+question clarity and the useful balance of everyday and technical examples.
+
+**Stage 2 acceptance criteria are satisfied for the authorized in-memory scope.**
+The app is ready for Stage 3 as a separate task. Windows device verification remains
+pending; full Linux platform and mobile verification remain deferred as specified.

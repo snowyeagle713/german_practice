@@ -1,7 +1,7 @@
 import type { Block, Entry } from '../domain/content/types';
 import { Icon } from './Icon';
 
-export function Learn({ block, entries, index }: { block: Block; entries: Entry[]; index: number }) {
+export function Learn({ block, entries, index, onStart }: { block: Block; entries: Entry[]; index: number; onStart: () => void }) {
   const entry = entries[index];
   if (!entry) return null;
   const href = (item: Entry) => `#/learn/${encodeURIComponent(block.id)}/${encodeURIComponent(item.id)}`;
@@ -20,7 +20,7 @@ export function Learn({ block, entries, index }: { block: Block; entries: Entry[
           <span>{index + 1} of {entries.length}</span>
           {entries[index + 1] ? <a className="button secondary" href={href(entries[index + 1]!)}>Next →</a> : <button disabled>Next →</button>}
         </div>
-        <div className="practice-notice"><button disabled aria-describedby="learn-practice-note">Start practice</button><small id="learn-practice-note">Practice is not available yet. Study any construction in any order.</small></div>
+        <div className="practice-notice"><button onClick={onStart} aria-describedby="learn-practice-note">Start practice</button><small id="learn-practice-note">Practise the entire {block.questionIds.length}-question block. This run will not be saved after reload.</small></div>
       </article>
     </div>
   </>;
