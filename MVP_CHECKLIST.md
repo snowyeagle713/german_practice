@@ -26,7 +26,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 
 - [x] A — Quick 10 / Standard 20, rotation, Previous/Skip, thematic construction grouping.
 - [x] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
-- [ ] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
+- [x] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
 - [ ] D — Stored session history, real construction/theme metrics and revision counts.
 - [ ] E — Persisted Lingua/Finance theme and preferred session size.
 - [ ] F — Versioned portable backup, deep validation, explicit atomic replacement.
@@ -41,4 +41,6 @@ Milestone A: 119 unit tests, strict typecheck/build passed; 17 browser checks pa
 
 Milestone B: 122 unit tests, strict typecheck/build; 10 focused browser checks for reload, keyboard and duplicate input. Test-only fake-indexeddb 6.2.5 verified compatible with Node >=18. Transaction rollback and stale-tab guards covered.
 
-Next action: milestone C revision.
+Milestone C: 124 unit tests, typecheck/build passed; browser revision-clear and defer/revisit flows passed. Original first-pass scores remain immutable.
+
+Next action: milestone D real progress and history.

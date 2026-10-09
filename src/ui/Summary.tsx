@@ -10,7 +10,7 @@ export function Summary({ session, onRepeat }: { session: PracticeSession; onRep
     <p className="lead">First-pass score: {result.unaidedCorrect} unaided correct / {result.total}. Assisted answers may be correct or wrong and are excluded from this score.</p>
     <section className="empty-state"><h2>By question type</h2><ul className="type-breakdown">{result.byType.map(item => <li key={item.type}><span>{item.type === 'preposition_cloze' ? 'Typed prepositions' : item.type === 'case_choice' ? 'Case choice' : 'Meaning choice'}</span><strong>{item.unaidedCorrect} / {item.total} unaided correct</strong></li>)}</ul></section>
     <section className="empty-state"><h2>By construction</h2><ul className="type-breakdown">{result.byConstruction.map(item => <li key={item.entryId}><span lang="de">{item.construction}</span><strong>{item.unaidedCorrect} / {item.answered} unaided correct</strong></li>)}</ul></section>
-    <section className="empty-state"><h2>Questions to revisit ({result.mistakes.length})</h2><p>Wrong and assisted questions from this run. Revision sessions and saved history are not available yet.</p>
+    <section className="empty-state"><h2>Questions to revisit ({result.mistakes.length})</h2><p>Wrong and assisted questions from this run. Open Progress to revise pending questions from your saved runs.</p>
       {result.mistakes.length === 0 ? <p>All questions were answered correctly without assistance. You can still repeat practice.</p> : <ul className="review-list">{session.attempts.filter(attempt => !attempt.isUnaidedCorrect).map(attempt => {
         const question = session.contentSnapshot.questions.find(item => item.id === attempt.questionId)!;
         const entry = session.contentSnapshot.entries.find(item => item.id === attempt.entryId)!;
@@ -18,6 +18,6 @@ export function Summary({ session, onRepeat }: { session: PracticeSession; onRep
       })}</ul>}
     </section>
     <p className="session-notice">This summary is saved on this device. Future revision never changes this original score.</p>
-    <div className="summary-actions"><button onClick={onRepeat}>Repeat practice</button><a className="button secondary" href="#/blocks">Back to blocks</a></div>
+    <div className="summary-actions"><button onClick={onRepeat}>Repeat practice</button><a className="button secondary" href="#/progress">Revision & progress</a><a className="button secondary" href="#/blocks">Back to blocks</a></div>
   </section>;
 }

@@ -1,0 +1,28 @@
+import { expect, it } from 'vitest';
+import seed from '../../content/seed-pack.json';
+import { validateContent } from '../../src/domain/content/validate';
+import { createSession, currentQuestion, transition } from '../../src/domain/practice/session';
+import { revisionItems, revisionPlan } from '../../src/domain/practice/revision';
+import { summarize } from '../../src/domain/practice/summary';
+const pack = validateContent(seed); const blockId = pack.blocks[0]!.id;
+const deps = { random: () => .999, now: () => '2026-10-10T12:00:00.000Z', id: () => 'original' };
+it('wrong and assisted evidence is deduplicated; unaided revision clears pending without rewriting first score', () => {
+  let original = createSession(pack, blockId, deps, { size: 10 });
+  const id = currentQuestion(original).id;
+  original = transition(original, { type: 'response', questionId: id, response: { kind: 'text', value: 'wrong' } });
+  original = transition(original, { type: 'submit', questionId: id, attemptId: 'wrong', submittedAt: deps.now() });
+  const before = summarize(original);
+  const pending = revisionItems([original]); expect(pending).toHaveLength(1);
+  const plan = revisionPlan(pending)!; expect(() => validateContent(plan.pack)).not.toThrow();
+  let revision = createSession(plan.pack, plan.blockId, { ...deps, id: () => 'revision' }, { questionIds: plan.questionIds });
+  revision = transition(revision, { type: 'hint', questionId: id });
+  revision = transition(revision, { type: 'response', questionId: id, response: { kind: 'text', value: 'auf' } });
+  revision = transition(revision, { type: 'submit', questionId: id, attemptId: 'assisted', submittedAt: '2026-10-10T12:01:00.000Z' });
+  expect(revisionItems([original, revision])).toHaveLength(1);
+  let unaided = createSession(plan.pack, plan.blockId, { ...deps, id: () => 'unaided' }, { questionIds: plan.questionIds });
+  unaided = transition(unaided, { type: 'response', questionId: id, response: { kind: 'text', value: 'auf' } });
+  unaided = transition(unaided, { type: 'submit', questionId: id, attemptId: 'success', submittedAt: '2026-10-10T12:02:00.000Z' });
+  expect(revisionItems([original, revision, unaided])).toEqual([]);
+  expect(summarize(original)).toEqual(before);
+});
+it('empty queue gives no plan', () => expect(revisionPlan([])).toBeNull());

@@ -10,6 +10,8 @@ import { summarize } from '../domain/practice/summary';
 import { useTrainer } from '../application/useTrainer';
 import { Practice } from './Practice';
 import { Summary } from './Summary';
+import { Revision } from './Revision';
+import { revisionItems, revisionPlan, type RevisionItem } from '../domain/practice/revision';
 
 type LoadState = { status: 'loading' } | { status: 'ready'; pack: ContentPack } | { status: 'error'; message: string };
 
@@ -24,8 +26,10 @@ export function App() {
   const [retry, setRetry] = useState(0);
   const trainer = useTrainer();
   const { session } = trainer;
-  const practiceSize = trainer.data.settings.sessionSize;
-  const setPracticeSize = (sessionSize: 10 | 20) => trainer.settings({ ...trainer.data.settings, sessionSize });
+  const [practiceSize, showPracticeSize] = useState<10 | 20>(20);
+  useEffect(() => { showPracticeSize(trainer.data.settings.sessionSize); }, [trainer.data.settings.sessionSize]);
+  const setPracticeSize = (sessionSize: 10 | 20) => { showPracticeSize(sessionSize); trainer.settings({ ...trainer.data.settings, sessionSize }); };
+  const [pendingRevision, setPendingRevision] = useState<RevisionItem[] | null>(null);
   const [pendingBlock, setPendingBlock] = useState<string | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const routeKey = route.join('/');
@@ -56,11 +60,23 @@ export function App() {
   const runResult = session ? summarize(session) : null;
 
   function start(pack: ContentPack, blockId: string, replace = false) {
-    if (isActive(session) && !replace) {
+    setPendingRevision(null);
+    if (trainer.data.sessions.some(isActive) && !replace) {
       setPendingBlock(blockId);
     } else {
       trainer.start(pack, blockId, replace);
       setPendingBlock(null);
+    }
+    window.location.hash = '/practice';
+  }
+
+  function startRevision(items: RevisionItem[], replace = false) {
+    const plan = revisionPlan(items); if (!plan) return;
+    if (trainer.data.sessions.some(isActive) && !replace) {
+      setPendingRevision(items); setPendingBlock(plan.blockId);
+    } else {
+      trainer.start(plan.pack, plan.blockId, replace, plan.questionIds);
+      setPendingRevision(null); setPendingBlock(null);
     }
     window.location.hash = '/practice';
   }
@@ -105,12 +121,12 @@ export function App() {
       return <div className="empty-state"><h2>Study page not found</h2><p>This block or construction is not in the current content pack.</p><a href="#/blocks">Return to blocks</a></div>;
     }
     if (page === 'practice' && route.length === 1) {
-      if (pendingBlock && isActive(session)) return <section className="empty-state" aria-label="Existing active run"><h2>A run is already in progress</h2><p>Your current answers will remain until you explicitly abandon this run. Your run is saved locally and can be resumed after reload.</p><div className="summary-actions"><button onClick={() => setPendingBlock(null)}>Resume current run</button><button className="quiet-button" onClick={() => start(pack, pendingBlock, true)}>Abandon and start new run</button></div></section>;
+      if (pendingBlock && trainer.data.sessions.some(isActive)) return <section className="empty-state" aria-label="Existing active run"><h2>A run is already in progress</h2><p>Your current answers will remain until you explicitly abandon this run. Your run is saved locally and can be resumed after reload.</p><div className="summary-actions"><button onClick={() => { const active = trainer.data.sessions.find(isActive); if (active) trainer.view(active.sessionId); setPendingBlock(null); setPendingRevision(null); }}>Resume current run</button><button className="quiet-button" onClick={() => pendingRevision ? startRevision(pendingRevision, true) : start(pack, pendingBlock, true)}>Abandon and start new run</button></div></section>;
       if (session?.status === 'completed') return <Summary session={session} onRepeat={() => start(pack, session.blockId)} />;
       if (isActive(session)) return <Practice session={session} send={trainer.send} />;
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
-    if (page === 'progress' && route.length === 1) return <div className="empty-state"><h2>No saved practice history yet</h2><p>Saved history is not available yet. Your current run and summary are kept in memory only until reload.</p>{session && <a href="#/practice">Return to current run or summary</a>}<a href="#/blocks">Explore the starter block</a></div>;
+    if (page === 'progress' && route.length === 1) return <><Revision items={revisionItems(trainer.data.sessions)} onStart={items => startRevision(items)} /><div className="empty-state"><h2>No saved practice history yet</h2><p>Saved history is not available yet. Your current run and summary are kept in memory only until reload.</p>{session && <a href="#/practice">Return to current run or summary</a>}<a href="#/blocks">Explore the starter block</a></div></>;
     if (page === 'settings' && route.length === 1) return <div className="empty-state"><h2>Practice preview</h2><p>You can study constructions and practise a full block. Backup, saved history, installation, and offline features are not available yet.</p><p>Keep the local server running to open or reload the app. Reload discards your current run.</p><a href="#/blocks">Browse blocks</a></div>;
     return <div className="empty-state"><p>This page could not be found.</p><a href="#/">Return home</a></div>;
   }
