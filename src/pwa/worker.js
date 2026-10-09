@@ -27,7 +27,7 @@ self.addEventListener('fetch', event => {
   const request = event.request;
   if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
   if (request.mode === 'navigate') {
-    event.respondWith(fetch(request).catch(async () => {
+    event.respondWith(fetch(request).then(response => { if (!response.ok) throw new Error('Navigation unavailable'); return response; }).catch(async () => {
       const fallback = await (await caches.open(CACHE)).match(new URL('index.html', self.registration.scope).href);
       return fallback ?? Response.error();
     }));

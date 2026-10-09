@@ -15,7 +15,7 @@ export function Backup({ data, onReplace, busy, failed }: { data: LocalData; onR
     } catch (cause: unknown) { setMessage(cause instanceof Error ? cause.message : 'Backup could not be exported.'); }
   }
   return <section className="empty-state" aria-label="Backup and restore"><h2>Backup & restore</h2><p>Includes saved sessions, answers, revision evidence, theme and session preferences. Import replaces all progress on this device; there is no merge.</p>
-    <button onClick={exportFile} disabled={busy || failed}>Export backup</button>
+    <button onClick={exportFile} disabled={busy}>Export backup</button>
     <div className="settings-fields"><label htmlFor="backup-file">Choose backup to import (JSON, up to 10 MiB)</label><input id="backup-file" type="file" accept="application/json,.json" disabled={busy || failed} onChange={event => {
       const file = event.target.files?.[0]; event.target.value = ''; setPreview(null); setImportRevision(null); setMessage(null);
       if (!file) return;

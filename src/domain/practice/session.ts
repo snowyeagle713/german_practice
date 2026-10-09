@@ -16,7 +16,7 @@ export function createSession(input: ContentPack, blockId: string, dependencies:
   const entryIds = new Set(questions.map(question => question.entryId));
   const snapshot = structuredClone({ ...pack, blocks: [{ ...block, questionIds: selected }], questions, entries: pack.entries.filter(entry => entryIds.has(entry.id)) });
   return {
-    sessionId: dependencies.id(), mode: options.questionIds ? 'revision' : (options.size === 10 ? 'quick' : 'standard'), sessionSize: selected.length, rotationNext: ((options.cursor ?? 0) + selected.length) % block.questionIds.length, deferredIds: [], states: {}, blockId, packId: pack.packId, packVersion: pack.packVersion,
+    sessionId: dependencies.id(), mode: options.questionIds ? 'revision' : (options.size === 10 ? 'quick' : 'standard'), sessionSize: selected.length, rotationNext: ((options.cursor ?? 0) % block.questionIds.length + selected.length) % block.questionIds.length, deferredIds: [], states: {}, blockId, packId: pack.packId, packVersion: pack.packVersion,
     startedAt: dependencies.now(), completedAt: null, status: 'answering',
     order: shuffle(selected, dependencies.random),
     choiceOrders: Object.fromEntries(questions.filter(question => question.type !== 'preposition_cloze')
@@ -48,7 +48,7 @@ export function transition(session: PracticeSession, command: PracticeCommand): 
       index = session.order.findIndex(id => !session.attempts.some(attempt => attempt.questionId === id));
       if (index < 0) return { ...session, states, status: 'completed', completedAt: command.at };
     }
-    const state = states[session.order[index]!] ?? { response: null, hintUsed: false, revealed: false, guidance: null, feedback: null };
+    const state = (Object.hasOwn(states, session.order[index]!) ? states[session.order[index]!] : null) ?? { response: null, hintUsed: false, revealed: false, guidance: null, feedback: null };
     return { ...session, ...state, states, status: state.feedback ? 'feedback' : 'answering', currentIndex: index,
       deferredIds: command.type === 'skip' ? [...new Set([...session.deferredIds, question.id])] : session.deferredIds };
   }

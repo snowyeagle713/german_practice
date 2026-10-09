@@ -17,7 +17,8 @@ export function revisionItems(sessions: readonly PracticeSession[]): RevisionIte
 /** One archived pack/version/block per run, at most 20. No content remapping. */
 export function revisionPlan(items: readonly RevisionItem[]): { pack: ContentPack; blockId: string; questionIds: string[] } | null {
   const first = items[0]; if (!first) return null;
-  const selected = items.filter(item => item.session.packId === first.session.packId && item.session.packVersion === first.session.packVersion && item.session.blockId === first.session.blockId).slice(0, 20);
+  const seen = new Set<string>();
+  const selected = items.filter(item => item.session.packId === first.session.packId && item.session.packVersion === first.session.packVersion && item.session.blockId === first.session.blockId).filter(item => { if (seen.has(item.question.id)) return false; seen.add(item.question.id); return true; }).slice(0, 20);
   const questionIds = selected.map(item => item.question.id);
   const entries = [...new Map(selected.map(item => [item.entry.id, item.entry])).values()];
   const block = first.session.contentSnapshot.blocks.find(item => item.id === first.session.blockId)!;

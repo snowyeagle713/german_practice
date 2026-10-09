@@ -1,6 +1,6 @@
 # Autonomous MVP completion checklist
 
-Baseline: eb782ec (Stage 2), verified against live origin/main on 10 October 2026.
+Baseline: eb782ec (Stage 2), verified against live origin/main on 9 October 2026 UTC.
 Development branch: mvp/completion. Do not merge or force-push main.
 
 ## Initial audit
@@ -31,7 +31,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 - [x] E — Persisted Lingua/Finance theme and preferred session size.
 - [x] F — Versioned portable backup, deep validation, explicit atomic replacement.
 - [x] G — Production offline precache, install manifest/icons, safe update handling.
-- [ ] H — Integration/browser/offline tests, Windows instructions, final handoff.
+- [x] H — Integration/browser/offline tests, Windows instructions, final handoff.
 
 For each milestone: implement, relevant tests, typecheck/build, fix failures, update
 this file, commit, continue. No fabricated progress; no backend, accounts or LLM.
@@ -51,4 +51,44 @@ Milestone F: 145 unit tests, strict typecheck/build; browser export/preview/canc
 
 Milestone G: 145 unit tests and typecheck/build; three production browser checks passed: network-disabled new launch/resume/Learn/revision/history/theme, cache repair, safe multi-tab update with history preservation. A controlled origin was stopped before a fresh offline page launch. Manifest and local PNG icons are precached and SHA-256 verified.
 
-Next action: milestone H integration/failure-path tests, documentation and final verification.
+Milestone H / final verification (9 October 2026 UTC):
+- 146 unit tests across 6 files passed.
+- 32 production Playwright browser checks passed in Linux Chromium.
+- Content validation (10 entries / 40 questions), strict typecheck and build passed.
+- Draft/graded save failures, retry, rapid typing and stale native browser tabs covered.
+- Explicit abandonment preserves evidence without awarding a final score.
+- git diff --check passed; 19 protected starter/spec/content/tools files unchanged.
+- Windows setup, build, install and unchecked device acceptance documented in docs/WINDOWS_MVP.md.
+
+## Current MVP acceptance
+
+| Required area | Result |
+|---|---|
+| Learn and semantic construction groups | Implemented, browser verified |
+| Quick 10 / Standard 20, rotating unchanged 40 pool | Implemented, unit/browser verified across reloads |
+| Previous / Skip / return / immutable feedback / summary | Implemented, unit/browser verified |
+| Transactional local persistence / exact resume | Implemented, rollback/conflict/retry verified |
+| Dedicated wrong/assisted revision and retained original scores | Implemented, unit/browser verified |
+| Real progress / history / construction/theme/block evidence | Implemented, unit/browser verified |
+| Persisted Lingua default / Finance alternate / preferred size | Implemented, reload/layout/contrast verified |
+| Portable validated backup and explicit atomic replacement | Implemented, invalid/cancel/restore verified |
+| Production offline core / verified precache / safe PWA updates | Implemented, fresh network-disabled launch and stopped-origin checks passed |
+| Windows setup/run/install guide | Complete; actual Edge device acceptance pending |
+
+## Milestone commits
+
+| Checkpoint | Commit |
+|---|---|
+| Audit / checklist | 8745579 |
+| A — Practice refinement | a73502a |
+| B — Persistence | 0295d53 |
+| C — Revision | b31085c |
+| D — Progress/history | 9dbb831 |
+| E — Themes | fa2bce7 |
+| F — Backup | 3a55a5b |
+| G — Offline/PWA | c003e01 |
+| H — Final verification and Windows handoff | Final branch HEAD; see git log -1 |
+
+Implementation milestones complete. No main merge, force-push or external publication.
+A portable git bundle is supplied for local review/Windows checkout.
+Next action: manual Windows/Edge acceptance in docs/WINDOWS_MVP.md; then review the development branch before any separately authorized publication/merge.

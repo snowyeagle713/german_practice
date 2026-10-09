@@ -14,7 +14,7 @@ export function progressMetrics(pack: ContentPack, sessions: readonly PracticeSe
   function counts(ids: string[]) {
     const attempts = ids.flatMap(id => latest.has(id) ? [latest.get(id)!] : []);
     return { total: ids.length, answered: attempts.length, unaided: attempts.filter(item => item.isUnaidedCorrect).length,
-      pending: pending.filter(item => item.session.packId === pack.packId && ids.includes(item.question.id)).length };
+      pending: pending.filter(item => item.session.packId === pack.packId && ids.includes(item.question.id) && pack.questions.some(question => question.id === item.question.id && question.revision === item.question.revision)).length };
   }
   const constructions = pack.entries.map(entry => ({ entryId: entry.id, label: entry.construction, theme: constructionTheme(entry.id), ...counts(pack.questions.filter(question => question.entryId === entry.id).map(question => question.id)) }));
   return { completed, pending, constructions, blocks: pack.blocks.map(block => ({ blockId: block.id, label: block.title, ...counts(block.questionIds) })),

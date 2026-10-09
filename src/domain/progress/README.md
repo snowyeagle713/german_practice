@@ -1,2 +1,4 @@
-Stage 3 boundary: attempt records and derived statistics, separate from UI and
-database access. Not implemented in Stage 1; Learn creates no progress records.
+# Derived learning evidence
+metrics.ts derives history, current question/revision coverage, construction/theme
+counts and pending revision from saved sessions. Completed first-pass runs and
+revision scores stay separate. No invented counters, mastery or exam claims.

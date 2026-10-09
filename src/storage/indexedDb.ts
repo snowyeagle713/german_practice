@@ -42,13 +42,18 @@ export class IndexedDbRepository implements Repository {
         if ((revision.result?.revision ?? 0) !== expectedRevision) {
           failure = new Error('Another tab changed progress. Reload this tab before continuing.'); tx.abort(); return;
         }
-        for (const name of stores) tx.objectStore(name).clear();
-        for (const session of next.sessions) {
-          tx.objectStore('sessions').put(session);
-          for (const attempt of session.attempts) tx.objectStore('attempts').put(attempt);
+        try {
+          for (const name of stores) tx.objectStore(name).clear();
+          for (const session of next.sessions) {
+            tx.objectStore('sessions').put(session);
+            for (const attempt of session.attempts) tx.objectStore('attempts').put(attempt);
+          }
+          tx.objectStore('settings').put(next.settings, 'preferences');
+          tx.objectStore('metadata').put({ revision: next.revision, cursors: next.cursors, currentId: next.currentId, schemaVersion: 1 }, 'state');
+        } catch (cause: unknown) {
+          failure = cause instanceof Error ? cause : new Error('Local save failed.');
+          tx.abort();
         }
-        tx.objectStore('settings').put(next.settings, 'preferences');
-        tx.objectStore('metadata').put({ revision: next.revision, cursors: next.cursors, currentId: next.currentId, schemaVersion: 1 }, 'state');
       };
       tx.oncomplete = () => resolve(next);
       tx.onabort = () => reject(failure ?? tx.error ?? new Error('Progress could not be saved. Check available disk space and retry.'));

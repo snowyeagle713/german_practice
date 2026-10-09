@@ -258,3 +258,5 @@ footer { color: var(--text-secondary); font-size: .7rem; padding: 14px 0; border
 
 .settings-fields { display: grid; gap: .65rem; max-width: 28rem; margin-block: 1.5rem; }
 select { font: inherit; color: var(--text-primary); background: var(--surface-background); border: 1px solid var(--border); border-radius: .65rem; padding: .8rem; }
+
+.session-end { color: var(--text-secondary); font-size: .9rem; padding-block: .6rem; }

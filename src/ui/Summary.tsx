@@ -2,7 +2,7 @@ import { correctAnswer, responseText } from '../domain/practice/grading';
 import { summarize } from '../domain/practice/summary';
 import type { PracticeSession } from '../domain/practice/types';
 
-export function Summary({ session, onRepeat }: { session: PracticeSession; onRepeat: () => void }) {
+export function Summary({ session, onRepeat, canRepeat }: { session: PracticeSession; onRepeat: () => void; canRepeat: boolean }) {
   const result = summarize(session);
   return <section aria-label="Session summary">
     <div className="welcome-panel"><div><p className="eyebrow">Session complete</p><h2>{result.answered} of {result.total} questions answered</h2><p className="lead">Every selected question was answered once. This score describes this run, not language mastery or exam readiness.</p></div><div className="summary-score"><strong>{Math.round((result.accuracy ?? 0) * 100)}%</strong><span>Unaided correct</span></div></div>
@@ -18,6 +18,7 @@ export function Summary({ session, onRepeat }: { session: PracticeSession; onRep
       })}</ul>}
     </section>
     <p className="session-notice">This summary is saved on this device. Future revision never changes this original score.</p>
-    <div className="summary-actions"><button onClick={onRepeat}>Repeat practice</button><a className="button secondary" href="#/progress">Revision & progress</a><a className="button secondary" href="#/blocks">Back to blocks</a></div>
+    {!canRepeat && <p>This block is archived. Its saved summary and pending revision remain available; new practice uses current blocks.</p>}
+    <div className="summary-actions"><button onClick={onRepeat} disabled={!canRepeat}>Repeat practice</button><a className="button secondary" href="#/progress">Revision & progress</a><a className="button secondary" href="#/blocks">Back to blocks</a></div>
   </section>;
 }

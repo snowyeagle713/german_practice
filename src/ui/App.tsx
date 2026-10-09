@@ -29,8 +29,8 @@ export function App() {
   const [retry, setRetry] = useState(0);
   const trainer = useTrainer();
   const { session } = trainer;
-  const updateSafe = trainer.ready && !trainer.busy && !trainer.error && !trainer.data.sessions.some(isActive);
-  const pwa = usePwa(updateSafe);
+  const updateSafe = trainer.canUpdate();
+  const pwa = usePwa(trainer.canUpdate);
   useEffect(() => { if (trainer.ready) document.documentElement.dataset.theme = trainer.data.settings.theme; }, [trainer.ready, trainer.data.settings.theme]);
   const [practiceSize, showPracticeSize] = useState<10 | 20>(20);
   useEffect(() => { showPracticeSize(trainer.data.settings.sessionSize); }, [trainer.data.settings.sessionSize]);
@@ -132,8 +132,8 @@ export function App() {
     }
     if (page === 'practice' && route.length === 1) {
       if (pendingBlock && trainer.data.sessions.some(isActive)) return <section className="empty-state" aria-label="Existing active run"><h2>A run is already in progress</h2><p>Your current answers will remain until you explicitly abandon this run. Your run is saved locally and can be resumed after reload.</p><div className="summary-actions"><button onClick={() => { const active = trainer.data.sessions.find(isActive); if (active) trainer.view(active.sessionId); setPendingBlock(null); setPendingRevision(null); }}>Resume current run</button><button className="quiet-button" onClick={() => pendingRevision ? startRevision(pendingRevision, true) : start(pack, pendingBlock, true)}>Abandon and start new run</button></div></section>;
-      if (session?.status === 'completed') return <Summary session={session} onRepeat={() => start(pack, session.blockId)} />;
-      if (isActive(session)) return <Practice session={session} send={trainer.send} />;
+      if (session?.status === 'completed') return <Summary session={session} canRepeat={pack.blocks.some(block => block.id === session.blockId)} onRepeat={() => start(pack, session.blockId)} />;
+      if (isActive(session)) return <Practice session={session} blocked={Boolean(trainer.error)} send={trainer.send} onAbandon={() => { trainer.abandon(); window.location.hash = '/progress'; }} />;
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
     if (page === 'progress' && route.length === 1) return <Progress pack={pack} sessions={trainer.data.sessions} onView={view} onRevision={items => startRevision(items)} />;

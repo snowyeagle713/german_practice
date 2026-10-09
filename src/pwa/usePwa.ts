@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-export function usePwa(safe: boolean) {
+export function usePwa(safe: () => boolean) {
   const safeRef = useRef(safe); safeRef.current = safe;
   const [ready, setReady] = useState(false);
   const [message, setMessage] = useState(import.meta.env.PROD ? 'Preparing offline files…' : 'Offline installation requires a production build.');
@@ -17,6 +17,7 @@ export function usePwa(safe: boolean) {
     if (!import.meta.env.PROD) return;
     if (!('serviceWorker' in navigator) || !window.isSecureContext) { setMessage('Offline installation needs HTTPS or localhost and service-worker support.'); return; }
     let alive = true, hadController = Boolean(navigator.serviceWorker.controller);
+    let releaseRegistration = () => {};
     const timers = new Set<ReturnType<typeof setTimeout>>();
     async function check() {
       const controller = navigator.serviceWorker.controller; if (!controller || !alive) return;
@@ -29,11 +30,11 @@ export function usePwa(safe: boolean) {
       controller.postMessage({ type: 'READINESS' }, [channel.port2]);
     }
     const changed = () => {
-      if (hadController && safeRef.current) { window.location.reload(); return; }
+      if (hadController && safeRef.current()) { window.location.reload(); return; }
       hadController = true; void check();
     };
     const message = (event: MessageEvent) => {
-      if (event.data?.type === 'CHECK_UPDATE') event.ports[0]?.postMessage({ safe: safeRef.current });
+      if (event.data?.type === 'CHECK_UPDATE') event.ports[0]?.postMessage({ safe: safeRef.current() });
       if (event.data?.type === 'UPDATE_BLOCKED' && alive) setMessage('Update deferred: finish or abandon active runs and wait for saves in every app tab.');
     };
     navigator.serviceWorker.addEventListener('controllerchange', changed);
@@ -42,16 +43,18 @@ export function usePwa(safe: boolean) {
     void navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL, updateViaCache: 'none' }).then(reg => {
       if (!alive) return;
       setRegistration(reg); setWaiting(reg.waiting);
-      reg.addEventListener('updatefound', () => {
+      const updateFound = () => {
         const worker = reg.installing;
         worker?.addEventListener('statechange', () => {
           if (alive && worker.state === 'installed' && reg.waiting) setWaiting(reg.waiting);
           if (alive && worker.state === 'redundant') setMessage('Offline preparation failed. Retry while the server is available.');
         });
-      });
+      };
+      reg.addEventListener('updatefound', updateFound);
+      releaseRegistration = () => reg.removeEventListener('updatefound', updateFound);
       void check();
     }).catch((cause: unknown) => { if (navigator.serviceWorker.controller) void check(); else if (alive) setMessage(`Offline preparation failed: ${String(cause)}`); });
-    return () => { alive = false; for (const timer of timers) clearTimeout(timer); navigator.serviceWorker.removeEventListener('controllerchange', changed); navigator.serviceWorker.removeEventListener('message', message); };
+    return () => { alive = false; releaseRegistration(); for (const timer of timers) clearTimeout(timer); navigator.serviceWorker.removeEventListener('controllerchange', changed); navigator.serviceWorker.removeEventListener('message', message); };
   }, [retry]);
   return { ready, message, waiting: Boolean(waiting), online, cacheVersion,
     prepare: () => {
@@ -61,7 +64,7 @@ export function usePwa(safe: boolean) {
       channel.port1.onmessage = event => { channel.port1.close(); if (event.data?.ok) setRetry(value => value + 1); else setMessage('Offline preparation failed. Check for an app update while online.'); };
       controller.postMessage({ type: 'PREPARE_CACHE' }, [channel.port2]);
     },
-    update: () => { if (safeRef.current) waiting?.postMessage({ type: 'ACTIVATE_UPDATE' }); },
+    update: () => { if (safeRef.current()) waiting?.postMessage({ type: 'ACTIVATE_UPDATE' }); },
     checkUpdate: () => { void registration?.update().catch(() => setMessage('Could not check for updates. Try again while online.')); },
   };
 }

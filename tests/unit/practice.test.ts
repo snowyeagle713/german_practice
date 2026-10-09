@@ -158,6 +158,11 @@ describe('session lifecycle and first-pass evidence', () => {
 
 
 describe('MVP practice navigation and rotation', () => {
+  it('normalizes any valid saved rotation cursor before arithmetic', () => {
+    const session = createSession(pack, blockId, dependencies(), { size: 10, cursor: Number.MAX_SAFE_INTEGER });
+    expect(new Set(session.order).size).toBe(10);
+    expect(session.rotationNext).toBe((Number.MAX_SAFE_INTEGER % 40 + 10) % 40);
+  });
   it('rotates through all 40 questions in two standards or four quick runs', () => {
     for (const size of [10, 20] as const) {
       let cursor = 0;
