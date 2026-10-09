@@ -23,6 +23,8 @@ export function App() {
   const [content, setContent] = useState<LoadState>({ status: 'loading' });
   const [retry, setRetry] = useState(0);
   const [session, dispatchPractice] = usePractice();
+  const [practiceSize, setPracticeSize] = useState<10 | 20>(20);
+  const cursors = useRef<Record<string, number>>({});
   const [pendingBlock, setPendingBlock] = useState<string | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const routeKey = route.join('/');
@@ -56,13 +58,15 @@ export function App() {
     if (isActive(session) && !replace) {
       setPendingBlock(blockId);
     } else {
-      const nextSession = createSession(pack, blockId, { random: Math.random, now: () => new Date().toISOString(), id: () => crypto.randomUUID() });
+      const nextSession = createSession(pack, blockId, { random: Math.random, now: () => new Date().toISOString(), id: () => crypto.randomUUID() }, { size: practiceSize, cursor: cursors.current[blockId] ?? 0 });
+      cursors.current[blockId] = nextSession.rotationNext;
       dispatchPractice({ type: replace ? 'replace' : 'start', session: nextSession });
       setPendingBlock(null);
     }
     window.location.hash = '/practice';
   }
 
+  const sizeSelector = <fieldset className="session-options"><legend>Practice session</legend><label><input type="radio" name="practice-size" checked={practiceSize === 20} onChange={() => setPracticeSize(20)} /> Standard Practice · 20 questions</label><label><input type="radio" name="practice-size" checked={practiceSize === 10} onChange={() => setPracticeSize(10)} /> Quick Practice · 10 questions</label></fieldset>;
   function screen(pack: ContentPack) {
     if (page === 'home' && route.length <= 1) return <>
       <section className="welcome-panel" aria-label="Your learning space">
@@ -76,7 +80,7 @@ export function App() {
         <div className="stat-card"><span className="icon-tile blue"><Icon name="leaf" /></span><div><strong>Ungraded</strong><span>Study at your own pace</span></div></div>
       </section>
       <div className="dashboard-grid"><section aria-labelledby="start-title"><div className="section-heading"><div><p className="eyebrow">Your learning path</p><h2 id="start-title">Start with the essentials</h2></div></div>
-        {pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} onStart={() => start(pack, block.id)} />)}
+        {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} onStart={() => start(pack, block.id)} />)}
         <a className="text-link" href="#/blocks">Browse blocks →</a>
       </section>
       <section className="progress-card" aria-labelledby="session-title"><div className="section-heading"><span className="icon-tile mint"><Icon name="progress" /></span><span className="badge neutral">Not saved</span></div>
@@ -90,14 +94,14 @@ export function App() {
     </>;
     if (page === 'blocks' && route.length === 1) return <>
       <p className="lead">Study each construction with its rule, meaning, and two real-world examples.</p>
-      {pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} onStart={() => start(pack, block.id)} />)}
+      {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} onStart={() => start(pack, block.id)} />)}
     </>;
     if (page === 'learn' && route.length <= 3) {
       const block = pack.blocks.find(item => item.id === route[1]);
       if (block) {
         const entries = entriesForBlock(pack, block);
         const index = route[2] ? entries.findIndex(entry => entry.id === route[2]) : 0;
-        if (index >= 0) return <Learn block={block} entries={entries} index={index} onStart={() => start(pack, block.id)} />;
+        if (index >= 0) return <Learn block={block} entries={entries} index={index} sessionSize={practiceSize} onStart={() => start(pack, block.id)} />;
       }
       return <div className="empty-state"><h2>Study page not found</h2><p>This block or construction is not in the current content pack.</p><a href="#/blocks">Return to blocks</a></div>;
     }

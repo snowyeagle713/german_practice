@@ -22,9 +22,14 @@ export interface Feedback {
   exampleEn: string;
   meaningEn: string;
 }
+export type QuestionState = Pick<PracticeSession, 'response' | 'hintUsed' | 'revealed' | 'guidance' | 'feedback'>;
 export interface PracticeSession {
   sessionId: string;
-  mode: 'full';
+  mode: 'standard' | 'quick' | 'revision';
+  sessionSize: number;
+  rotationNext: number;
+  deferredIds: string[];
+  states: Record<string, QuestionState>;
   blockId: string;
   packId: string;
   packVersion: number;
@@ -52,4 +57,4 @@ export type PracticeCommand =
   | { type: 'response'; questionId: string; response: Response }
   | { type: 'hint' | 'reveal'; questionId: string }
   | { type: 'submit'; questionId: string; attemptId: string; submittedAt: string }
-  | { type: 'next'; questionId: string; at: string };
+  | { type: 'next' | 'previous' | 'skip'; questionId: string; at: string };

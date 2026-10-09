@@ -252,3 +252,6 @@ footer { color: var(--text-secondary); font-size: .7rem; padding: 14px 0; border
 .review-list p { overflow-wrap: anywhere; margin-top: 12px; }
 .summary-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
 @media (max-width: 900px) { .practice-card { padding: 24px; } .practice-card h2 { font-size: 1.15rem; } .practice-toolbar { font-size: .85rem; } }
+.session-options { display: flex; flex-wrap: wrap; gap: 16px; border: 1px solid var(--border); border-radius: var(--radius-control); padding: 16px; margin-bottom: 18px; background: var(--surface-background); }
+.session-options label { min-height: 44px; display: flex; align-items: center; gap: 8px; font-size: .85rem; }
+.session-options input { accent-color: var(--accent-primary); }

@@ -24,7 +24,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 
 ## Milestones (dependency order)
 
-- [ ] A — Quick 10 / Standard 20, rotation, Previous/Skip, thematic construction grouping.
+- [x] A — Quick 10 / Standard 20, rotation, Previous/Skip, thematic construction grouping.
 - [ ] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
 - [ ] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
 - [ ] D — Stored session history, real construction/theme metrics and revision counts.
@@ -37,4 +37,6 @@ For each milestone: implement, relevant tests, typecheck/build, fix failures, up
 this file, commit, continue. No fabricated progress; no backend, accounts or LLM.
 Windows Edge real-device acceptance remains manual. Linux automation does not verify Windows.
 
-Next action: milestone A practice refinement.
+Milestone A: 119 unit tests, strict typecheck/build passed; browser suite verified below. Selection covers all 40 over consecutive runs; question order stays stable during Previous/Skip.
+
+Next action: milestone B durable local storage.

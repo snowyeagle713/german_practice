@@ -21,9 +21,10 @@ export function Practice({ session, send }: { session: PracticeSession; send: (c
   const next = () => send({ type: 'next', questionId: question.id, at: new Date().toISOString() });
   const status = attempt?.hintUsed || attempt?.revealed ? `Assisted · ${attempt.isCorrect ? 'correct answer' : 'wrong answer'}` : attempt?.isCorrect ? 'Correct' : 'Wrong';
   return <section className="practice-layout" aria-label="Full-block practice">
-    <div className="practice-toolbar"><span className="badge">Full block</span><strong>Question {session.currentIndex + 1} of {session.order.length}</strong><span>{session.attempts.length} answers checked</span></div>
+    <div className="practice-toolbar"><span className="badge">{session.mode === 'quick' ? 'Quick Practice' : session.mode === 'revision' ? 'Revision' : 'Standard Practice'}</span><strong>Question {session.currentIndex + 1} of {session.order.length}</strong><span>{session.attempts.length} answers checked</span></div>
     <progress value={session.attempts.length} max={session.order.length} aria-label="Questions answered" />
     <p className="session-notice">This run is kept in memory only. Reloading or closing the page discards it. You can navigate within this app and return to this run.</p>
+    <div className="summary-actions"><button className="quiet-button" disabled={session.currentIndex === 0} onClick={() => send({ type: 'previous', questionId: question.id, at: new Date().toISOString() })}>Previous question</button>{!graded && <button className="quiet-button" onClick={() => send({ type: 'skip', questionId: question.id, at: new Date().toISOString() })}>Skip for now</button>}<span>{session.deferredIds.length} deferred questions</span></div>
     <article className="practice-card">
       <p className="eyebrow">{question.type === 'preposition_cloze' ? 'Type the missing preposition' : question.type === 'case_choice' ? 'Choose the governed case' : 'Choose the meaning'}</p>
       <h2 id="question-prompt" ref={questionHeading} tabIndex={-1}>{question.prompt}</h2>
@@ -58,7 +59,7 @@ export function Practice({ session, send }: { session: PracticeSession; send: (c
             <p lang="de" className="sentence">{feedback.exampleDe}</p><p className="translation">{feedback.exampleEn}</p><p className="translation">Construction meaning: {feedback.meaningEn}</p>
             {attempt.hintUsed || attempt.revealed ? <p className="assistance-label">{attempt.hintUsed ? 'Hint used. ' : ''}{attempt.revealed ? 'Answer revealed. ' : ''}Excluded from unaided correct.</p> : null}
           </section>
-          <div className="next-area"><button ref={nextButton} type="button" onClick={event => { if (event.detail <= 1) next(); }}>{session.currentIndex === session.order.length - 1 ? 'View summary' : 'Next question'}</button></div>
+          <div className="next-area"><button ref={nextButton} type="button" onClick={event => { if (event.detail <= 1) next(); }}>{session.attempts.length === session.order.length && session.currentIndex === session.order.length - 1 ? 'View summary' : 'Next question'}</button></div>
         </>}
       </form>
     </article>

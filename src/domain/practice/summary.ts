@@ -15,9 +15,13 @@ export function summarize(session: PracticeSession) {
     answeredAccuracy: answered ? unaidedCorrect / answered : null,
     mistakes: session.attempts.filter(attempt => !attempt.isUnaidedCorrect).map(attempt => attempt.questionId),
     byType: (['preposition_cloze', 'case_choice', 'meaning_choice'] as const).map(type => {
-      const ids = new Set(session.contentSnapshot.questions.filter(question => question.type === type).map(question => question.id));
+      const ids = new Set(session.contentSnapshot.questions.filter(question => session.order.includes(question.id) && question.type === type).map(question => question.id));
       const attempts = session.attempts.filter(attempt => ids.has(attempt.questionId));
       return { type, total: ids.size, answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
+    }),
+    byConstruction: session.contentSnapshot.entries.map(entry => {
+      const attempts = session.attempts.filter(attempt => attempt.entryId === entry.id);
+      return { entryId: entry.id, construction: entry.construction, answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
     }),
     attempts: session.attempts,
   };

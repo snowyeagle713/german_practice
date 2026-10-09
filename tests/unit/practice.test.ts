@@ -25,12 +25,12 @@ function submit(session: PracticeSession, correct = true) {
   return transition(draft, { type: 'submit', questionId: question.id, attemptId: `attempt-${session.currentIndex}`, submittedAt: at });
 }
 
-describe('full manifest sessions', () => {
-  it.each(Array.from({ length: 30 }, (_, seedValue) => seedValue))('covers the exact 40-question pool for random seed %i', seedValue => {
+describe('rotating authored sessions', () => {
+  it.each(Array.from({ length: 30 }, (_, seedValue) => seedValue))('selects exactly 20 unique authored questions for random seed %i', seedValue => {
     const session = createSession(pack, blockId, dependencies(seedValue));
-    expect(session.order).toHaveLength(40);
-    expect(new Set(session.order).size).toBe(40);
-    expect(new Set(session.order)).toEqual(new Set(pack.blocks[0]!.questionIds));
+    expect(session.order).toHaveLength(20);
+    expect(new Set(session.order).size).toBe(20);
+    expect(new Set(session.order)).toEqual(new Set(pack.blocks[0]!.questionIds.slice(0, 20)));
     for (const question of session.contentSnapshot.questions) {
       if (question.type !== 'preposition_cloze') expect(new Set(session.choiceOrders[question.id])).toEqual(new Set(question.choices.map(choice => choice.id)));
     }
@@ -115,9 +115,9 @@ describe('session lifecycle and first-pass evidence', () => {
     expect(next.hintUsed).toBe(false);
     expect(next.revealed).toBe(false);
   });
-  it('finishes only after all 40 graded answers and calculates coverage, wrong/assisted overlap and first-pass score', () => {
+  it('finishes only after all selected graded answers and calculates coverage, wrong/assisted overlap and first-pass score', () => {
     let session = createSession(pack, blockId, dependencies());
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 20; i++) {
       expect(session.currentIndex + 1).toBe(i + 1);
       expect(summarize(session).answered).toBe(i);
       expect(summarize(session).accuracy).toBeNull();
@@ -130,11 +130,11 @@ describe('session lifecycle and first-pass evidence', () => {
     }
     const result = summarize(session);
     expect(session.status).toBe('completed');
-    expect(result).toMatchObject({ total: 40, answered: 40, correct: 30, wrong: 10, assisted: 20, unaidedCorrect: 10, accuracy: .25, coverage: 1, completedAt: at });
-    expect(result.mistakes).toHaveLength(30);
-    expect(result.byType.map(item => item.total)).toEqual([20, 10, 10]);
-    expect(new Set(result.attempts.map(item => item.questionId)).size).toBe(40);
-    expect(session.submittedAttemptIds).toHaveLength(40);
+    expect(result).toMatchObject({ total: 20, answered: 20, correct: 15, wrong: 5, assisted: 10, unaidedCorrect: 5, accuracy: .25, coverage: 1, completedAt: at });
+    expect(result.mistakes).toHaveLength(15);
+    expect(result.byType.map(item => item.total)).toEqual([10, 5, 5]);
+    expect(new Set(result.attempts.map(item => item.questionId)).size).toBe(20);
+    expect(session.submittedAttemptIds).toHaveLength(20);
     expect(transition(session, { type: 'next', questionId: currentQuestion(session).id, at })).toBe(session);
     expect(JSON.parse(JSON.stringify({ session, result }))).toEqual({ session, result });
   });
@@ -147,11 +147,48 @@ describe('session lifecycle and first-pass evidence', () => {
   });
   it.each([true, false])('uses the full denominator for an all-correct=%s run', correct => {
     let session = createSession(pack, blockId, dependencies());
-    for (let i = 0; i < 40; i++) {
+    for (let i = 0; i < 20; i++) {
       const id = currentQuestion(session).id;
       session = transition(submit(session, correct), { type: 'next', questionId: id, at });
     }
-    expect(summarize(session)).toMatchObject({ accuracy: correct ? 1 : 0, coverage: 1, correct: correct ? 40 : 0, wrong: correct ? 0 : 40, assisted: 0 });
-    expect(summarize(session).mistakes).toHaveLength(correct ? 0 : 40);
+    expect(summarize(session)).toMatchObject({ accuracy: correct ? 1 : 0, coverage: 1, correct: correct ? 20 : 0, wrong: correct ? 0 : 20, assisted: 0 });
+    expect(summarize(session).mistakes).toHaveLength(correct ? 0 : 20);
+  });
+});
+
+
+describe('MVP practice navigation and rotation', () => {
+  it('rotates through all 40 questions in two standards or four quick runs', () => {
+    for (const size of [10, 20] as const) {
+      let cursor = 0;
+      const seen: string[] = [];
+      for (let i = 0; i < 40 / size; i++) {
+        const session = createSession(pack, blockId, dependencies(i), { size, cursor });
+        expect(session.order).toHaveLength(size);
+        seen.push(...session.order); cursor = session.rotationNext;
+      }
+      expect(new Set(seen)).toEqual(new Set(pack.blocks[0]!.questionIds));
+      expect(seen.length).toBe(40); expect(cursor).toBe(0);
+    }
+  });
+  it('keeps order, returns to deferred questions and preserves graded feedback on Previous', () => {
+    let session = createSession(pack, blockId, dependencies(), { size: 10 });
+    const order = [...session.order];
+    session = transition(session, { type: 'skip', questionId: order[0]!, at });
+    expect(session.deferredIds).toEqual([order[0]]);
+    session = submit(session);
+    const originalAttempt = session.attempts[0];
+    session = transition(session, { type: 'next', questionId: order[1]!, at });
+    session = transition(session, { type: 'previous', questionId: order[2]!, at });
+    expect(session.status).toBe('feedback');
+    expect(session.attempts[0]).toEqual(originalAttempt);
+    expect(transition(session, { type: 'response', questionId: order[1]!, response: { kind: 'text', value: 'changed' } })).toBe(session);
+    session = transition(session, { type: 'next', questionId: order[1]!, at });
+    for (let i = 2; i < 10; i++) session = transition(submit(session), { type: 'next', questionId: order[i]!, at });
+    expect(session.currentIndex).toBe(0); expect(session.status).toBe('answering');
+    expect(session.order).toEqual(order); expect(session.attempts).toHaveLength(9);
+    session = submit(session); expect(session.deferredIds).toEqual([]);
+    for (let i = 0; i < 10 && session.status !== 'completed'; i++) session = transition(session, { type: 'next', questionId: currentQuestion(session).id, at });
+    expect(session.status).toBe('completed'); expect(session.attempts).toHaveLength(10);
   });
 });

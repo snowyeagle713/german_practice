@@ -14,7 +14,7 @@ test('Home, Blocks and every Learn construction work with browser history', asyn
   await expect(page.getByText('10 constructions', { exact: true })).toBeVisible();
   await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Blocks' }).click();
   await expect(page.getByRole('heading', { name: 'Your blocks' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Start full block' })).toBeEnabled();
+  await expect(page.getByRole('button', { name: 'Start practice', exact: true })).toBeEnabled();
   await page.getByRole('link', { name: 'Learn', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Previous' })).toBeDisabled();
   for (const [index, entry] of seed.entries.entries()) {
@@ -30,14 +30,14 @@ test('Home, Blocks and every Learn construction work with browser history', asyn
     if (index < seed.entries.length - 1) await page.getByRole('link', { name: 'Next' }).click();
   }
   await expect(page.getByRole('button', { name: 'Next' })).toBeDisabled();
-  await expect(page.getByRole('button', { name: 'Start practice' })).toBeEnabled();
+  await expect(page.getByRole('button', { name: 'Start practice', exact: true })).toBeEnabled();
   await page.reload();
   await expect(page.getByRole('article').getByRole('heading', { name: seed.entries[9]!.construction })).toBeVisible();
   await page.getByRole('link', { name: 'Previous' }).click();
   await expect(page.getByRole('article').getByRole('heading', { name: seed.entries[8]!.construction })).toBeVisible();
   await page.goBack();
   await expect(page.getByRole('article').getByRole('heading', { name: seed.entries[9]!.construction })).toBeVisible();
-  await page.getByRole('navigation', { name: 'Constructions in this block' }).getByRole('link').first().click();
+  await page.getByRole('navigation', { name: 'Constructions in this block' }).getByRole('link', { name: seed.entries[0]!.construction, exact: true }).click();
   await expect(page.getByRole('article').getByRole('heading', { name: seed.entries[0]!.construction })).toBeVisible();
 });
 
