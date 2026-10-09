@@ -6,7 +6,7 @@ for (const theme of ['lingua-learning', 'finance-dashboard']) {
     await page.goto('/');
     await expect(page.getByRole('link', { name: 'Learn', exact: true })).toBeVisible();
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'lingua-learning');
-    // Internal palette preview only: no theme controls, persistence or new product flow.
+    // Direct map inspection also verifies the shared layout and contrast.
     await page.evaluate(value => { document.documentElement.dataset.theme = value; }, theme);
     await expect(page.getByRole('heading', { name: 'Your learning record' })).toBeVisible();
     await expect(page.getByText('No completed sessions yet. Learn remains ungraded.', { exact: true })).toBeVisible();
@@ -57,6 +57,6 @@ for (const theme of ['lingua-learning', 'finance-dashboard']) {
     await expect(page.getByRole('button', { name: 'Start practice', exact: true })).toBeEnabled();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Settings' }).click();
-    await expect(page.getByRole('combobox')).toHaveCount(0);
+    await expect(page.getByRole('combobox', { name: 'Palette' })).toBeVisible();
   });
 }

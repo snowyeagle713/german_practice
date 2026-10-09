@@ -255,3 +255,6 @@ footer { color: var(--text-secondary); font-size: .7rem; padding: 14px 0; border
 .session-options { display: flex; flex-wrap: wrap; gap: 16px; border: 1px solid var(--border); border-radius: var(--radius-control); padding: 16px; margin-bottom: 18px; background: var(--surface-background); }
 .session-options label { min-height: 44px; display: flex; align-items: center; gap: 8px; font-size: .85rem; }
 .session-options input { accent-color: var(--accent-primary); }
+
+.settings-fields { display: grid; gap: .65rem; max-width: 28rem; margin-block: 1.5rem; }
+select { font: inherit; color: var(--text-primary); background: var(--surface-background); border: 1px solid var(--border); border-radius: .65rem; padding: .8rem; }

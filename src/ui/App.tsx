@@ -9,6 +9,7 @@ import { isActive } from '../domain/practice/session';
 import { useTrainer } from '../application/useTrainer';
 import { Practice } from './Practice';
 import { Summary } from './Summary';
+import { Settings } from './Settings';
 import { Progress } from './Progress';
 import { progressMetrics } from '../domain/progress/metrics';
 import { revisionPlan, type RevisionItem } from '../domain/practice/revision';
@@ -26,6 +27,7 @@ export function App() {
   const [retry, setRetry] = useState(0);
   const trainer = useTrainer();
   const { session } = trainer;
+  useEffect(() => { if (trainer.ready) document.documentElement.dataset.theme = trainer.data.settings.theme; }, [trainer.ready, trainer.data.settings.theme]);
   const [practiceSize, showPracticeSize] = useState<10 | 20>(20);
   useEffect(() => { showPracticeSize(trainer.data.settings.sessionSize); }, [trainer.data.settings.sessionSize]);
   const setPracticeSize = (sessionSize: 10 | 20) => { showPracticeSize(sessionSize); trainer.settings({ ...trainer.data.settings, sessionSize }); };
@@ -131,7 +133,7 @@ export function App() {
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
     if (page === 'progress' && route.length === 1) return <Progress pack={pack} sessions={trainer.data.sessions} onView={view} onRevision={items => startRevision(items)} />;
-    if (page === 'settings' && route.length === 1) return <div className="empty-state"><h2>Practice preview</h2><p>You can study constructions and practise a full block. Backup, saved history, installation, and offline features are not available yet.</p><p>Keep the local server running to open or reload the app. Reload discards your current run.</p><a href="#/blocks">Browse blocks</a></div>;
+    if (page === 'settings' && route.length === 1) return <Settings settings={trainer.data.settings} onChange={trainer.settings} />;
     return <div className="empty-state"><p>This page could not be found.</p><a href="#/">Return home</a></div>;
   }
 

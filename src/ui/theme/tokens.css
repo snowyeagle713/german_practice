@@ -42,7 +42,7 @@
   --shadow-elevated: 0 12px 40px #3624600a;
 }
 
-/* Prepared internal palette; no user switching or persistence is implemented.
+/* Finance palette selected through persisted appearance settings.
    Same components, layout, typography and semantic roles as Lingua. */
 :root[data-theme="finance-dashboard"] {
   color-scheme: light;

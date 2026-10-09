@@ -56,3 +56,16 @@ test('saved history and construction coverage are real and survive reload', asyn
   await page.getByRole('button', { name: 'View saved summary', exact: true }).click();
   await expect(page.locator('.summary-score strong')).toHaveText('90%');
 });
+
+test('Finance palette and Quick preference persist without replacing the layout or active run', async ({ page }) => {
+  await quick(page); const prompt = await page.locator('#question-prompt').textContent();
+  await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Settings' }).click();
+  await page.getByRole('combobox', { name: 'Palette' }).selectOption('finance-dashboard');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'finance-dashboard');
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'finance-dashboard');
+  await expect(page.getByRole('combobox', { name: 'Preferred session size' })).toHaveValue('10');
+  await page.goto('/#/practice');
+  await expect(page.locator('#question-prompt')).toHaveText(prompt!);
+  await expect(page.getByText('Question 1 of 10', { exact: true })).toBeVisible();
+});

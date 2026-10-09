@@ -2,11 +2,11 @@
 
 `tokens.css` owns all palette literals. `styles.css` owns shared layout, spacing,
 typography and component composition; it consumes CSS custom properties only for
-colors and shadows. `src/main.tsx` selects `lingua-learning` on the document root.
+colors and shadows. `src/main.tsx` supplies the Lingua fallback; the application applies the saved palette after opening local preferences.
 The default CSS map also lives on `:root`, so the initial render has a palette.
 
 The Lingua Learning layout uses a rounded learning sidebar, soft canvas, study
-overview cards, a block card and an honest progress empty state. A study-position
+overview cards, a block card and stored progress cards. A study-position
 bar on Learn represents the current URL-selected construction, not completion,
 accuracy or mastery. Theme selection creates no practice records or gamification.
 
@@ -22,22 +22,17 @@ accuracy or mastery. Theme selection creates no practice records or gamification
 | Navigation | nav-active-background, nav-active-text, nav-inactive-text, nav-hover-background |
 | Controls/accessibility | disabled-background, disabled-text, focus-ring |
 
-`finance-dashboard` is a complete, internal alternate map: navy sidebar, blue
+`finance-dashboard` is a complete alternate map: navy sidebar, blue
 primary accent and restrained teal secondary accent. It reuses the Lingua layout;
 there are no theme-specific components or layout overrides. Sidebar foreground
 roles keep the dark Finance sidebar readable without changing ordinary card text.
 
-To preview it during development, set `document.documentElement.dataset.theme =
-'finance-dashboard'` in the browser console. This is intentionally not a user
-feature and does not persist; a fresh app load selects Lingua. No Settings switcher,
-theme storage, or query-string override is implemented.
-
-To add JetBrains Spring or another palette later, add a complete
-`:root[data-theme="palette-id"]` token map to `tokens.css`, then validate foreground/
-background contrast and the shared UI at 768, 1280 and 1920 px. No domain, storage,
-content or component refactoring is needed. The future Settings selector can set
-the same root attribute and persist through the planned settings storage adapter.
-Do not implement that persistence before its stage.
+Settings exposes the palette registry in `palettes.ts`. Selection is persisted in
+IndexedDB through the application operation queue; it never duplicates components.
+To add JetBrains Spring, Proton or dark mode later, add a complete token map in
+`tokens.css`, register its ID/label, extend the validated preference enum, and verify
+contrast plus shared screens at 768, 1280 and 1920 px. Dark palettes should set
+`color-scheme: dark`. Domain practice/grading and layouts require no changes.
 
 Radius tokens are shared across palettes; swapping a palette does not change the
 product structure. Current browser tests exercise both palette maps, core text

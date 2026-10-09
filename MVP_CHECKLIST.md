@@ -28,7 +28,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 - [x] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
 - [x] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
 - [x] D — Stored session history, real construction/theme metrics and revision counts.
-- [ ] E — Persisted Lingua/Finance theme and preferred session size.
+- [x] E — Persisted Lingua/Finance theme and preferred session size.
 - [ ] F — Versioned portable backup, deep validation, explicit atomic replacement.
 - [ ] G — Production offline precache, install manifest/icons, safe update handling.
 - [ ] H — Integration/browser/offline tests, Windows instructions, final handoff.
@@ -45,4 +45,6 @@ Milestone C: 124 unit tests, typecheck/build passed; browser revision-clear and 
 
 Milestone D: 126 unit tests, strict typecheck/build; stored history/reload and both palette/contrast browser checks passed. Metrics use current question revisions and completed first-pass sessions, not mastery claims.
 
-Next action: milestone E persistent appearance settings.
+Milestone E: 126 unit tests and typecheck/build passed; saved Finance/Quick preferences, unchanged active run and both contrast/layout browser checks passed.
+
+Next action: milestone F validated portable backups.
