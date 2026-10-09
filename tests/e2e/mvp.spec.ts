@@ -69,3 +69,30 @@ test('Finance palette and Quick preference persist without replacing the layout 
   await expect(page.locator('#question-prompt')).toHaveText(prompt!);
   await expect(page.getByText('Question 1 of 10', { exact: true })).toBeVisible();
 });
+
+test('backup preview/cancel, invalid rejection and explicit replacement preserve real progress', async ({ page }) => {
+  await quick(page); await finish(page, 10, 1);
+  await page.goto('/#/settings');
+  const download = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Export backup' }).click();
+  const file = await download; const path = await file.path(); if (!path) throw new Error('No backup download');
+  await page.getByRole('combobox', { name: 'Palette' }).selectOption('finance-dashboard');
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'finance-dashboard');
+  const chooser = page.getByLabel('Choose backup to import (JSON, up to 10 MiB)');
+  await chooser.setInputFiles(path);
+  await expect(page.getByRole('region', { name: 'Import preview' })).toBeVisible();
+  await page.getByRole('button', { name: 'Cancel import' }).click();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'finance-dashboard');
+  await chooser.setInputFiles({ name: 'invalid.json', mimeType: 'application/json', buffer: Buffer.from('{"schemaVersion":999}') });
+  await expect(page.getByText(/Backup schema invalid or unsupported/u)).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Replace progress' })).toHaveCount(0);
+  await chooser.setInputFiles(path);
+  await expect(page.getByRole('region', { name: 'Import preview' })).toBeVisible();
+  await page.getByRole('button', { name: 'Replace progress' }).click();
+  await expect(page.getByText(/Backup restored successfully/u)).toBeVisible();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'lingua-learning');
+  await page.reload(); await page.goto('/#/progress');
+  await expect(page.getByRole('heading', { name: 'Awaiting revision (1)' })).toBeVisible();
+  await page.getByRole('button', { name: 'View saved summary', exact: true }).click();
+  await expect(page.locator('.summary-score strong')).toHaveText('90%');
+});

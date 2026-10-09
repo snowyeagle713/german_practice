@@ -36,7 +36,7 @@ export function Practice({ session, send }: { session: PracticeSession; send: (c
         send({ type: 'submit', questionId: question.id, attemptId: crypto.randomUUID(), submittedAt: new Date().toISOString() });
       }}>
         {question.type === 'preposition_cloze' ? <div className="answer-field"><label htmlFor="preposition-answer">Your preposition</label>
-          <input id="preposition-answer" ref={input} type="text" lang="de" autoComplete="off" autoCapitalize="none" spellCheck={false} readOnly={graded}
+          <input id="preposition-answer" ref={input} type="text" maxLength={10000} lang="de" autoComplete="off" autoCapitalize="none" spellCheck={false} readOnly={graded}
             value={draft?.kind === 'text' ? draft.value : ''} aria-describedby={session.guidance ? 'answer-guidance' : undefined}
             onChange={event => { const response = { kind: 'text' as const, value: event.target.value }; setDraft(response); send({ type: 'response', questionId: question.id, response }); }} />
         </div> : <fieldset className="answer-choices" disabled={graded}><legend>Your answer</legend>

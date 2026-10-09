@@ -10,6 +10,7 @@ import { useTrainer } from '../application/useTrainer';
 import { Practice } from './Practice';
 import { Summary } from './Summary';
 import { Settings } from './Settings';
+import { Backup } from './Backup';
 import { Progress } from './Progress';
 import { progressMetrics } from '../domain/progress/metrics';
 import { revisionPlan, type RevisionItem } from '../domain/practice/revision';
@@ -133,7 +134,7 @@ export function App() {
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
     if (page === 'progress' && route.length === 1) return <Progress pack={pack} sessions={trainer.data.sessions} onView={view} onRevision={items => startRevision(items)} />;
-    if (page === 'settings' && route.length === 1) return <Settings settings={trainer.data.settings} onChange={trainer.settings} />;
+    if (page === 'settings' && route.length === 1) return <><Settings settings={trainer.data.settings} onChange={trainer.settings} /><Backup data={trainer.data} onReplace={trainer.replace} busy={trainer.busy} failed={Boolean(trainer.error)} /></>;
     return <div className="empty-state"><p>This page could not be found.</p><a href="#/">Return home</a></div>;
   }
 

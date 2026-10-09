@@ -29,7 +29,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 - [x] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
 - [x] D — Stored session history, real construction/theme metrics and revision counts.
 - [x] E — Persisted Lingua/Finance theme and preferred session size.
-- [ ] F — Versioned portable backup, deep validation, explicit atomic replacement.
+- [x] F — Versioned portable backup, deep validation, explicit atomic replacement.
 - [ ] G — Production offline precache, install manifest/icons, safe update handling.
 - [ ] H — Integration/browser/offline tests, Windows instructions, final handoff.
 
@@ -47,4 +47,6 @@ Milestone D: 126 unit tests, strict typecheck/build; stored history/reload and b
 
 Milestone E: 126 unit tests and typecheck/build passed; saved Finance/Quick preferences, unchanged active run and both contrast/layout browser checks passed.
 
-Next action: milestone F validated portable backups.
+Milestone F: 145 unit tests, strict typecheck/build; browser export/preview/cancel/invalid rejection/atomic restore passed. Schema v1 validates content snapshots, immutable grading, states, references, timestamps and 10 MiB UTF-8 limit. Archived IDs are retained.
+
+Next action: milestone G production offline/PWA.
