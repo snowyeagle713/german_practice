@@ -25,7 +25,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 ## Milestones (dependency order)
 
 - [x] A — Quick 10 / Standard 20, rotation, Previous/Skip, thematic construction grouping.
-- [ ] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
+- [x] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
 - [ ] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
 - [ ] D — Stored session history, real construction/theme metrics and revision counts.
 - [ ] E — Persisted Lingua/Finance theme and preferred session size.
@@ -37,6 +37,8 @@ For each milestone: implement, relevant tests, typecheck/build, fix failures, up
 this file, commit, continue. No fabricated progress; no backend, accounts or LLM.
 Windows Edge real-device acceptance remains manual. Linux automation does not verify Windows.
 
-Milestone A: 119 unit tests, strict typecheck/build passed; browser suite verified below. Selection covers all 40 over consecutive runs; question order stays stable during Previous/Skip.
+Milestone A: 119 unit tests, strict typecheck/build passed; 17 browser checks passed. Selection covers all 40 over consecutive runs; question order stays stable during Previous/Skip.
 
-Next action: milestone B durable local storage.
+Milestone B: 122 unit tests, strict typecheck/build; 10 focused browser checks for reload, keyboard and duplicate input. Test-only fake-indexeddb 6.2.5 verified compatible with Node >=18. Transaction rollback and stale-tab guards covered.
+
+Next action: milestone C revision.

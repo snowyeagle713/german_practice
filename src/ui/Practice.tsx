@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { correctAnswer } from '../domain/practice/grading';
 import { currentQuestion } from '../domain/practice/session';
 import type { PracticeCommand, PracticeSession } from '../domain/practice/types';
@@ -6,6 +6,8 @@ import type { PracticeCommand, PracticeSession } from '../domain/practice/types'
 export function Practice({ session, send }: { session: PracticeSession; send: (command: PracticeCommand) => void }) {
   const question = currentQuestion(session);
   const entry = session.contentSnapshot.entries.find(item => item.id === question.entryId)!;
+  const [draft, setDraft] = useState(session.response);
+  useEffect(() => { setDraft(session.response); }, [question.id]);
   const feedback = session.feedback;
   const attempt = session.attempts.find(item => item.questionId === question.id);
   const input = useRef<HTMLInputElement>(null);
@@ -20,10 +22,10 @@ export function Practice({ session, send }: { session: PracticeSession; send: (c
   const sendForQuestion = (type: 'hint' | 'reveal') => send({ type, questionId: question.id });
   const next = () => send({ type: 'next', questionId: question.id, at: new Date().toISOString() });
   const status = attempt?.hintUsed || attempt?.revealed ? `Assisted · ${attempt.isCorrect ? 'correct answer' : 'wrong answer'}` : attempt?.isCorrect ? 'Correct' : 'Wrong';
-  return <section className="practice-layout" aria-label="Full-block practice">
+  return <section className="practice-layout" aria-label="Practice session">
     <div className="practice-toolbar"><span className="badge">{session.mode === 'quick' ? 'Quick Practice' : session.mode === 'revision' ? 'Revision' : 'Standard Practice'}</span><strong>Question {session.currentIndex + 1} of {session.order.length}</strong><span>{session.attempts.length} answers checked</span></div>
     <progress value={session.attempts.length} max={session.order.length} aria-label="Questions answered" />
-    <p className="session-notice">This run is kept in memory only. Reloading or closing the page discards it. You can navigate within this app and return to this run.</p>
+    <p className="session-notice">Your run saves automatically on this device. Reload to resume the same question, answer and feedback.</p>
     <div className="summary-actions"><button className="quiet-button" disabled={session.currentIndex === 0} onClick={() => send({ type: 'previous', questionId: question.id, at: new Date().toISOString() })}>Previous question</button>{!graded && <button className="quiet-button" onClick={() => send({ type: 'skip', questionId: question.id, at: new Date().toISOString() })}>Skip for now</button>}<span>{session.deferredIds.length} deferred questions</span></div>
     <article className="practice-card">
       <p className="eyebrow">{question.type === 'preposition_cloze' ? 'Type the missing preposition' : question.type === 'case_choice' ? 'Choose the governed case' : 'Choose the meaning'}</p>
@@ -35,14 +37,14 @@ export function Practice({ session, send }: { session: PracticeSession; send: (c
       }}>
         {question.type === 'preposition_cloze' ? <div className="answer-field"><label htmlFor="preposition-answer">Your preposition</label>
           <input id="preposition-answer" ref={input} type="text" lang="de" autoComplete="off" autoCapitalize="none" spellCheck={false} readOnly={graded}
-            value={session.response?.kind === 'text' ? session.response.value : ''} aria-describedby={session.guidance ? 'answer-guidance' : undefined}
-            onChange={event => send({ type: 'response', questionId: question.id, response: { kind: 'text', value: event.target.value } })} />
+            value={draft?.kind === 'text' ? draft.value : ''} aria-describedby={session.guidance ? 'answer-guidance' : undefined}
+            onChange={event => { const response = { kind: 'text' as const, value: event.target.value }; setDraft(response); send({ type: 'response', questionId: question.id, response }); }} />
         </div> : <fieldset className="answer-choices" disabled={graded}><legend>Your answer</legend>
           {session.choiceOrders[question.id]!.map(id => {
             const choice = question.choices.find(item => item.id === id)!;
             return <label className="answer-choice" key={id}><input type="radio" name="answer" value={id}
-              checked={session.response?.kind === 'choice' && session.response.choiceId === id}
-              onChange={() => send({ type: 'response', questionId: question.id, response: { kind: 'choice', choiceId: id } })} /><span>{choice.text}</span></label>;
+              checked={draft?.kind === 'choice' && draft.choiceId === id}
+              onChange={() => { const response = { kind: 'choice' as const, choiceId: id }; setDraft(response); send({ type: 'response', questionId: question.id, response }); }} /><span>{choice.text}</span></label>;
           })}
         </fieldset>}
         {session.guidance && <p id="answer-guidance" role="alert" className="answer-guidance">{session.guidance}</p>}

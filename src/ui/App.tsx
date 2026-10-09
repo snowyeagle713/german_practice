@@ -5,9 +5,9 @@ import type { ContentPack } from '../domain/content/types';
 import { BlockCard } from './BlockCard';
 import { Learn } from './Learn';
 import { Icon } from './Icon';
-import { createSession, isActive } from '../domain/practice/session';
+import { isActive } from '../domain/practice/session';
 import { summarize } from '../domain/practice/summary';
-import { usePractice } from './usePractice';
+import { useTrainer } from '../application/useTrainer';
 import { Practice } from './Practice';
 import { Summary } from './Summary';
 
@@ -22,9 +22,10 @@ export function App() {
   const [route, setRoute] = useState(readRoute);
   const [content, setContent] = useState<LoadState>({ status: 'loading' });
   const [retry, setRetry] = useState(0);
-  const [session, dispatchPractice] = usePractice();
-  const [practiceSize, setPracticeSize] = useState<10 | 20>(20);
-  const cursors = useRef<Record<string, number>>({});
+  const trainer = useTrainer();
+  const { session } = trainer;
+  const practiceSize = trainer.data.settings.sessionSize;
+  const setPracticeSize = (sessionSize: 10 | 20) => trainer.settings({ ...trainer.data.settings, sessionSize });
   const [pendingBlock, setPendingBlock] = useState<string | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const routeKey = route.join('/');
@@ -58,9 +59,7 @@ export function App() {
     if (isActive(session) && !replace) {
       setPendingBlock(blockId);
     } else {
-      const nextSession = createSession(pack, blockId, { random: Math.random, now: () => new Date().toISOString(), id: () => crypto.randomUUID() }, { size: practiceSize, cursor: cursors.current[blockId] ?? 0 });
-      cursors.current[blockId] = nextSession.rotationNext;
-      dispatchPractice({ type: replace ? 'replace' : 'start', session: nextSession });
+      trainer.start(pack, blockId, replace);
       setPendingBlock(null);
     }
     window.location.hash = '/practice';
@@ -106,10 +105,10 @@ export function App() {
       return <div className="empty-state"><h2>Study page not found</h2><p>This block or construction is not in the current content pack.</p><a href="#/blocks">Return to blocks</a></div>;
     }
     if (page === 'practice' && route.length === 1) {
-      if (pendingBlock && isActive(session)) return <section className="empty-state" aria-label="Existing active run"><h2>A run is already in progress</h2><p>Your current answers will remain until you explicitly abandon this run. Reloading the page still discards this in-memory run.</p><div className="summary-actions"><button onClick={() => setPendingBlock(null)}>Resume current run</button><button className="quiet-button" onClick={() => start(pack, pendingBlock, true)}>Abandon and start new run</button></div></section>;
+      if (pendingBlock && isActive(session)) return <section className="empty-state" aria-label="Existing active run"><h2>A run is already in progress</h2><p>Your current answers will remain until you explicitly abandon this run. Your run is saved locally and can be resumed after reload.</p><div className="summary-actions"><button onClick={() => setPendingBlock(null)}>Resume current run</button><button className="quiet-button" onClick={() => start(pack, pendingBlock, true)}>Abandon and start new run</button></div></section>;
       if (session?.status === 'completed') return <Summary session={session} onRepeat={() => start(pack, session.blockId)} />;
-      if (isActive(session)) return <Practice session={session} send={command => dispatchPractice({ type: 'command', command })} />;
-      return <section className="empty-state"><h2>No active practice session</h2><p>Runs are kept in memory only. Reloading or closing the page discards them. Start a new full block to practise.</p><a href="#/blocks">Browse blocks</a></section>;
+      if (isActive(session)) return <Practice session={session} send={trainer.send} />;
+      return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
     if (page === 'progress' && route.length === 1) return <div className="empty-state"><h2>No saved practice history yet</h2><p>Saved history is not available yet. Your current run and summary are kept in memory only until reload.</p>{session && <a href="#/practice">Return to current run or summary</a>}<a href="#/blocks">Explore the starter block</a></div>;
     if (page === 'settings' && route.length === 1) return <div className="empty-state"><h2>Practice preview</h2><p>You can study constructions and practise a full block. Backup, saved history, installation, and offline features are not available yet.</p><p>Keep the local server running to open or reload the app. Reload discards your current run.</p><a href="#/blocks">Browse blocks</a></div>;
@@ -129,10 +128,13 @@ export function App() {
     </aside>
     <div className="workspace"><main id="main-content" tabIndex={-1} className="main-content">
       <div className="page-header"><div><p className="eyebrow">Your German learning space</p>
-      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />In-memory preview</span></div>
+      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />Saved on this device</span></div>
       {content.status === 'loading' && <p role="status">Loading your study material…</p>}
       {content.status === 'error' && <section className="error-state" role="alert"><h2>Study material could not be opened</h2><p>The content must load and pass validation before you can study. Check that the app server is running; if validation fails, restore a valid content pack.</p><details><summary>Error details</summary><p>{content.message}</p></details><button onClick={() => setRetry(value => value + 1)}>Try again</button></section>}
-      {content.status === 'ready' && screen(content.pack)}
+      {trainer.error && <section role="alert" className="error-state"><h2>Local progress could not be saved</h2><p>{trainer.error}</p><p>Advancement is blocked until saving succeeds. Keep this page open to retry the failed action.</p><button onClick={trainer.retry}>Retry local save</button><button className="quiet-button" onClick={() => window.location.reload()}>Reload saved progress</button></section>}
+      {!trainer.ready && <p role="status">Opening local progress…</p>}
+      {trainer.busy && <p role="status">Saving locally…</p>}
+      {content.status === 'ready' && trainer.ready && screen(content.pack)}
     </main>
     <footer>German Trainer · Learn is ungraded.</footer></div></div>
   </>;

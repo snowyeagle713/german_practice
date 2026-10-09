@@ -21,7 +21,7 @@ export function Learn({ block, entries, index, onStart, sessionSize }: { block: 
           <span>{index + 1} of {entries.length}</span>
           {entries[index + 1] ? <a className="button secondary" href={href(entries[index + 1]!)}>Next →</a> : <button disabled>Next →</button>}
         </div>
-        <div className="practice-notice"><button onClick={onStart} aria-describedby="learn-practice-note">Start practice</button><small id="learn-practice-note">Practise a {sessionSize}-question session. This run will not be saved after reload.</small></div>
+        <div className="practice-notice"><button onClick={onStart} aria-describedby="learn-practice-note">Start practice</button><small id="learn-practice-note">Practise a {sessionSize}-question session. Your run saves automatically on this device.</small></div>
       </article>
     </div>
   </>;

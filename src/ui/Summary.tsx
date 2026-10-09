@@ -17,7 +17,7 @@ export function Summary({ session, onRepeat }: { session: PracticeSession; onRep
         return <li key={attempt.attemptId}><details><summary><span lang="de">{entry.construction}</span><span>{attempt.hintUsed || attempt.revealed ? 'Assisted' : 'Wrong'}{attempt.hintUsed || attempt.revealed ? ` · ${attempt.isCorrect ? 'correct answer' : 'wrong answer'}` : ''}</span></summary><p>{question.prompt}</p><p>Your answer: {responseText(question, attempt.response)}</p><p>Correct answer: {correctAnswer(question)}</p><p>{question.explanation}</p></details></li>;
       })}</ul>}
     </section>
-    <p className="session-notice">This summary is not saved. Reloading, closing this page, or starting another run discards it.</p>
+    <p className="session-notice">This summary is saved on this device. Future revision never changes this original score.</p>
     <div className="summary-actions"><button onClick={onRepeat}>Repeat practice</button><a className="button secondary" href="#/blocks">Back to blocks</a></div>
   </section>;
 }

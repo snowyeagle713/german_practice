@@ -26,7 +26,7 @@ async function answer(page: Page, correct = true) {
 test('20 selected authored questions complete once with deterministic grading, assistance and summary', async ({ page }) => {
   test.setTimeout(120_000);
   await start(page);
-  await expect(page.getByText(/Reloading or closing the page discards it/u)).toBeVisible();
+  await expect(page.getByText(/Your run saves automatically/u)).toBeVisible();
   const seen = new Set<string>();
   for (let index = 0; index < 20; index++) {
     await expect(page.getByText(`Question ${index + 1} of 20`, { exact: true })).toBeVisible();
@@ -116,7 +116,7 @@ test('typed and native radio answers can be completed using keyboard controls', 
   await expect(page.getByText('Question 4 of 20', { exact: true })).toBeVisible();
 });
 
-test('active run requires explicit replacement, retains feedback during navigation, and honestly resets on reload', async ({ page }) => {
+test('active run requires explicit replacement, retains feedback during navigation, and resumes exactly on reload', async ({ page }) => {
   await start(page);
   const question = await answer(page);
   await page.getByRole('button', { name: 'Check answer' }).click();
@@ -132,8 +132,8 @@ test('active run requires explicit replacement, retains feedback during navigati
   await page.getByRole('button', { name: 'Abandon and start new run' }).click();
   await expect(page.getByRole('progressbar')).toHaveAttribute('value', '0');
   await page.reload();
-  await expect(page.getByRole('heading', { name: 'No active practice session' })).toBeVisible();
-  await expect(page.getByText(/Reloading or closing the page discards them/u)).toBeVisible();
+  await expect(page.getByText('Question 1 of 20', { exact: true })).toBeVisible();
+  await expect(page.getByRole('progressbar')).toHaveAttribute('value', '0');
 });
 
 for (const width of [768, 1280, 1920]) {
@@ -151,3 +151,25 @@ for (const width of [768, 1280, 1920]) {
     await expect(page.getByText('Question 2 of 20', { exact: true })).toBeVisible();
   });
 }
+
+test('reload preserves graded answer, exact shuffled order, draft and assistance', async ({ page }) => {
+  await start(page);
+  const first = await answer(page);
+  await page.getByRole('button', { name: 'Hint', exact: true }).click();
+  await page.getByRole('button', { name: 'Check answer' }).click();
+  await expect(page.locator('#feedback-title')).toContainText('Assisted');
+  await page.reload();
+  await expect(page.locator('#question-prompt')).toHaveText(first.prompt);
+  await expect(page.locator('#feedback-title')).toContainText('Assisted');
+  await page.getByRole('button', { name: 'Next question' }).click();
+  const second = await answer(page, false);
+  await page.getByRole('button', { name: 'Hint', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Hint', exact: true })).toBeDisabled();
+  await page.reload();
+  await expect(page.locator('#question-prompt')).toHaveText(second.prompt);
+  await expect(page.getByRole('button', { name: 'Hint', exact: true })).toBeDisabled();
+  await expect(page.getByRole('progressbar')).toHaveAttribute('value', '1');
+  await page.getByRole('button', { name: 'Previous question' }).click();
+  await expect(page.locator('#question-prompt')).toHaveText(first.prompt);
+  await expect(page.locator('#feedback-title')).toContainText('Assisted');
+});
