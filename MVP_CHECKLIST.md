@@ -27,7 +27,7 @@ first-attempt scoring, offline/local privacy, architecture and visual identity r
 - [x] A — Quick 10 / Standard 20, rotation, Previous/Skip, thematic construction grouping.
 - [x] B — Versioned transactional IndexedDB, initial save and exact resume, write-failure recovery.
 - [x] C — Dedicated revision runs; unaided revision success clears pending item without rewriting original score.
-- [ ] D — Stored session history, real construction/theme metrics and revision counts.
+- [x] D — Stored session history, real construction/theme metrics and revision counts.
 - [ ] E — Persisted Lingua/Finance theme and preferred session size.
 - [ ] F — Versioned portable backup, deep validation, explicit atomic replacement.
 - [ ] G — Production offline precache, install manifest/icons, safe update handling.
@@ -43,4 +43,6 @@ Milestone B: 122 unit tests, strict typecheck/build; 10 focused browser checks f
 
 Milestone C: 124 unit tests, typecheck/build passed; browser revision-clear and defer/revisit flows passed. Original first-pass scores remain immutable.
 
-Next action: milestone D real progress and history.
+Milestone D: 126 unit tests, strict typecheck/build; stored history/reload and both palette/contrast browser checks passed. Metrics use current question revisions and completed first-pass sessions, not mastery claims.
+
+Next action: milestone E persistent appearance settings.

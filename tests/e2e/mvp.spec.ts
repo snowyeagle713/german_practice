@@ -46,3 +46,13 @@ test('deferred question returns before completion and Previous retains first fee
   await page.getByRole('button', { name: 'View summary', exact: true }).click();
   await expect(page.locator('.summary-score strong')).toHaveText('100%');
 });
+
+test('saved history and construction coverage are real and survive reload', async ({ page }) => {
+  await quick(page); await finish(page, 10, 1);
+  await page.getByRole('link', { name: 'Revision & progress', exact: true }).click();
+  await expect(page.getByText('10 / 40 questions covered · 9 unaided correct · 1 pending revision')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Awaiting revision (1)' })).toBeVisible();
+  await page.reload();
+  await page.getByRole('button', { name: 'View saved summary', exact: true }).click();
+  await expect(page.locator('.summary-score strong')).toHaveText('90%');
+});

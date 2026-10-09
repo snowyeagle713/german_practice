@@ -6,12 +6,12 @@ import { BlockCard } from './BlockCard';
 import { Learn } from './Learn';
 import { Icon } from './Icon';
 import { isActive } from '../domain/practice/session';
-import { summarize } from '../domain/practice/summary';
 import { useTrainer } from '../application/useTrainer';
 import { Practice } from './Practice';
 import { Summary } from './Summary';
-import { Revision } from './Revision';
-import { revisionItems, revisionPlan, type RevisionItem } from '../domain/practice/revision';
+import { Progress } from './Progress';
+import { progressMetrics } from '../domain/progress/metrics';
+import { revisionPlan, type RevisionItem } from '../domain/practice/revision';
 
 type LoadState = { status: 'loading' } | { status: 'ready'; pack: ContentPack } | { status: 'error'; message: string };
 
@@ -57,7 +57,7 @@ export function App() {
   const titles: Record<string, string> = { home: 'A little German, every day.', blocks: 'Your blocks', learn: 'Learn', practice: session?.status === 'completed' ? 'Session summary' : 'Practice', progress: 'Progress', settings: 'Settings' };
   const title = titles[page] ?? 'Page not found';
   const navPage = page === 'learn' || page === 'practice' ? 'blocks' : page;
-  const runResult = session ? summarize(session) : null;
+
 
   function start(pack: ContentPack, blockId: string, replace = false) {
     setPendingRevision(null);
@@ -83,6 +83,9 @@ export function App() {
 
   const sizeSelector = <fieldset className="session-options"><legend>Practice session</legend><label><input type="radio" name="practice-size" checked={practiceSize === 20} onChange={() => setPracticeSize(20)} /> Standard Practice · 20 questions</label><label><input type="radio" name="practice-size" checked={practiceSize === 10} onChange={() => setPracticeSize(10)} /> Quick Practice · 10 questions</label></fieldset>;
   function screen(pack: ContentPack) {
+    const metrics = progressMetrics(pack, trainer.data.sessions);
+    const active = trainer.data.sessions.find(isActive);
+    const view = (id: string) => { trainer.view(id); window.location.hash = '/practice'; };
     if (page === 'home' && route.length <= 1) return <>
       <section className="welcome-panel" aria-label="Your learning space">
         <div><p className="eyebrow">Make room for learning</p><p className="welcome-title">Small steps. Useful German.</p>
@@ -95,21 +98,22 @@ export function App() {
         <div className="stat-card"><span className="icon-tile blue"><Icon name="leaf" /></span><div><strong>Ungraded</strong><span>Study at your own pace</span></div></div>
       </section>
       <div className="dashboard-grid"><section aria-labelledby="start-title"><div className="section-heading"><div><p className="eyebrow">Your learning path</p><h2 id="start-title">Start with the essentials</h2></div></div>
-        {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} onStart={() => start(pack, block.id)} />)}
+        {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} progress={metrics.blocks.find(item => item.blockId === block.id)!} onStart={() => start(pack, block.id)} />)}
         <a className="text-link" href="#/blocks">Browse blocks →</a>
       </section>
-      <section className="progress-card" aria-labelledby="session-title"><div className="section-heading"><span className="icon-tile mint"><Icon name="progress" /></span><span className="badge neutral">Not saved</span></div>
-        <p className="eyebrow">Your progress</p><h2 id="session-title">A place for your progress</h2>
-        <div className="progress-empty" aria-hidden="true"><span /><span /><span /><span /><span /><span /><span /></div>
-        <p>{session ? `${session.attempts.length} of ${session.order.length} answers checked in this page visit.` : 'Start a full block when you are ready. Learn remains ungraded.'}</p>
-        <div className="progress-summary"><span>Practice results</span><strong>{runResult && session?.status === 'completed' ? `${runResult.unaidedCorrect} / ${runResult.total} unaided correct` : isActive(session) ? 'Run in progress' : 'Not recorded'}</strong></div>
-        {session && <a className="button" href="#/practice">{isActive(session) ? 'Return to current run' : 'View session summary'}</a>}
-        <p className="muted">Runs and results are kept in memory only until reload. Saved history is not available yet.</p>
+      <section className="progress-card" aria-labelledby="session-title"><div className="section-heading"><span className="icon-tile mint"><Icon name="progress" /></span><span className="badge neutral">On this device</span></div>
+        <p className="eyebrow">Your progress</p><h2 id="session-title">Your learning record</h2>
+        <div className="progress-summary"><span>Completed sessions</span><strong>{metrics.completed.length}</strong></div>
+        <div className="progress-summary"><span>Awaiting revision</span><strong>{metrics.pending.length}</strong></div>
+        <p>{metrics.completed.length ? 'Your saved runs and original scores are available in Progress.' : 'No completed sessions yet. Learn remains ungraded.'}</p>
+        {active && <button onClick={() => view(active.sessionId)}>Return to current run</button>}
+        <a className="button secondary" href="#/progress">View progress & history</a>
+        <p className="muted">Progress stays on this device. Export a backup before clearing browser data.</p>
       </section></div>
     </>;
     if (page === 'blocks' && route.length === 1) return <>
       <p className="lead">Study each construction with its rule, meaning, and two real-world examples.</p>
-      {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} onStart={() => start(pack, block.id)} />)}
+      {sizeSelector}{pack.blocks.map(block => <BlockCard key={block.id} pack={pack} block={block} sessionSize={practiceSize} progress={metrics.blocks.find(item => item.blockId === block.id)!} onStart={() => start(pack, block.id)} />)}
     </>;
     if (page === 'learn' && route.length <= 3) {
       const block = pack.blocks.find(item => item.id === route[1]);
@@ -126,7 +130,7 @@ export function App() {
       if (isActive(session)) return <Practice session={session} send={trainer.send} />;
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
-    if (page === 'progress' && route.length === 1) return <><Revision items={revisionItems(trainer.data.sessions)} onStart={items => startRevision(items)} /><div className="empty-state"><h2>No saved practice history yet</h2><p>Saved history is not available yet. Your current run and summary are kept in memory only until reload.</p>{session && <a href="#/practice">Return to current run or summary</a>}<a href="#/blocks">Explore the starter block</a></div></>;
+    if (page === 'progress' && route.length === 1) return <Progress pack={pack} sessions={trainer.data.sessions} onView={view} onRevision={items => startRevision(items)} />;
     if (page === 'settings' && route.length === 1) return <div className="empty-state"><h2>Practice preview</h2><p>You can study constructions and practise a full block. Backup, saved history, installation, and offline features are not available yet.</p><p>Keep the local server running to open or reload the app. Reload discards your current run.</p><a href="#/blocks">Browse blocks</a></div>;
     return <div className="empty-state"><p>This page could not be found.</p><a href="#/">Return home</a></div>;
   }

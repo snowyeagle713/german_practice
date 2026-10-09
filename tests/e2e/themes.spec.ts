@@ -8,8 +8,8 @@ for (const theme of ['lingua-learning', 'finance-dashboard']) {
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'lingua-learning');
     // Internal palette preview only: no theme controls, persistence or new product flow.
     await page.evaluate(value => { document.documentElement.dataset.theme = value; }, theme);
-    await expect(page.getByRole('heading', { name: 'A place for your progress' })).toBeVisible();
-    await expect(page.getByText('Not recorded', { exact: true })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Your learning record' })).toBeVisible();
+    await expect(page.getByText('No completed sessions yet. Learn remains ungraded.', { exact: true })).toBeVisible();
     await expect(page.getByRole('progressbar')).toHaveCount(0);
     const sidebar = page.getByRole('complementary', { name: 'Learning sidebar' });
     const main = page.getByRole('main');
