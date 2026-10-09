@@ -11,6 +11,7 @@ import { Practice } from './Practice';
 import { Summary } from './Summary';
 import { Settings } from './Settings';
 import { Backup } from './Backup';
+import { usePwa } from '../pwa/usePwa';
 import { Progress } from './Progress';
 import { progressMetrics } from '../domain/progress/metrics';
 import { revisionPlan, type RevisionItem } from '../domain/practice/revision';
@@ -28,6 +29,8 @@ export function App() {
   const [retry, setRetry] = useState(0);
   const trainer = useTrainer();
   const { session } = trainer;
+  const updateSafe = trainer.ready && !trainer.busy && !trainer.error && !trainer.data.sessions.some(isActive);
+  const pwa = usePwa(updateSafe);
   useEffect(() => { if (trainer.ready) document.documentElement.dataset.theme = trainer.data.settings.theme; }, [trainer.ready, trainer.data.settings.theme]);
   const [practiceSize, showPracticeSize] = useState<10 | 20>(20);
   useEffect(() => { showPracticeSize(trainer.data.settings.sessionSize); }, [trainer.data.settings.sessionSize]);
@@ -134,7 +137,7 @@ export function App() {
       return <section className="empty-state"><h2>No active practice session</h2><p>Start Quick or Standard Practice. Your run saves automatically on this device.</p><a href="#/blocks">Browse blocks</a></section>;
     }
     if (page === 'progress' && route.length === 1) return <Progress pack={pack} sessions={trainer.data.sessions} onView={view} onRevision={items => startRevision(items)} />;
-    if (page === 'settings' && route.length === 1) return <><Settings settings={trainer.data.settings} onChange={trainer.settings} /><Backup data={trainer.data} onReplace={trainer.replace} busy={trainer.busy} failed={Boolean(trainer.error)} /></>;
+    if (page === 'settings' && route.length === 1) return <><Settings settings={trainer.data.settings} onChange={trainer.settings} /><Backup data={trainer.data} onReplace={trainer.replace} busy={trainer.busy} failed={Boolean(trainer.error)} /><section className="empty-state"><h2>Offline & installation</h2><p role="status">{pwa.message}</p><p>After offline readiness is confirmed, install this app using Microsoft Edge’s address-bar app icon or Apps menu. Keep the same origin and browser profile.</p><button className="quiet-button" onClick={pwa.prepare}>Prepare offline files</button><button className="quiet-button" onClick={pwa.checkUpdate}>Check for app update</button>{pwa.waiting && <><p>Update available. Active runs defer installation in every open tab.</p><button onClick={pwa.update} disabled={!updateSafe}>Apply update & reload</button></>}<small>{pwa.cacheVersion}</small></section></>;
     return <div className="empty-state"><p>This page could not be found.</p><a href="#/">Return home</a></div>;
   }
 
@@ -151,7 +154,7 @@ export function App() {
     </aside>
     <div className="workspace"><main id="main-content" tabIndex={-1} className="main-content">
       <div className="page-header"><div><p className="eyebrow">Your German learning space</p>
-      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />Saved on this device</span></div>
+      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />{!pwa.online ? pwa.ready ? 'Offline · ready' : 'Offline · cache not verified' : pwa.ready ? 'Offline ready' : 'Saved on this device'}</span></div>
       {content.status === 'loading' && <p role="status">Loading your study material…</p>}
       {content.status === 'error' && <section className="error-state" role="alert"><h2>Study material could not be opened</h2><p>The content must load and pass validation before you can study. Check that the app server is running; if validation fails, restore a valid content pack.</p><details><summary>Error details</summary><p>{content.message}</p></details><button onClick={() => setRetry(value => value + 1)}>Try again</button></section>}
       {trainer.error && <section role="alert" className="error-state"><h2>Local progress could not be saved</h2><p>{trainer.error}</p><p>Advancement is blocked until saving succeeds. Keep this page open to retry the failed action.</p><button onClick={trainer.retry}>Retry local save</button><button className="quiet-button" onClick={() => window.location.reload()}>Reload saved progress</button></section>}

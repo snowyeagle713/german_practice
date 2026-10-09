@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { defineConfig } from 'vitest/config';
 import react from '@vitejs/plugin-react';
+import { pwaPlugin } from './scripts/pwa-plugin.ts';
 
 // One authoring source: expose it in development and emit the same bytes in builds.
 const contentPath = new URL('./content/seed-pack.json', import.meta.url);
@@ -16,6 +17,6 @@ export default defineConfig({
     generateBundle() {
       this.emitFile({ type: 'asset', fileName: 'content/seed-pack.json', source: readFileSync(contentPath) });
     },
-  }],
+  }, pwaPlugin()],
   test: { include: ['tests/unit/**/*.test.ts'], environment: 'node' },
 });
