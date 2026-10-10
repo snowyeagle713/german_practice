@@ -271,6 +271,226 @@
       "editorialScope": "Selected escape a danger by moving away uses sein; the stated context is unambiguous.",
       "productiveBand": "core-intermediate",
       "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "gelingen",
+      "present3": "gelingt",
+      "praeteritum": "gelang",
+      "participle": "gelungen",
+      "auxiliary": "sein",
+      "selectedContext": "Der geplante Neuanfang ist ihm nach mehreren Versuchen gelungen.",
+      "editorialScope": "The successful attempt is the subject; a person may appear as dative experiencer. Sein is lexical here, not a physical-motion rule.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "genießen",
+      "present3": "genießt",
+      "praeteritum": "genoss",
+      "participle": "genossen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die ruhige Zeit nach dem Umzug genossen.",
+      "editorialScope": "Enjoy an experience is the selected transitive sense, not holding a privileged status; forms are shared.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "greifen",
+      "present3": "greift",
+      "praeteritum": "griff",
+      "participle": "gegriffen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat nach dem Geländer gegriffen.",
+      "editorialScope": "Selected reach for a physical object uses nach plus dative and haben. Other idiomatic and technical senses are not separately tested.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "heben",
+      "present3": "hebt",
+      "praeteritum": "hob",
+      "participle": "gehoben",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den schweren Koffer auf den Tisch gehoben.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "hervorgehen",
+      "present3": "geht hervor",
+      "praeteritum": "ging hervor",
+      "participle": "hervorgegangen",
+      "auxiliary": "sein",
+      "selectedContext": "Aus der Untersuchung ist ein klarer Zusammenhang hervorgegangen.",
+      "editorialScope": "Selected evidence-based emerge from uses sein and separable hervor-. The statement comes from a source; physical emergence is not separately counted.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "interpretieren",
+      "present3": "interpretiert",
+      "praeteritum": "interpretierte",
+      "participle": "interpretiert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Aussage im Zusammenhang mit dem gesamten Text interpretiert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "leiden",
+      "present3": "leidet",
+      "praeteritum": "litt",
+      "participle": "gelitten",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat längere Zeit unter Schlafmangel gelitten.",
+      "editorialScope": "Selected suffer from a condition uses unter plus dative and haben; other complements need construction study rather than extra morphology records.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "montieren",
+      "present3": "montiert",
+      "praeteritum": "montierte",
+      "participle": "montiert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Halterung an der Wand montiert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "optimieren",
+      "present3": "optimiert",
+      "praeteritum": "optimierte",
+      "participle": "optimiert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Ablauf nach einer Auswertung optimiert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "rechtfertigen",
+      "present3": "rechtfertigt",
+      "praeteritum": "rechtfertigte",
+      "participle": "gerechtfertigt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Entscheidung mit den verfügbaren Daten gerechtfertigt.",
+      "editorialScope": "The weak lexical compound has the canonical participle gerechtfertigt. No separable particle is modeled; metadata is not a complete derivational analysis.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "riechen",
+      "present3": "riecht",
+      "praeteritum": "roch",
+      "participle": "gerochen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Rauch schon im Treppenhaus gerochen.",
+      "editorialScope": "Selected perceive an odour is transitive with haben; emit an odour and modal-like sensory constructions are not separately tested.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "schätzen",
+      "present3": "schätzt",
+      "praeteritum": "schätzte",
+      "participle": "geschätzt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Dauer der Reparatur auf zwei Stunden geschätzt.",
+      "editorialScope": "Selected estimate a quantity, not value or appreciate a person; principal parts are shared.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "schlagen",
+      "present3": "schlägt",
+      "praeteritum": "schlug",
+      "participle": "geschlagen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat mit dem Hammer auf den Nagel geschlagen.",
+      "editorialScope": "Selected strike a physical object uses haben. Beat an opponent and other idioms share forms but are not tested.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "schneiden",
+      "present3": "schneidet",
+      "praeteritum": "schnitt",
+      "participle": "geschnitten",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat das Papier entlang der Markierung geschnitten.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "schweigen",
+      "present3": "schweigt",
+      "praeteritum": "schwieg",
+      "participle": "geschwiegen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat während der anschließenden Diskussion geschwiegen.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "sinken",
+      "present3": "sinkt",
+      "praeteritum": "sank",
+      "participle": "gesunken",
+      "auxiliary": "sein",
+      "selectedContext": "Die Nachfrage ist im letzten Quartal gesunken.",
+      "editorialScope": "Selected intransitive decline in a level uses sein; compare haben in the separate zunehmen/nachlassen lexical profiles rather than inferring an all-change rule.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "steigen",
+      "present3": "steigt",
+      "praeteritum": "stieg",
+      "participle": "gestiegen",
+      "auxiliary": "sein",
+      "selectedContext": "Der Preis ist innerhalb eines Jahres gestiegen.",
+      "editorialScope": "Selected intransitive increase in a level uses sein; climbing and other motion senses are not independently assessed.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "stoßen",
+      "present3": "stößt",
+      "praeteritum": "stieß",
+      "participle": "gestoßen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Wagen vorsichtig zur Seite gestoßen.",
+      "editorialScope": "Selected transitive push an object uses haben. Intransitive encounter, collide or motion readings may use sein; no other-sense auxiliary is marked wrong here.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "streiten",
+      "present3": "streitet",
+      "praeteritum": "stritt",
+      "participle": "gestritten",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat mit seinem Nachbarn über die Grenze gestritten.",
+      "editorialScope": "Selected argue with someone about an issue uses mit and über with haben. No free alternative construction is graded.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "treiben",
+      "present3": "treibt",
+      "praeteritum": "trieb",
+      "participle": "getrieben",
+      "auxiliary": "haben",
+      "selectedContext": "Der Wind hat das kleine Boot ans Ufer getrieben.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
     }
   ]
 }
