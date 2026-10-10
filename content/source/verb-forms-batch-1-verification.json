@@ -194,6 +194,186 @@
       "auxiliary": "haben",
       "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
       "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "beginnen",
+      "present3": "beginnt",
+      "praeteritum": "begann",
+      "participle": "begonnen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "behalten",
+      "present3": "behält",
+      "praeteritum": "behielt",
+      "participle": "behalten",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "bekommen",
+      "present3": "bekommt",
+      "praeteritum": "bekam",
+      "participle": "bekommen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "benutzen",
+      "present3": "benutzt",
+      "praeteritum": "benutzte",
+      "participle": "benutzt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "beobachten",
+      "present3": "beobachtet",
+      "praeteritum": "beobachtete",
+      "participle": "beobachtet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "beschließen",
+      "present3": "beschließt",
+      "praeteritum": "beschloss",
+      "participle": "beschlossen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "beschreiben",
+      "present3": "beschreibt",
+      "praeteritum": "beschrieb",
+      "participle": "beschrieben",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "besprechen",
+      "present3": "bespricht",
+      "praeteritum": "besprach",
+      "participle": "besprochen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "bestellen",
+      "present3": "bestellt",
+      "praeteritum": "bestellte",
+      "participle": "bestellt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "bitten",
+      "present3": "bittet",
+      "praeteritum": "bat",
+      "participle": "gebeten",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "empfehlen",
+      "present3": "empfiehlt",
+      "praeteritum": "empfahl",
+      "participle": "empfohlen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "entscheiden",
+      "present3": "entscheidet",
+      "praeteritum": "entschied",
+      "participle": "entschieden",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "entwickeln",
+      "present3": "entwickelt",
+      "praeteritum": "entwickelte",
+      "participle": "entwickelt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erklären",
+      "present3": "erklärt",
+      "praeteritum": "erklärte",
+      "participle": "erklärt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erreichen",
+      "present3": "erreicht",
+      "praeteritum": "erreichte",
+      "participle": "erreicht",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erkennen",
+      "present3": "erkennt",
+      "praeteritum": "erkannte",
+      "participle": "erkannt",
+      "auxiliary": "haben",
+      "editorialScope": "Mixed: the kennen family changes its past stem and retains a dental ending.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erlauben",
+      "present3": "erlaubt",
+      "praeteritum": "erlaubte",
+      "participle": "erlaubt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erscheinen",
+      "present3": "erscheint",
+      "praeteritum": "erschien",
+      "participle": "erschienen",
+      "auxiliary": "sein",
+      "editorialScope": "Appearing at an appointment uses sein. Publication is another common sense with the same principal parts.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erwarten",
+      "present3": "erwartet",
+      "praeteritum": "erwartete",
+      "participle": "erwartet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "erzählen",
+      "present3": "erzählt",
+      "praeteritum": "erzählte",
+      "participle": "erzählt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
     }
   ]
 }

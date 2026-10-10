@@ -886,6 +886,901 @@
         "separability": "inseparable",
         "prefix": "be"
       }
+    },
+    {
+      "id": "forms-beginnen",
+      "contentType": "verb-forms",
+      "title": "beginnen",
+      "meaningEn": "to begin",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beginnen-example",
+          "domain": "everyday",
+          "de": "Er hat mit der Arbeit begonnen.",
+          "en": "He began work."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beginnen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beginnen",
+        "present3": "beginnt",
+        "stemChange": null,
+        "praeteritum": "begann",
+        "participle": "begonnen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat mit der Arbeit begonnen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-behalten",
+      "contentType": "verb-forms",
+      "title": "behalten",
+      "meaningEn": "to keep / retain",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-behalten-example",
+          "domain": "everyday",
+          "de": "Er hat die Quittung behalten.",
+          "en": "He kept the receipt."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#behalten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "behalten",
+        "present3": "behält",
+        "stemChange": {
+          "from": "a",
+          "to": "ä"
+        },
+        "praeteritum": "behielt",
+        "participle": "behalten",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Quittung behalten.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bekommen",
+      "contentType": "verb-forms",
+      "title": "bekommen",
+      "meaningEn": "to get / receive",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bekommen-example",
+          "domain": "everyday",
+          "de": "Er hat eine Einladung bekommen.",
+          "en": "He received an invitation."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bekommen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bekommen",
+        "present3": "bekommt",
+        "stemChange": null,
+        "praeteritum": "bekam",
+        "participle": "bekommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine Einladung bekommen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-benutzen",
+      "contentType": "verb-forms",
+      "title": "benutzen",
+      "meaningEn": "to use",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-benutzen-example",
+          "domain": "everyday",
+          "de": "Er hat den alten Computer benutzt.",
+          "en": "He used the old computer."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#benutzen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "benutzen",
+        "present3": "benutzt",
+        "stemChange": null,
+        "praeteritum": "benutzte",
+        "participle": "benutzt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den alten Computer benutzt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-beobachten",
+      "contentType": "verb-forms",
+      "title": "beobachten",
+      "meaningEn": "to observe / watch",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beobachten-example",
+          "domain": "everyday",
+          "de": "Er hat die Vögel im Garten beobachtet.",
+          "en": "He watched the birds in the garden."
+        },
+        {
+          "id": "forms-beobachten-technical",
+          "domain": "technical",
+          "de": "Er hat das Verhalten des Prototyps beobachtet.",
+          "en": "He observed the behaviour of the prototype."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beobachten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beobachten",
+        "present3": "beobachtet",
+        "stemChange": null,
+        "praeteritum": "beobachtete",
+        "participle": "beobachtet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Vögel im Garten beobachtet.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-beschliessen",
+      "contentType": "verb-forms",
+      "title": "beschließen",
+      "meaningEn": "to decide / resolve",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beschliessen-example",
+          "domain": "everyday",
+          "de": "Er hat einen Umzug beschlossen.",
+          "en": "He decided to move."
+        },
+        {
+          "id": "forms-beschliessen-technical",
+          "domain": "technical",
+          "de": "Er hat eine zusätzliche Prüfung beschlossen.",
+          "en": "He decided on an additional test."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beschließen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beschließen",
+        "present3": "beschließt",
+        "stemChange": null,
+        "praeteritum": "beschloss",
+        "participle": "beschlossen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat einen Umzug beschlossen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-beschreiben",
+      "contentType": "verb-forms",
+      "title": "beschreiben",
+      "meaningEn": "to describe",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beschreiben-example",
+          "domain": "everyday",
+          "de": "Er hat den Weg zum Bahnhof beschrieben.",
+          "en": "He described the way to the station."
+        },
+        {
+          "id": "forms-beschreiben-technical",
+          "domain": "technical",
+          "de": "Er hat den Fertigungsprozess beschrieben.",
+          "en": "He described the manufacturing process."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beschreiben",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beschreiben",
+        "present3": "beschreibt",
+        "stemChange": null,
+        "praeteritum": "beschrieb",
+        "participle": "beschrieben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Weg zum Bahnhof beschrieben.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-besprechen",
+      "contentType": "verb-forms",
+      "title": "besprechen",
+      "meaningEn": "to discuss",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-besprechen-example",
+          "domain": "everyday",
+          "de": "Er hat die Reisepläne mit seiner Familie besprochen.",
+          "en": "He discussed the travel plans with his family."
+        },
+        {
+          "id": "forms-besprechen-technical",
+          "domain": "technical",
+          "de": "Er hat die Anforderungen mit dem Team besprochen.",
+          "en": "He discussed the requirements with the team."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#besprechen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "besprechen",
+        "present3": "bespricht",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "besprach",
+        "participle": "besprochen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Reisepläne mit seiner Familie besprochen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bestellen",
+      "contentType": "verb-forms",
+      "title": "bestellen",
+      "meaningEn": "to order",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bestellen-example",
+          "domain": "everyday",
+          "de": "Er hat eine Suppe bestellt.",
+          "en": "He ordered a soup."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bestellen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bestellen",
+        "present3": "bestellt",
+        "stemChange": null,
+        "praeteritum": "bestellte",
+        "participle": "bestellt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine Suppe bestellt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bitten",
+      "contentType": "verb-forms",
+      "title": "bitten",
+      "meaningEn": "to ask / request",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bitten-example",
+          "domain": "everyday",
+          "de": "Er hat seine Nachbarin um Hilfe gebeten.",
+          "en": "He asked his neighbour for help."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bitten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bitten",
+        "present3": "bittet",
+        "stemChange": null,
+        "praeteritum": "bat",
+        "participle": "gebeten",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine Nachbarin um Hilfe gebeten.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-empfehlen",
+      "contentType": "verb-forms",
+      "title": "empfehlen",
+      "meaningEn": "to recommend",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-empfehlen-example",
+          "domain": "everyday",
+          "de": "Er hat das Restaurant empfohlen.",
+          "en": "He recommended the restaurant."
+        },
+        {
+          "id": "forms-empfehlen-technical",
+          "domain": "technical",
+          "de": "Er hat eine andere Werkstoffkombination empfohlen.",
+          "en": "He recommended a different combination of materials."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#empfehlen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "empfehlen",
+        "present3": "empfiehlt",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "empfahl",
+        "participle": "empfohlen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat das Restaurant empfohlen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "emp"
+      }
+    },
+    {
+      "id": "forms-entscheiden",
+      "contentType": "verb-forms",
+      "title": "entscheiden",
+      "meaningEn": "to decide (a matter)",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-entscheiden-example",
+          "domain": "everyday",
+          "de": "Er hat die Frage nach dem Reiseziel entschieden.",
+          "en": "He decided the question of the travel destination."
+        },
+        {
+          "id": "forms-entscheiden-technical",
+          "domain": "technical",
+          "de": "Er hat die Frage nach dem Prüfverfahren entschieden.",
+          "en": "He decided the question of the test procedure."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#entscheiden",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "entscheiden",
+        "present3": "entscheidet",
+        "stemChange": null,
+        "praeteritum": "entschied",
+        "participle": "entschieden",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Frage nach dem Reiseziel entschieden.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "ent"
+      }
+    },
+    {
+      "id": "forms-entwickeln",
+      "contentType": "verb-forms",
+      "title": "entwickeln",
+      "meaningEn": "to develop",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-entwickeln-example",
+          "domain": "everyday",
+          "de": "Er hat eine neue Idee entwickelt.",
+          "en": "He developed a new idea."
+        },
+        {
+          "id": "forms-entwickeln-technical",
+          "domain": "technical",
+          "de": "Er hat ein neues Prüfverfahren entwickelt.",
+          "en": "He developed a new test procedure."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#entwickeln",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "entwickeln",
+        "present3": "entwickelt",
+        "stemChange": null,
+        "praeteritum": "entwickelte",
+        "participle": "entwickelt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine neue Idee entwickelt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ent"
+      }
+    },
+    {
+      "id": "forms-erkennen",
+      "contentType": "verb-forms",
+      "title": "erkennen",
+      "meaningEn": "to recognize",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erkennen-example",
+          "domain": "everyday",
+          "de": "Er hat seinen alten Freund sofort erkannt.",
+          "en": "He recognized his old friend immediately."
+        },
+        {
+          "id": "forms-erkennen-technical",
+          "domain": "technical",
+          "de": "Er hat die Ursache des Fehlers erkannt.",
+          "en": "He identified the cause of the error."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erkennen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erkennen",
+        "present3": "erkennt",
+        "stemChange": null,
+        "praeteritum": "erkannte",
+        "participle": "erkannt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seinen alten Freund sofort erkannt.",
+        "auxiliaryNote": "Mixed: the kennen family changes its past stem and retains a dental ending.",
+        "classification": "mixed",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erklaeren",
+      "contentType": "verb-forms",
+      "title": "erklären",
+      "meaningEn": "to explain",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erklaeren-example",
+          "domain": "everyday",
+          "de": "Er hat seinem Sohn die Regeln erklärt.",
+          "en": "He explained the rules to his son."
+        },
+        {
+          "id": "forms-erklaeren-technical",
+          "domain": "technical",
+          "de": "Er hat die Ergebnisse der Simulation erklärt.",
+          "en": "He explained the simulation results."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erklären",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erklären",
+        "present3": "erklärt",
+        "stemChange": null,
+        "praeteritum": "erklärte",
+        "participle": "erklärt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seinem Sohn die Regeln erklärt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erlauben",
+      "contentType": "verb-forms",
+      "title": "erlauben",
+      "meaningEn": "to allow",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erlauben-example",
+          "domain": "everyday",
+          "de": "Er hat seiner Tochter die Reise erlaubt.",
+          "en": "He allowed his daughter to take the trip."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erlauben",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erlauben",
+        "present3": "erlaubt",
+        "stemChange": null,
+        "praeteritum": "erlaubte",
+        "participle": "erlaubt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seiner Tochter die Reise erlaubt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erreichen",
+      "contentType": "verb-forms",
+      "title": "erreichen",
+      "meaningEn": "to reach / achieve",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erreichen-example",
+          "domain": "everyday",
+          "de": "Er hat den letzten Bus erreicht.",
+          "en": "He caught the last bus."
+        },
+        {
+          "id": "forms-erreichen-technical",
+          "domain": "technical",
+          "de": "Er hat die geforderte Genauigkeit erreicht.",
+          "en": "He achieved the required accuracy."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erreichen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erreichen",
+        "present3": "erreicht",
+        "stemChange": null,
+        "praeteritum": "erreichte",
+        "participle": "erreicht",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den letzten Bus erreicht.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erscheinen",
+      "contentType": "verb-forms",
+      "title": "erscheinen",
+      "meaningEn": "to appear / be published",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erscheinen-example",
+          "domain": "everyday",
+          "de": "Er ist pünktlich zum vereinbarten Termin erschienen.",
+          "en": "He appeared on time for the appointment."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erscheinen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erscheinen",
+        "present3": "erscheint",
+        "stemChange": null,
+        "praeteritum": "erschien",
+        "participle": "erschienen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist pünktlich zum vereinbarten Termin erschienen.",
+        "auxiliaryNote": "Appearing at an appointment uses sein. Publication is another common sense with the same principal parts.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erwarten",
+      "contentType": "verb-forms",
+      "title": "erwarten",
+      "meaningEn": "to expect",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erwarten-example",
+          "domain": "everyday",
+          "de": "Er hat seine Gäste am Abend erwartet.",
+          "en": "He expected his guests in the evening."
+        },
+        {
+          "id": "forms-erwarten-technical",
+          "domain": "technical",
+          "de": "Er hat einen höheren Wirkungsgrad erwartet.",
+          "en": "He expected higher efficiency."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erwarten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erwarten",
+        "present3": "erwartet",
+        "stemChange": null,
+        "praeteritum": "erwartete",
+        "participle": "erwartet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine Gäste am Abend erwartet.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
+    },
+    {
+      "id": "forms-erzaehlen",
+      "contentType": "verb-forms",
+      "title": "erzählen",
+      "meaningEn": "to tell / recount",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-erzaehlen-example",
+          "domain": "everyday",
+          "de": "Er hat eine Geschichte erzählt.",
+          "en": "He told a story."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#erzählen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "erzählen",
+        "present3": "erzählt",
+        "stemChange": null,
+        "praeteritum": "erzählte",
+        "participle": "erzählt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine Geschichte erzählt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "er"
+      }
     }
   ],
   "questions": [
@@ -3928,6 +4823,3046 @@
         }
       ],
       "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beginnen-past-recall",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): beginnen — to begin",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The first-person Präteritum for to begin is begann. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to begin",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begann"
+      ]
+    },
+    {
+      "id": "forms-beginnen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beginnen — to begin",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The Partizip II for to begin is begonnen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to begin",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begonnen"
+      ]
+    },
+    {
+      "id": "forms-beginnen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ mit der Arbeit begonnen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to begin is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to begin",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beginnen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich begann (Präteritum).",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The dictionary infinitive for to begin is beginnen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beginnen"
+      ]
+    },
+    {
+      "id": "forms-beginnen-present-recall",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beginnen — to begin",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The third-person singular Präsens for to begin is beginnt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to begin",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beginnt"
+      ]
+    },
+    {
+      "id": "forms-beginnen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat mit der Arbeit ___.",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The Partizip II for to begin is begonnen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to begin",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begonnen"
+      ]
+    },
+    {
+      "id": "forms-beginnen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beginnen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beginnen — to begin: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beginnen-example",
+      "explanation": "The principal-form sequence for to begin is beginnen · begann · begonnen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to begin",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beginnen · begann · begonnen"
+        },
+        {
+          "id": "past-error",
+          "text": "beginnen · beginnte · begonnen"
+        },
+        {
+          "id": "participle-error",
+          "text": "beginnen · begann · gebeginnt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-behalten-past-recall",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): behalten — to keep / retain",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The first-person Präteritum for to keep / retain is behielt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behielt"
+      ]
+    },
+    {
+      "id": "forms-behalten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: behalten — to keep / retain",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The Partizip II for to keep / retain is behalten. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behalten"
+      ]
+    },
+    {
+      "id": "forms-behalten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Quittung behalten. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to keep / retain is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-behalten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich behielt (Präteritum).",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The dictionary infinitive for to keep / retain is behalten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behalten"
+      ]
+    },
+    {
+      "id": "forms-behalten-present-recall",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): behalten — to keep / retain",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The third-person singular Präsens for to keep / retain is behält. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behält"
+      ]
+    },
+    {
+      "id": "forms-behalten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Quittung ___.",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The Partizip II for to keep / retain is behalten. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behalten"
+      ]
+    },
+    {
+      "id": "forms-behalten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-behalten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for behalten — to keep / retain: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-behalten-example",
+      "explanation": "The principal-form sequence for to keep / retain is behalten · behielt · behalten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to keep / retain",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "behalten · behielt · behalten"
+        },
+        {
+          "id": "past-error",
+          "text": "behalten · behaltete · behalten"
+        },
+        {
+          "id": "participle-error",
+          "text": "behalten · behielt · gebehalten"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bekommen-past-recall",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bekommen — to get / receive",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The first-person Präteritum for to get / receive is bekam. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bekam"
+      ]
+    },
+    {
+      "id": "forms-bekommen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bekommen — to get / receive",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The Partizip II for to get / receive is bekommen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bekommen"
+      ]
+    },
+    {
+      "id": "forms-bekommen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine Einladung bekommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to get / receive is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bekommen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich bekam (Präteritum).",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The dictionary infinitive for to get / receive is bekommen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bekommen"
+      ]
+    },
+    {
+      "id": "forms-bekommen-present-recall",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bekommen — to get / receive",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The third-person singular Präsens for to get / receive is bekommt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bekommt"
+      ]
+    },
+    {
+      "id": "forms-bekommen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine Einladung ___.",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The Partizip II for to get / receive is bekommen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bekommen"
+      ]
+    },
+    {
+      "id": "forms-bekommen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bekommen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bekommen — to get / receive: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bekommen-example",
+      "explanation": "The principal-form sequence for to get / receive is bekommen · bekam · bekommen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get / receive",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bekommen · bekam · bekommen"
+        },
+        {
+          "id": "past-error",
+          "text": "bekommen · bekommte · bekommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "bekommen · bekam · gebekommt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-benutzen-past-recall",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): benutzen — to use",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The first-person Präteritum for to use is benutzte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to use",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "benutzte"
+      ]
+    },
+    {
+      "id": "forms-benutzen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: benutzen — to use",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The Partizip II for to use is benutzt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to use",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "benutzt"
+      ]
+    },
+    {
+      "id": "forms-benutzen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den alten Computer benutzt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to use is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to use",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-benutzen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich benutzte (Präteritum).",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The dictionary infinitive for to use is benutzen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "benutzen"
+      ]
+    },
+    {
+      "id": "forms-benutzen-present-recall",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): benutzen — to use",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The third-person singular Präsens for to use is benutzt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to use",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "benutzt"
+      ]
+    },
+    {
+      "id": "forms-benutzen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den alten Computer ___.",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The Partizip II for to use is benutzt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to use",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "benutzt"
+      ]
+    },
+    {
+      "id": "forms-benutzen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-benutzen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for benutzen — to use: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-benutzen-example",
+      "explanation": "The principal-form sequence for to use is benutzen · benutzte · benutzt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to use",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "benutzen · benutzte · benutzt"
+        },
+        {
+          "id": "past-error",
+          "text": "benutzen · benutze · benutzt"
+        },
+        {
+          "id": "participle-error",
+          "text": "benutzen · benutzte · gebenutzt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beobachten-past-recall",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): beobachten — to observe / watch",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The first-person Präteritum for to observe / watch is beobachtete. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beobachtete"
+      ]
+    },
+    {
+      "id": "forms-beobachten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beobachten — to observe / watch",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The Partizip II for to observe / watch is beobachtet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beobachtet"
+      ]
+    },
+    {
+      "id": "forms-beobachten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Vögel im Garten beobachtet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to observe / watch is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beobachten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich beobachtete (Präteritum).",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The dictionary infinitive for to observe / watch is beobachten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beobachten"
+      ]
+    },
+    {
+      "id": "forms-beobachten-present-recall",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beobachten — to observe / watch",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The third-person singular Präsens for to observe / watch is beobachtet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beobachtet"
+      ]
+    },
+    {
+      "id": "forms-beobachten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat das Verhalten des Prototyps ___.",
+      "exampleId": "forms-beobachten-technical",
+      "explanation": "The Partizip II for to observe / watch is beobachtet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beobachtet"
+      ]
+    },
+    {
+      "id": "forms-beobachten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beobachten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beobachten — to observe / watch: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beobachten-example",
+      "explanation": "The principal-form sequence for to observe / watch is beobachten · beobachtete · beobachtet. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to observe / watch",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beobachten · beobachtete · beobachtet"
+        },
+        {
+          "id": "past-error",
+          "text": "beobachten · beobachte · beobachtet"
+        },
+        {
+          "id": "participle-error",
+          "text": "beobachten · beobachtete · gebeobachtet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beschliessen-past-recall",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): beschließen — to decide / resolve",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The first-person Präteritum for to decide / resolve is beschloss. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschloss"
+      ]
+    },
+    {
+      "id": "forms-beschliessen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beschließen — to decide / resolve",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The Partizip II for to decide / resolve is beschlossen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschlossen"
+      ]
+    },
+    {
+      "id": "forms-beschliessen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ einen Umzug beschlossen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to decide / resolve is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beschliessen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich beschloss (Präteritum).",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The dictionary infinitive for to decide / resolve is beschließen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschließen"
+      ]
+    },
+    {
+      "id": "forms-beschliessen-present-recall",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beschließen — to decide / resolve",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The third-person singular Präsens for to decide / resolve is beschließt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschließt"
+      ]
+    },
+    {
+      "id": "forms-beschliessen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine zusätzliche Prüfung ___.",
+      "exampleId": "forms-beschliessen-technical",
+      "explanation": "The Partizip II for to decide / resolve is beschlossen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschlossen"
+      ]
+    },
+    {
+      "id": "forms-beschliessen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beschliessen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beschließen — to decide / resolve: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beschliessen-example",
+      "explanation": "The principal-form sequence for to decide / resolve is beschließen · beschloss · beschlossen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to decide / resolve",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beschließen · beschloss · beschlossen"
+        },
+        {
+          "id": "past-error",
+          "text": "beschließen · beschließte · beschlossen"
+        },
+        {
+          "id": "participle-error",
+          "text": "beschließen · beschloss · gebeschlossen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beschreiben-past-recall",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): beschreiben — to describe",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The first-person Präteritum for to describe is beschrieb. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to describe",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschrieb"
+      ]
+    },
+    {
+      "id": "forms-beschreiben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beschreiben — to describe",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The Partizip II for to describe is beschrieben. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to describe",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschrieben"
+      ]
+    },
+    {
+      "id": "forms-beschreiben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Weg zum Bahnhof beschrieben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to describe is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to describe",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beschreiben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich beschrieb (Präteritum).",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The dictionary infinitive for to describe is beschreiben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschreiben"
+      ]
+    },
+    {
+      "id": "forms-beschreiben-present-recall",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beschreiben — to describe",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The third-person singular Präsens for to describe is beschreibt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to describe",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschreibt"
+      ]
+    },
+    {
+      "id": "forms-beschreiben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Fertigungsprozess ___.",
+      "exampleId": "forms-beschreiben-technical",
+      "explanation": "The Partizip II for to describe is beschrieben. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to describe",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beschrieben"
+      ]
+    },
+    {
+      "id": "forms-beschreiben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beschreiben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beschreiben — to describe: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beschreiben-example",
+      "explanation": "The principal-form sequence for to describe is beschreiben · beschrieb · beschrieben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to describe",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beschreiben · beschrieb · beschrieben"
+        },
+        {
+          "id": "past-error",
+          "text": "beschreiben · beschreibte · beschrieben"
+        },
+        {
+          "id": "participle-error",
+          "text": "beschreiben · beschrieb · gebeschreibt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-besprechen-past-recall",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): besprechen — to discuss",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The first-person Präteritum for to discuss is besprach. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to discuss",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "besprach"
+      ]
+    },
+    {
+      "id": "forms-besprechen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: besprechen — to discuss",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The Partizip II for to discuss is besprochen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to discuss",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "besprochen"
+      ]
+    },
+    {
+      "id": "forms-besprechen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Reisepläne mit seiner Familie besprochen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to discuss is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to discuss",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-besprechen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich besprach (Präteritum).",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The dictionary infinitive for to discuss is besprechen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "besprechen"
+      ]
+    },
+    {
+      "id": "forms-besprechen-present-recall",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): besprechen — to discuss",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The third-person singular Präsens for to discuss is bespricht. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to discuss",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bespricht"
+      ]
+    },
+    {
+      "id": "forms-besprechen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Anforderungen mit dem Team ___.",
+      "exampleId": "forms-besprechen-technical",
+      "explanation": "The Partizip II for to discuss is besprochen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to discuss",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "besprochen"
+      ]
+    },
+    {
+      "id": "forms-besprechen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-besprechen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for besprechen — to discuss: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-besprechen-example",
+      "explanation": "The principal-form sequence for to discuss is besprechen · besprach · besprochen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to discuss",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "besprechen · besprach · besprochen"
+        },
+        {
+          "id": "past-error",
+          "text": "besprechen · besprechte · besprochen"
+        },
+        {
+          "id": "participle-error",
+          "text": "besprechen · besprach · gebesprochen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bestellen-past-recall",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bestellen — to order",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The first-person Präteritum for to order is bestellte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to order",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bestellte"
+      ]
+    },
+    {
+      "id": "forms-bestellen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bestellen — to order",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The Partizip II for to order is bestellt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to order",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bestellt"
+      ]
+    },
+    {
+      "id": "forms-bestellen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine Suppe bestellt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to order is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to order",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bestellen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich bestellte (Präteritum).",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The dictionary infinitive for to order is bestellen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bestellen"
+      ]
+    },
+    {
+      "id": "forms-bestellen-present-recall",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bestellen — to order",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The third-person singular Präsens for to order is bestellt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to order",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bestellt"
+      ]
+    },
+    {
+      "id": "forms-bestellen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine Suppe ___.",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The Partizip II for to order is bestellt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to order",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bestellt"
+      ]
+    },
+    {
+      "id": "forms-bestellen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bestellen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bestellen — to order: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bestellen-example",
+      "explanation": "The principal-form sequence for to order is bestellen · bestellte · bestellt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to order",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bestellen · bestellte · bestellt"
+        },
+        {
+          "id": "past-error",
+          "text": "bestellen · bestelle · bestellt"
+        },
+        {
+          "id": "participle-error",
+          "text": "bestellen · bestellte · gebestellt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bitten-past-recall",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bitten — to ask / request",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The first-person Präteritum for to ask / request is bat. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bat"
+      ]
+    },
+    {
+      "id": "forms-bitten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bitten — to ask / request",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The Partizip II for to ask / request is gebeten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gebeten"
+      ]
+    },
+    {
+      "id": "forms-bitten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine Nachbarin um Hilfe gebeten. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to ask / request is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bitten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich bat (Präteritum).",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The dictionary infinitive for to ask / request is bitten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bitten"
+      ]
+    },
+    {
+      "id": "forms-bitten-present-recall",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bitten — to ask / request",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The third-person singular Präsens for to ask / request is bittet. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bittet"
+      ]
+    },
+    {
+      "id": "forms-bitten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat seine Nachbarin um Hilfe ___.",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The Partizip II for to ask / request is gebeten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gebeten"
+      ]
+    },
+    {
+      "id": "forms-bitten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bitten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bitten — to ask / request: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bitten-example",
+      "explanation": "The principal-form sequence for to ask / request is bitten · bat · gebeten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to ask / request",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bitten · bat · gebeten"
+        },
+        {
+          "id": "past-error",
+          "text": "bitten · bittete · gebeten"
+        },
+        {
+          "id": "participle-error",
+          "text": "bitten · bat · gebittet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-empfehlen-past-recall",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): empfehlen — to recommend",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The first-person Präteritum for to recommend is empfahl. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recommend",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "empfahl"
+      ]
+    },
+    {
+      "id": "forms-empfehlen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: empfehlen — to recommend",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The Partizip II for to recommend is empfohlen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recommend",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "empfohlen"
+      ]
+    },
+    {
+      "id": "forms-empfehlen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ das Restaurant empfohlen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to recommend is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to recommend",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-empfehlen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich empfahl (Präteritum).",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The dictionary infinitive for to recommend is empfehlen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "empfehlen"
+      ]
+    },
+    {
+      "id": "forms-empfehlen-present-recall",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): empfehlen — to recommend",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The third-person singular Präsens for to recommend is empfiehlt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recommend",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "empfiehlt"
+      ]
+    },
+    {
+      "id": "forms-empfehlen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine andere Werkstoffkombination ___.",
+      "exampleId": "forms-empfehlen-technical",
+      "explanation": "The Partizip II for to recommend is empfohlen. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recommend",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "empfohlen"
+      ]
+    },
+    {
+      "id": "forms-empfehlen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-empfehlen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for empfehlen — to recommend: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-empfehlen-example",
+      "explanation": "The principal-form sequence for to recommend is empfehlen · empfahl · empfohlen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to recommend",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "empfehlen · empfahl · empfohlen"
+        },
+        {
+          "id": "past-error",
+          "text": "empfehlen · empfehlte · empfohlen"
+        },
+        {
+          "id": "participle-error",
+          "text": "empfehlen · empfahl · geempfohlen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-entscheiden-past-recall",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): entscheiden — to decide (a matter)",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The first-person Präteritum for to decide (a matter) is entschied. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entschied"
+      ]
+    },
+    {
+      "id": "forms-entscheiden-participle-recall",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: entscheiden — to decide (a matter)",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The Partizip II for to decide (a matter) is entschieden. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entschieden"
+      ]
+    },
+    {
+      "id": "forms-entscheiden-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Frage nach dem Reiseziel entschieden. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to decide (a matter) is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-entscheiden-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich entschied (Präteritum).",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The dictionary infinitive for to decide (a matter) is entscheiden. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entscheiden"
+      ]
+    },
+    {
+      "id": "forms-entscheiden-present-recall",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): entscheiden — to decide (a matter)",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The third-person singular Präsens for to decide (a matter) is entscheidet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entscheidet"
+      ]
+    },
+    {
+      "id": "forms-entscheiden-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Frage nach dem Prüfverfahren ___.",
+      "exampleId": "forms-entscheiden-technical",
+      "explanation": "The Partizip II for to decide (a matter) is entschieden. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entschieden"
+      ]
+    },
+    {
+      "id": "forms-entscheiden-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-entscheiden",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for entscheiden — to decide (a matter): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-entscheiden-example",
+      "explanation": "The principal-form sequence for to decide (a matter) is entscheiden · entschied · entschieden. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to decide (a matter)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "entscheiden · entschied · entschieden"
+        },
+        {
+          "id": "past-error",
+          "text": "entscheiden · entscheidete · entschieden"
+        },
+        {
+          "id": "participle-error",
+          "text": "entscheiden · entschied · geentschieden"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-entwickeln-past-recall",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): entwickeln — to develop",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The first-person Präteritum for to develop is entwickelte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to develop",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entwickelte"
+      ]
+    },
+    {
+      "id": "forms-entwickeln-participle-recall",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: entwickeln — to develop",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The Partizip II for to develop is entwickelt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to develop",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entwickelt"
+      ]
+    },
+    {
+      "id": "forms-entwickeln-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine neue Idee entwickelt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to develop is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to develop",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-entwickeln-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich entwickelte (Präteritum).",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The dictionary infinitive for to develop is entwickeln. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entwickeln"
+      ]
+    },
+    {
+      "id": "forms-entwickeln-present-recall",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): entwickeln — to develop",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The third-person singular Präsens for to develop is entwickelt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to develop",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entwickelt"
+      ]
+    },
+    {
+      "id": "forms-entwickeln-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat ein neues Prüfverfahren ___.",
+      "exampleId": "forms-entwickeln-technical",
+      "explanation": "The Partizip II for to develop is entwickelt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to develop",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "entwickelt"
+      ]
+    },
+    {
+      "id": "forms-entwickeln-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-entwickeln",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for entwickeln — to develop: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-entwickeln-example",
+      "explanation": "The principal-form sequence for to develop is entwickeln · entwickelte · entwickelt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to develop",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "entwickeln · entwickelte · entwickelt"
+        },
+        {
+          "id": "past-error",
+          "text": "entwickeln · entwickle · entwickelt"
+        },
+        {
+          "id": "participle-error",
+          "text": "entwickeln · entwickelte · geentwickelt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erklaeren-past-recall",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erklären — to explain",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The first-person Präteritum for to explain is erklärte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to explain",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erklärte"
+      ]
+    },
+    {
+      "id": "forms-erklaeren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erklären — to explain",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The Partizip II for to explain is erklärt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to explain",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erklärt"
+      ]
+    },
+    {
+      "id": "forms-erklaeren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seinem Sohn die Regeln erklärt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to explain is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to explain",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erklaeren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erklärte (Präteritum).",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The dictionary infinitive for to explain is erklären. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erklären"
+      ]
+    },
+    {
+      "id": "forms-erklaeren-present-recall",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erklären — to explain",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The third-person singular Präsens for to explain is erklärt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to explain",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erklärt"
+      ]
+    },
+    {
+      "id": "forms-erklaeren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Ergebnisse der Simulation ___.",
+      "exampleId": "forms-erklaeren-technical",
+      "explanation": "The Partizip II for to explain is erklärt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to explain",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erklärt"
+      ]
+    },
+    {
+      "id": "forms-erklaeren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erklaeren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erklären — to explain: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erklaeren-example",
+      "explanation": "The principal-form sequence for to explain is erklären · erklärte · erklärt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to explain",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erklären · erklärte · erklärt"
+        },
+        {
+          "id": "past-error",
+          "text": "erklären · erkläre · erklärt"
+        },
+        {
+          "id": "participle-error",
+          "text": "erklären · erklärte · geerklärt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erreichen-past-recall",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erreichen — to reach / achieve",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The first-person Präteritum for to reach / achieve is erreichte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erreichte"
+      ]
+    },
+    {
+      "id": "forms-erreichen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erreichen — to reach / achieve",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The Partizip II for to reach / achieve is erreicht. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erreicht"
+      ]
+    },
+    {
+      "id": "forms-erreichen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den letzten Bus erreicht. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to reach / achieve is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erreichen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erreichte (Präteritum).",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The dictionary infinitive for to reach / achieve is erreichen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erreichen"
+      ]
+    },
+    {
+      "id": "forms-erreichen-present-recall",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erreichen — to reach / achieve",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The third-person singular Präsens for to reach / achieve is erreicht. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erreicht"
+      ]
+    },
+    {
+      "id": "forms-erreichen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die geforderte Genauigkeit ___.",
+      "exampleId": "forms-erreichen-technical",
+      "explanation": "The Partizip II for to reach / achieve is erreicht. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erreicht"
+      ]
+    },
+    {
+      "id": "forms-erreichen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erreichen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erreichen — to reach / achieve: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erreichen-example",
+      "explanation": "The principal-form sequence for to reach / achieve is erreichen · erreichte · erreicht. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to reach / achieve",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erreichen · erreichte · erreicht"
+        },
+        {
+          "id": "past-error",
+          "text": "erreichen · erreiche · erreicht"
+        },
+        {
+          "id": "participle-error",
+          "text": "erreichen · erreichte · geerreicht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erkennen-past-recall",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erkennen — to recognize",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The first-person Präteritum for to recognize is erkannte. Mixed: the kennen family changes its past stem and retains a dental ending. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recognize",
+        "Recall the past-tense form of this mixed lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkannte"
+      ]
+    },
+    {
+      "id": "forms-erkennen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erkennen — to recognize",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The Partizip II for to recognize is erkannt. Mixed: the kennen family changes its past stem and retains a dental ending. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recognize",
+        "Recall the participle form of this mixed lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkannt"
+      ]
+    },
+    {
+      "id": "forms-erkennen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seinen alten Freund sofort erkannt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to recognize is haben. Mixed: the kennen family changes its past stem and retains a dental ending.",
+      "hint": [
+        "Meaning: to recognize",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erkennen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erkannte (Präteritum).",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The dictionary infinitive for to recognize is erkennen. Mixed: the kennen family changes its past stem and retains a dental ending.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkennen"
+      ]
+    },
+    {
+      "id": "forms-erkennen-present-recall",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erkennen — to recognize",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The third-person singular Präsens for to recognize is erkennt. Mixed: the kennen family changes its past stem and retains a dental ending. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recognize",
+        "Recall the present-tense form of this mixed lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkennt"
+      ]
+    },
+    {
+      "id": "forms-erkennen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Ursache des Fehlers ___.",
+      "exampleId": "forms-erkennen-technical",
+      "explanation": "The Partizip II for to recognize is erkannt. Mixed: the kennen family changes its past stem and retains a dental ending. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to recognize",
+        "Recall the participle form of this mixed lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkannt"
+      ]
+    },
+    {
+      "id": "forms-erkennen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erkennen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erkennen — to recognize: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erkennen-example",
+      "explanation": "The principal-form sequence for to recognize is erkennen · erkannte · erkannt. Mixed: the kennen family changes its past stem and retains a dental ending.",
+      "hint": [
+        "Meaning: to recognize",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erkennen · erkannte · erkannt"
+        },
+        {
+          "id": "past-error",
+          "text": "erkennen · erkennte · erkannt"
+        },
+        {
+          "id": "participle-error",
+          "text": "erkennen · erkannte · geerkennt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erlauben-past-recall",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erlauben — to allow",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The first-person Präteritum for to allow is erlaubte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to allow",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erlaubte"
+      ]
+    },
+    {
+      "id": "forms-erlauben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erlauben — to allow",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The Partizip II for to allow is erlaubt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to allow",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erlaubt"
+      ]
+    },
+    {
+      "id": "forms-erlauben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seiner Tochter die Reise erlaubt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to allow is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to allow",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erlauben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erlaubte (Präteritum).",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The dictionary infinitive for to allow is erlauben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erlauben"
+      ]
+    },
+    {
+      "id": "forms-erlauben-present-recall",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erlauben — to allow",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The third-person singular Präsens for to allow is erlaubt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to allow",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erlaubt"
+      ]
+    },
+    {
+      "id": "forms-erlauben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat seiner Tochter die Reise ___.",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The Partizip II for to allow is erlaubt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to allow",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erlaubt"
+      ]
+    },
+    {
+      "id": "forms-erlauben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erlauben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erlauben — to allow: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erlauben-example",
+      "explanation": "The principal-form sequence for to allow is erlauben · erlaubte · erlaubt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to allow",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erlauben · erlaubte · erlaubt"
+        },
+        {
+          "id": "past-error",
+          "text": "erlauben · erlaube · erlaubt"
+        },
+        {
+          "id": "participle-error",
+          "text": "erlauben · erlaubte · geerlaubt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erscheinen-past-recall",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erscheinen — to appear / be published",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The first-person Präteritum for to appear / be published is erschien. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erschien"
+      ]
+    },
+    {
+      "id": "forms-erscheinen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erscheinen — to appear / be published",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The Partizip II for to appear / be published is erschienen. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erschienen"
+      ]
+    },
+    {
+      "id": "forms-erscheinen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ pünktlich zum vereinbarten Termin erschienen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to appear / be published is sein. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-erscheinen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erschien (Präteritum).",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The dictionary infinitive for to appear / be published is erscheinen. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erscheinen"
+      ]
+    },
+    {
+      "id": "forms-erscheinen-present-recall",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erscheinen — to appear / be published",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The third-person singular Präsens for to appear / be published is erscheint. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erscheint"
+      ]
+    },
+    {
+      "id": "forms-erscheinen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist pünktlich zum vereinbarten Termin ___.",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The Partizip II for to appear / be published is erschienen. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erschienen"
+      ]
+    },
+    {
+      "id": "forms-erscheinen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erscheinen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erscheinen — to appear / be published: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erscheinen-example",
+      "explanation": "The principal-form sequence for to appear / be published is erscheinen · erschien · erschienen. Appearing at an appointment uses sein. Publication is another common sense with the same principal parts.",
+      "hint": [
+        "Meaning: to appear / be published",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erscheinen · erschien · erschienen"
+        },
+        {
+          "id": "past-error",
+          "text": "erscheinen · erscheinte · erschienen"
+        },
+        {
+          "id": "participle-error",
+          "text": "erscheinen · erschien · geerscheint"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erwarten-past-recall",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erwarten — to expect",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The first-person Präteritum for to expect is erwartete. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to expect",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erwartete"
+      ]
+    },
+    {
+      "id": "forms-erwarten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erwarten — to expect",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The Partizip II for to expect is erwartet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to expect",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erwartet"
+      ]
+    },
+    {
+      "id": "forms-erwarten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine Gäste am Abend erwartet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to expect is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to expect",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erwarten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erwartete (Präteritum).",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The dictionary infinitive for to expect is erwarten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erwarten"
+      ]
+    },
+    {
+      "id": "forms-erwarten-present-recall",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erwarten — to expect",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The third-person singular Präsens for to expect is erwartet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to expect",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erwartet"
+      ]
+    },
+    {
+      "id": "forms-erwarten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat einen höheren Wirkungsgrad ___.",
+      "exampleId": "forms-erwarten-technical",
+      "explanation": "The Partizip II for to expect is erwartet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to expect",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erwartet"
+      ]
+    },
+    {
+      "id": "forms-erwarten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erwarten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erwarten — to expect: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erwarten-example",
+      "explanation": "The principal-form sequence for to expect is erwarten · erwartete · erwartet. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to expect",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erwarten · erwartete · erwartet"
+        },
+        {
+          "id": "past-error",
+          "text": "erwarten · erwarte · erwartet"
+        },
+        {
+          "id": "participle-error",
+          "text": "erwarten · erwartete · geerwartet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-erzaehlen-past-recall",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): erzählen — to tell / recount",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The first-person Präteritum for to tell / recount is erzählte. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erzählte"
+      ]
+    },
+    {
+      "id": "forms-erzaehlen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: erzählen — to tell / recount",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The Partizip II for to tell / recount is erzählt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erzählt"
+      ]
+    },
+    {
+      "id": "forms-erzaehlen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine Geschichte erzählt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to tell / recount is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-erzaehlen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich erzählte (Präteritum).",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The dictionary infinitive for to tell / recount is erzählen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erzählen"
+      ]
+    },
+    {
+      "id": "forms-erzaehlen-present-recall",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): erzählen — to tell / recount",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The third-person singular Präsens for to tell / recount is erzählt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erzählt"
+      ]
+    },
+    {
+      "id": "forms-erzaehlen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine Geschichte ___.",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The Partizip II for to tell / recount is erzählt. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erzählt"
+      ]
+    },
+    {
+      "id": "forms-erzaehlen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-erzaehlen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for erzählen — to tell / recount: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-erzaehlen-example",
+      "explanation": "The principal-form sequence for to tell / recount is erzählen · erzählte · erzählt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to tell / recount",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "erzählen · erzählte · erzählt"
+        },
+        {
+          "id": "past-error",
+          "text": "erzählen · erzähle · erzählt"
+        },
+        {
+          "id": "participle-error",
+          "text": "erzählen · erzählte · geerzählt"
+        }
+      ],
+      "correctChoiceId": "correct"
     }
   ],
   "blocks": [
@@ -4107,6 +8042,184 @@
         "forms-bedeuten-present-recall",
         "forms-bedeuten-sentence-completion",
         "forms-bedeuten-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-batch-1-03",
+      "title": "Verb Forms · Batch 1 / 03 · beginnen–bitten",
+      "description": "Ten useful verbs in an alphabetical range. Learn scoped forms, then practise recall and everyday/professional contexts.",
+      "itemIds": [
+        "forms-beginnen",
+        "forms-behalten",
+        "forms-bekommen",
+        "forms-benutzen",
+        "forms-beobachten",
+        "forms-beschliessen",
+        "forms-beschreiben",
+        "forms-besprechen",
+        "forms-bestellen",
+        "forms-bitten"
+      ],
+      "questionIds": [
+        "forms-beginnen-past-recall",
+        "forms-beginnen-participle-recall",
+        "forms-beginnen-auxiliary-choice",
+        "forms-beginnen-infinitive-recall",
+        "forms-beginnen-present-recall",
+        "forms-beginnen-sentence-completion",
+        "forms-beginnen-sequence-choice",
+        "forms-behalten-past-recall",
+        "forms-behalten-participle-recall",
+        "forms-behalten-auxiliary-choice",
+        "forms-behalten-infinitive-recall",
+        "forms-behalten-present-recall",
+        "forms-behalten-sentence-completion",
+        "forms-behalten-sequence-choice",
+        "forms-bekommen-past-recall",
+        "forms-bekommen-participle-recall",
+        "forms-bekommen-auxiliary-choice",
+        "forms-bekommen-infinitive-recall",
+        "forms-bekommen-present-recall",
+        "forms-bekommen-sentence-completion",
+        "forms-bekommen-sequence-choice",
+        "forms-benutzen-past-recall",
+        "forms-benutzen-participle-recall",
+        "forms-benutzen-auxiliary-choice",
+        "forms-benutzen-infinitive-recall",
+        "forms-benutzen-present-recall",
+        "forms-benutzen-sentence-completion",
+        "forms-benutzen-sequence-choice",
+        "forms-beobachten-past-recall",
+        "forms-beobachten-participle-recall",
+        "forms-beobachten-auxiliary-choice",
+        "forms-beobachten-infinitive-recall",
+        "forms-beobachten-present-recall",
+        "forms-beobachten-sentence-completion",
+        "forms-beobachten-sequence-choice",
+        "forms-beschliessen-past-recall",
+        "forms-beschliessen-participle-recall",
+        "forms-beschliessen-auxiliary-choice",
+        "forms-beschliessen-infinitive-recall",
+        "forms-beschliessen-present-recall",
+        "forms-beschliessen-sentence-completion",
+        "forms-beschliessen-sequence-choice",
+        "forms-beschreiben-past-recall",
+        "forms-beschreiben-participle-recall",
+        "forms-beschreiben-auxiliary-choice",
+        "forms-beschreiben-infinitive-recall",
+        "forms-beschreiben-present-recall",
+        "forms-beschreiben-sentence-completion",
+        "forms-beschreiben-sequence-choice",
+        "forms-besprechen-past-recall",
+        "forms-besprechen-participle-recall",
+        "forms-besprechen-auxiliary-choice",
+        "forms-besprechen-infinitive-recall",
+        "forms-besprechen-present-recall",
+        "forms-besprechen-sentence-completion",
+        "forms-besprechen-sequence-choice",
+        "forms-bestellen-past-recall",
+        "forms-bestellen-participle-recall",
+        "forms-bestellen-auxiliary-choice",
+        "forms-bestellen-infinitive-recall",
+        "forms-bestellen-present-recall",
+        "forms-bestellen-sentence-completion",
+        "forms-bestellen-sequence-choice",
+        "forms-bitten-past-recall",
+        "forms-bitten-participle-recall",
+        "forms-bitten-auxiliary-choice",
+        "forms-bitten-infinitive-recall",
+        "forms-bitten-present-recall",
+        "forms-bitten-sentence-completion",
+        "forms-bitten-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-batch-1-04",
+      "title": "Verb Forms · Batch 1 / 04 · empfehlen–erzählen",
+      "description": "Ten useful verbs in an alphabetical range. Learn scoped forms, then practise recall and everyday/professional contexts.",
+      "itemIds": [
+        "forms-empfehlen",
+        "forms-entscheiden",
+        "forms-entwickeln",
+        "forms-erkennen",
+        "forms-erklaeren",
+        "forms-erlauben",
+        "forms-erreichen",
+        "forms-erscheinen",
+        "forms-erwarten",
+        "forms-erzaehlen"
+      ],
+      "questionIds": [
+        "forms-empfehlen-past-recall",
+        "forms-empfehlen-participle-recall",
+        "forms-empfehlen-auxiliary-choice",
+        "forms-empfehlen-infinitive-recall",
+        "forms-empfehlen-present-recall",
+        "forms-empfehlen-sentence-completion",
+        "forms-empfehlen-sequence-choice",
+        "forms-entscheiden-past-recall",
+        "forms-entscheiden-participle-recall",
+        "forms-entscheiden-auxiliary-choice",
+        "forms-entscheiden-infinitive-recall",
+        "forms-entscheiden-present-recall",
+        "forms-entscheiden-sentence-completion",
+        "forms-entscheiden-sequence-choice",
+        "forms-entwickeln-past-recall",
+        "forms-entwickeln-participle-recall",
+        "forms-entwickeln-auxiliary-choice",
+        "forms-entwickeln-infinitive-recall",
+        "forms-entwickeln-present-recall",
+        "forms-entwickeln-sentence-completion",
+        "forms-entwickeln-sequence-choice",
+        "forms-erklaeren-past-recall",
+        "forms-erklaeren-participle-recall",
+        "forms-erklaeren-auxiliary-choice",
+        "forms-erklaeren-infinitive-recall",
+        "forms-erklaeren-present-recall",
+        "forms-erklaeren-sentence-completion",
+        "forms-erklaeren-sequence-choice",
+        "forms-erreichen-past-recall",
+        "forms-erreichen-participle-recall",
+        "forms-erreichen-auxiliary-choice",
+        "forms-erreichen-infinitive-recall",
+        "forms-erreichen-present-recall",
+        "forms-erreichen-sentence-completion",
+        "forms-erreichen-sequence-choice",
+        "forms-erkennen-past-recall",
+        "forms-erkennen-participle-recall",
+        "forms-erkennen-auxiliary-choice",
+        "forms-erkennen-infinitive-recall",
+        "forms-erkennen-present-recall",
+        "forms-erkennen-sentence-completion",
+        "forms-erkennen-sequence-choice",
+        "forms-erlauben-past-recall",
+        "forms-erlauben-participle-recall",
+        "forms-erlauben-auxiliary-choice",
+        "forms-erlauben-infinitive-recall",
+        "forms-erlauben-present-recall",
+        "forms-erlauben-sentence-completion",
+        "forms-erlauben-sequence-choice",
+        "forms-erscheinen-past-recall",
+        "forms-erscheinen-participle-recall",
+        "forms-erscheinen-auxiliary-choice",
+        "forms-erscheinen-infinitive-recall",
+        "forms-erscheinen-present-recall",
+        "forms-erscheinen-sentence-completion",
+        "forms-erscheinen-sequence-choice",
+        "forms-erwarten-past-recall",
+        "forms-erwarten-participle-recall",
+        "forms-erwarten-auxiliary-choice",
+        "forms-erwarten-infinitive-recall",
+        "forms-erwarten-present-recall",
+        "forms-erwarten-sentence-completion",
+        "forms-erwarten-sequence-choice",
+        "forms-erzaehlen-past-recall",
+        "forms-erzaehlen-participle-recall",
+        "forms-erzaehlen-auxiliary-choice",
+        "forms-erzaehlen-infinitive-recall",
+        "forms-erzaehlen-present-recall",
+        "forms-erzaehlen-sentence-completion",
+        "forms-erzaehlen-sequence-choice"
       ]
     }
   ]
