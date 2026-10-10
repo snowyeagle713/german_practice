@@ -491,6 +491,116 @@
       "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
       "productiveBand": "b2-core",
       "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "veranlassen",
+      "present3": "veranlasst",
+      "praeteritum": "veranlasste",
+      "participle": "veranlasst",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat eine unabhängige Prüfung veranlasst.",
+      "editorialScope": "Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "verfügen",
+      "present3": "verfügt",
+      "praeteritum": "verfügte",
+      "participle": "verfügt",
+      "auxiliary": "haben",
+      "selectedContext": "Die Einrichtung hat über ausreichende Mittel verfügt.",
+      "editorialScope": "Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "verringern",
+      "present3": "verringert",
+      "praeteritum": "verringerte",
+      "participle": "verringert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat durch die neue Vereinbarung die Kosten verringert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "verweisen",
+      "present3": "verweist",
+      "praeteritum": "verwies",
+      "participle": "verwiesen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat im Bericht auf frühere Untersuchungen verwiesen.",
+      "editorialScope": "Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "verzeihen",
+      "present3": "verzeiht",
+      "praeteritum": "verzieh",
+      "participle": "verziehen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat seinem Freund den unbedachten Kommentar verziehen.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "widerlegen",
+      "present3": "widerlegt",
+      "praeteritum": "widerlegte",
+      "participle": "widerlegt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Behauptung mit einem Gegenbeispiel widerlegt.",
+      "editorialScope": "Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "widersprechen",
+      "present3": "widerspricht",
+      "praeteritum": "widersprach",
+      "participle": "widersprochen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat der Behauptung ausdrücklich widersprochen.",
+      "editorialScope": "Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "wollen",
+      "present3": "will",
+      "praeteritum": "wollte",
+      "participle": "gewollt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat eine eindeutige Antwort gewollt.",
+      "editorialScope": "Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "productiveBand": "prerequisite",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "zusammenfassen",
+      "present3": "fasst zusammen",
+      "praeteritum": "fasste zusammen",
+      "participle": "zusammengefasst",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die wichtigsten Ergebnisse in drei Sätzen zusammengefasst.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "zwingen",
+      "present3": "zwingt",
+      "praeteritum": "zwang",
+      "participle": "gezwungen",
+      "auxiliary": "haben",
+      "selectedContext": "Die Situation hat ihn zu einer Entscheidung gezwungen.",
+      "editorialScope": "Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
     }
   ]
 }

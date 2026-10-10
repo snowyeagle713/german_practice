@@ -1865,6 +1865,467 @@
         "separability": "none",
         "prefix": null
       }
+    },
+    {
+      "id": "forms-veranlassen",
+      "contentType": "verb-forms",
+      "title": "veranlassen",
+      "meaningEn": "to cause / arrange for (an action)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-veranlassen-example",
+          "domain": "everyday",
+          "de": "Er hat eine unabhängige Prüfung veranlasst.",
+          "en": "He arranged for an independent review."
+        },
+        {
+          "id": "forms-veranlassen-technical",
+          "domain": "technical",
+          "de": "Er hat nach dem ungewöhnlichen Geräusch eine Inspektion veranlasst.",
+          "en": "He arranged an inspection after the unusual noise."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#veranlassen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "veranlassen",
+        "present3": "veranlasst",
+        "stemChange": null,
+        "praeteritum": "veranlasste",
+        "participle": "veranlasst",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine unabhängige Prüfung veranlasst.",
+        "auxiliaryNote": "Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-verfuegen",
+      "contentType": "verb-forms",
+      "title": "verfügen",
+      "meaningEn": "to have at one's disposal (verfügen über)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-verfuegen-example",
+          "domain": "everyday",
+          "de": "Die Einrichtung hat über ausreichende Mittel verfügt.",
+          "en": "The institution had sufficient funds at its disposal."
+        },
+        {
+          "id": "forms-verfuegen-technical",
+          "domain": "technical",
+          "de": "Die Werkstatt hat über ein kalibriertes Messgerät verfügt.",
+          "en": "The workshop had a calibrated measuring instrument at its disposal."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#verfügen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "verfügen",
+        "present3": "verfügt",
+        "stemChange": null,
+        "praeteritum": "verfügte",
+        "participle": "verfügt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Die Einrichtung hat über ausreichende Mittel verfügt.",
+        "auxiliaryNote": "Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-verringern",
+      "contentType": "verb-forms",
+      "title": "verringern",
+      "meaningEn": "to reduce (an amount)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-verringern-example",
+          "domain": "everyday",
+          "de": "Er hat durch die neue Vereinbarung die Kosten verringert.",
+          "en": "He reduced the costs through the new agreement."
+        },
+        {
+          "id": "forms-verringern-technical",
+          "domain": "technical",
+          "de": "Er hat durch eine größere Auflagefläche die Flächenpressung verringert.",
+          "en": "He reduced the contact pressure by increasing the bearing area."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#verringern",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "verringern",
+        "present3": "verringert",
+        "stemChange": null,
+        "praeteritum": "verringerte",
+        "participle": "verringert",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat durch die neue Vereinbarung die Kosten verringert.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-verweisen",
+      "contentType": "verb-forms",
+      "title": "verweisen",
+      "meaningEn": "to refer / direct (to a source)",
+      "level": "B2",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-verweisen-example",
+          "domain": "everyday",
+          "de": "Er hat im Bericht auf frühere Untersuchungen verwiesen.",
+          "en": "He referred to earlier studies in the report."
+        },
+        {
+          "id": "forms-verweisen-technical",
+          "domain": "technical",
+          "de": "Er hat in der Dokumentation auf die Montageanleitung verwiesen.",
+          "en": "He referred to the assembly instructions in the documentation."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#verweisen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "verweisen",
+        "present3": "verweist",
+        "stemChange": null,
+        "praeteritum": "verwies",
+        "participle": "verwiesen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat im Bericht auf frühere Untersuchungen verwiesen.",
+        "auxiliaryNote": "Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-verzeihen",
+      "contentType": "verb-forms",
+      "title": "verzeihen",
+      "meaningEn": "to forgive (a mistake)",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-verzeihen-example",
+          "domain": "everyday",
+          "de": "Er hat seinem Freund den unbedachten Kommentar verziehen.",
+          "en": "He forgave his friend for the thoughtless comment."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#verzeihen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "verzeihen",
+        "present3": "verzeiht",
+        "stemChange": null,
+        "praeteritum": "verzieh",
+        "participle": "verziehen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seinem Freund den unbedachten Kommentar verziehen.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-widerlegen",
+      "contentType": "verb-forms",
+      "title": "widerlegen",
+      "meaningEn": "to refute (a claim)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-widerlegen-example",
+          "domain": "everyday",
+          "de": "Er hat die Behauptung mit einem Gegenbeispiel widerlegt.",
+          "en": "He refuted the claim with a counterexample."
+        },
+        {
+          "id": "forms-widerlegen-technical",
+          "domain": "technical",
+          "de": "Er hat die vermutete Fehlerursache durch einen gezielten Versuch widerlegt.",
+          "en": "He refuted the suspected failure cause with a targeted trial."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#widerlegen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "widerlegen",
+        "present3": "widerlegt",
+        "stemChange": null,
+        "praeteritum": "widerlegte",
+        "participle": "widerlegt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Behauptung mit einem Gegenbeispiel widerlegt.",
+        "auxiliaryNote": "Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "wider"
+      }
+    },
+    {
+      "id": "forms-widersprechen",
+      "contentType": "verb-forms",
+      "title": "widersprechen",
+      "meaningEn": "to contradict / disagree with (a statement)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-widersprechen-example",
+          "domain": "everyday",
+          "de": "Er hat der Behauptung ausdrücklich widersprochen.",
+          "en": "He explicitly contradicted the claim."
+        },
+        {
+          "id": "forms-widersprechen-technical",
+          "domain": "technical",
+          "de": "Das Messergebnis hat der ursprünglichen Annahme widersprochen.",
+          "en": "The measurement result contradicted the original assumption."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#widersprechen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "widersprechen",
+        "present3": "widerspricht",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "widersprach",
+        "participle": "widersprochen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat der Behauptung ausdrücklich widersprochen.",
+        "auxiliaryNote": "Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "wider"
+      }
+    },
+    {
+      "id": "forms-wollen",
+      "contentType": "verb-forms",
+      "title": "wollen",
+      "meaningEn": "to want (a thing; standalone lexical use)",
+      "level": "A2",
+      "levelNote": "Common prerequisite: standalone lexical wanting, retained without assigning a higher acquisition level. Recorded acquisition/scheduling estimate: A2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-wollen-example",
+          "domain": "everyday",
+          "de": "Er hat eine eindeutige Antwort gewollt.",
+          "en": "He wanted an unambiguous answer."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#wollen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "wollen",
+        "present3": "will",
+        "stemChange": null,
+        "praeteritum": "wollte",
+        "participle": "gewollt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine eindeutige Antwort gewollt.",
+        "auxiliaryNote": "Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+        "classification": "irregular",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-zusammenfassen",
+      "contentType": "verb-forms",
+      "title": "zusammenfassen",
+      "meaningEn": "to summarize (information)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "Z",
+      "examples": [
+        {
+          "id": "forms-zusammenfassen-example",
+          "domain": "everyday",
+          "de": "Er hat die wichtigsten Ergebnisse in drei Sätzen zusammengefasst.",
+          "en": "He summarized the main results in three sentences."
+        },
+        {
+          "id": "forms-zusammenfassen-technical",
+          "domain": "technical",
+          "de": "Er hat die Änderungen am Prüfaufbau im Protokoll zusammengefasst.",
+          "en": "He summarized the changes to the test setup in the record."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#zusammenfassen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "zusammenfassen",
+        "present3": "fasst zusammen",
+        "stemChange": null,
+        "praeteritum": "fasste zusammen",
+        "participle": "zusammengefasst",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die wichtigsten Ergebnisse in drei Sätzen zusammengefasst.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "zusammen"
+      }
+    },
+    {
+      "id": "forms-zwingen",
+      "contentType": "verb-forms",
+      "title": "zwingen",
+      "meaningEn": "to force / compel (an action)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "Z",
+      "examples": [
+        {
+          "id": "forms-zwingen-example",
+          "domain": "everyday",
+          "de": "Die Situation hat ihn zu einer Entscheidung gezwungen.",
+          "en": "The situation forced him to make a decision."
+        },
+        {
+          "id": "forms-zwingen-technical",
+          "domain": "technical",
+          "de": "Der Lieferengpass hat das Team zu einer Änderung des Entwurfs gezwungen.",
+          "en": "The supply shortage forced the team to change the design."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#zwingen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-11. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_FINAL_BATCH_AUDIT.md and content/source/verb-forms-final-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "zwingen",
+        "present3": "zwingt",
+        "stemChange": null,
+        "praeteritum": "zwang",
+        "participle": "gezwungen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Die Situation hat ihn zu einer Entscheidung gezwungen.",
+        "auxiliaryNote": "Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
     }
   ],
   "questions": [
@@ -7947,6 +8408,1526 @@
         }
       ],
       "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-veranlassen-past-recall",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): veranlassen — to cause / arrange for (an action)",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The third-person singular Präteritum for to cause / arrange for (an action) is veranlasste. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veranlasste"
+      ]
+    },
+    {
+      "id": "forms-veranlassen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: veranlassen — to cause / arrange for (an action)",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The Partizip II for to cause / arrange for (an action) is veranlasst. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veranlasst"
+      ]
+    },
+    {
+      "id": "forms-veranlassen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine unabhängige Prüfung veranlasst. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to cause / arrange for (an action) is haben. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-veranlassen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: veranlasste (Präteritum, first/third-person singular).",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The dictionary infinitive for to cause / arrange for (an action) is veranlassen. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veranlassen"
+      ]
+    },
+    {
+      "id": "forms-veranlassen-present-recall",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): veranlassen — to cause / arrange for (an action)",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The third-person singular Präsens for to cause / arrange for (an action) is veranlasst. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veranlasst"
+      ]
+    },
+    {
+      "id": "forms-veranlassen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat nach dem ungewöhnlichen Geräusch eine Inspektion ___.",
+      "exampleId": "forms-veranlassen-technical",
+      "explanation": "The Partizip II for to cause / arrange for (an action) is veranlasst. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veranlasst"
+      ]
+    },
+    {
+      "id": "forms-veranlassen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-veranlassen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for veranlassen — to cause / arrange for (an action): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-veranlassen-example",
+      "explanation": "The principal-form sequence for to cause / arrange for (an action) is veranlassen · veranlasste · veranlasst. Weak cause or arrange an action: veranlasste / veranlasst. Do not transfer the strong standalone lassen profile or its Ersatzinfinitiv to this lexical compound.",
+      "hint": [
+        "Meaning: to cause / arrange for (an action)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "veranlassen · veranlasste · veranlasst"
+        },
+        {
+          "id": "past-error",
+          "text": "veranlassen · veranließ · veranlasst"
+        },
+        {
+          "id": "participle-error",
+          "text": "veranlassen · veranlasste · verangelassen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-verfuegen-past-recall",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): verfügen — to have at one's disposal (verfügen über)",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The third-person singular Präteritum for to have at one's disposal (verfügen über) is verfügte. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verfügte"
+      ]
+    },
+    {
+      "id": "forms-verfuegen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: verfügen — to have at one's disposal (verfügen über)",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The Partizip II for to have at one's disposal (verfügen über) is verfügt. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verfügt"
+      ]
+    },
+    {
+      "id": "forms-verfuegen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Die Einrichtung ___ über ausreichende Mittel verfügt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to have at one's disposal (verfügen über) is haben. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-verfuegen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: verfügte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The dictionary infinitive for to have at one's disposal (verfügen über) is verfügen. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verfügen"
+      ]
+    },
+    {
+      "id": "forms-verfuegen-present-recall",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): verfügen — to have at one's disposal (verfügen über)",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The third-person singular Präsens for to have at one's disposal (verfügen über) is verfügt. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verfügt"
+      ]
+    },
+    {
+      "id": "forms-verfuegen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Die Werkstatt hat über ein kalibriertes Messgerät ___.",
+      "exampleId": "forms-verfuegen-technical",
+      "explanation": "The Partizip II for to have at one's disposal (verfügen über) is verfügt. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verfügt"
+      ]
+    },
+    {
+      "id": "forms-verfuegen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-verfuegen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for verfügen — to have at one's disposal (verfügen über): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-verfuegen-example",
+      "explanation": "The principal-form sequence for to have at one's disposal (verfügen über) is verfügen · verfügte · verfügt. Selected have at disposal is verfügen über plus accusative with haben. Formally decree is a different use with the same principal parts, not a second morphology record.",
+      "hint": [
+        "Meaning: to have at one's disposal (verfügen über)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "verfügen · verfügte · verfügt"
+        },
+        {
+          "id": "past-error",
+          "text": "verfügen · fügte · verfügt"
+        },
+        {
+          "id": "participle-error",
+          "text": "verfügen · verfügte · geverfügt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-verringern-past-recall",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): verringern — to reduce (an amount)",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The third-person singular Präteritum for to reduce (an amount) is verringerte. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verringerte"
+      ]
+    },
+    {
+      "id": "forms-verringern-participle-recall",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: verringern — to reduce (an amount)",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The Partizip II for to reduce (an amount) is verringert. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verringert"
+      ]
+    },
+    {
+      "id": "forms-verringern-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ durch die neue Vereinbarung die Kosten verringert. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to reduce (an amount) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-verringern-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: verringerte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The dictionary infinitive for to reduce (an amount) is verringern. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verringern"
+      ]
+    },
+    {
+      "id": "forms-verringern-present-recall",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): verringern — to reduce (an amount)",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The third-person singular Präsens for to reduce (an amount) is verringert. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verringert"
+      ]
+    },
+    {
+      "id": "forms-verringern-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat durch eine größere Auflagefläche die Flächenpressung ___.",
+      "exampleId": "forms-verringern-technical",
+      "explanation": "The Partizip II for to reduce (an amount) is verringert. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verringert"
+      ]
+    },
+    {
+      "id": "forms-verringern-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-verringern",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for verringern — to reduce (an amount): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-verringern-example",
+      "explanation": "The principal-form sequence for to reduce (an amount) is verringern · verringerte · verringert. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to reduce (an amount)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "verringern · verringerte · verringert"
+        },
+        {
+          "id": "past-error",
+          "text": "verringern · ringerte · verringert"
+        },
+        {
+          "id": "participle-error",
+          "text": "verringern · verringerte · geverringert"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-verweisen-past-recall",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): verweisen — to refer / direct (to a source)",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The third-person singular Präteritum for to refer / direct (to a source) is verwies. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verwies"
+      ]
+    },
+    {
+      "id": "forms-verweisen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: verweisen — to refer / direct (to a source)",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The Partizip II for to refer / direct (to a source) is verwiesen. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verwiesen"
+      ]
+    },
+    {
+      "id": "forms-verweisen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ im Bericht auf frühere Untersuchungen verwiesen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to refer / direct (to a source) is haben. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-verweisen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: verwies (Präteritum, first/third-person singular).",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The dictionary infinitive for to refer / direct (to a source) is verweisen. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verweisen"
+      ]
+    },
+    {
+      "id": "forms-verweisen-present-recall",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): verweisen — to refer / direct (to a source)",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The third-person singular Präsens for to refer / direct (to a source) is verweist. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verweist"
+      ]
+    },
+    {
+      "id": "forms-verweisen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat in der Dokumentation auf die Montageanleitung ___.",
+      "exampleId": "forms-verweisen-technical",
+      "explanation": "The Partizip II for to refer / direct (to a source) is verwiesen. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verwiesen"
+      ]
+    },
+    {
+      "id": "forms-verweisen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-verweisen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for verweisen — to refer / direct (to a source): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-verweisen-example",
+      "explanation": "The principal-form sequence for to refer / direct (to a source) is verweisen · verwies · verwiesen. Selected refer to a source uses auf plus accusative. Expel or direct someone elsewhere shares forms but is not tested.",
+      "hint": [
+        "Meaning: to refer / direct (to a source)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "verweisen · verwies · verwiesen"
+        },
+        {
+          "id": "past-error",
+          "text": "verweisen · verweiste · verwiesen"
+        },
+        {
+          "id": "participle-error",
+          "text": "verweisen · verwies · verweist"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-verzeihen-past-recall",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): verzeihen — to forgive (a mistake)",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The third-person singular Präteritum for to forgive (a mistake) is verzieh. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verzieh"
+      ]
+    },
+    {
+      "id": "forms-verzeihen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: verzeihen — to forgive (a mistake)",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The Partizip II for to forgive (a mistake) is verziehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verziehen"
+      ]
+    },
+    {
+      "id": "forms-verzeihen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seinem Freund den unbedachten Kommentar verziehen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to forgive (a mistake) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-verzeihen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: verzieh (Präteritum, first/third-person singular).",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The dictionary infinitive for to forgive (a mistake) is verzeihen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verzeihen"
+      ]
+    },
+    {
+      "id": "forms-verzeihen-present-recall",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): verzeihen — to forgive (a mistake)",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The third-person singular Präsens for to forgive (a mistake) is verzeiht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verzeiht"
+      ]
+    },
+    {
+      "id": "forms-verzeihen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat seinem Freund den unbedachten Kommentar ___.",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The Partizip II for to forgive (a mistake) is verziehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verziehen"
+      ]
+    },
+    {
+      "id": "forms-verzeihen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-verzeihen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for verzeihen — to forgive (a mistake): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-verzeihen-example",
+      "explanation": "The principal-form sequence for to forgive (a mistake) is verzeihen · verzieh · verziehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to forgive (a mistake)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "verzeihen · verzieh · verziehen"
+        },
+        {
+          "id": "past-error",
+          "text": "verzeihen · verzeihte · verziehen"
+        },
+        {
+          "id": "participle-error",
+          "text": "verzeihen · verzieh · verzeiht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-widerlegen-past-recall",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): widerlegen — to refute (a claim)",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The third-person singular Präteritum for to refute (a claim) is widerlegte. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerlegte"
+      ]
+    },
+    {
+      "id": "forms-widerlegen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: widerlegen — to refute (a claim)",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The Partizip II for to refute (a claim) is widerlegt. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerlegt"
+      ]
+    },
+    {
+      "id": "forms-widerlegen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Behauptung mit einem Gegenbeispiel widerlegt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to refute (a claim) is haben. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-widerlegen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: widerlegte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The dictionary infinitive for to refute (a claim) is widerlegen. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerlegen"
+      ]
+    },
+    {
+      "id": "forms-widerlegen-present-recall",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): widerlegen — to refute (a claim)",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The third-person singular Präsens for to refute (a claim) is widerlegt. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerlegt"
+      ]
+    },
+    {
+      "id": "forms-widerlegen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die vermutete Fehlerursache durch einen gezielten Versuch ___.",
+      "exampleId": "forms-widerlegen-technical",
+      "explanation": "The Partizip II for to refute (a claim) is widerlegt. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerlegt"
+      ]
+    },
+    {
+      "id": "forms-widerlegen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-widerlegen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for widerlegen — to refute (a claim): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-widerlegen-example",
+      "explanation": "The principal-form sequence for to refute (a claim) is widerlegen · widerlegte · widerlegt. Inseparable refute a claim: widerlegt / widerlegte / widerlegt, without ge-. Do not infer separation from the visually similar wieder- prefix.",
+      "hint": [
+        "Meaning: to refute (a claim)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "widerlegen · widerlegte · widerlegt"
+        },
+        {
+          "id": "past-error",
+          "text": "widerlegen · legte wider · widerlegt"
+        },
+        {
+          "id": "participle-error",
+          "text": "widerlegen · widerlegte · widergelegt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-widersprechen-past-recall",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): widersprechen — to contradict / disagree with (a statement)",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The third-person singular Präteritum for to contradict / disagree with (a statement) is widersprach. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widersprach"
+      ]
+    },
+    {
+      "id": "forms-widersprechen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: widersprechen — to contradict / disagree with (a statement)",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The Partizip II for to contradict / disagree with (a statement) is widersprochen. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widersprochen"
+      ]
+    },
+    {
+      "id": "forms-widersprechen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ der Behauptung ausdrücklich widersprochen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to contradict / disagree with (a statement) is haben. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-widersprechen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: widersprach (Präteritum, first/third-person singular).",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The dictionary infinitive for to contradict / disagree with (a statement) is widersprechen. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widersprechen"
+      ]
+    },
+    {
+      "id": "forms-widersprechen-present-recall",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): widersprechen — to contradict / disagree with (a statement)",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The third-person singular Präsens for to contradict / disagree with (a statement) is widerspricht. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widerspricht"
+      ]
+    },
+    {
+      "id": "forms-widersprechen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Das Messergebnis hat der ursprünglichen Annahme ___.",
+      "exampleId": "forms-widersprechen-technical",
+      "explanation": "The Partizip II for to contradict / disagree with (a statement) is widersprochen. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "widersprochen"
+      ]
+    },
+    {
+      "id": "forms-widersprechen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-widersprechen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for widersprechen — to contradict / disagree with (a statement): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-widersprechen-example",
+      "explanation": "The principal-form sequence for to contradict / disagree with (a statement) is widersprechen · widersprach · widersprochen. Inseparable contradict takes a dative complement and haben; finite widerspricht remains one word.",
+      "hint": [
+        "Meaning: to contradict / disagree with (a statement)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "widersprechen · widersprach · widersprochen"
+        },
+        {
+          "id": "past-error",
+          "text": "widersprechen · widersprechte · widersprochen"
+        },
+        {
+          "id": "participle-error",
+          "text": "widersprechen · widersprach · widersprecht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-wollen-past-recall",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): wollen — to want (a thing; standalone lexical use)",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The third-person singular Präteritum for to want (a thing; standalone lexical use) is wollte. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Recall the requested form of this irregular lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wollte"
+      ]
+    },
+    {
+      "id": "forms-wollen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: wollen — to want (a thing; standalone lexical use)",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The Partizip II for to want (a thing; standalone lexical use) is gewollt. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Recall the requested form of this irregular lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gewollt"
+      ]
+    },
+    {
+      "id": "forms-wollen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine eindeutige Antwort gewollt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to want (a thing; standalone lexical use) is haben. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-wollen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: wollte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The dictionary infinitive for to want (a thing; standalone lexical use) is wollen. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wollen"
+      ]
+    },
+    {
+      "id": "forms-wollen-present-recall",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): wollen — to want (a thing; standalone lexical use)",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The third-person singular Präsens for to want (a thing; standalone lexical use) is will. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Recall the requested form of this irregular lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "will"
+      ]
+    },
+    {
+      "id": "forms-wollen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine eindeutige Antwort ___.",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The Partizip II for to want (a thing; standalone lexical use) is gewollt. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Recall the requested form of this irregular lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gewollt"
+      ]
+    },
+    {
+      "id": "forms-wollen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-wollen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for wollen — to want (a thing; standalone lexical use): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-wollen-example",
+      "explanation": "The principal-form sequence for to want (a thing; standalone lexical use) is wollen · wollte · gewollt. Standalone lexical wanting a thing uses gewollt here, with an explicit noun object and no dependent infinitive. Modal constructions with another infinitive normally use Ersatzinfinitiv wollen and are excluded.",
+      "hint": [
+        "Meaning: to want (a thing; standalone lexical use)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "wollen · wollte · gewollt"
+        },
+        {
+          "id": "past-error",
+          "text": "wollen · will · gewollt"
+        },
+        {
+          "id": "participle-error",
+          "text": "wollen · wollte · gewollen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-zusammenfassen-past-recall",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): zusammenfassen — to summarize (information)",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The third-person singular Präteritum for to summarize (information) is fasste zusammen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fasste zusammen"
+      ]
+    },
+    {
+      "id": "forms-zusammenfassen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: zusammenfassen — to summarize (information)",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The Partizip II for to summarize (information) is zusammengefasst. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zusammengefasst"
+      ]
+    },
+    {
+      "id": "forms-zusammenfassen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die wichtigsten Ergebnisse in drei Sätzen zusammengefasst. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to summarize (information) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-zusammenfassen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: fasste zusammen (Präteritum, first/third-person singular).",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The dictionary infinitive for to summarize (information) is zusammenfassen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zusammenfassen"
+      ]
+    },
+    {
+      "id": "forms-zusammenfassen-present-recall",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): zusammenfassen — to summarize (information)",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The third-person singular Präsens for to summarize (information) is fasst zusammen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fasst zusammen"
+      ]
+    },
+    {
+      "id": "forms-zusammenfassen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Änderungen am Prüfaufbau im Protokoll ___.",
+      "exampleId": "forms-zusammenfassen-technical",
+      "explanation": "The Partizip II for to summarize (information) is zusammengefasst. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zusammengefasst"
+      ]
+    },
+    {
+      "id": "forms-zusammenfassen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-zusammenfassen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for zusammenfassen — to summarize (information): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-zusammenfassen-example",
+      "explanation": "The principal-form sequence for to summarize (information) is zusammenfassen · fasste zusammen · zusammengefasst. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to summarize (information)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "zusammenfassen · fasste zusammen · zusammengefasst"
+        },
+        {
+          "id": "past-error",
+          "text": "zusammenfassen · fasste · zusammengefasst"
+        },
+        {
+          "id": "participle-error",
+          "text": "zusammenfassen · fasste zusammen · gezusammenfasst"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-zwingen-past-recall",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): zwingen — to force / compel (an action)",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The third-person singular Präteritum for to force / compel (an action) is zwang. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zwang"
+      ]
+    },
+    {
+      "id": "forms-zwingen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: zwingen — to force / compel (an action)",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The Partizip II for to force / compel (an action) is gezwungen. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gezwungen"
+      ]
+    },
+    {
+      "id": "forms-zwingen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Die Situation ___ ihn zu einer Entscheidung gezwungen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to force / compel (an action) is haben. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-zwingen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: zwang (Präteritum, first/third-person singular).",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The dictionary infinitive for to force / compel (an action) is zwingen. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zwingen"
+      ]
+    },
+    {
+      "id": "forms-zwingen-present-recall",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): zwingen — to force / compel (an action)",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The third-person singular Präsens for to force / compel (an action) is zwingt. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zwingt"
+      ]
+    },
+    {
+      "id": "forms-zwingen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Der Lieferengpass hat das Team zu einer Änderung des Entwurfs ___.",
+      "exampleId": "forms-zwingen-technical",
+      "explanation": "The Partizip II for to force / compel (an action) is gezwungen. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gezwungen"
+      ]
+    },
+    {
+      "id": "forms-zwingen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-zwingen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for zwingen — to force / compel (an action): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-zwingen-example",
+      "explanation": "The principal-form sequence for to force / compel (an action) is zwingen · zwang · gezwungen. Force someone to a decision in the stated examples; zu takes dative. No modal double-infinitive construction is authored.",
+      "hint": [
+        "Meaning: to force / compel (an action)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "zwingen · zwang · gezwungen"
+        },
+        {
+          "id": "past-error",
+          "text": "zwingen · zwingte · gezwungen"
+        },
+        {
+          "id": "participle-error",
+          "text": "zwingen · zwang · gezwingt"
+        }
+      ],
+      "correctChoiceId": "correct"
     }
   ],
   "blocks": [
@@ -8304,6 +10285,95 @@
         "forms-treiben-present-recall",
         "forms-treiben-sentence-completion",
         "forms-treiben-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-final-05",
+      "title": "Verb Forms · Final / 05 · veranlassen–zwingen",
+      "description": "Ten alphabetically grouped verb profiles for productive general, formal and professional German. Recall forms in scoped natural contexts.",
+      "itemIds": [
+        "forms-veranlassen",
+        "forms-verfuegen",
+        "forms-verringern",
+        "forms-verweisen",
+        "forms-verzeihen",
+        "forms-widerlegen",
+        "forms-widersprechen",
+        "forms-wollen",
+        "forms-zusammenfassen",
+        "forms-zwingen"
+      ],
+      "questionIds": [
+        "forms-veranlassen-past-recall",
+        "forms-veranlassen-participle-recall",
+        "forms-veranlassen-auxiliary-choice",
+        "forms-veranlassen-infinitive-recall",
+        "forms-veranlassen-present-recall",
+        "forms-veranlassen-sentence-completion",
+        "forms-veranlassen-sequence-choice",
+        "forms-verfuegen-past-recall",
+        "forms-verfuegen-participle-recall",
+        "forms-verfuegen-auxiliary-choice",
+        "forms-verfuegen-infinitive-recall",
+        "forms-verfuegen-present-recall",
+        "forms-verfuegen-sentence-completion",
+        "forms-verfuegen-sequence-choice",
+        "forms-verringern-past-recall",
+        "forms-verringern-participle-recall",
+        "forms-verringern-auxiliary-choice",
+        "forms-verringern-infinitive-recall",
+        "forms-verringern-present-recall",
+        "forms-verringern-sentence-completion",
+        "forms-verringern-sequence-choice",
+        "forms-verweisen-past-recall",
+        "forms-verweisen-participle-recall",
+        "forms-verweisen-auxiliary-choice",
+        "forms-verweisen-infinitive-recall",
+        "forms-verweisen-present-recall",
+        "forms-verweisen-sentence-completion",
+        "forms-verweisen-sequence-choice",
+        "forms-verzeihen-past-recall",
+        "forms-verzeihen-participle-recall",
+        "forms-verzeihen-auxiliary-choice",
+        "forms-verzeihen-infinitive-recall",
+        "forms-verzeihen-present-recall",
+        "forms-verzeihen-sentence-completion",
+        "forms-verzeihen-sequence-choice",
+        "forms-widerlegen-past-recall",
+        "forms-widerlegen-participle-recall",
+        "forms-widerlegen-auxiliary-choice",
+        "forms-widerlegen-infinitive-recall",
+        "forms-widerlegen-present-recall",
+        "forms-widerlegen-sentence-completion",
+        "forms-widerlegen-sequence-choice",
+        "forms-widersprechen-past-recall",
+        "forms-widersprechen-participle-recall",
+        "forms-widersprechen-auxiliary-choice",
+        "forms-widersprechen-infinitive-recall",
+        "forms-widersprechen-present-recall",
+        "forms-widersprechen-sentence-completion",
+        "forms-widersprechen-sequence-choice",
+        "forms-wollen-past-recall",
+        "forms-wollen-participle-recall",
+        "forms-wollen-auxiliary-choice",
+        "forms-wollen-infinitive-recall",
+        "forms-wollen-present-recall",
+        "forms-wollen-sentence-completion",
+        "forms-wollen-sequence-choice",
+        "forms-zusammenfassen-past-recall",
+        "forms-zusammenfassen-participle-recall",
+        "forms-zusammenfassen-auxiliary-choice",
+        "forms-zusammenfassen-infinitive-recall",
+        "forms-zusammenfassen-present-recall",
+        "forms-zusammenfassen-sentence-completion",
+        "forms-zusammenfassen-sequence-choice",
+        "forms-zwingen-past-recall",
+        "forms-zwingen-participle-recall",
+        "forms-zwingen-auxiliary-choice",
+        "forms-zwingen-infinitive-recall",
+        "forms-zwingen-present-recall",
+        "forms-zwingen-sentence-completion",
+        "forms-zwingen-sequence-choice"
       ]
     }
   ]
