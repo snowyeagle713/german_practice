@@ -116,3 +116,14 @@ and remaining independent linguistic/Windows device review. To use this branch:
 `git fetch origin`, `git switch content/verb-forms-batch-1`, `npm ci`, then the
 normal build/preview commands above. Confirm updated offline readiness before
 relying on new blocks without the server.
+
+## Verb Forms Population Batch 2
+
+The `content/verb-forms-batch-2` review branch adds 90 profiles, nine ten-verb
+blocks and 630 questions: **190 Verb Forms / 19 blocks / 1,330 questions** with
+the preserved pilot and Batch 1. Quick remains 10 and Standard 20. The existing
+index, themes, backups, saved snapshots and offline workflow remain in place.
+See [Batch 2 source/content/regression audit](docs/VERB_FORMS_BATCH_2_AUDIT.md)
+for the full inventory, advanced productive selection, scoped senses, verification
+limits and remaining Windows/independent linguistic review. Confirm updated
+offline readiness before using new blocks without the server.

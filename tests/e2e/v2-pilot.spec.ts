@@ -6,6 +6,7 @@ import { finish as finishStarter } from './helpers';
 import { fileURLToPath } from 'node:url';
 import pilot from '../../content/verb-forms-pilot.json' with { type: 'json' };
 import batch from '../../content/verb-forms-batch-1.json' with { type: 'json' };
+import batch2 from '../../content/verb-forms-batch-2.json' with { type: 'json' };
 import type { ContentPackV2 } from '../../src/domain/content/v2';
 const pack = pilot as unknown as ContentPackV2;
 const screenshots = resolve('test-results/v2-pilot-evidence');
@@ -18,7 +19,7 @@ async function shot(page: Page, name: string) {
 async function blocks(page: Page, base = '') {
   await page.goto(`${base}/#/blocks`);
   await page.getByRole('button', { name: 'Verb Forms', exact: true }).click();
-  await expect(page.getByRole('article')).toHaveCount(10);
+  await expect(page.getByRole('article')).toHaveCount(19);
 }
 async function start(page: Page, size: 10 | 20 = 10, block = 0) {
   await blocks(page);
@@ -54,9 +55,9 @@ function watchErrors(page: Page) {
 test('alphabetical catalog, all principal parts and responsive study guide', async ({ page }) => {
   const errors = watchErrors(page);
   await page.setViewportSize({ width: 1600, height: 900 }); await blocks(page);
-  await expect(page.getByText('70 authored questions')).toHaveCount(10);
+  await expect(page.getByText('70 authored questions')).toHaveCount(19);
   const labels = await page.getByRole('navigation', { name: 'Alphabetical verbs' }).getByRole('link').allTextContents();
-  expect(labels).toEqual([...pack.items, ...batch.items].map(item => item.title).sort((a, b) => a.localeCompare(b, 'de'))); await shot(page, 'blocks');
+  expect(labels).toEqual([...pack.items, ...batch.items, ...batch2.items].map(item => item.title).sort((a, b) => a.localeCompare(b, 'de'))); await shot(page, 'blocks');
   await page.getByRole('navigation', { name: 'Alphabetical verbs' }).getByRole('link', { name: 'fahren', exact: true }).click();
   await expect(page.locator('.verb-form-grid')).toContainText('fuhr');
   await expect(page.locator('.verb-form-grid')).toContainText('gefahren');

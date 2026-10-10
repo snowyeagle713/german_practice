@@ -10,7 +10,7 @@ export async function loadContent(signal?: AbortSignal): Promise<ContentPack> {
 
 /** Local, fixed catalog: no runtime-generated curriculum or remote dependency. */
 export async function loadCatalog(signal?: AbortSignal): Promise<import('../domain/content/types').AnyContentPack[]> {
-  const packs = await Promise.all(['seed-pack.json', 'verb-forms-pilot.json', 'verb-forms-batch-1.json'].map(async file => {
+  const packs = await Promise.all(['seed-pack.json', 'verb-forms-pilot.json', 'verb-forms-batch-1.json', 'verb-forms-batch-2.json'].map(async file => {
     const response = await fetch(`${import.meta.env.BASE_URL}content/${file}`, signal ? { signal } : {});
     if (!response.ok) throw new Error(`Content could not be loaded (${file}, HTTP ${response.status}).`);
     return validateAnyContent(await response.json());
