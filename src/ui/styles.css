@@ -398,3 +398,54 @@ select { font: inherit; color: var(--text-primary); background: var(--surface-ba
 @media (max-height: 899px) {
   .page-learn .learn-card-footer { position: static; }
 }
+
+/* Responsive workspaces reserve height only for content, never between controls. */
+.page-practice { display: block; }
+.practice-layout { width: 100%; }
+.page-practice .session-notice { margin: 8px 0; }
+.construction-picker { display: none; }
+@media (max-width: 1100px) {
+  .app-shell { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto minmax(0, 1fr); align-content: start; gap: 16px; }
+  .learning-sidebar { position: static; min-height: 0; padding: 12px 16px; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; }
+  .sidebar-label, .sidebar-note, .sidebar-foot { display: none; }
+  .learning-sidebar nav { display: flex; flex-wrap: wrap; gap: 4px; margin: 0; }
+  .learning-sidebar nav a { min-height: 44px; padding: 8px 12px; gap: 8px; }
+  .main-content { padding: 0 0 16px; }
+  .page-header { flex-direction: row; align-items: center; gap: 12px; margin-bottom: 16px; }
+  .page-status { min-width: 0; }
+  .page-learn .learn-layout { grid-template-columns: minmax(0, 1fr); }
+  .page-learn .construction-list { display: none; }
+  .construction-picker { display: grid; gap: 6px; font-weight: 600; }
+  .construction-picker select { width: 100%; min-width: 0; }
+  .page-learn .learn-card-footer { position: static; }
+  .study-position { min-width: 0; flex: 1 1 220px; }
+  .dashboard-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .progress-card { margin-top: 0; }
+  footer { margin-right: 0; }
+}
+@media (max-width: 700px) {
+  .dashboard-grid { grid-template-columns: minmax(0, 1fr); }
+  .learning-sidebar { gap: 6px; padding: 10px; }
+  .brand { font-size: 1rem; }
+  .brand small { font-size: .7rem; }
+  .learning-sidebar nav { width: 100%; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .learning-sidebar nav a { justify-content: center; padding: 8px 4px; gap: 4px; }
+  .learning-sidebar nav svg { display: none; }
+  .page-header { flex-wrap: wrap; }
+  .page-status { justify-items: start; }
+  .save-state { text-align: left; }
+  .practice-toolbar { gap: 6px 12px; }
+  .practice-card, .page-practice .practice-card, .page-learn .learn-card { padding: 18px; }
+  .practice-navigation { gap: 8px; }
+  .practice-navigation button { padding-inline: 12px; }
+  .practice-controls .session-end { justify-self: start; }
+  .practice-controls { grid-template-columns: minmax(0, 1fr); }
+  .session-summary > .welcome-panel { flex-wrap: wrap; gap: 8px; padding: 20px; }
+  .summary-score { align-items: start; padding: 0; }
+  .settings-fields, .settings-fields select { min-width: 0; max-width: 100%; }
+  .block-card-top { flex-wrap: wrap; }
+}
+/* The study guide must not make a short lesson's grid row taller than the lesson. */
+@media (min-width: 1101px) {
+  .page-learn .construction-list { contain: size; align-self: stretch; }
+}

@@ -42,14 +42,15 @@ test('Home, Blocks and every Learn construction work with browser history', asyn
 });
 
 for (const width of [768, 1280, 1920]) {
-  test(`desktop navigation and Learn fit ${width}px and support keyboard controls`, async ({ page }) => {
+  test(`responsive navigation and Learn fit ${width}px and support keyboard controls`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto('/#/blocks');
     const learn = page.getByRole('link', { name: 'Learn', exact: true });
     await expect(learn).toBeVisible();
     const sidebarBounds = await page.getByRole('complementary', { name: 'Learning sidebar' }).boundingBox();
     const mainBounds = await page.getByRole('main').boundingBox();
-    expect(sidebarBounds!.x + sidebarBounds!.width).toBeLessThan(mainBounds!.x);
+    if (width > 1100) expect(sidebarBounds!.x + sidebarBounds!.width).toBeLessThan(mainBounds!.x);
+    else expect(sidebarBounds!.y + sidebarBounds!.height).toBeLessThan(mainBounds!.y);
     await learn.focus();
     await page.keyboard.press('Enter');
     await expect(page.getByRole('article')).toBeVisible();
@@ -61,7 +62,9 @@ for (const width of [768, 1280, 1920]) {
     await page.keyboard.press('Enter');
     await expect(page.getByRole('article').getByRole('heading', { name: seed.entries[1]!.construction })).toBeVisible();
     for (const entry of seed.entries) {
-      await page.getByRole('navigation', { name: 'Constructions in this block' }).getByRole('link', { name: entry.construction, exact: true }).click();
+      if (width > 1100) await page.getByRole('navigation', { name: 'Constructions in this block' }).getByRole('link', { name: entry.construction, exact: true }).click();
+      else await page.getByRole('combobox', { name: 'Construction', exact: true }).selectOption(entry.id);
+      await expect(page.locator('#construction-title')).toHaveText(entry.construction);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     }
     for (const name of ['Home', 'Blocks', 'Progress', 'Settings']) {

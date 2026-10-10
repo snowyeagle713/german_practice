@@ -86,10 +86,11 @@ test('resizing across density breakpoints preserves controls and study selection
   for (const width of [1600, 1400, 1399, 1366, 1201, 1200, 1101, 1100, 901, 900, 768]) {
     await page.setViewportSize({ width, height: 768 });
     await noHorizontalOverflow(page);
-    await expect.poll(async () => {
+    if (width > 1100) await expect.poll(async () => {
       const item = (await selected.boundingBox())!, rail = (await page.locator('.construction-list').boundingBox())!;
       return item.y >= rail.y && item.y + item.height <= rail.y + rail.height;
     }).toBe(true);
+    else await expect(page.getByRole('combobox', { name: 'Construction', exact: true })).toHaveValue(seed.entries.at(-1)!.id);
     await page.getByRole('link', { name: 'Previous' }).focus();
     await expect(page.getByRole('link', { name: 'Previous' })).toBeFocused();
   }
