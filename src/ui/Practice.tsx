@@ -26,9 +26,10 @@ export function Practice({ session, send, onAbandon, blocked }: { session: Pract
   return <section className="practice-layout" aria-label="Practice session">
     <div className="practice-toolbar"><span className="badge">{session.mode === 'quick' ? 'Quick Practice' : session.mode === 'revision' ? 'Revision' : 'Standard Practice'}</span><strong>Question {session.currentIndex + 1} of {session.order.length}</strong><span>{session.attempts.length} answers checked</span></div>
     <progress value={session.attempts.length} max={session.order.length} aria-label="Questions answered" />
-    <div className="practice-meta"><p className="session-notice">Your run saves automatically on this device. Reload to resume the same question, answer and feedback.</p>
-    <details className="session-end"><summary>End this run</summary><p>Abandon this unfinished run? Saved answers remain in history and revision, but this run will have no final score.</p><button className="quiet-button" disabled={blocked} onClick={onAbandon}>Abandon run</button></details></div>
-    <div className="summary-actions"><button className="quiet-button" disabled={blocked || session.currentIndex === 0} onClick={() => send({ type: 'previous', questionId: question.id, at: new Date().toISOString() })}>Previous question</button>{!graded && <button className="quiet-button" disabled={blocked} onClick={() => send({ type: 'skip', questionId: question.id, at: new Date().toISOString() })}>Skip for now</button>}<span>{session.deferredIds.length} deferred questions</span></div>
+    <div className="practice-controls">
+    <div className="summary-actions practice-navigation"><button className="quiet-button" disabled={blocked || session.currentIndex === 0} onClick={() => send({ type: 'previous', questionId: question.id, at: new Date().toISOString() })}>Previous question</button>{!graded && <button className="quiet-button" disabled={blocked} onClick={() => send({ type: 'skip', questionId: question.id, at: new Date().toISOString() })}>Skip for now</button>}<span>{session.deferredIds.length} deferred questions</span></div>
+    <details className="session-end"><summary>End this run</summary><p>Abandon this unfinished run? Saved answers remain in history and revision, but this run will have no final score.</p><button className="quiet-button" disabled={blocked} onClick={onAbandon}>Abandon run</button></details>
+    </div>
     <article className="practice-card">
       <p className="eyebrow">{question.type === 'preposition_cloze' ? 'Type the missing preposition' : question.type === 'case_choice' ? 'Choose the governed case' : 'Choose the meaning'}</p>
       <h2 id="question-prompt" ref={questionHeading} tabIndex={-1}>{question.prompt}</h2>
@@ -66,6 +67,7 @@ export function Practice({ session, send, onAbandon, blocked }: { session: Pract
           <div className="next-area"><button ref={nextButton} type="button" disabled={blocked} onClick={event => { if (event.detail <= 1) next(); }}>{session.attempts.length === session.order.length && session.currentIndex === session.order.length - 1 ? 'View summary' : 'Next question'}</button></div>
         </div>}
       </form>
+      <p className="session-notice">Your run saves automatically on this device. Reload to resume the same question, answer and feedback.</p>
     </article>
   </section>;
 }
