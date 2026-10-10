@@ -1,0 +1,481 @@
+{
+  "documentType": "curriculum-plan",
+  "mapVersion": 1,
+  "runtimeEnabled": false,
+  "baseRelease": "v1.0.0-mvp",
+  "stages": [
+    {
+      "id": "b1",
+      "label": "B1 foundation",
+      "cefrRange": [
+        "B1"
+      ]
+    },
+    {
+      "id": "b2",
+      "label": "B2 core",
+      "cefrRange": [
+        "B2"
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "B2+/C1 bridge",
+      "cefrRange": [
+        "B2",
+        "C1"
+      ]
+    },
+    {
+      "id": "c1",
+      "label": "C1 productive",
+      "cefrRange": [
+        "C1"
+      ]
+    }
+  ],
+  "blockPolicy": {
+    "itemRange": [
+      8,
+      12
+    ],
+    "preferredItems": 10,
+    "normalSessionSizes": [
+      10,
+      20
+    ],
+    "minimumEligibleQuestionPool": 20,
+    "typicalQuestionPoolRange": [
+      40,
+      80
+    ],
+    "futureEnduranceSizes": [
+      30,
+      40
+    ],
+    "enduranceImplemented": false
+  },
+  "inventory": {
+    "unit": "canonical-learning-records-not-unique-words",
+    "target": 2660,
+    "targetRange": [
+      2320,
+      3000
+    ],
+    "stageTargets": {
+      "b1": 615,
+      "b2": 970,
+      "bridge": 700,
+      "c1": 375
+    }
+  },
+  "categories": [
+    {
+      "id": "verb-forms",
+      "section": "A",
+      "title": "Verb Forms",
+      "target": 240,
+      "targetRange": [
+        220,
+        260
+      ],
+      "stageTargets": {
+        "b1": 90,
+        "b2": 80,
+        "bridge": 50,
+        "c1": 20
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "alphabetical-with-level-filter",
+      "nominalBlocks": 24,
+      "themes": [
+        "common-action",
+        "movement-and-change",
+        "communication",
+        "professional-action"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "verb-constructions",
+      "section": "B",
+      "title": "Verb Constructions",
+      "target": 360,
+      "targetRange": [
+        320,
+        400
+      ],
+      "stageTargets": {
+        "b1": 80,
+        "b2": 130,
+        "bridge": 100,
+        "c1": 50
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "semantic-theme",
+      "nominalBlocks": 36,
+      "themes": [
+        "interest-and-anticipation",
+        "thoughts-and-memory",
+        "communication-and-reaction",
+        "structure-and-composition",
+        "decisions-and-participation",
+        "dependency-and-resources"
+      ],
+      "prerequisites": [
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "prefix-verbs",
+      "section": "C",
+      "title": "Prefix / Separable Verbs",
+      "target": 180,
+      "targetRange": [
+        160,
+        200
+      ],
+      "stageTargets": {
+        "b1": 40,
+        "b2": 70,
+        "bridge": 50,
+        "c1": 20
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "semantic-function-with-prefix-links",
+      "nominalBlocks": 18,
+      "themes": [
+        "creation-and-assembly",
+        "execution-and-process",
+        "observation-and-results",
+        "change-and-adjustment",
+        "responsibility-and-transfer"
+      ],
+      "prerequisites": [
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "nouns",
+      "section": "D",
+      "title": "Nouns",
+      "target": 800,
+      "targetRange": [
+        700,
+        900
+      ],
+      "stageTargets": {
+        "b1": 200,
+        "b2": 300,
+        "bridge": 200,
+        "c1": 100
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "semantic-theme",
+      "nominalBlocks": 80,
+      "themes": [
+        "people-and-daily-life",
+        "work-and-education",
+        "society-and-environment",
+        "decisions-and-requirements",
+        "processes-and-systems",
+        "measurements-and-results"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "adjectives-adverbs",
+      "section": "E",
+      "title": "Adjectives and Adverbs",
+      "target": 300,
+      "targetRange": [
+        260,
+        340
+      ],
+      "stageTargets": {
+        "b1": 70,
+        "b2": 110,
+        "bridge": 80,
+        "c1": 40
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "semantic-function",
+      "nominalBlocks": 30,
+      "themes": [
+        "description-and-comparison",
+        "evaluation-and-degree",
+        "dependency-and-responsibility",
+        "change-and-frequency",
+        "stance-and-certainty"
+      ],
+      "prerequisites": [
+        "nouns"
+      ]
+    },
+    {
+      "id": "collocations",
+      "section": "F",
+      "title": "Collocations",
+      "target": 400,
+      "targetRange": [
+        340,
+        460
+      ],
+      "stageTargets": {
+        "b1": 60,
+        "b2": 140,
+        "bridge": 120,
+        "c1": 80
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "communicative-task",
+      "nominalBlocks": 40,
+      "themes": [
+        "decisions-and-measures",
+        "requirements-and-quality",
+        "influence-and-importance",
+        "availability-and-options",
+        "projects-and-communication"
+      ],
+      "prerequisites": [
+        "nouns",
+        "verb-forms"
+      ]
+    },
+    {
+      "id": "grammar-patterns",
+      "section": "G",
+      "title": "Sentence Structures / Grammar Patterns",
+      "target": 100,
+      "targetRange": [
+        80,
+        120
+      ],
+      "stageTargets": {
+        "b1": 25,
+        "b2": 35,
+        "bridge": 25,
+        "c1": 15
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "prerequisite-progression",
+      "nominalBlocks": 10,
+      "themes": [
+        "word-order",
+        "subordinate-and-relative-clauses",
+        "infinitive-and-lassen",
+        "passive-and-modal-alternatives",
+        "hypothesis-and-reported-speech",
+        "logical-relations",
+        "nominalization-and-participles",
+        "formal-written-structures"
+      ],
+      "prerequisites": []
+    },
+    {
+      "id": "connectors-redemittel",
+      "section": "H",
+      "title": "Connectors / Redemittel",
+      "target": 160,
+      "targetRange": [
+        140,
+        180
+      ],
+      "stageTargets": {
+        "b1": 30,
+        "b2": 60,
+        "bridge": 40,
+        "c1": 30
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "communicative-function",
+      "nominalBlocks": 16,
+      "themes": [
+        "argumentation-and-opinion",
+        "contrast-and-concession",
+        "cause-and-consequence",
+        "condition-and-purpose",
+        "examples-and-sequencing",
+        "evaluation-and-register"
+      ],
+      "prerequisites": [
+        "grammar-patterns"
+      ]
+    },
+    {
+      "id": "idioms",
+      "section": "I",
+      "title": "Idiomatic Expressions & Sayings",
+      "target": 120,
+      "targetRange": [
+        100,
+        140
+      ],
+      "stageTargets": {
+        "b1": 20,
+        "b2": 45,
+        "bridge": 35,
+        "c1": 20
+      },
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "blockOrganization": "usage-theme",
+      "nominalBlocks": 12,
+      "themes": [
+        "summary-and-evaluation",
+        "certainty-and-doubt",
+        "risk-and-acceptance",
+        "discussion-and-time",
+        "later-common-proverbs"
+      ],
+      "prerequisites": [
+        "collocations"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "id": "technical-professional",
+      "section": "J",
+      "title": "Technical / Professional German",
+      "unit": "curated-canonical-item-references",
+      "target": 300,
+      "cefrRange": [
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "prerequisites": [
+        "nouns",
+        "collocations",
+        "grammar-patterns"
+      ],
+      "themes": [
+        "design-konstruktion",
+        "manufacturing",
+        "simulation",
+        "validation",
+        "testing",
+        "project-work",
+        "quality",
+        "requirements",
+        "technical-documentation",
+        "systems-engineering",
+        "automation",
+        "causes-failures-problems",
+        "measurements-results",
+        "meetings-communication"
+      ],
+      "addsToInventory": false
+    },
+    {
+      "id": "c1-exam",
+      "section": "K",
+      "title": "C1 Exam Preparation",
+      "unit": "future-task-blueprints",
+      "target": 120,
+      "cefrRange": [
+        "B2",
+        "C1"
+      ],
+      "prerequisites": [
+        "grammar-patterns",
+        "connectors-redemittel",
+        "collocations"
+      ],
+      "themes": [
+        "paraphrasing",
+        "formal-register",
+        "argumentation",
+        "connectors",
+        "error-correction",
+        "grammar-transformations",
+        "vocabulary-precision",
+        "reading-recognition",
+        "productive-writing"
+      ],
+      "addsToInventory": false
+    }
+  ],
+  "starter": {
+    "packId": "verbs-starter",
+    "packVersion": 1,
+    "blockId": "verbs-starter-01",
+    "categoryId": "verb-constructions",
+    "entryIds": [
+      "verb-freuen-auf",
+      "verb-freuen-ueber",
+      "verb-bestehen-aus",
+      "verb-warten-auf",
+      "verb-erinnern-an",
+      "verb-interessieren-fuer",
+      "verb-antworten-auf",
+      "verb-glauben-an",
+      "verb-hoffen-auf",
+      "verb-diskutieren-ueber"
+    ],
+    "questionCount": 40,
+    "cefrRetained": null,
+    "behavior": "unchanged-v1"
+  },
+  "firstBatches": [
+    {
+      "id": "batch-01",
+      "counts": {
+        "verb-forms": 100
+      },
+      "newItems": 100
+    },
+    {
+      "id": "batch-02",
+      "counts": {
+        "verb-constructions": 100
+      },
+      "newItems": 100
+    },
+    {
+      "id": "batch-03",
+      "counts": {
+        "nouns": 80,
+        "collocations": 40,
+        "grammar-patterns": 20
+      },
+      "newItems": 140
+    }
+  ]
+}
