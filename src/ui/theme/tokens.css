@@ -17,6 +17,7 @@
   --text-inverse: #ffffff;
   --accent-primary: #6947c7;
   --accent-primary-hover: #5534ab;
+  --accent-primary-text: #6947c7;
   --accent-primary-subtle: #eee8fc;
   --accent-secondary: #267567;
   --accent-secondary-subtle: #e4f3ed;
@@ -60,6 +61,7 @@
   --text-inverse: #ffffff;
   --accent-primary: #245db2;
   --accent-primary-hover: #194689;
+  --accent-primary-text: #245db2;
   --accent-primary-subtle: #e9f0fc;
   --accent-secondary: #176d66;
   --accent-secondary-subtle: #e3f3ef;
@@ -83,4 +85,91 @@
   --focus-ring: #b8791a;
   --shadow-card: 0 5px 24px #14263f06;
   --shadow-elevated: 0 12px 40px #14263f0a;
+}
+
+/* Technical Spring: restrained neutral surfaces, green identity, ink on bright controls. */
+:root[data-theme="jetbrains-spring"] {
+  color-scheme: light;
+  --app-background: #f0f5f2;
+  --shell-background: #f8fbf9;
+  --sidebar-background: #191c1b;
+  --sidebar-text: #ffffff;
+  --sidebar-text-secondary: #c4cec8;
+  --surface-background: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #f2f7f4;
+  --border: #d8e3dc;
+  --text-primary: #191c1b;
+  --text-secondary: #516158;
+  --text-inverse: #10251a;
+  --accent-primary: #21D789;
+  --accent-primary-hover: #3DEA62;
+  --accent-primary-subtle: #e2f8ed;
+  --accent-secondary: #136649;
+  --accent-secondary-subtle: #e1f4ea;
+  --success: #176b3b;
+  --success-subtle: #e4f7e9;
+  --warning: #755f00;
+  --warning-subtle: #FCF84A;
+  --error: #b6183b;
+  --error-subtle: #ffedf1;
+  --error-marker: #FE2857;
+  --info: #075fbf;
+  --info-subtle: #e8f2ff;
+  --progress-track: #dce9e1;
+  --progress-fill: #21D789;
+  --progress-secondary: #6B57FF;
+  --nav-active-background: #21D789;
+  --nav-active-text: #10251a;
+  --nav-inactive-text: #c4cec8;
+  --nav-hover-background: #28352e;
+  --disabled-background: #eaf0ec;
+  --disabled-text: #64746a;
+  --focus-ring: #087CFA;
+  --shadow-card: 0 5px 24px #193c2706;
+  --shadow-elevated: 0 12px 40px #193c270a;
+  --accent-primary-text: #106747;
+}
+
+/* Proton-inspired: soft violet canvas and calm, readable white cards. */
+:root[data-theme="proton-inspired"] {
+  color-scheme: light;
+  --app-background: #f3f0fc;
+  --shell-background: #faf8ff;
+  --sidebar-background: #eee8fa;
+  --sidebar-text: #302044;
+  --sidebar-text-secondary: #665576;
+  --surface-background: #ffffff;
+  --surface-elevated: #ffffff;
+  --surface-subtle: #f7f4fd;
+  --border: #e2d9f0;
+  --text-primary: #302044;
+  --text-secondary: #665576;
+  --text-inverse: #ffffff;
+  --accent-primary: #6d3fc0;
+  --accent-primary-hover: #563096;
+  --accent-primary-text: #6d3fc0;
+  --accent-primary-subtle: #eee5fc;
+  --accent-secondary: #246f76;
+  --accent-secondary-subtle: #e4f2f3;
+  --success: #266b4e;
+  --success-subtle: #e5f3e9;
+  --warning: #825517;
+  --warning-subtle: #fff3dc;
+  --error: #ab304b;
+  --error-subtle: #fff0f4;
+  --info: #3b5fa0;
+  --info-subtle: #ecf1fc;
+  --progress-track: #e6ddf4;
+  --progress-fill: #875bcf;
+  --progress-secondary: #246f76;
+  --nav-active-background: #dfd0f5;
+  --nav-active-text: #553091;
+  --nav-inactive-text: #665576;
+  --nav-hover-background: #e6dcf6;
+  --disabled-background: #f0ecf6;
+  --disabled-text: #786983;
+  --focus-ring: #563096;
+  --shadow-card: 0 5px 24px #46276806;
+  --shadow-elevated: 0 12px 40px #4627680a;
 }

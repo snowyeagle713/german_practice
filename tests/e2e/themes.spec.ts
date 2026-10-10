@@ -1,13 +1,23 @@
 import { expect, test } from '@playwright/test';
+import { palettes } from '../../src/ui/theme/palettes';
 
-for (const theme of ['lingua-learning', 'finance-dashboard']) {
+for (const { id: theme } of palettes) {
   test(`${theme} keeps the same accessible study layout and truthful progress`, async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 960 });
     await page.goto('/');
     await expect(page.getByRole('link', { name: 'Learn', exact: true })).toBeVisible();
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'lingua-learning');
-    // Direct map inspection also verifies the shared layout and contrast.
-    await page.evaluate(value => { document.documentElement.dataset.theme = value; }, theme);
+    await page.goto('/#/settings');
+    const selector = page.getByRole('combobox', { name: 'Palette' });
+    await expect(selector.locator('option')).toHaveText(palettes.map(palette => palette.label));
+    await selector.selectOption(theme);
+    await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
+    await page.reload();
+    await expect(selector).toHaveValue(theme);
+    await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
+    await page.goto('/');
+    await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
+    await expect(page.getByRole('link', { name: 'Learn', exact: true })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Your learning record' })).toBeVisible();
     await expect(page.getByText('No completed sessions yet. Learn remains ungraded.', { exact: true })).toBeVisible();
     await expect(page.getByRole('progressbar')).toHaveCount(0);

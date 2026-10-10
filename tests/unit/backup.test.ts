@@ -1,3 +1,5 @@
+import { themeIds } from '../../src/domain/palettes';
+import { palettes } from '../../src/ui/theme/palettes';
 import { describe, expect, it } from 'vitest';
 import seed from '../../content/seed-pack.json';
 import { validateContent } from '../../src/domain/content/validate';
@@ -57,4 +59,10 @@ describe('portable validated backup v1', () => {
     expect(() => parseBackup('{')).toThrow('valid JSON');
     expect(() => parseBackup('ü'.repeat(MAX_BACKUP_BYTES / 2 + 1))).toThrow('10 MiB');
   });
+});
+
+it.each(themeIds)('round-trips the registered %s palette in portable backups', theme => {
+  expect(palettes.map(item => item.id)).toContain(theme);
+  const data = emptyData(); data.settings.theme = theme;
+  expect(parseBackup(JSON.stringify(makeBackup(data, at))).settings.theme).toBe(theme);
 });

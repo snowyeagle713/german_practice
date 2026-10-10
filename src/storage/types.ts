@@ -1,5 +1,6 @@
+import type { ThemeId } from '../domain/palettes';
 import type { PracticeSession } from '../domain/practice/types';
-export interface Settings { theme: 'lingua-learning' | 'finance-dashboard'; sessionSize: 10 | 20 }
+export interface Settings { theme: ThemeId; sessionSize: 10 | 20 }
 export interface LocalData {
   revision: number;
   settings: Settings;

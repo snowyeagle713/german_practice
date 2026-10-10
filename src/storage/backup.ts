@@ -1,3 +1,4 @@
+import { themeIds } from '../domain/palettes';
 import Ajv2020 from 'ajv/dist/2020.js';
 import { validateContent } from '../domain/content/validate';
 import { correctAnswer, gradeAnswer } from '../domain/practice/grading';
@@ -33,7 +34,7 @@ const ajv = new Ajv2020({ allErrors: true, strict: true });
 ajv.addFormat('iso-date', value => { try { return new Date(value).toISOString() === value; } catch { return false; } });
 const shape = ajv.compile<Backup>(object({ schemaVersion: { const: 1 }, appId: { const: 'german-trainer' }, exportedAt: date,
   contentVersions: array(object({ packId: id, packVersion: { type: 'integer', minimum: 1 } }), true),
-  settings: object({ theme: { enum: ['lingua-learning', 'finance-dashboard'] }, sessionSize: { enum: [10, 20] } }),
+  settings: object({ theme: { enum: [...themeIds] }, sessionSize: { enum: [10, 20] } }),
   cursors: { type: 'object', propertyNames: id, additionalProperties: integer }, currentId: nullable(id), sessions: array(session), attempts: array(attempt) }));
 function requireValid(condition: boolean, message: string): asserts condition { if (!condition) throw new Error(`Backup invalid: ${message}`); }
 function same(a: unknown, b: unknown): boolean {

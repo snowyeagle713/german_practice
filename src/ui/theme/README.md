@@ -16,7 +16,7 @@ accuracy or mastery. Theme selection creates no practice records or gamification
 | Reading surfaces | surface-background, surface-elevated, surface-subtle |
 | Separation | border, shadow-card, shadow-elevated |
 | Text | text-primary, text-secondary, text-inverse, sidebar-text, sidebar-text-secondary |
-| Accents | accent-primary, accent-primary-hover, accent-primary-subtle, accent-secondary, accent-secondary-subtle |
+| Accents | accent-primary, accent-primary-hover, accent-primary-subtle, accent-primary-text, accent-secondary, accent-secondary-subtle |
 | Status | success, warning, error, info, and their matching `-subtle` surfaces |
 | Progress | progress-track, progress-fill, progress-secondary |
 | Navigation | nav-active-background, nav-active-text, nav-inactive-text, nav-hover-background |
@@ -29,12 +29,16 @@ roles keep the dark Finance sidebar readable without changing ordinary card text
 
 Settings exposes the palette registry in `palettes.ts`. Selection is persisted in
 IndexedDB through the application operation queue; it never duplicates components.
-To add JetBrains Spring, Proton or dark mode later, add a complete token map in
-`tokens.css`, register its ID/label, extend the validated preference enum, and verify
+JetBrains Spring uses a near-black sidebar, bright spring-green accents and dark green
+accent text to retain contrast on light surfaces. Proton-inspired uses a soft violet
+canvas, white cards and deep violet accents. Both are light palettes.
+
+To add another palette later, add a complete token map in
+`tokens.css`, register its ID/label, register the ID in `src/domain/palettes.ts` (shared by settings and backup validation), and verify
 contrast plus shared screens at 768, 1280 and 1920 px. Dark palettes should set
 `color-scheme: dark`. Domain practice/grading and layouts require no changes.
 
 Radius tokens are shared across palettes; swapping a palette does not change the
-product structure. Current browser tests exercise both palette maps, core text
+product structure. Current browser tests exercise all four palette maps, core text
 contrast, navigation, enabled practice entry points and honest progress semantics. They do not
 constitute a complete accessibility audit or Windows/Edge device verification.

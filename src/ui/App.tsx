@@ -152,14 +152,13 @@ export function App() {
       <div className="sidebar-note"><Icon name="leaf" /><p>A little, often.</p><small>Explore a construction.<br />Connect it to everyday life.</small></div>
       <div className="sidebar-foot"><span className="language-mark" lang="de">DE</span><span>German learning<small>Personal study space</small></span></div>
     </aside>
-    <div className="workspace"><main id="main-content" tabIndex={-1} className="main-content">
+    <div className="workspace"><main id="main-content" tabIndex={-1} className={`main-content page-${page}`}>
       <div className="page-header"><div><p className="eyebrow">Your German learning space</p>
-      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><span className="badge"><span className="status-dot" aria-hidden="true" />{!pwa.online ? pwa.ready ? 'Offline · ready' : 'Offline · cache not verified' : pwa.ready ? 'Offline ready' : 'Saved on this device'}</span></div>
+      <h1 ref={heading} tabIndex={-1}>{title}</h1></div><div className="page-status"><span className="badge"><span className="status-dot" aria-hidden="true" />{!pwa.online ? pwa.ready ? 'Offline · ready' : 'Offline · cache not verified' : pwa.ready ? 'Offline ready' : 'Saved on this device'}</span><span className="save-state" aria-live="off" data-state={trainer.error ? 'error' : trainer.busy ? 'saving' : 'idle'}>{trainer.error ? 'Save needs attention' : trainer.busy ? 'Saving locally…' : 'Automatic local saving'}</span></div></div>
       {content.status === 'loading' && <p role="status">Loading your study material…</p>}
       {content.status === 'error' && <section className="error-state" role="alert"><h2>Study material could not be opened</h2><p>The content must load and pass validation before you can study. Check that the app server is running; if validation fails, restore a valid content pack.</p><details><summary>Error details</summary><p>{content.message}</p></details><button onClick={() => setRetry(value => value + 1)}>Try again</button></section>}
       {trainer.error && <section role="alert" className="error-state"><h2>Local progress could not be saved</h2><p>{trainer.error}</p><p>Advancement is blocked until saving succeeds. Keep this page open to retry the failed action.</p><button onClick={trainer.retry}>Retry local save</button><button className="quiet-button" onClick={() => window.location.reload()}>Reload saved progress</button></section>}
       {!trainer.ready && <p role="status">Opening local progress…</p>}
-      {trainer.busy && <p role="status">Saving locally…</p>}
       {content.status === 'ready' && trainer.ready && screen(content.pack)}
     </main>
     <footer>German Trainer · Learn is ungraded.</footer></div></div>
