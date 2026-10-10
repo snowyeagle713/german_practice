@@ -75,3 +75,31 @@ Windows/Edge visual acceptance remains a local-device check.
 Final pass verification: 193 unit tests and 43 browser tests pass; content validation,
 strict typecheck and production build pass. Existing offline/PWA, persistence,
 practice, autosave stability, desktop density and all four palette tests pass.
+
+## Learn / Practice workspace density
+
+Only Learn and Practice composition and spacing changed. Their repeated header
+kicker is omitted; typography sizes, theme tokens and the surrounding shell,
+Home, Progress, Settings and sidebar remain unchanged.
+
+On desktop, Learn's title/status and back-link/study progress share a top row.
+The study guide stays on the left with a sticky, independently scrollable list;
+selection and resize reveal the active construction within that list without
+changing document scroll or focus. Examples sit side by side on wide screens.
+Previous/Next and the practice action occupy a compact sticky card footer.
+On narrower screens the guide and card stack, with a bounded scrollable guide.
+
+Practice uses a compact session-information/control area, less vertical padding,
+and a wider question card. Wide-screen graded answers and feedback sit beside
+one another; narrower screens keep the linear answer/feedback flow. Existing
+submission, assistance, grading, focus and persistence behavior are unchanged.
+There is no fixed-height page or CSS zoom, and long content can still scroll.
+
+Added browser checks cover desktop card position, visible navigation, selected
+construction visibility, wide feedback placement, preserved text sizes and keyboard
+advancement. Production screenshots were inspected at 1920×960. Windows/Edge
+visual verification at normal zoom remains a device check.
+
+Workspace-pass verification: 193 unit tests and all 46 browser tests pass. Content
+validation, strict typecheck and production build pass. Committed on
+`mvp/completion`; no publication or main modification performed for this pass.
