@@ -374,6 +374,186 @@
       "auxiliary": "haben",
       "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
       "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "fallen",
+      "present3": "fällt",
+      "praeteritum": "fiel",
+      "participle": "gefallen",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "fliegen",
+      "present3": "fliegt",
+      "praeteritum": "flog",
+      "participle": "geflogen",
+      "auxiliary": "sein",
+      "editorialScope": "Intransitive travel to a destination uses sein here. Transitive piloting can use haben and is outside this profile.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "folgen",
+      "present3": "folgt",
+      "praeteritum": "folgte",
+      "participle": "gefolgt",
+      "auxiliary": "sein",
+      "editorialScope": "Following a path is the stated use with sein; do not infer auxiliaries solely from whether the English gloss describes motion.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "führen",
+      "present3": "führt",
+      "praeteritum": "führte",
+      "participle": "geführt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "gefallen",
+      "present3": "gefällt",
+      "praeteritum": "gefiel",
+      "participle": "gefallen",
+      "auxiliary": "haben",
+      "editorialScope": "The subject is what appeals to someone; the experiencer is dative. This is gefallen (gefiel), not fallen (fiel), although their participles coincide.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "gewinnen",
+      "present3": "gewinnt",
+      "praeteritum": "gewann",
+      "participle": "gewonnen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "halten",
+      "present3": "hält",
+      "praeteritum": "hielt",
+      "participle": "gehalten",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "helfen",
+      "present3": "hilft",
+      "praeteritum": "half",
+      "participle": "geholfen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "kennen",
+      "present3": "kennt",
+      "praeteritum": "kannte",
+      "participle": "gekannt",
+      "auxiliary": "haben",
+      "editorialScope": "Mixed: changed past stem with the dental ending; distinguish knowing a person or place from knowing a fact (wissen).",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "lassen",
+      "present3": "lässt",
+      "praeteritum": "ließ",
+      "participle": "gelassen",
+      "auxiliary": "haben",
+      "editorialScope": "Standalone leave uses gelassen here. Causative/modal lassen with another infinitive often requires the Ersatzinfinitiv lassen; that construction is not tested.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "öffnen",
+      "present3": "öffnet",
+      "praeteritum": "öffnete",
+      "participle": "geöffnet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "planen",
+      "present3": "plant",
+      "praeteritum": "plante",
+      "participle": "geplant",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "prüfen",
+      "present3": "prüft",
+      "praeteritum": "prüfte",
+      "participle": "geprüft",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "rechnen",
+      "present3": "rechnet",
+      "praeteritum": "rechnete",
+      "participle": "gerechnet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "reisen",
+      "present3": "reist",
+      "praeteritum": "reiste",
+      "participle": "gereist",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "rufen",
+      "present3": "ruft",
+      "praeteritum": "rief",
+      "participle": "gerufen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "schaffen",
+      "present3": "schafft",
+      "praeteritum": "schuf",
+      "participle": "geschaffen",
+      "auxiliary": "haben",
+      "editorialScope": "Strong schaffen means create: schuf / geschaffen. Weak accomplish/manage uses schaffte / geschafft; those valid forms are wrong only for the explicitly stated create sense.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "schlafen",
+      "present3": "schläft",
+      "praeteritum": "schlief",
+      "participle": "geschlafen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "schließen",
+      "present3": "schließt",
+      "praeteritum": "schloss",
+      "participle": "geschlossen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "sterben",
+      "present3": "stirbt",
+      "praeteritum": "starb",
+      "participle": "gestorben",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
     }
   ]
 }
