@@ -449,3 +449,14 @@ select { font: inherit; color: var(--text-primary); background: var(--surface-ba
 @media (min-width: 1101px) {
   .page-learn .construction-list { contain: size; align-self: stretch; }
 }
+
+/* Verb Forms extends the accepted study workspace; no new layout/theme system. */
+.verb-form-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.verb-form-grid > div { min-width: 0; }
+.verb-form-grid dd { overflow-wrap: anywhere; }
+.content-sections { display: flex; flex-wrap: wrap; gap: .75rem; margin: 0 0 1rem; }
+.content-sections [aria-pressed="true"] { background: var(--nav-active-background); color: var(--nav-active-text); }
+.alphabetical-index { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0 1rem; }
+.alphabetical-index a { padding: .25rem .6rem; border: 1px solid var(--border); border-radius: .5rem; }
+@media (max-width: 900px) { .verb-form-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 480px) { .verb-form-grid { grid-template-columns: minmax(0, 1fr); } }

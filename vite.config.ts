@@ -4,18 +4,18 @@ import react from '@vitejs/plugin-react';
 import { pwaPlugin } from './scripts/pwa-plugin.ts';
 
 // One authoring source: expose it in development and emit the same bytes in builds.
-const contentPath = new URL('./content/seed-pack.json', import.meta.url);
+const contentFiles = ['seed-pack.json', 'verb-forms-pilot.json'];
 export default defineConfig({
   plugins: [react(), {
     name: 'authored-content-asset',
     configureServer(server) {
-      server.middlewares.use('/content/seed-pack.json', (_request, response) => {
+      for (const file of contentFiles) server.middlewares.use(`/content/${file}`, (_request, response) => {
         response.setHeader('Content-Type', 'application/json; charset=utf-8');
-        response.end(readFileSync(contentPath));
+        response.end(readFileSync(new URL(`./content/${file}`, import.meta.url)));
       });
     },
     generateBundle() {
-      this.emitFile({ type: 'asset', fileName: 'content/seed-pack.json', source: readFileSync(contentPath) });
+      for (const file of contentFiles) this.emitFile({ type: 'asset', fileName: `content/${file}`, source: readFileSync(new URL(`./content/${file}`, import.meta.url)) });
     },
   }, pwaPlugin()],
   test: { include: ['tests/unit/**/*.test.ts'], environment: 'node' },

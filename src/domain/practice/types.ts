@@ -1,4 +1,4 @@
-import type { ContentPack } from '../content/types';
+import type { AnyContentPack } from '../content/types';
 
 export type Response = { kind: 'text'; value: string } | { kind: 'choice'; choiceId: string };
 export interface Attempt {
@@ -24,6 +24,7 @@ export interface Feedback {
 }
 export type QuestionState = Pick<PracticeSession, 'response' | 'hintUsed' | 'revealed' | 'guidance' | 'feedback'>;
 export interface PracticeSession {
+  snapshotVersion?: 2;
   sessionId: string;
   mode: 'standard' | 'quick' | 'revision';
   sessionSize: number;
@@ -44,7 +45,7 @@ export interface PracticeSession {
   revealed: boolean;
   guidance: string | null;
   feedback: Feedback | null;
-  contentSnapshot: ContentPack;
+  contentSnapshot: AnyContentPack;
   attempts: Attempt[];
   submittedAttemptIds: string[];
 }

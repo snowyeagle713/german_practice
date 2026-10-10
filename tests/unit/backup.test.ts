@@ -24,7 +24,7 @@ describe('portable validated backup v1', () => {
     expect(validateBackup(makeBackup(emptyData(), at)).sessions).toEqual([]);
   });
   it.each([
-    ['unsupported schema', (v: ReturnType<typeof fixture>) => { v.schemaVersion = 2 as 1; }],
+    ['unsupported schema', (v: ReturnType<typeof fixture>) => { v.schemaVersion = 3 as 1; }],
     ['wrong app', (v: ReturnType<typeof fixture>) => { v.appId = 'other' as 'german-trainer'; }],
     ['out-of-bounds index', (v: ReturnType<typeof fixture>) => { v.sessions[0]!.currentIndex = 10; }],
     ['40 question mode', (v: ReturnType<typeof fixture>) => { v.sessions[0]!.sessionSize = 40; }],

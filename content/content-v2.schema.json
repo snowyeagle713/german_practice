@@ -1,0 +1,573 @@
+{
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "packId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 160
+    },
+    "packVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 10000
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 160
+          },
+          "contentType": {
+            "const": "verb-forms"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "meaningEn": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "level": {
+            "enum": [
+              null,
+              "A1",
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2"
+            ]
+          },
+          "levelNote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "themeId": {
+            "enum": [
+              "common-action",
+              "movement-and-change",
+              "communication",
+              "professional-action"
+            ]
+          },
+          "register": {
+            "enum": [
+              "neutral",
+              "formal",
+              "conversational"
+            ]
+          },
+          "relevance": {
+            "type": "object",
+            "properties": {
+              "everyday": {
+                "enum": [
+                  "high",
+                  "medium"
+                ]
+              },
+              "professional": {
+                "enum": [
+                  "high",
+                  "medium",
+                  "low"
+                ]
+              }
+            },
+            "required": [
+              "everyday",
+              "professional"
+            ],
+            "additionalProperties": false
+          },
+          "alphabeticalGroup": {
+            "type": "string",
+            "pattern": "^[A-ZÄÖÜ]$"
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                  "maxLength": 160
+                },
+                "domain": {
+                  "enum": [
+                    "everyday",
+                    "technical"
+                  ]
+                },
+                "de": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10000
+                },
+                "en": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10000
+                }
+              },
+              "required": [
+                "id",
+                "domain",
+                "de",
+                "en"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "uniqueItems": false
+          },
+          "sourceNotes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 10000
+            },
+            "minItems": 1,
+            "uniqueItems": false
+          },
+          "editorialStatus": {
+            "const": "source-checked"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "infinitive": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "present3": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "stemChange": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "from": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 10000
+                      },
+                      "to": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 10000
+                      }
+                    },
+                    "required": [
+                      "from",
+                      "to"
+                    ],
+                    "additionalProperties": false
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "praeteritum": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "participle": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "auxiliary": {
+                "enum": [
+                  "haben",
+                  "sein"
+                ]
+              },
+              "auxiliaryContext": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "auxiliaryNote": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "classification": {
+                "enum": [
+                  "strong",
+                  "weak",
+                  "mixed",
+                  "irregular"
+                ]
+              },
+              "separability": {
+                "enum": [
+                  "none",
+                  "separable",
+                  "inseparable"
+                ]
+              },
+              "prefix": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 10000
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "infinitive",
+              "present3",
+              "stemChange",
+              "praeteritum",
+              "participle",
+              "auxiliary",
+              "auxiliaryContext",
+              "auxiliaryNote",
+              "classification",
+              "separability",
+              "prefix"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "contentType",
+          "title",
+          "meaningEn",
+          "level",
+          "levelNote",
+          "themeId",
+          "register",
+          "relevance",
+          "alphabeticalGroup",
+          "examples",
+          "sourceNotes",
+          "editorialStatus",
+          "properties"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": false
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "itemId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "facetId": {
+                "enum": [
+                  "praeteritum",
+                  "participle",
+                  "auxiliary",
+                  "infinitive",
+                  "present",
+                  "sequence"
+                ]
+              },
+              "templateId": {
+                "enum": [
+                  "past-recall",
+                  "participle-recall",
+                  "auxiliary-choice",
+                  "infinitive-recall",
+                  "present-recall",
+                  "sentence-completion",
+                  "sequence-choice"
+                ]
+              },
+              "templateVersion": {
+                "const": 1
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "exampleId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "explanation": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "hint": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10000
+                },
+                "minItems": 1,
+                "uniqueItems": false
+              },
+              "type": {
+                "const": "verb_form_text"
+              },
+              "acceptedAnswers": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10000
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "id",
+              "revision",
+              "itemId",
+              "facetId",
+              "templateId",
+              "templateVersion",
+              "prompt",
+              "exampleId",
+              "explanation",
+              "hint",
+              "type",
+              "acceptedAnswers"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "itemId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "facetId": {
+                "enum": [
+                  "praeteritum",
+                  "participle",
+                  "auxiliary",
+                  "infinitive",
+                  "present",
+                  "sequence"
+                ]
+              },
+              "templateId": {
+                "enum": [
+                  "past-recall",
+                  "participle-recall",
+                  "auxiliary-choice",
+                  "infinitive-recall",
+                  "present-recall",
+                  "sentence-completion",
+                  "sequence-choice"
+                ]
+              },
+              "templateVersion": {
+                "const": 1
+              },
+              "prompt": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "exampleId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              },
+              "explanation": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "hint": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 10000
+                },
+                "minItems": 1,
+                "uniqueItems": false
+              },
+              "type": {
+                "const": "verb_form_choice"
+              },
+              "choices": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                      "maxLength": 160
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 10000
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 2,
+                "uniqueItems": false
+              },
+              "correctChoiceId": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 160
+              }
+            },
+            "required": [
+              "id",
+              "revision",
+              "itemId",
+              "facetId",
+              "templateId",
+              "templateVersion",
+              "prompt",
+              "exampleId",
+              "explanation",
+              "hint",
+              "type",
+              "choices",
+              "correctChoiceId"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": false
+    },
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "maxLength": 160
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "itemIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 160
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "questionIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 160
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "description",
+          "itemIds",
+          "questionIds"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "packId",
+    "packVersion",
+    "title",
+    "items",
+    "questions",
+    "blocks"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/german-trainer/content-v2.schema.json",
+  "title": "German Trainer v2 — Verb Forms"
+}

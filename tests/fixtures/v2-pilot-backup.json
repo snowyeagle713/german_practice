@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 2,
+  "appId": "german-trainer",
+  "exportedAt": "2026-10-10T12:00:00.000Z",
+  "contentVersions": [
+    {
+      "packId": "verb-forms-pilot",
+      "packVersion": 1
+    }
+  ],
+  "settings": {
+    "theme": "lingua-learning",
+    "sessionSize": 20
+  },
+  "cursors": {},
+  "currentId": "v2-fixture",
+  "sessions": [
+    {
+      "snapshotVersion": 2,
+      "sessionId": "v2-fixture",
+      "mode": "quick",
+      "sessionSize": 10,
+      "rotationNext": 10,
+      "deferredIds": [],
+      "states": {},
+      "blockId": "verb-forms-pilot-01",
+      "packId": "verb-forms-pilot",
+      "packVersion": 1,
+      "startedAt": "2026-10-10T12:00:00.000Z",
+      "completedAt": null,
+      "status": "answering",
+      "order": [
+        "forms-arbeiten-past-recall",
+        "forms-arbeiten-participle-recall",
+        "forms-arbeiten-auxiliary-choice",
+        "forms-arbeiten-infinitive-recall",
+        "forms-arbeiten-present-recall",
+        "forms-arbeiten-sentence-completion",
+        "forms-arbeiten-sequence-choice",
+        "forms-aufstehen-past-recall",
+        "forms-aufstehen-participle-recall",
+        "forms-aufstehen-auxiliary-choice"
+      ],
+      "choiceOrders": {
+        "forms-arbeiten-auxiliary-choice": [
+          "haben",
+          "sein"
+        ],
+        "forms-arbeiten-sequence-choice": [
+          "correct",
+          "past-error",
+          "participle-error"
+        ],
+        "forms-aufstehen-auxiliary-choice": [
+          "haben",
+          "sein"
+        ]
+      },
+      "currentIndex": 0,
+      "response": null,
+      "hintUsed": false,
+      "revealed": false,
+      "guidance": null,
+      "feedback": null,
+      "contentSnapshot": {
+        "schemaVersion": 2,
+        "packId": "verb-forms-pilot",
+        "packVersion": 1,
+        "title": "Verb Forms · source-checked pilot",
+        "items": [
+          {
+            "id": "forms-arbeiten",
+            "contentType": "verb-forms",
+            "title": "arbeiten",
+            "meaningEn": "to work",
+            "level": "A1",
+            "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+            "themeId": "professional-action",
+            "register": "neutral",
+            "relevance": {
+              "everyday": "high",
+              "professional": "high"
+            },
+            "alphabeticalGroup": "A",
+            "examples": [
+              {
+                "id": "forms-arbeiten-example",
+                "domain": "everyday",
+                "de": "Er hat heute zu Hause gearbeitet.",
+                "en": "He worked at home today."
+              },
+              {
+                "id": "forms-arbeiten-technical",
+                "domain": "technical",
+                "de": "Er hat an der neuen Konstruktion gearbeitet.",
+                "en": "He worked on the new design."
+              }
+            ],
+            "sourceNotes": [
+              "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#arbeiten",
+              "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+            ],
+            "editorialStatus": "source-checked",
+            "properties": {
+              "infinitive": "arbeiten",
+              "present3": "arbeitet",
+              "stemChange": null,
+              "praeteritum": "arbeitete",
+              "participle": "gearbeitet",
+              "auxiliary": "haben",
+              "auxiliaryContext": "Er hat heute zu Hause gearbeitet.",
+              "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+              "classification": "weak",
+              "separability": "none",
+              "prefix": null
+            }
+          },
+          {
+            "id": "forms-aufstehen",
+            "contentType": "verb-forms",
+            "title": "aufstehen",
+            "meaningEn": "to get up",
+            "level": "A2",
+            "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+            "themeId": "common-action",
+            "register": "neutral",
+            "relevance": {
+              "everyday": "high",
+              "professional": "medium"
+            },
+            "alphabeticalGroup": "A",
+            "examples": [
+              {
+                "id": "forms-aufstehen-example",
+                "domain": "everyday",
+                "de": "Er ist heute früh aufgestanden.",
+                "en": "He got up early today."
+              }
+            ],
+            "sourceNotes": [
+              "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufstehen",
+              "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+            ],
+            "editorialStatus": "source-checked",
+            "properties": {
+              "infinitive": "aufstehen",
+              "present3": "steht auf",
+              "stemChange": null,
+              "praeteritum": "stand auf",
+              "participle": "aufgestanden",
+              "auxiliary": "sein",
+              "auxiliaryContext": "Er ist heute früh aufgestanden.",
+              "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+              "classification": "strong",
+              "separability": "separable",
+              "prefix": "auf"
+            }
+          }
+        ],
+        "questions": [
+          {
+            "id": "forms-arbeiten-past-recall",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "praeteritum",
+            "templateId": "past-recall",
+            "templateVersion": 1,
+            "prompt": "Präteritum (ich): arbeiten",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The praeteritum form for this lexical profile is arbeitete. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to work",
+              "Form profile: weak. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "arbeitete"
+            ]
+          },
+          {
+            "id": "forms-arbeiten-participle-recall",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "participle",
+            "templateId": "participle-recall",
+            "templateVersion": 1,
+            "prompt": "Partizip II: arbeiten",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The participle form for this lexical profile is gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to work",
+              "Form profile: weak. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "gearbeitet"
+            ]
+          },
+          {
+            "id": "forms-arbeiten-auxiliary-choice",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "auxiliary",
+            "templateId": "auxiliary-choice",
+            "templateVersion": 1,
+            "prompt": "Perfekt: Er ___ heute zu Hause gearbeitet. Choose the infinitive of the auxiliary.",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+            ],
+            "type": "verb_form_choice",
+            "choices": [
+              {
+                "id": "haben",
+                "text": "haben"
+              },
+              {
+                "id": "sein",
+                "text": "sein"
+              }
+            ],
+            "correctChoiceId": "haben"
+          },
+          {
+            "id": "forms-arbeiten-infinitive-recall",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "infinitive",
+            "templateId": "infinitive-recall",
+            "templateVersion": 1,
+            "prompt": "Identify the infinitive: ich arbeitete (Präteritum).",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The infinitive form for this lexical profile is arbeiten. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Recover the dictionary form from the past-tense form; preserve any separable particle."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "arbeiten"
+            ]
+          },
+          {
+            "id": "forms-arbeiten-present-recall",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "present",
+            "templateId": "present-recall",
+            "templateVersion": 1,
+            "prompt": "Präsens (er/sie/es): arbeiten",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The present form for this lexical profile is arbeitet. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to work",
+              "Form profile: weak. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "arbeitet"
+            ]
+          },
+          {
+            "id": "forms-arbeiten-sentence-completion",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "participle",
+            "templateId": "sentence-completion",
+            "templateVersion": 1,
+            "prompt": "Er hat heute zu Hause ___.",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The participle form for this lexical profile is gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to work",
+              "Form profile: weak. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "gearbeitet"
+            ]
+          },
+          {
+            "id": "forms-arbeiten-sequence-choice",
+            "revision": 1,
+            "itemId": "forms-arbeiten",
+            "facetId": "sequence",
+            "templateId": "sequence-choice",
+            "templateVersion": 1,
+            "prompt": "Choose the principal-form sequence for arbeiten: infinitive · Präteritum · Partizip II.",
+            "exampleId": "forms-arbeiten-example",
+            "explanation": "The sequence form for this lexical profile is arbeiten · arbeitete · gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to work",
+              "Form profile: weak. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_choice",
+            "choices": [
+              {
+                "id": "correct",
+                "text": "arbeiten · arbeitete · gearbeitet"
+              },
+              {
+                "id": "past-error",
+                "text": "arbeiten · arbeite · gearbeitet"
+              },
+              {
+                "id": "participle-error",
+                "text": "arbeiten · arbeitete · gearbeit"
+              }
+            ],
+            "correctChoiceId": "correct"
+          },
+          {
+            "id": "forms-aufstehen-past-recall",
+            "revision": 1,
+            "itemId": "forms-aufstehen",
+            "facetId": "praeteritum",
+            "templateId": "past-recall",
+            "templateVersion": 1,
+            "prompt": "Präteritum (ich): aufstehen",
+            "exampleId": "forms-aufstehen-example",
+            "explanation": "The praeteritum form for this lexical profile is stand auf. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to get up",
+              "Form profile: strong. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "stand auf"
+            ]
+          },
+          {
+            "id": "forms-aufstehen-participle-recall",
+            "revision": 1,
+            "itemId": "forms-aufstehen",
+            "facetId": "participle",
+            "templateId": "participle-recall",
+            "templateVersion": 1,
+            "prompt": "Partizip II: aufstehen",
+            "exampleId": "forms-aufstehen-example",
+            "explanation": "The participle form for this lexical profile is aufgestanden. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Meaning: to get up",
+              "Form profile: strong. Recall the requested form family.",
+              "Recall the requested principal part rather than translating the sentence."
+            ],
+            "type": "verb_form_text",
+            "acceptedAnswers": [
+              "aufgestanden"
+            ]
+          },
+          {
+            "id": "forms-aufstehen-auxiliary-choice",
+            "revision": 1,
+            "itemId": "forms-aufstehen",
+            "facetId": "auxiliary",
+            "templateId": "auxiliary-choice",
+            "templateVersion": 1,
+            "prompt": "Perfekt: Er ___ heute früh aufgestanden. Choose the infinitive of the auxiliary.",
+            "exampleId": "forms-aufstehen-example",
+            "explanation": "The auxiliary form for this lexical profile is sein. Auxiliary shown for the lexical use in the authored example.",
+            "hint": [
+              "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+            ],
+            "type": "verb_form_choice",
+            "choices": [
+              {
+                "id": "haben",
+                "text": "haben"
+              },
+              {
+                "id": "sein",
+                "text": "sein"
+              }
+            ],
+            "correctChoiceId": "sein"
+          }
+        ],
+        "blocks": [
+          {
+            "id": "verb-forms-pilot-01",
+            "title": "Verb Forms 01 · arbeiten–gehen",
+            "description": "Ten common verbs, alphabetically ordered. Recall principal parts and use forms in context.",
+            "itemIds": [
+              "forms-arbeiten",
+              "forms-aufstehen"
+            ],
+            "questionIds": [
+              "forms-arbeiten-past-recall",
+              "forms-arbeiten-participle-recall",
+              "forms-arbeiten-auxiliary-choice",
+              "forms-arbeiten-infinitive-recall",
+              "forms-arbeiten-present-recall",
+              "forms-arbeiten-sentence-completion",
+              "forms-arbeiten-sequence-choice",
+              "forms-aufstehen-past-recall",
+              "forms-aufstehen-participle-recall",
+              "forms-aufstehen-auxiliary-choice"
+            ]
+          }
+        ]
+      },
+      "attempts": [],
+      "submittedAttemptIds": []
+    }
+  ],
+  "attempts": []
+}

@@ -1,7 +1,9 @@
+import { supportsV2Runtime } from './compatibility';
 import { useEffect, useRef, useState } from 'react';
 export function usePwa(safe: () => boolean) {
   const safeRef = useRef(safe); safeRef.current = safe;
   const [ready, setReady] = useState(false);
+  const [compatible, setCompatible] = useState(!import.meta.env.PROD || !navigator.serviceWorker?.controller);
   const [message, setMessage] = useState(import.meta.env.PROD ? 'Preparing offline files…' : 'Offline installation requires a production build.');
   const [waiting, setWaiting] = useState<ServiceWorker | null>(null);
   const [registration, setRegistration] = useState<ServiceWorkerRegistration | null>(null);
@@ -25,7 +27,11 @@ export function usePwa(safe: () => boolean) {
       const timer = setTimeout(() => { channel.port1.close(); if (alive) setMessage('Offline cache could not be verified. Try preparing it again.'); }, 5000); timers.add(timer);
       channel.port1.onmessage = event => {
         clearTimeout(timer); channel.port1.close();
-        if (alive) { setReady(event.data?.ready === true); setCacheVersion(String(event.data?.cache ?? '')); setMessage(event.data?.ready ? `Offline ready · ${event.data.count} required files cached` : 'Offline files are incomplete. Prepare them again while online.'); }
+        if (alive) {
+          const supported = supportsV2Runtime(event.data);
+          setCompatible(supported); setReady(supported && event.data?.ready === true); setCacheVersion(String(event.data?.cache ?? ''));
+          setMessage(!supported ? 'Apply the available app update before using Verb Forms offline. Finish active runs first; existing Starter runs remain available.' : event.data?.ready ? `Offline ready · ${event.data.count} required files cached` : 'Offline files are incomplete. Prepare them again while online.');
+        }
       };
       controller.postMessage({ type: 'READINESS' }, [channel.port2]);
     }
@@ -56,7 +62,7 @@ export function usePwa(safe: () => boolean) {
     }).catch((cause: unknown) => { if (navigator.serviceWorker.controller) void check(); else if (alive) setMessage(`Offline preparation failed: ${String(cause)}`); });
     return () => { alive = false; releaseRegistration(); for (const timer of timers) clearTimeout(timer); navigator.serviceWorker.removeEventListener('controllerchange', changed); navigator.serviceWorker.removeEventListener('message', message); };
   }, [retry]);
-  return { ready, message, waiting: Boolean(waiting), online, cacheVersion,
+  return { ready, compatible, message, waiting: Boolean(waiting), online, cacheVersion,
     prepare: () => {
       const controller = navigator.serviceWorker?.controller;
       if (!controller) { setRetry(value => value + 1); return; }

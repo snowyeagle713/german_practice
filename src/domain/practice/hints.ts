@@ -1,7 +1,9 @@
-import type { Entry, Question } from '../content/types';
+import { isVerbForm, type LearningItem, type AnyQuestion } from '../content/types';
 
 /** Retrieval cues omit the information that this question asks the learner to supply. */
-export function questionHint(question: Question, entry: Entry): string[] {
+export function questionHint(question: AnyQuestion, entry: LearningItem): string[] {
+  if ('hint' in question) return question.hint;
+  if (isVerbForm(entry)) throw new Error('Question/item type mismatch.');
   switch (question.type) {
     case 'preposition_cloze':
       return [`Construction meaning: ${entry.meaningEn}`, `Governed case: ${entry.governedCase}`];

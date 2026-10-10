@@ -46,3 +46,14 @@ export interface ContentPack {
   questions: Question[];
   blocks: Block[];
 }
+
+export type AnyContentPack = ContentPack | import('./v2').ContentPackV2;
+export type LearningItem = Entry | import('./v2').VerbForm;
+export type AnyQuestion = Question | import('./v2').VerbQuestion;
+export function isTextQuestion(question: AnyQuestion): question is Extract<AnyQuestion, { acceptedAnswers: string[] }> {
+  return question.type === 'preposition_cloze' || question.type === 'verb_form_text';
+}
+export function questionItemId(question: AnyQuestion): string { return 'itemId' in question ? question.itemId : question.entryId; }
+export function itemsForPack(pack: AnyContentPack): LearningItem[] { return pack.schemaVersion === 1 ? pack.entries : pack.items; }
+export function itemLabel(item: LearningItem): string { return 'contentType' in item ? item.title : item.construction; }
+export function isVerbForm(item: LearningItem): item is import('./v2').VerbForm { return 'contentType' in item; }

@@ -1,3 +1,5 @@
+import { itemLabel, itemsForPack } from '../content/types';
+import { questionLabel } from '../content/catalog';
 import type { PracticeSession } from './types';
 
 /** Serializable first-pass evidence. Assisted and wrong overlap; they are not additive. */
@@ -14,14 +16,14 @@ export function summarize(session: PracticeSession) {
     coverage: answered / total, accuracy: session.status === 'completed' ? unaidedCorrect / total : null,
     answeredAccuracy: answered ? unaidedCorrect / answered : null,
     mistakes: session.attempts.filter(attempt => !attempt.isUnaidedCorrect).map(attempt => attempt.questionId),
-    byType: (['preposition_cloze', 'case_choice', 'meaning_choice'] as const).map(type => {
-      const ids = new Set(session.contentSnapshot.questions.filter(question => session.order.includes(question.id) && question.type === type).map(question => question.id));
+    byType: [...new Set(session.contentSnapshot.questions.map(question => 'templateId' in question ? question.templateId : question.type))].map(type => {
+      const ids = new Set(session.contentSnapshot.questions.filter(question => session.order.includes(question.id) && ('templateId' in question ? question.templateId : question.type) === type).map(question => question.id));
       const attempts = session.attempts.filter(attempt => ids.has(attempt.questionId));
-      return { type, total: ids.size, answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
+      return { type, label: questionLabel(session.contentSnapshot.questions.find(question => ids.has(question.id))!), total: ids.size, answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
     }),
-    byConstruction: session.contentSnapshot.entries.map(entry => {
+    byConstruction: itemsForPack(session.contentSnapshot).map(entry => {
       const attempts = session.attempts.filter(attempt => attempt.entryId === entry.id);
-      return { entryId: entry.id, construction: entry.construction, answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
+      return { entryId: entry.id, construction: itemLabel(entry), answered: attempts.length, unaidedCorrect: attempts.filter(attempt => attempt.isUnaidedCorrect).length };
     }),
     attempts: session.attempts,
   };

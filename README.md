@@ -87,3 +87,17 @@ The retrieved earlier reference has 200 numbered entries but only 37 distinct ex
 
 The prototype uses a curated starter subset. Larger content expansion is independent of building V1. CEFR assignments remain unset rather than guessed.
 
+
+## V2 Verb Forms pilot
+
+The `content/v2-runtime-pilot` branch extends the MVP with a separate validated
+20-verb pack. In **Blocks**, choose **Verb Forms** for two alphabetical ten-verb
+blocks (70 authored questions each); **Verb Constructions** retains the Starter
+Block. Quick stays 10 and Standard stays 20. Learn shows principal parts,
+context-sensitive auxiliaries and source-checked examples.
+
+Existing v1 sessions/backups remain supported. Exports containing v2 sessions use
+backup schema 2, which the older MVP cannot import; v1-only exports stay schema 1.
+No database-store upgrade or learner-data reset is required. See
+[V2 runtime handoff](docs/V2_RUNTIME_PILOT.md) and
+[pilot source audit](docs/VERB_FORMS_PILOT_AUDIT.md) for scope and verification.

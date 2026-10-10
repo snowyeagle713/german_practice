@@ -1,25 +1,25 @@
-import type { ContentPack } from '../content/types';
-import { validateContent } from '../content/validate';
+import { isTextQuestion, itemsForPack, questionItemId, type AnyContentPack } from '../content/types';
+import { snapshotPack, validateAnyContent } from '../content/catalog';
 import { correctAnswer, gradeAnswer } from './grading';
 import { selectQuestions } from './selection';
 import { shuffle } from './shuffle';
 import type { PracticeCommand, PracticeDependencies, PracticeSession } from './types';
 
-export function createSession(input: ContentPack, blockId: string, dependencies: PracticeDependencies, options: { size?: 10 | 20; cursor?: number; questionIds?: string[] } = {}): PracticeSession {
-  const pack = validateContent(input);
+export function createSession(input: AnyContentPack, blockId: string, dependencies: PracticeDependencies, options: { size?: 10 | 20; cursor?: number; questionIds?: string[] } = {}): PracticeSession {
+  const pack = validateAnyContent(input);
   const block = pack.blocks.find(item => item.id === blockId);
   if (!block) throw new Error('Block not found.');
   const selected = options.questionIds ?? selectQuestions(block.questionIds, options.size ?? 20, options.cursor ?? 0);
   if (!selected.length || selected.length > 20 || new Set(selected).size !== selected.length || selected.some(id => !block.questionIds.includes(id))) throw new Error('Invalid session selection.');
   const questionIds = new Set(selected);
   const questions = pack.questions.filter(question => questionIds.has(question.id));
-  const entryIds = new Set(questions.map(question => question.entryId));
-  const snapshot = structuredClone({ ...pack, blocks: [{ ...block, questionIds: selected }], questions, entries: pack.entries.filter(entry => entryIds.has(entry.id)) });
+  const snapshot = snapshotPack(pack, blockId, selected);
   return {
+    ...(pack.schemaVersion === 2 ? { snapshotVersion: 2 as const } : {}),
     sessionId: dependencies.id(), mode: options.questionIds ? 'revision' : (options.size === 10 ? 'quick' : 'standard'), sessionSize: selected.length, rotationNext: ((options.cursor ?? 0) % block.questionIds.length + selected.length) % block.questionIds.length, deferredIds: [], states: {}, blockId, packId: pack.packId, packVersion: pack.packVersion,
     startedAt: dependencies.now(), completedAt: null, status: 'answering',
     order: shuffle(selected, dependencies.random),
-    choiceOrders: Object.fromEntries(questions.filter(question => question.type !== 'preposition_cloze')
+    choiceOrders: Object.fromEntries(questions.filter(question => !isTextQuestion(question))
       .map(question => [question.id, shuffle(question.choices.map(choice => choice.id), dependencies.random)])),
     currentIndex: 0, response: null, hintUsed: false, revealed: false, guidance: null, feedback: null,
     contentSnapshot: snapshot, attempts: [], submittedAttemptIds: [],
@@ -59,14 +59,14 @@ export function transition(session: PracticeSession, command: PracticeCommand): 
   if (command.type !== 'submit') return session;
   const result = gradeAnswer(question, session.response);
   if (result === null || !session.response) {
-    return { ...session, guidance: question.type === 'preposition_cloze' ? 'Enter a preposition before checking your answer.' : 'Choose an answer before checking.' };
+    return { ...session, guidance: isTextQuestion(question) ? question.type === 'preposition_cloze' ? 'Enter a preposition before checking your answer.' : 'Enter a verb form before checking your answer.' : 'Choose an answer before checking.' };
   }
   if (session.attempts.some(attempt => attempt.questionId === question.id || attempt.attemptId === command.attemptId)) return session;
-  const entry = session.contentSnapshot.entries.find(item => item.id === question.entryId)!;
+  const entry = itemsForPack(session.contentSnapshot).find(item => item.id === questionItemId(question))!;
   const example = entry.examples.find(item => item.id === question.exampleId) ?? entry.examples[0]!;
   const attempt = {
     attemptId: command.attemptId, sessionId: session.sessionId, questionId: question.id,
-    questionRevision: question.revision, entryId: question.entryId, submittedAt: command.submittedAt,
+    questionRevision: question.revision, entryId: questionItemId(question), submittedAt: command.submittedAt,
     response: structuredClone(session.response), isCorrect: result, hintUsed: session.hintUsed, revealed: session.revealed,
     isUnaidedCorrect: result && !session.hintUsed && !session.revealed,
   };

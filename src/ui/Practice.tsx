@@ -1,3 +1,5 @@
+import { isTextQuestion, isVerbForm, itemLabel, itemsForPack, questionItemId } from '../domain/content/types';
+import { questionLabel } from '../domain/content/catalog';
 import { useEffect, useRef, useState } from 'react';
 import { questionHint } from '../domain/practice/hints';
 import { correctAnswer } from '../domain/practice/grading';
@@ -6,7 +8,7 @@ import type { PracticeCommand, PracticeSession } from '../domain/practice/types'
 
 export function Practice({ session, send, onAbandon, blocked }: { session: PracticeSession; send: (command: PracticeCommand) => void; onAbandon: () => void; blocked: boolean }) {
   const question = currentQuestion(session);
-  const entry = session.contentSnapshot.entries.find(item => item.id === question.entryId)!;
+  const entry = itemsForPack(session.contentSnapshot).find(item => item.id === questionItemId(question))!;
   const [draft, setDraft] = useState(session.response);
   useEffect(() => { setDraft(session.response); }, [question.id, session.feedback?.attemptId]);
   const feedback = session.feedback;
@@ -32,14 +34,14 @@ export function Practice({ session, send, onAbandon, blocked }: { session: Pract
     <details className="session-end"><summary>End this run</summary><p>Abandon this unfinished run? Saved answers remain in history and revision, but this run will have no final score.</p><button className="quiet-button" disabled={blocked} onClick={onAbandon}>Abandon run</button></details>
     </div>
     <article className="practice-card">
-      <p className="eyebrow">{question.type === 'preposition_cloze' ? 'Type the missing preposition' : question.type === 'case_choice' ? 'Choose the governed case' : 'Choose the meaning'}</p>
+      <p className="eyebrow">{'templateId' in question ? `${itemLabel(entry)} · ${questionLabel(question)}` : question.type === 'preposition_cloze' ? 'Type the missing preposition' : question.type === 'case_choice' ? 'Choose the governed case' : 'Choose the meaning'}</p>
       <h2 id="question-prompt" ref={questionHeading} tabIndex={-1}>{question.prompt}</h2>
       <form className={graded ? 'practice-form graded' : 'practice-form'} onKeyDown={event => { if (event.key === 'Enter' && event.repeat) event.preventDefault(); }} onSubmit={event => {
         event.preventDefault();
         if (graded) { next(); return; }
         send({ type: 'submit', questionId: question.id, attemptId: crypto.randomUUID(), submittedAt: new Date().toISOString() });
       }}>
-        {question.type === 'preposition_cloze' ? <div className="answer-field"><label htmlFor="preposition-answer">Your preposition</label>
+        {isTextQuestion(question) ? <div className="answer-field"><label htmlFor="preposition-answer">{question.type === 'preposition_cloze' ? 'Your preposition' : 'Your verb form'}</label>
           <input id="preposition-answer" ref={input} type="text" maxLength={10000} lang="de" autoComplete="off" autoCapitalize="none" spellCheck={false} readOnly={graded || blocked}
             value={draft?.kind === 'text' ? draft.value : ''} aria-describedby={session.guidance ? 'answer-guidance' : undefined}
             onChange={event => { const response = { kind: 'text' as const, value: event.target.value }; setDraft(response); send({ type: 'response', questionId: question.id, response }); }} />
@@ -62,7 +64,7 @@ export function Practice({ session, send, onAbandon, blocked }: { session: Pract
           <section className={`answer-feedback ${attempt.hintUsed || attempt.revealed ? 'assisted' : attempt.isCorrect ? 'correct' : 'wrong'}`} aria-labelledby="feedback-title">
             <h3 id="feedback-title" role="status">{status}</h3>
             <p><strong>Correct answer:</strong> {feedback.correctAnswer}</p><p>{feedback.explanation}</p>
-            <p lang="de" className="sentence">{feedback.exampleDe}</p><p className="translation">{feedback.exampleEn}</p><p className="translation">Construction meaning: {feedback.meaningEn}</p>
+            <p lang="de" className="sentence">{feedback.exampleDe}</p><p className="translation">{feedback.exampleEn}</p><p className="translation">{isVerbForm(entry) ? 'Verb meaning' : 'Construction meaning'}: {feedback.meaningEn}</p>
             {attempt.hintUsed || attempt.revealed ? <p className="assistance-label">{attempt.hintUsed ? 'Hint used. ' : ''}{attempt.revealed ? 'Answer revealed. ' : ''}Excluded from unaided correct.</p> : null}
           </section>
           <div className="next-area"><button ref={nextButton} type="button" disabled={blocked} onClick={event => { if (event.detail <= 1) next(); }}>{session.attempts.length === session.order.length && session.currentIndex === session.order.length - 1 ? 'View summary' : 'Next question'}</button></div>

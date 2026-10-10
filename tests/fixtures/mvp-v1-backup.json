@@ -1,0 +1,442 @@
+{
+  "schemaVersion": 1,
+  "appId": "german-trainer",
+  "exportedAt": "2026-10-10T12:00:00.000Z",
+  "contentVersions": [
+    {
+      "packId": "verbs-starter",
+      "packVersion": 1
+    }
+  ],
+  "settings": {
+    "theme": "finance-dashboard",
+    "sessionSize": 10
+  },
+  "cursors": {
+    "verbs-starter-01": 10
+  },
+  "currentId": "legacy-release-session",
+  "sessions": [
+    {
+      "sessionId": "legacy-release-session",
+      "mode": "quick",
+      "sessionSize": 10,
+      "rotationNext": 10,
+      "deferredIds": [],
+      "states": {
+        "verb-freuen-auf-prep-everyday": {
+          "response": {
+            "kind": "text",
+            "value": "auf"
+          },
+          "hintUsed": true,
+          "revealed": false,
+          "guidance": null,
+          "feedback": {
+            "attemptId": "legacy-answer",
+            "correctAnswer": "auf",
+            "explanation": "The future event is anticipated: sich freuen auf + Akkusativ.",
+            "exampleDe": "Ich freue mich auf den Urlaub nächste Woche.",
+            "exampleEn": "I am looking forward to the holiday next week.",
+            "meaningEn": "to look forward to"
+          }
+        }
+      },
+      "blockId": "verbs-starter-01",
+      "packId": "verbs-starter",
+      "packVersion": 1,
+      "startedAt": "2026-10-10T12:00:00.000Z",
+      "completedAt": null,
+      "status": "answering",
+      "order": [
+        "verb-freuen-auf-prep-everyday",
+        "verb-freuen-auf-prep-technical",
+        "verb-freuen-auf-case",
+        "verb-freuen-auf-meaning",
+        "verb-freuen-ueber-prep-everyday",
+        "verb-freuen-ueber-prep-technical",
+        "verb-freuen-ueber-case",
+        "verb-freuen-ueber-meaning",
+        "verb-bestehen-aus-prep-everyday",
+        "verb-bestehen-aus-prep-technical"
+      ],
+      "choiceOrders": {
+        "verb-freuen-auf-case": [
+          "accusative",
+          "dative",
+          "genitive",
+          "nominative"
+        ],
+        "verb-freuen-auf-meaning": [
+          "option-1",
+          "option-2",
+          "option-3",
+          "option-4"
+        ],
+        "verb-freuen-ueber-case": [
+          "accusative",
+          "dative",
+          "genitive",
+          "nominative"
+        ],
+        "verb-freuen-ueber-meaning": [
+          "option-1",
+          "option-2",
+          "option-3",
+          "option-4"
+        ]
+      },
+      "currentIndex": 1,
+      "response": {
+        "kind": "text",
+        "value": "draft from the MVP release"
+      },
+      "hintUsed": false,
+      "revealed": false,
+      "guidance": null,
+      "feedback": null,
+      "contentSnapshot": {
+        "schemaVersion": 1,
+        "packId": "verbs-starter",
+        "packVersion": 1,
+        "title": "Fluency + Technical — Starter verbs",
+        "entries": [
+          {
+            "id": "verb-freuen-auf",
+            "kind": "verb",
+            "lemma": "sich freuen",
+            "construction": "sich freuen auf",
+            "meaningEn": "to look forward to",
+            "preposition": "auf",
+            "governedCase": "accusative",
+            "reflexiveCase": "accusative",
+            "cefr": null,
+            "tags": [
+              "everyday",
+              "technical"
+            ],
+            "examples": [
+              {
+                "id": "verb-freuen-auf-everyday",
+                "domain": "everyday",
+                "de": "Ich freue mich auf den Urlaub nächste Woche.",
+                "en": "I am looking forward to the holiday next week."
+              },
+              {
+                "id": "verb-freuen-auf-technical",
+                "domain": "technical",
+                "de": "Wir freuen uns auf die Ergebnisse der neuen Testreihe.",
+                "en": "We are looking forward to the results of the new test series."
+              }
+            ],
+            "editorialStatus": "prototype-reviewed"
+          },
+          {
+            "id": "verb-freuen-ueber",
+            "kind": "verb",
+            "lemma": "sich freuen",
+            "construction": "sich freuen über",
+            "meaningEn": "to be happy about",
+            "preposition": "über",
+            "governedCase": "accusative",
+            "reflexiveCase": "accusative",
+            "cefr": null,
+            "tags": [
+              "everyday",
+              "technical"
+            ],
+            "examples": [
+              {
+                "id": "verb-freuen-ueber-everyday",
+                "domain": "everyday",
+                "de": "Er freut sich über das Geschenk.",
+                "en": "He is happy about the gift."
+              },
+              {
+                "id": "verb-freuen-ueber-technical",
+                "domain": "technical",
+                "de": "Das Team freut sich über die erfolgreiche Validierung.",
+                "en": "The team is happy about the successful validation."
+              }
+            ],
+            "editorialStatus": "prototype-reviewed"
+          },
+          {
+            "id": "verb-bestehen-aus",
+            "kind": "verb",
+            "lemma": "bestehen",
+            "construction": "bestehen aus",
+            "meaningEn": "to consist of",
+            "preposition": "aus",
+            "governedCase": "dative",
+            "reflexiveCase": null,
+            "cefr": null,
+            "tags": [
+              "everyday",
+              "technical"
+            ],
+            "examples": [
+              {
+                "id": "verb-bestehen-aus-everyday",
+                "domain": "everyday",
+                "de": "Das Menü besteht aus einer Vorspeise und einem Hauptgang.",
+                "en": "The menu consists of a starter and a main course."
+              },
+              {
+                "id": "verb-bestehen-aus-technical",
+                "domain": "technical",
+                "de": "Die Konstruktion besteht aus hochfestem Stahl.",
+                "en": "The structure consists of high-strength steel."
+              }
+            ],
+            "editorialStatus": "prototype-reviewed"
+          }
+        ],
+        "questions": [
+          {
+            "id": "verb-freuen-auf-prep-everyday",
+            "revision": 1,
+            "entryId": "verb-freuen-auf",
+            "type": "preposition_cloze",
+            "prompt": "Ich freue mich ___ den Urlaub nächste Woche.",
+            "exampleId": "verb-freuen-auf-everyday",
+            "acceptedAnswers": [
+              "auf"
+            ],
+            "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-auf-prep-technical",
+            "revision": 1,
+            "entryId": "verb-freuen-auf",
+            "type": "preposition_cloze",
+            "prompt": "Wir freuen uns ___ die Ergebnisse der neuen Testreihe.",
+            "exampleId": "verb-freuen-auf-technical",
+            "acceptedAnswers": [
+              "auf"
+            ],
+            "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-auf-case",
+            "revision": 1,
+            "entryId": "verb-freuen-auf",
+            "type": "case_choice",
+            "prompt": "In the construction ‘sich freuen auf’, which case does ‘auf’ govern?",
+            "exampleId": null,
+            "choices": [
+              {
+                "id": "accusative",
+                "text": "Accusative"
+              },
+              {
+                "id": "dative",
+                "text": "Dative"
+              },
+              {
+                "id": "genitive",
+                "text": "Genitive"
+              },
+              {
+                "id": "nominative",
+                "text": "Nominative"
+              }
+            ],
+            "correctChoiceId": "accusative",
+            "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-auf-meaning",
+            "revision": 1,
+            "entryId": "verb-freuen-auf",
+            "type": "meaning_choice",
+            "prompt": "What does ‘sich freuen auf’ mean in this sentence? Ich freue mich auf den Urlaub nächste Woche.",
+            "exampleId": "verb-freuen-auf-everyday",
+            "choices": [
+              {
+                "id": "option-1",
+                "text": "to look forward to"
+              },
+              {
+                "id": "option-2",
+                "text": "to be happy about something that has happened"
+              },
+              {
+                "id": "option-3",
+                "text": "to wait for"
+              },
+              {
+                "id": "option-4",
+                "text": "to be interested in"
+              }
+            ],
+            "correctChoiceId": "option-1",
+            "explanation": "The future event is anticipated: sich freuen auf + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-ueber-prep-everyday",
+            "revision": 1,
+            "entryId": "verb-freuen-ueber",
+            "type": "preposition_cloze",
+            "prompt": "Er freut sich ___ das Geschenk.",
+            "exampleId": "verb-freuen-ueber-everyday",
+            "acceptedAnswers": [
+              "über"
+            ],
+            "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-ueber-prep-technical",
+            "revision": 1,
+            "entryId": "verb-freuen-ueber",
+            "type": "preposition_cloze",
+            "prompt": "Das Team freut sich ___ die erfolgreiche Validierung.",
+            "exampleId": "verb-freuen-ueber-technical",
+            "acceptedAnswers": [
+              "über"
+            ],
+            "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-ueber-case",
+            "revision": 1,
+            "entryId": "verb-freuen-ueber",
+            "type": "case_choice",
+            "prompt": "In the construction ‘sich freuen über’, which case does ‘über’ govern?",
+            "exampleId": null,
+            "choices": [
+              {
+                "id": "accusative",
+                "text": "Accusative"
+              },
+              {
+                "id": "dative",
+                "text": "Dative"
+              },
+              {
+                "id": "genitive",
+                "text": "Genitive"
+              },
+              {
+                "id": "nominative",
+                "text": "Nominative"
+              }
+            ],
+            "correctChoiceId": "accusative",
+            "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+          },
+          {
+            "id": "verb-freuen-ueber-meaning",
+            "revision": 1,
+            "entryId": "verb-freuen-ueber",
+            "type": "meaning_choice",
+            "prompt": "What does ‘sich freuen über’ mean in this sentence? Er freut sich über das Geschenk.",
+            "exampleId": "verb-freuen-ueber-everyday",
+            "choices": [
+              {
+                "id": "option-1",
+                "text": "to be happy about"
+              },
+              {
+                "id": "option-2",
+                "text": "to look forward to a future event"
+              },
+              {
+                "id": "option-3",
+                "text": "to believe in"
+              },
+              {
+                "id": "option-4",
+                "text": "to adapt to"
+              }
+            ],
+            "correctChoiceId": "option-1",
+            "explanation": "The reason for present happiness is expressed with sich freuen über + Akkusativ."
+          },
+          {
+            "id": "verb-bestehen-aus-prep-everyday",
+            "revision": 1,
+            "entryId": "verb-bestehen-aus",
+            "type": "preposition_cloze",
+            "prompt": "Das Menü besteht ___ einer Vorspeise und einem Hauptgang.",
+            "exampleId": "verb-bestehen-aus-everyday",
+            "acceptedAnswers": [
+              "aus"
+            ],
+            "explanation": "Composition is expressed with bestehen aus + Dativ."
+          },
+          {
+            "id": "verb-bestehen-aus-prep-technical",
+            "revision": 1,
+            "entryId": "verb-bestehen-aus",
+            "type": "preposition_cloze",
+            "prompt": "Die Konstruktion besteht ___ hochfestem Stahl.",
+            "exampleId": "verb-bestehen-aus-technical",
+            "acceptedAnswers": [
+              "aus"
+            ],
+            "explanation": "Composition is expressed with bestehen aus + Dativ."
+          }
+        ],
+        "blocks": [
+          {
+            "id": "verbs-starter-01",
+            "title": "Starter Block 1",
+            "description": "10 constructions, 40 questions: everyday and technical prepositions, case and meaning.",
+            "questionIds": [
+              "verb-freuen-auf-prep-everyday",
+              "verb-freuen-auf-prep-technical",
+              "verb-freuen-auf-case",
+              "verb-freuen-auf-meaning",
+              "verb-freuen-ueber-prep-everyday",
+              "verb-freuen-ueber-prep-technical",
+              "verb-freuen-ueber-case",
+              "verb-freuen-ueber-meaning",
+              "verb-bestehen-aus-prep-everyday",
+              "verb-bestehen-aus-prep-technical"
+            ]
+          }
+        ]
+      },
+      "attempts": [
+        {
+          "attemptId": "legacy-answer",
+          "sessionId": "legacy-release-session",
+          "questionId": "verb-freuen-auf-prep-everyday",
+          "questionRevision": 1,
+          "entryId": "verb-freuen-auf",
+          "submittedAt": "2026-10-10T12:00:00.000Z",
+          "response": {
+            "kind": "text",
+            "value": "auf"
+          },
+          "isCorrect": true,
+          "hintUsed": true,
+          "revealed": false,
+          "isUnaidedCorrect": false
+        }
+      ],
+      "submittedAttemptIds": [
+        "legacy-answer"
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "attemptId": "legacy-answer",
+      "sessionId": "legacy-release-session",
+      "questionId": "verb-freuen-auf-prep-everyday",
+      "questionRevision": 1,
+      "entryId": "verb-freuen-auf",
+      "submittedAt": "2026-10-10T12:00:00.000Z",
+      "response": {
+        "kind": "text",
+        "value": "auf"
+      },
+      "isCorrect": true,
+      "hintUsed": true,
+      "revealed": false,
+      "isUnaidedCorrect": false
+    }
+  ]
+}

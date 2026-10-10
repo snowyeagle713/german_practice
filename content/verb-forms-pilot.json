@@ -1,0 +1,4190 @@
+{
+  "schemaVersion": 2,
+  "packId": "verb-forms-pilot",
+  "packVersion": 1,
+  "title": "Verb Forms · source-checked pilot",
+  "items": [
+    {
+      "id": "forms-arbeiten",
+      "contentType": "verb-forms",
+      "title": "arbeiten",
+      "meaningEn": "to work",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-arbeiten-example",
+          "domain": "everyday",
+          "de": "Er hat heute zu Hause gearbeitet.",
+          "en": "He worked at home today."
+        },
+        {
+          "id": "forms-arbeiten-technical",
+          "domain": "technical",
+          "de": "Er hat an der neuen Konstruktion gearbeitet.",
+          "en": "He worked on the new design."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#arbeiten",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "arbeiten",
+        "present3": "arbeitet",
+        "stemChange": null,
+        "praeteritum": "arbeitete",
+        "participle": "gearbeitet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat heute zu Hause gearbeitet.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-aufstehen",
+      "contentType": "verb-forms",
+      "title": "aufstehen",
+      "meaningEn": "to get up",
+      "level": "A2",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufstehen-example",
+          "domain": "everyday",
+          "de": "Er ist heute früh aufgestanden.",
+          "en": "He got up early today."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufstehen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufstehen",
+        "present3": "steht auf",
+        "stemChange": null,
+        "praeteritum": "stand auf",
+        "participle": "aufgestanden",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist heute früh aufgestanden.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-bleiben",
+      "contentType": "verb-forms",
+      "title": "bleiben",
+      "meaningEn": "to stay",
+      "level": "A2",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bleiben-example",
+          "domain": "everyday",
+          "de": "Er ist am Wochenende zu Hause geblieben.",
+          "en": "He stayed at home over the weekend."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bleiben",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bleiben",
+        "present3": "bleibt",
+        "stemChange": null,
+        "praeteritum": "blieb",
+        "participle": "geblieben",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist am Wochenende zu Hause geblieben.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-bringen",
+      "contentType": "verb-forms",
+      "title": "bringen",
+      "meaningEn": "to bring",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bringen-example",
+          "domain": "everyday",
+          "de": "Er hat das Buch gebracht.",
+          "en": "He brought the book."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bringen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bringen",
+        "present3": "bringt",
+        "stemChange": null,
+        "praeteritum": "brachte",
+        "participle": "gebracht",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat das Buch gebracht.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "mixed",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-denken",
+      "contentType": "verb-forms",
+      "title": "denken",
+      "meaningEn": "to think",
+      "level": "A2",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "D",
+      "examples": [
+        {
+          "id": "forms-denken-example",
+          "domain": "everyday",
+          "de": "Er hat an den Termin gedacht.",
+          "en": "He thought about the appointment."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#denken",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "denken",
+        "present3": "denkt",
+        "stemChange": null,
+        "praeteritum": "dachte",
+        "participle": "gedacht",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat an den Termin gedacht.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "mixed",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-essen",
+      "contentType": "verb-forms",
+      "title": "essen",
+      "meaningEn": "to eat",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "E",
+      "examples": [
+        {
+          "id": "forms-essen-example",
+          "domain": "everyday",
+          "de": "Er hat einen Apfel gegessen.",
+          "en": "He ate an apple."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#essen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "essen",
+        "present3": "isst",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "aß",
+        "participle": "gegessen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat einen Apfel gegessen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-fahren",
+      "contentType": "verb-forms",
+      "title": "fahren",
+      "meaningEn": "to drive / travel",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "F",
+      "examples": [
+        {
+          "id": "forms-fahren-example",
+          "domain": "everyday",
+          "de": "Er ist mit dem Zug nach Berlin gefahren.",
+          "en": "He travelled to Berlin by train."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#fahren",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "fahren",
+        "present3": "fährt",
+        "stemChange": {
+          "from": "a",
+          "to": "ä"
+        },
+        "praeteritum": "fuhr",
+        "participle": "gefahren",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist mit dem Zug nach Berlin gefahren.",
+        "auxiliaryNote": "This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-finden",
+      "contentType": "verb-forms",
+      "title": "finden",
+      "meaningEn": "to find",
+      "level": "A2",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "F",
+      "examples": [
+        {
+          "id": "forms-finden-example",
+          "domain": "everyday",
+          "de": "Er hat den Schlüssel gefunden.",
+          "en": "He found the key."
+        },
+        {
+          "id": "forms-finden-technical",
+          "domain": "technical",
+          "de": "Er hat die Ursache des Fehlers gefunden.",
+          "en": "He found the cause of the fault."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#finden",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "finden",
+        "present3": "findet",
+        "stemChange": null,
+        "praeteritum": "fand",
+        "participle": "gefunden",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Schlüssel gefunden.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-geben",
+      "contentType": "verb-forms",
+      "title": "geben",
+      "meaningEn": "to give",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "G",
+      "examples": [
+        {
+          "id": "forms-geben-example",
+          "domain": "everyday",
+          "de": "Er hat ihr das Buch gegeben.",
+          "en": "He gave her the book."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#geben",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "geben",
+        "present3": "gibt",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "gab",
+        "participle": "gegeben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat ihr das Buch gegeben.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-gehen",
+      "contentType": "verb-forms",
+      "title": "gehen",
+      "meaningEn": "to go / walk",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "G",
+      "examples": [
+        {
+          "id": "forms-gehen-example",
+          "domain": "everyday",
+          "de": "Er ist zu Fuß nach Hause gegangen.",
+          "en": "He walked home."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#gehen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "gehen",
+        "present3": "geht",
+        "stemChange": null,
+        "praeteritum": "ging",
+        "participle": "gegangen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist zu Fuß nach Hause gegangen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-haben",
+      "contentType": "verb-forms",
+      "title": "haben",
+      "meaningEn": "to have",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "H",
+      "examples": [
+        {
+          "id": "forms-haben-example",
+          "domain": "everyday",
+          "de": "Er hat gestern Zeit gehabt.",
+          "en": "He had time yesterday."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#haben",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "haben",
+        "present3": "hat",
+        "stemChange": null,
+        "praeteritum": "hatte",
+        "participle": "gehabt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat gestern Zeit gehabt.",
+        "auxiliaryNote": "High-frequency irregular profile; hat is not a regular third-person formation.",
+        "classification": "irregular",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-kommen",
+      "contentType": "verb-forms",
+      "title": "kommen",
+      "meaningEn": "to come",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "K",
+      "examples": [
+        {
+          "id": "forms-kommen-example",
+          "domain": "everyday",
+          "de": "Er ist pünktlich zum Treffen gekommen.",
+          "en": "He came to the meeting on time."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#kommen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "kommen",
+        "present3": "kommt",
+        "stemChange": null,
+        "praeteritum": "kam",
+        "participle": "gekommen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist pünktlich zum Treffen gekommen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-laufen",
+      "contentType": "verb-forms",
+      "title": "laufen",
+      "meaningEn": "to run / walk",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "L",
+      "examples": [
+        {
+          "id": "forms-laufen-example",
+          "domain": "everyday",
+          "de": "Er ist durch den Park gelaufen.",
+          "en": "He ran through the park."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#laufen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "laufen",
+        "present3": "läuft",
+        "stemChange": {
+          "from": "au",
+          "to": "äu"
+        },
+        "praeteritum": "lief",
+        "participle": "gelaufen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist durch den Park gelaufen.",
+        "auxiliaryNote": "This profile uses directed movement with sein; other uses need their own context.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-lesen",
+      "contentType": "verb-forms",
+      "title": "lesen",
+      "meaningEn": "to read",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "L",
+      "examples": [
+        {
+          "id": "forms-lesen-example",
+          "domain": "everyday",
+          "de": "Er hat den Bericht gelesen.",
+          "en": "He read the report."
+        },
+        {
+          "id": "forms-lesen-technical",
+          "domain": "technical",
+          "de": "Er hat die technischen Anforderungen gelesen.",
+          "en": "He read the technical requirements."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#lesen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "lesen",
+        "present3": "liest",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "las",
+        "participle": "gelesen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Bericht gelesen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-nehmen",
+      "contentType": "verb-forms",
+      "title": "nehmen",
+      "meaningEn": "to take",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "N",
+      "examples": [
+        {
+          "id": "forms-nehmen-example",
+          "domain": "everyday",
+          "de": "Er hat den Bus genommen.",
+          "en": "He took the bus."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#nehmen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "nehmen",
+        "present3": "nimmt",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "nahm",
+        "participle": "genommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Bus genommen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-schreiben",
+      "contentType": "verb-forms",
+      "title": "schreiben",
+      "meaningEn": "to write",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "S",
+      "examples": [
+        {
+          "id": "forms-schreiben-example",
+          "domain": "everyday",
+          "de": "Er hat eine Nachricht geschrieben.",
+          "en": "He wrote a message."
+        },
+        {
+          "id": "forms-schreiben-technical",
+          "domain": "technical",
+          "de": "Er hat den Prüfbericht geschrieben.",
+          "en": "He wrote the test report."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#schreiben",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "schreiben",
+        "present3": "schreibt",
+        "stemChange": null,
+        "praeteritum": "schrieb",
+        "participle": "geschrieben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine Nachricht geschrieben.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-sehen",
+      "contentType": "verb-forms",
+      "title": "sehen",
+      "meaningEn": "to see",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "S",
+      "examples": [
+        {
+          "id": "forms-sehen-example",
+          "domain": "everyday",
+          "de": "Er hat den Fehler gesehen.",
+          "en": "He saw the error."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#sehen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "sehen",
+        "present3": "sieht",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "sah",
+        "participle": "gesehen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Fehler gesehen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-sprechen",
+      "contentType": "verb-forms",
+      "title": "sprechen",
+      "meaningEn": "to speak",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "S",
+      "examples": [
+        {
+          "id": "forms-sprechen-example",
+          "domain": "everyday",
+          "de": "Er hat mit der Kollegin gesprochen.",
+          "en": "He spoke with the colleague."
+        },
+        {
+          "id": "forms-sprechen-technical",
+          "domain": "technical",
+          "de": "Er hat mit dem Projektleiter über die Ergebnisse gesprochen.",
+          "en": "He spoke with the project manager about the results."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#sprechen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "sprechen",
+        "present3": "spricht",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "sprach",
+        "participle": "gesprochen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat mit der Kollegin gesprochen.",
+        "auxiliaryNote": "Auxiliary shown for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-werden",
+      "contentType": "verb-forms",
+      "title": "werden",
+      "meaningEn": "to become",
+      "level": "A1",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-werden-example",
+          "domain": "everyday",
+          "de": "Er ist nach der Ausbildung Ingenieur geworden.",
+          "en": "He became an engineer after his training."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#werden",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "werden",
+        "present3": "wird",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "wurde",
+        "participle": "geworden",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist nach der Ausbildung Ingenieur geworden.",
+        "auxiliaryNote": "Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+        "classification": "strong",
+        "separability": "none",
+        "prefix": null
+      }
+    },
+    {
+      "id": "forms-wissen",
+      "contentType": "verb-forms",
+      "title": "wissen",
+      "meaningEn": "to know (a fact)",
+      "level": "A2",
+      "levelNote": "Editorial prerequisite estimate, not an official vocabulary classification or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-wissen-example",
+          "domain": "everyday",
+          "de": "Er hat die Antwort gewusst.",
+          "en": "He knew the answer."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#wissen",
+        "Forms and lexical auxiliary cross-checked against the Wiktionary-derived dataset; see docs/VERB_FORMS_PILOT_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "wissen",
+        "present3": "weiß",
+        "stemChange": {
+          "from": "i",
+          "to": "ei"
+        },
+        "praeteritum": "wusste",
+        "participle": "gewusst",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Antwort gewusst.",
+        "auxiliaryNote": "A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+        "classification": "mixed",
+        "separability": "none",
+        "prefix": null
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "forms-arbeiten-past-recall",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): arbeiten",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The praeteritum form for this lexical profile is arbeitete. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to work",
+        "Form profile: weak. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "arbeitete"
+      ]
+    },
+    {
+      "id": "forms-arbeiten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: arbeiten",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The participle form for this lexical profile is gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to work",
+        "Form profile: weak. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gearbeitet"
+      ]
+    },
+    {
+      "id": "forms-arbeiten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ heute zu Hause gearbeitet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-arbeiten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich arbeitete (Präteritum).",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The infinitive form for this lexical profile is arbeiten. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "arbeiten"
+      ]
+    },
+    {
+      "id": "forms-arbeiten-present-recall",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): arbeiten",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The present form for this lexical profile is arbeitet. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to work",
+        "Form profile: weak. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "arbeitet"
+      ]
+    },
+    {
+      "id": "forms-arbeiten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat heute zu Hause ___.",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The participle form for this lexical profile is gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to work",
+        "Form profile: weak. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gearbeitet"
+      ]
+    },
+    {
+      "id": "forms-arbeiten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-arbeiten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for arbeiten: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-arbeiten-example",
+      "explanation": "The sequence form for this lexical profile is arbeiten · arbeitete · gearbeitet. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to work",
+        "Form profile: weak. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "arbeiten · arbeitete · gearbeitet"
+        },
+        {
+          "id": "past-error",
+          "text": "arbeiten · arbeite · gearbeitet"
+        },
+        {
+          "id": "participle-error",
+          "text": "arbeiten · arbeitete · gearbeit"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufstehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aufstehen",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The praeteritum form for this lexical profile is stand auf. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get up",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stand auf"
+      ]
+    },
+    {
+      "id": "forms-aufstehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufstehen",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The participle form for this lexical profile is aufgestanden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get up",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgestanden"
+      ]
+    },
+    {
+      "id": "forms-aufstehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ heute früh aufgestanden. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-aufstehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich stand auf (Präteritum).",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The infinitive form for this lexical profile is aufstehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufstehen"
+      ]
+    },
+    {
+      "id": "forms-aufstehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufstehen",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The present form for this lexical profile is steht auf. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get up",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "steht auf"
+      ]
+    },
+    {
+      "id": "forms-aufstehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist heute früh ___.",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The participle form for this lexical profile is aufgestanden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get up",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgestanden"
+      ]
+    },
+    {
+      "id": "forms-aufstehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufstehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufstehen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufstehen-example",
+      "explanation": "The sequence form for this lexical profile is aufstehen · stand auf · aufgestanden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get up",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufstehen · stand auf · aufgestanden"
+        },
+        {
+          "id": "past-error",
+          "text": "aufstehen · aufstand · aufgestanden"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufstehen · stand auf · geaufstanden"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bleiben-past-recall",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bleiben",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The praeteritum form for this lexical profile is blieb. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stay",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "blieb"
+      ]
+    },
+    {
+      "id": "forms-bleiben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bleiben",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The participle form for this lexical profile is geblieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stay",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geblieben"
+      ]
+    },
+    {
+      "id": "forms-bleiben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ am Wochenende zu Hause geblieben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-bleiben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich blieb (Präteritum).",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The infinitive form for this lexical profile is bleiben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bleiben"
+      ]
+    },
+    {
+      "id": "forms-bleiben-present-recall",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bleiben",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The present form for this lexical profile is bleibt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stay",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bleibt"
+      ]
+    },
+    {
+      "id": "forms-bleiben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist am Wochenende zu Hause ___.",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The participle form for this lexical profile is geblieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stay",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geblieben"
+      ]
+    },
+    {
+      "id": "forms-bleiben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bleiben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bleiben: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bleiben-example",
+      "explanation": "The sequence form for this lexical profile is bleiben · blieb · geblieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stay",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bleiben · blieb · geblieben"
+        },
+        {
+          "id": "past-error",
+          "text": "bleiben · bleibte · geblieben"
+        },
+        {
+          "id": "participle-error",
+          "text": "bleiben · blieb · gebleibt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bringen-past-recall",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bringen",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The praeteritum form for this lexical profile is brachte. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to bring",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "brachte"
+      ]
+    },
+    {
+      "id": "forms-bringen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bringen",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The participle form for this lexical profile is gebracht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to bring",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gebracht"
+      ]
+    },
+    {
+      "id": "forms-bringen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ das Buch gebracht. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bringen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich brachte (Präteritum).",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The infinitive form for this lexical profile is bringen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bringen"
+      ]
+    },
+    {
+      "id": "forms-bringen-present-recall",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bringen",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The present form for this lexical profile is bringt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to bring",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bringt"
+      ]
+    },
+    {
+      "id": "forms-bringen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat das Buch ___.",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The participle form for this lexical profile is gebracht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to bring",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gebracht"
+      ]
+    },
+    {
+      "id": "forms-bringen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bringen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bringen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bringen-example",
+      "explanation": "The sequence form for this lexical profile is bringen · brachte · gebracht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to bring",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bringen · brachte · gebracht"
+        },
+        {
+          "id": "past-error",
+          "text": "bringen · bringte · gebracht"
+        },
+        {
+          "id": "participle-error",
+          "text": "bringen · brachte · gebringt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-denken-past-recall",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): denken",
+      "exampleId": "forms-denken-example",
+      "explanation": "The praeteritum form for this lexical profile is dachte. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to think",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "dachte"
+      ]
+    },
+    {
+      "id": "forms-denken-participle-recall",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: denken",
+      "exampleId": "forms-denken-example",
+      "explanation": "The participle form for this lexical profile is gedacht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to think",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gedacht"
+      ]
+    },
+    {
+      "id": "forms-denken-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ an den Termin gedacht. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-denken-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-denken-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich dachte (Präteritum).",
+      "exampleId": "forms-denken-example",
+      "explanation": "The infinitive form for this lexical profile is denken. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "denken"
+      ]
+    },
+    {
+      "id": "forms-denken-present-recall",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): denken",
+      "exampleId": "forms-denken-example",
+      "explanation": "The present form for this lexical profile is denkt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to think",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "denkt"
+      ]
+    },
+    {
+      "id": "forms-denken-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat an den Termin ___.",
+      "exampleId": "forms-denken-example",
+      "explanation": "The participle form for this lexical profile is gedacht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to think",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gedacht"
+      ]
+    },
+    {
+      "id": "forms-denken-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-denken",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for denken: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-denken-example",
+      "explanation": "The sequence form for this lexical profile is denken · dachte · gedacht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to think",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "denken · dachte · gedacht"
+        },
+        {
+          "id": "past-error",
+          "text": "denken · denkte · gedacht"
+        },
+        {
+          "id": "participle-error",
+          "text": "denken · dachte · gedenkt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-essen-past-recall",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): essen",
+      "exampleId": "forms-essen-example",
+      "explanation": "The praeteritum form for this lexical profile is aß. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to eat",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aß"
+      ]
+    },
+    {
+      "id": "forms-essen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: essen",
+      "exampleId": "forms-essen-example",
+      "explanation": "The participle form for this lexical profile is gegessen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to eat",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegessen"
+      ]
+    },
+    {
+      "id": "forms-essen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ einen Apfel gegessen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-essen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-essen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich aß (Präteritum).",
+      "exampleId": "forms-essen-example",
+      "explanation": "The infinitive form for this lexical profile is essen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "essen"
+      ]
+    },
+    {
+      "id": "forms-essen-present-recall",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): essen",
+      "exampleId": "forms-essen-example",
+      "explanation": "The present form for this lexical profile is isst. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to eat",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "isst"
+      ]
+    },
+    {
+      "id": "forms-essen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat einen Apfel ___.",
+      "exampleId": "forms-essen-example",
+      "explanation": "The participle form for this lexical profile is gegessen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to eat",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegessen"
+      ]
+    },
+    {
+      "id": "forms-essen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-essen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for essen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-essen-example",
+      "explanation": "The sequence form for this lexical profile is essen · aß · gegessen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to eat",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "essen · aß · gegessen"
+        },
+        {
+          "id": "past-error",
+          "text": "essen · esste · gegessen"
+        },
+        {
+          "id": "participle-error",
+          "text": "essen · aß · geesst"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-fahren-past-recall",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): fahren",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The praeteritum form for this lexical profile is fuhr. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Meaning: to drive / travel",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fuhr"
+      ]
+    },
+    {
+      "id": "forms-fahren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: fahren",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The participle form for this lexical profile is gefahren. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Meaning: to drive / travel",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gefahren"
+      ]
+    },
+    {
+      "id": "forms-fahren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ mit dem Zug nach Berlin gefahren. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-fahren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich fuhr (Präteritum).",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The infinitive form for this lexical profile is fahren. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fahren"
+      ]
+    },
+    {
+      "id": "forms-fahren-present-recall",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): fahren",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The present form for this lexical profile is fährt. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Meaning: to drive / travel",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fährt"
+      ]
+    },
+    {
+      "id": "forms-fahren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist mit dem Zug nach Berlin ___.",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The participle form for this lexical profile is gefahren. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Meaning: to drive / travel",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gefahren"
+      ]
+    },
+    {
+      "id": "forms-fahren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-fahren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for fahren: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-fahren-example",
+      "explanation": "The sequence form for this lexical profile is fahren · fuhr · gefahren. This profile uses intransitive travel to a destination with sein. Transitive driving (e.g. a vehicle) can use haben; it is not tested here.",
+      "hint": [
+        "Meaning: to drive / travel",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "fahren · fuhr · gefahren"
+        },
+        {
+          "id": "past-error",
+          "text": "fahren · fahrte · gefahren"
+        },
+        {
+          "id": "participle-error",
+          "text": "fahren · fuhr · gefahrt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-finden-past-recall",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): finden",
+      "exampleId": "forms-finden-example",
+      "explanation": "The praeteritum form for this lexical profile is fand. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to find",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fand"
+      ]
+    },
+    {
+      "id": "forms-finden-participle-recall",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: finden",
+      "exampleId": "forms-finden-example",
+      "explanation": "The participle form for this lexical profile is gefunden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to find",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gefunden"
+      ]
+    },
+    {
+      "id": "forms-finden-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Schlüssel gefunden. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-finden-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-finden-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich fand (Präteritum).",
+      "exampleId": "forms-finden-example",
+      "explanation": "The infinitive form for this lexical profile is finden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "finden"
+      ]
+    },
+    {
+      "id": "forms-finden-present-recall",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): finden",
+      "exampleId": "forms-finden-example",
+      "explanation": "The present form for this lexical profile is findet. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to find",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "findet"
+      ]
+    },
+    {
+      "id": "forms-finden-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Schlüssel ___.",
+      "exampleId": "forms-finden-example",
+      "explanation": "The participle form for this lexical profile is gefunden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to find",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gefunden"
+      ]
+    },
+    {
+      "id": "forms-finden-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-finden",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for finden: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-finden-example",
+      "explanation": "The sequence form for this lexical profile is finden · fand · gefunden. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to find",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "finden · fand · gefunden"
+        },
+        {
+          "id": "past-error",
+          "text": "finden · findete · gefunden"
+        },
+        {
+          "id": "participle-error",
+          "text": "finden · fand · gefindet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-geben-past-recall",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): geben",
+      "exampleId": "forms-geben-example",
+      "explanation": "The praeteritum form for this lexical profile is gab. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to give",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gab"
+      ]
+    },
+    {
+      "id": "forms-geben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: geben",
+      "exampleId": "forms-geben-example",
+      "explanation": "The participle form for this lexical profile is gegeben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to give",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegeben"
+      ]
+    },
+    {
+      "id": "forms-geben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ ihr das Buch gegeben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-geben-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-geben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich gab (Präteritum).",
+      "exampleId": "forms-geben-example",
+      "explanation": "The infinitive form for this lexical profile is geben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geben"
+      ]
+    },
+    {
+      "id": "forms-geben-present-recall",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): geben",
+      "exampleId": "forms-geben-example",
+      "explanation": "The present form for this lexical profile is gibt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to give",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gibt"
+      ]
+    },
+    {
+      "id": "forms-geben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat ihr das Buch ___.",
+      "exampleId": "forms-geben-example",
+      "explanation": "The participle form for this lexical profile is gegeben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to give",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegeben"
+      ]
+    },
+    {
+      "id": "forms-geben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-geben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for geben: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-geben-example",
+      "explanation": "The sequence form for this lexical profile is geben · gab · gegeben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to give",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "geben · gab · gegeben"
+        },
+        {
+          "id": "past-error",
+          "text": "geben · gebte · gegeben"
+        },
+        {
+          "id": "participle-error",
+          "text": "geben · gab · gegebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-gehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): gehen",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The praeteritum form for this lexical profile is ging. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to go / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ging"
+      ]
+    },
+    {
+      "id": "forms-gehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: gehen",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The participle form for this lexical profile is gegangen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to go / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegangen"
+      ]
+    },
+    {
+      "id": "forms-gehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ zu Fuß nach Hause gegangen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-gehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich ging (Präteritum).",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The infinitive form for this lexical profile is gehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gehen"
+      ]
+    },
+    {
+      "id": "forms-gehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): gehen",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The present form for this lexical profile is geht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to go / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geht"
+      ]
+    },
+    {
+      "id": "forms-gehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist zu Fuß nach Hause ___.",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The participle form for this lexical profile is gegangen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to go / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gegangen"
+      ]
+    },
+    {
+      "id": "forms-gehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-gehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for gehen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-gehen-example",
+      "explanation": "The sequence form for this lexical profile is gehen · ging · gegangen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to go / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "gehen · ging · gegangen"
+        },
+        {
+          "id": "past-error",
+          "text": "gehen · gehte · gegangen"
+        },
+        {
+          "id": "participle-error",
+          "text": "gehen · ging · gegeht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-haben-past-recall",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): haben",
+      "exampleId": "forms-haben-example",
+      "explanation": "The praeteritum form for this lexical profile is hatte. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Meaning: to have",
+        "Form profile: irregular. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "hatte"
+      ]
+    },
+    {
+      "id": "forms-haben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: haben",
+      "exampleId": "forms-haben-example",
+      "explanation": "The participle form for this lexical profile is gehabt. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Meaning: to have",
+        "Form profile: irregular. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gehabt"
+      ]
+    },
+    {
+      "id": "forms-haben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ gestern Zeit gehabt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-haben-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-haben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich hatte (Präteritum).",
+      "exampleId": "forms-haben-example",
+      "explanation": "The infinitive form for this lexical profile is haben. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "haben"
+      ]
+    },
+    {
+      "id": "forms-haben-present-recall",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): haben",
+      "exampleId": "forms-haben-example",
+      "explanation": "The present form for this lexical profile is hat. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Meaning: to have",
+        "Form profile: irregular. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "hat"
+      ]
+    },
+    {
+      "id": "forms-haben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat gestern Zeit ___.",
+      "exampleId": "forms-haben-example",
+      "explanation": "The participle form for this lexical profile is gehabt. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Meaning: to have",
+        "Form profile: irregular. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gehabt"
+      ]
+    },
+    {
+      "id": "forms-haben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-haben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for haben: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-haben-example",
+      "explanation": "The sequence form for this lexical profile is haben · hatte · gehabt. High-frequency irregular profile; hat is not a regular third-person formation.",
+      "hint": [
+        "Meaning: to have",
+        "Form profile: irregular. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "haben · hatte · gehabt"
+        },
+        {
+          "id": "past-error",
+          "text": "haben · habte · gehabt"
+        },
+        {
+          "id": "participle-error",
+          "text": "haben · hatte · gehaben"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-kommen-past-recall",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): kommen",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The praeteritum form for this lexical profile is kam. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to come",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "kam"
+      ]
+    },
+    {
+      "id": "forms-kommen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: kommen",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The participle form for this lexical profile is gekommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to come",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gekommen"
+      ]
+    },
+    {
+      "id": "forms-kommen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ pünktlich zum Treffen gekommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-kommen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich kam (Präteritum).",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The infinitive form for this lexical profile is kommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "kommen"
+      ]
+    },
+    {
+      "id": "forms-kommen-present-recall",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): kommen",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The present form for this lexical profile is kommt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to come",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "kommt"
+      ]
+    },
+    {
+      "id": "forms-kommen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist pünktlich zum Treffen ___.",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The participle form for this lexical profile is gekommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to come",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gekommen"
+      ]
+    },
+    {
+      "id": "forms-kommen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-kommen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for kommen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-kommen-example",
+      "explanation": "The sequence form for this lexical profile is kommen · kam · gekommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to come",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "kommen · kam · gekommen"
+        },
+        {
+          "id": "past-error",
+          "text": "kommen · kommte · gekommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "kommen · kam · gekommt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-laufen-past-recall",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): laufen",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The praeteritum form for this lexical profile is lief. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Meaning: to run / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "lief"
+      ]
+    },
+    {
+      "id": "forms-laufen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: laufen",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The participle form for this lexical profile is gelaufen. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Meaning: to run / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gelaufen"
+      ]
+    },
+    {
+      "id": "forms-laufen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ durch den Park gelaufen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-laufen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich lief (Präteritum).",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The infinitive form for this lexical profile is laufen. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "laufen"
+      ]
+    },
+    {
+      "id": "forms-laufen-present-recall",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): laufen",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The present form for this lexical profile is läuft. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Meaning: to run / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "läuft"
+      ]
+    },
+    {
+      "id": "forms-laufen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist durch den Park ___.",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The participle form for this lexical profile is gelaufen. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Meaning: to run / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gelaufen"
+      ]
+    },
+    {
+      "id": "forms-laufen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-laufen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for laufen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-laufen-example",
+      "explanation": "The sequence form for this lexical profile is laufen · lief · gelaufen. This profile uses directed movement with sein; other uses need their own context.",
+      "hint": [
+        "Meaning: to run / walk",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "laufen · lief · gelaufen"
+        },
+        {
+          "id": "past-error",
+          "text": "laufen · laufte · gelaufen"
+        },
+        {
+          "id": "participle-error",
+          "text": "laufen · lief · gelauft"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-lesen-past-recall",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): lesen",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The praeteritum form for this lexical profile is las. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to read",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "las"
+      ]
+    },
+    {
+      "id": "forms-lesen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: lesen",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The participle form for this lexical profile is gelesen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to read",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gelesen"
+      ]
+    },
+    {
+      "id": "forms-lesen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Bericht gelesen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-lesen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich las (Präteritum).",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The infinitive form for this lexical profile is lesen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "lesen"
+      ]
+    },
+    {
+      "id": "forms-lesen-present-recall",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): lesen",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The present form for this lexical profile is liest. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to read",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "liest"
+      ]
+    },
+    {
+      "id": "forms-lesen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Bericht ___.",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The participle form for this lexical profile is gelesen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to read",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gelesen"
+      ]
+    },
+    {
+      "id": "forms-lesen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-lesen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for lesen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-lesen-example",
+      "explanation": "The sequence form for this lexical profile is lesen · las · gelesen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to read",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "lesen · las · gelesen"
+        },
+        {
+          "id": "past-error",
+          "text": "lesen · leste · gelesen"
+        },
+        {
+          "id": "participle-error",
+          "text": "lesen · las · gelest"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-nehmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): nehmen",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The praeteritum form for this lexical profile is nahm. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to take",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nahm"
+      ]
+    },
+    {
+      "id": "forms-nehmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: nehmen",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The participle form for this lexical profile is genommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to take",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "genommen"
+      ]
+    },
+    {
+      "id": "forms-nehmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Bus genommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-nehmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich nahm (Präteritum).",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The infinitive form for this lexical profile is nehmen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nehmen"
+      ]
+    },
+    {
+      "id": "forms-nehmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): nehmen",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The present form for this lexical profile is nimmt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to take",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nimmt"
+      ]
+    },
+    {
+      "id": "forms-nehmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Bus ___.",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The participle form for this lexical profile is genommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to take",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "genommen"
+      ]
+    },
+    {
+      "id": "forms-nehmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-nehmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for nehmen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-nehmen-example",
+      "explanation": "The sequence form for this lexical profile is nehmen · nahm · genommen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to take",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "nehmen · nahm · genommen"
+        },
+        {
+          "id": "past-error",
+          "text": "nehmen · nehmte · genommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "nehmen · nahm · genehmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-schreiben-past-recall",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): schreiben",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The praeteritum form for this lexical profile is schrieb. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to write",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schrieb"
+      ]
+    },
+    {
+      "id": "forms-schreiben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: schreiben",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The participle form for this lexical profile is geschrieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to write",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geschrieben"
+      ]
+    },
+    {
+      "id": "forms-schreiben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine Nachricht geschrieben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-schreiben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich schrieb (Präteritum).",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The infinitive form for this lexical profile is schreiben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schreiben"
+      ]
+    },
+    {
+      "id": "forms-schreiben-present-recall",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): schreiben",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The present form for this lexical profile is schreibt. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to write",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schreibt"
+      ]
+    },
+    {
+      "id": "forms-schreiben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine Nachricht ___.",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The participle form for this lexical profile is geschrieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to write",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geschrieben"
+      ]
+    },
+    {
+      "id": "forms-schreiben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-schreiben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for schreiben: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-schreiben-example",
+      "explanation": "The sequence form for this lexical profile is schreiben · schrieb · geschrieben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to write",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "schreiben · schrieb · geschrieben"
+        },
+        {
+          "id": "past-error",
+          "text": "schreiben · schreibte · geschrieben"
+        },
+        {
+          "id": "participle-error",
+          "text": "schreiben · schrieb · geschreibt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-sehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): sehen",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The praeteritum form for this lexical profile is sah. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to see",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sah"
+      ]
+    },
+    {
+      "id": "forms-sehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: sehen",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The participle form for this lexical profile is gesehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to see",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gesehen"
+      ]
+    },
+    {
+      "id": "forms-sehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Fehler gesehen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-sehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich sah (Präteritum).",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The infinitive form for this lexical profile is sehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sehen"
+      ]
+    },
+    {
+      "id": "forms-sehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): sehen",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The present form for this lexical profile is sieht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to see",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sieht"
+      ]
+    },
+    {
+      "id": "forms-sehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Fehler ___.",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The participle form for this lexical profile is gesehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to see",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gesehen"
+      ]
+    },
+    {
+      "id": "forms-sehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-sehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for sehen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-sehen-example",
+      "explanation": "The sequence form for this lexical profile is sehen · sah · gesehen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to see",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "sehen · sah · gesehen"
+        },
+        {
+          "id": "past-error",
+          "text": "sehen · sehte · gesehen"
+        },
+        {
+          "id": "participle-error",
+          "text": "sehen · sah · geseht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-sprechen-past-recall",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): sprechen",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The praeteritum form for this lexical profile is sprach. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to speak",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sprach"
+      ]
+    },
+    {
+      "id": "forms-sprechen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: sprechen",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The participle form for this lexical profile is gesprochen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to speak",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gesprochen"
+      ]
+    },
+    {
+      "id": "forms-sprechen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ mit der Kollegin gesprochen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-sprechen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich sprach (Präteritum).",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The infinitive form for this lexical profile is sprechen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sprechen"
+      ]
+    },
+    {
+      "id": "forms-sprechen-present-recall",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): sprechen",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The present form for this lexical profile is spricht. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to speak",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "spricht"
+      ]
+    },
+    {
+      "id": "forms-sprechen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat mit der Kollegin ___.",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The participle form for this lexical profile is gesprochen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to speak",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gesprochen"
+      ]
+    },
+    {
+      "id": "forms-sprechen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-sprechen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for sprechen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-sprechen-example",
+      "explanation": "The sequence form for this lexical profile is sprechen · sprach · gesprochen. Auxiliary shown for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to speak",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "sprechen · sprach · gesprochen"
+        },
+        {
+          "id": "past-error",
+          "text": "sprechen · sprechte · gesprochen"
+        },
+        {
+          "id": "participle-error",
+          "text": "sprechen · sprach · gesprecht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-werden-past-recall",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): werden",
+      "exampleId": "forms-werden-example",
+      "explanation": "The praeteritum form for this lexical profile is wurde. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Meaning: to become",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wurde"
+      ]
+    },
+    {
+      "id": "forms-werden-participle-recall",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: werden",
+      "exampleId": "forms-werden-example",
+      "explanation": "The participle form for this lexical profile is geworden. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Meaning: to become",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geworden"
+      ]
+    },
+    {
+      "id": "forms-werden-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ nach der Ausbildung Ingenieur geworden. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-werden-example",
+      "explanation": "The auxiliary form for this lexical profile is sein. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-werden-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich wurde (Präteritum).",
+      "exampleId": "forms-werden-example",
+      "explanation": "The infinitive form for this lexical profile is werden. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "werden"
+      ]
+    },
+    {
+      "id": "forms-werden-present-recall",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): werden",
+      "exampleId": "forms-werden-example",
+      "explanation": "The present form for this lexical profile is wird. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Meaning: to become",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wird"
+      ]
+    },
+    {
+      "id": "forms-werden-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist nach der Ausbildung Ingenieur ___.",
+      "exampleId": "forms-werden-example",
+      "explanation": "The participle form for this lexical profile is geworden. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Meaning: to become",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "geworden"
+      ]
+    },
+    {
+      "id": "forms-werden-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-werden",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for werden: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-werden-example",
+      "explanation": "The sequence form for this lexical profile is werden · wurde · geworden. Lexical werden means become and has geworden. Passive auxiliary werden uses worden, which is outside this profile.",
+      "hint": [
+        "Meaning: to become",
+        "Form profile: strong. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "werden · wurde · geworden"
+        },
+        {
+          "id": "past-error",
+          "text": "werden · werdete · geworden"
+        },
+        {
+          "id": "participle-error",
+          "text": "werden · wurde · gewerdet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-wissen-past-recall",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): wissen",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The praeteritum form for this lexical profile is wusste. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Meaning: to know (a fact)",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wusste"
+      ]
+    },
+    {
+      "id": "forms-wissen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: wissen",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The participle form for this lexical profile is gewusst. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Meaning: to know (a fact)",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gewusst"
+      ]
+    },
+    {
+      "id": "forms-wissen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Antwort gewusst. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The auxiliary form for this lexical profile is haben. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Consider the event in context: directed movement, a change of state, or an activity. Recall its lexical Perfekt pattern; do not infer it from the participle ending alone."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-wissen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich wusste (Präteritum).",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The infinitive form for this lexical profile is wissen. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Recover the dictionary form from the past-tense form; preserve any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wissen"
+      ]
+    },
+    {
+      "id": "forms-wissen-present-recall",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): wissen",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The present form for this lexical profile is weiß. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Meaning: to know (a fact)",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "weiß"
+      ]
+    },
+    {
+      "id": "forms-wissen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Antwort ___.",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The participle form for this lexical profile is gewusst. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Meaning: to know (a fact)",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gewusst"
+      ]
+    },
+    {
+      "id": "forms-wissen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-wissen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for wissen: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-wissen-example",
+      "explanation": "The sequence form for this lexical profile is wissen · wusste · gewusst. A preterite-present verb; grouped as mixed for its changed past stem and dental ending.",
+      "hint": [
+        "Meaning: to know (a fact)",
+        "Form profile: mixed. Recall the requested form family.",
+        "Recall the requested principal part rather than translating the sentence."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "wissen · wusste · gewusst"
+        },
+        {
+          "id": "past-error",
+          "text": "wissen · wisste · gewusst"
+        },
+        {
+          "id": "participle-error",
+          "text": "wissen · wusste · gewissen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "verb-forms-pilot-01",
+      "title": "Verb Forms 01 · arbeiten–gehen",
+      "description": "Ten common verbs, alphabetically ordered. Recall principal parts and use forms in context.",
+      "itemIds": [
+        "forms-arbeiten",
+        "forms-aufstehen",
+        "forms-bleiben",
+        "forms-bringen",
+        "forms-denken",
+        "forms-essen",
+        "forms-fahren",
+        "forms-finden",
+        "forms-geben",
+        "forms-gehen"
+      ],
+      "questionIds": [
+        "forms-arbeiten-past-recall",
+        "forms-arbeiten-participle-recall",
+        "forms-arbeiten-auxiliary-choice",
+        "forms-arbeiten-infinitive-recall",
+        "forms-arbeiten-present-recall",
+        "forms-arbeiten-sentence-completion",
+        "forms-arbeiten-sequence-choice",
+        "forms-aufstehen-past-recall",
+        "forms-aufstehen-participle-recall",
+        "forms-aufstehen-auxiliary-choice",
+        "forms-aufstehen-infinitive-recall",
+        "forms-aufstehen-present-recall",
+        "forms-aufstehen-sentence-completion",
+        "forms-aufstehen-sequence-choice",
+        "forms-bleiben-past-recall",
+        "forms-bleiben-participle-recall",
+        "forms-bleiben-auxiliary-choice",
+        "forms-bleiben-infinitive-recall",
+        "forms-bleiben-present-recall",
+        "forms-bleiben-sentence-completion",
+        "forms-bleiben-sequence-choice",
+        "forms-bringen-past-recall",
+        "forms-bringen-participle-recall",
+        "forms-bringen-auxiliary-choice",
+        "forms-bringen-infinitive-recall",
+        "forms-bringen-present-recall",
+        "forms-bringen-sentence-completion",
+        "forms-bringen-sequence-choice",
+        "forms-denken-past-recall",
+        "forms-denken-participle-recall",
+        "forms-denken-auxiliary-choice",
+        "forms-denken-infinitive-recall",
+        "forms-denken-present-recall",
+        "forms-denken-sentence-completion",
+        "forms-denken-sequence-choice",
+        "forms-essen-past-recall",
+        "forms-essen-participle-recall",
+        "forms-essen-auxiliary-choice",
+        "forms-essen-infinitive-recall",
+        "forms-essen-present-recall",
+        "forms-essen-sentence-completion",
+        "forms-essen-sequence-choice",
+        "forms-fahren-past-recall",
+        "forms-fahren-participle-recall",
+        "forms-fahren-auxiliary-choice",
+        "forms-fahren-infinitive-recall",
+        "forms-fahren-present-recall",
+        "forms-fahren-sentence-completion",
+        "forms-fahren-sequence-choice",
+        "forms-finden-past-recall",
+        "forms-finden-participle-recall",
+        "forms-finden-auxiliary-choice",
+        "forms-finden-infinitive-recall",
+        "forms-finden-present-recall",
+        "forms-finden-sentence-completion",
+        "forms-finden-sequence-choice",
+        "forms-geben-past-recall",
+        "forms-geben-participle-recall",
+        "forms-geben-auxiliary-choice",
+        "forms-geben-infinitive-recall",
+        "forms-geben-present-recall",
+        "forms-geben-sentence-completion",
+        "forms-geben-sequence-choice",
+        "forms-gehen-past-recall",
+        "forms-gehen-participle-recall",
+        "forms-gehen-auxiliary-choice",
+        "forms-gehen-infinitive-recall",
+        "forms-gehen-present-recall",
+        "forms-gehen-sentence-completion",
+        "forms-gehen-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-pilot-02",
+      "title": "Verb Forms 02 · haben–wissen",
+      "description": "Ten common verbs, alphabetically ordered. Recall principal parts and use forms in context.",
+      "itemIds": [
+        "forms-haben",
+        "forms-kommen",
+        "forms-laufen",
+        "forms-lesen",
+        "forms-nehmen",
+        "forms-schreiben",
+        "forms-sehen",
+        "forms-sprechen",
+        "forms-werden",
+        "forms-wissen"
+      ],
+      "questionIds": [
+        "forms-haben-past-recall",
+        "forms-haben-participle-recall",
+        "forms-haben-auxiliary-choice",
+        "forms-haben-infinitive-recall",
+        "forms-haben-present-recall",
+        "forms-haben-sentence-completion",
+        "forms-haben-sequence-choice",
+        "forms-kommen-past-recall",
+        "forms-kommen-participle-recall",
+        "forms-kommen-auxiliary-choice",
+        "forms-kommen-infinitive-recall",
+        "forms-kommen-present-recall",
+        "forms-kommen-sentence-completion",
+        "forms-kommen-sequence-choice",
+        "forms-laufen-past-recall",
+        "forms-laufen-participle-recall",
+        "forms-laufen-auxiliary-choice",
+        "forms-laufen-infinitive-recall",
+        "forms-laufen-present-recall",
+        "forms-laufen-sentence-completion",
+        "forms-laufen-sequence-choice",
+        "forms-lesen-past-recall",
+        "forms-lesen-participle-recall",
+        "forms-lesen-auxiliary-choice",
+        "forms-lesen-infinitive-recall",
+        "forms-lesen-present-recall",
+        "forms-lesen-sentence-completion",
+        "forms-lesen-sequence-choice",
+        "forms-nehmen-past-recall",
+        "forms-nehmen-participle-recall",
+        "forms-nehmen-auxiliary-choice",
+        "forms-nehmen-infinitive-recall",
+        "forms-nehmen-present-recall",
+        "forms-nehmen-sentence-completion",
+        "forms-nehmen-sequence-choice",
+        "forms-schreiben-past-recall",
+        "forms-schreiben-participle-recall",
+        "forms-schreiben-auxiliary-choice",
+        "forms-schreiben-infinitive-recall",
+        "forms-schreiben-present-recall",
+        "forms-schreiben-sentence-completion",
+        "forms-schreiben-sequence-choice",
+        "forms-sehen-past-recall",
+        "forms-sehen-participle-recall",
+        "forms-sehen-auxiliary-choice",
+        "forms-sehen-infinitive-recall",
+        "forms-sehen-present-recall",
+        "forms-sehen-sentence-completion",
+        "forms-sehen-sequence-choice",
+        "forms-sprechen-past-recall",
+        "forms-sprechen-participle-recall",
+        "forms-sprechen-auxiliary-choice",
+        "forms-sprechen-infinitive-recall",
+        "forms-sprechen-present-recall",
+        "forms-sprechen-sentence-completion",
+        "forms-sprechen-sequence-choice",
+        "forms-werden-past-recall",
+        "forms-werden-participle-recall",
+        "forms-werden-auxiliary-choice",
+        "forms-werden-infinitive-recall",
+        "forms-werden-present-recall",
+        "forms-werden-sentence-completion",
+        "forms-werden-sequence-choice",
+        "forms-wissen-past-recall",
+        "forms-wissen-participle-recall",
+        "forms-wissen-auxiliary-choice",
+        "forms-wissen-infinitive-recall",
+        "forms-wissen-present-recall",
+        "forms-wissen-sentence-completion",
+        "forms-wissen-sequence-choice"
+      ]
+    }
+  ]
+}

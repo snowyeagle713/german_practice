@@ -1,13 +1,14 @@
 import { themeIds } from '../domain/palettes';
 import Ajv2020 from 'ajv/dist/2020.js';
-import { validateContent } from '../domain/content/validate';
+import { validateAnyContent } from '../domain/content/catalog';
+import { isTextQuestion, itemsForPack, questionItemId } from '../domain/content/types';
 import { correctAnswer, gradeAnswer } from '../domain/practice/grading';
 import { isActive } from '../domain/practice/session';
 import type { Attempt, PracticeSession, QuestionState } from '../domain/practice/types';
 import type { LocalData, Settings } from './types';
 export const MAX_BACKUP_BYTES = 10 * 1024 * 1024;
 export interface Backup {
-  schemaVersion: 1; appId: 'german-trainer'; exportedAt: string;
+  schemaVersion: 1 | 2; appId: 'german-trainer'; exportedAt: string;
   contentVersions: { packId: string; packVersion: number }[];
   settings: Settings; cursors: Record<string, number>; currentId: string | null;
   sessions: PracticeSession[]; attempts: Attempt[];
@@ -30,9 +31,11 @@ const session = object({ sessionId: id, mode: { enum: ['quick', 'standard', 'rev
   status: { enum: ['answering', 'feedback', 'completed', 'abandoned'] }, order: { ...array(id, true), minItems: 1, maxItems: 20 },
   choiceOrders: { type: 'object', propertyNames: id, additionalProperties: array(id, true) }, currentIndex: integer, ...state,
   contentSnapshot: { type: 'object' }, attempts: array(attempt), submittedAttemptIds: array(id, true) });
+// Optional only for new v2 snapshots; original v1 session objects remain byte-compatible.
+Object.assign(session.properties, { snapshotVersion: { const: 2 } });
 const ajv = new Ajv2020({ allErrors: true, strict: true });
 ajv.addFormat('iso-date', value => { try { return new Date(value).toISOString() === value; } catch { return false; } });
-const shape = ajv.compile<Backup>(object({ schemaVersion: { const: 1 }, appId: { const: 'german-trainer' }, exportedAt: date,
+const shape = ajv.compile<Backup>(object({ schemaVersion: { enum: [1, 2] }, appId: { const: 'german-trainer' }, exportedAt: date,
   contentVersions: array(object({ packId: id, packVersion: { type: 'integer', minimum: 1 } }), true),
   settings: object({ theme: { enum: [...themeIds] }, sessionSize: { enum: [10, 20] } }),
   cursors: { type: 'object', propertyNames: id, additionalProperties: integer }, currentId: nullable(id), sessions: array(session), attempts: array(attempt) }));
@@ -45,20 +48,21 @@ function same(a: unknown, b: unknown): boolean {
 }
 function membership(a: string[], b: string[]) { return a.length === b.length && a.every(id => b.includes(id)); }
 function validateSession(value: PracticeSession) {
-  const pack = validateContent(value.contentSnapshot);
+  const pack = validateAnyContent(value.contentSnapshot);
+  requireValid(pack.schemaVersion === 2 ? value.snapshotVersion === 2 : value.snapshotVersion === undefined, 'snapshot envelope version');
   requireValid(pack.packId === value.packId && pack.packVersion === value.packVersion, 'snapshot pack identity');
   requireValid(pack.blocks.length === 1 && pack.blocks[0]!.id === value.blockId && membership(pack.blocks[0]!.questionIds, value.order), 'snapshot block membership');
   requireValid(value.currentIndex < value.order.length && value.sessionSize === value.order.length, 'position or session size');
   requireValid(value.mode === 'revision' || value.order.length === (value.mode === 'quick' ? 10 : 20), 'mode length');
-  const choiceIds = pack.questions.filter(question => question.type !== 'preposition_cloze').map(question => question.id);
+  const choiceIds = pack.questions.filter(question => !isTextQuestion(question)).map(question => question.id);
   requireValid(membership(Object.keys(value.choiceOrders), choiceIds), 'choice order keys');
-  for (const question of pack.questions) if (question.type !== 'preposition_cloze') requireValid(membership(value.choiceOrders[question.id]!, question.choices.map(choice => choice.id)), 'choice order membership');
+  for (const question of pack.questions) if (!isTextQuestion(question)) requireValid(membership(value.choiceOrders[question.id]!, question.choices.map(choice => choice.id)), 'choice order membership');
   requireValid(new Set(value.attempts.map(item => item.questionId)).size === value.attempts.length, 'duplicate first answer');
   requireValid(same(value.submittedAttemptIds, value.attempts.map(item => item.attemptId)), 'submitted answer IDs');
   for (const item of value.attempts) {
     const question = pack.questions.find(question => question.id === item.questionId);
     requireValid(Boolean(question), 'answer question reference'); if (!question) throw new Error('Missing question');
-    requireValid(item.sessionId === value.sessionId && item.entryId === question.entryId && item.questionRevision === question.revision, 'answer identity');
+    requireValid(item.sessionId === value.sessionId && item.entryId === questionItemId(question) && item.questionRevision === question.revision, 'answer identity');
     requireValid(gradeAnswer(question, item.response) === item.isCorrect && item.isUnaidedCorrect === (item.isCorrect && !item.hintUsed && !item.revealed), 'answer grading evidence');
     requireValid(item.submittedAt >= value.startedAt && (!value.completedAt || item.submittedAt <= value.completedAt), 'answer timestamp');
   }
@@ -67,7 +71,7 @@ function validateSession(value: PracticeSession) {
     const question = pack.questions.find(item => item.id === qid);
     requireValid(Boolean(question), 'draft question reference'); if (!question) return;
     if (state.response) {
-      if (question.type === 'preposition_cloze') requireValid(state.response.kind === 'text', 'draft response kind');
+      if (isTextQuestion(question)) requireValid(state.response.kind === 'text', 'draft response kind');
       else {
         const choiceId = state.response.kind === 'choice' ? state.response.choiceId : null;
         requireValid(question.choices.some(choice => choice.id === choiceId), 'draft choice reference');
@@ -76,7 +80,7 @@ function validateSession(value: PracticeSession) {
     const item = value.attempts.find(item => item.questionId === qid);
     if (state.feedback) {
       requireValid(Boolean(item) && same(item?.response, state.response) && item?.hintUsed === state.hintUsed && item?.revealed === state.revealed, 'immutable feedback response');
-      const entry = pack.entries.find(entry => entry.id === question.entryId)!;
+      const entry = itemsForPack(pack).find(entry => entry.id === questionItemId(question))!;
       const example = entry.examples.find(example => example.id === question.exampleId) ?? entry.examples[0]!;
       requireValid(same(state.feedback, { attemptId: item!.attemptId, correctAnswer: correctAnswer(question), explanation: question.explanation, exampleDe: example.de, exampleEn: example.en, meaningEn: entry.meaningEn }), 'authored feedback');
       requireValid(state.guidance === null, 'graded guidance');
@@ -97,6 +101,7 @@ export function validateBackup(input: unknown): Backup {
   requireValid(new Set(value.attempts.map(item => item.attemptId)).size === value.attempts.length, 'duplicate answer ID');
   requireValid(value.sessions.filter(isActive).length <= 1, 'multiple active sessions');
   requireValid(value.currentId === null || value.sessions.some(item => item.sessionId === value.currentId), 'current session reference');
+  requireValid(value.schemaVersion === 2 || value.sessions.every(session => session.contentSnapshot.schemaVersion === 1), 'v2 snapshots require backup version 2');
   value.sessions.forEach(validateSession);
   const embedded = value.sessions.flatMap(session => session.attempts);
   requireValid(embedded.length === value.attempts.length && embedded.every(item => same(item, value.attempts.find(attempt => attempt.attemptId === item.attemptId))), 'answer store references');
@@ -111,7 +116,7 @@ export function parseBackup(text: string): Backup {
 }
 export function makeBackup(data: LocalData, exportedAt = new Date().toISOString()): Backup {
   const contentVersions = [...new Map(data.sessions.map(session => [`${session.packId}:${session.packVersion}`, { packId: session.packId, packVersion: session.packVersion }])).values()];
-  return validateBackup({ schemaVersion: 1, appId: 'german-trainer', exportedAt, contentVersions, settings: data.settings, cursors: data.cursors, currentId: data.currentId, sessions: data.sessions, attempts: data.sessions.flatMap(session => session.attempts) });
+  return validateBackup({ schemaVersion: data.sessions.some(session => session.contentSnapshot.schemaVersion === 2) ? 2 : 1, appId: 'german-trainer', exportedAt, contentVersions, settings: data.settings, cursors: data.cursors, currentId: data.currentId, sessions: data.sessions, attempts: data.sessions.flatMap(session => session.attempts) });
 }
 export function backupData(backup: Backup): LocalData {
   return { revision: 0, settings: backup.settings, cursors: backup.cursors, currentId: backup.currentId, sessions: backup.sessions };

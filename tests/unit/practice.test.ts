@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import seed from '../../content/seed-pack.json';
 import { validateContent } from '../../src/domain/content/validate';
-import type { Question } from '../../src/domain/content/types';
+import { isTextQuestion, type AnyQuestion } from '../../src/domain/content/types';
 import { gradeAnswer, normalizeAnswer } from '../../src/domain/practice/grading';
 import { createSession, currentQuestion, transition } from '../../src/domain/practice/session';
 import { shuffle } from '../../src/domain/practice/shuffle';
@@ -15,8 +15,8 @@ function dependencies(seedValue = 1) {
   let state = seedValue, id = 0;
   return { random: () => { state = (Math.imul(state, 1664525) + 1013904223) >>> 0; return state / 2 ** 32; }, now: () => at, id: () => `session-${++id}` };
 }
-function answer(question: Question, correct = true): Response {
-  if (question.type === 'preposition_cloze') return { kind: 'text', value: correct ? `  ${question.acceptedAnswers[0]!.toUpperCase()}  ` : 'wrong' };
+function answer(question: AnyQuestion, correct = true): Response {
+  if (isTextQuestion(question)) return { kind: 'text', value: correct ? `  ${question.acceptedAnswers[0]!.toUpperCase()}  ` : 'wrong' };
   return { kind: 'choice', choiceId: correct ? question.correctChoiceId : question.choices.find(choice => choice.id !== question.correctChoiceId)!.id };
 }
 function submit(session: PracticeSession, correct = true) {
@@ -32,7 +32,7 @@ describe('rotating authored sessions', () => {
     expect(new Set(session.order).size).toBe(20);
     expect(new Set(session.order)).toEqual(new Set(pack.blocks[0]!.questionIds.slice(0, 20)));
     for (const question of session.contentSnapshot.questions) {
-      if (question.type !== 'preposition_cloze') expect(new Set(session.choiceOrders[question.id])).toEqual(new Set(question.choices.map(choice => choice.id)));
+      if (!isTextQuestion(question)) expect(new Set(session.choiceOrders[question.id])).toEqual(new Set(question.choices.map(choice => choice.id)));
     }
   });
   it('produces different orders for known different sources without requiring every new order to differ', () => {

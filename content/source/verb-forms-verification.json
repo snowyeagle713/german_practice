@@ -1,0 +1,148 @@
+{
+  "source": "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv",
+  "provenance": "README identifies this as a Wiktionary-derived conjugation dataset. Third-party transcription, not direct Duden/DWDS verification.",
+  "checkedAt": "2026-10-10",
+  "sourceSha256": "7fbac9b469e6226614385c20fc59f15b6014dd070f04387a875e2465cb223ce3",
+  "verifiedFacts": [
+    {
+      "infinitive": "arbeiten",
+      "present3": "arbeitet",
+      "praeteritum": "arbeitete",
+      "participle": "gearbeitet",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "aufstehen",
+      "present3": "steht auf",
+      "praeteritum": "stand auf",
+      "participle": "aufgestanden",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "bleiben",
+      "present3": "bleibt",
+      "praeteritum": "blieb",
+      "participle": "geblieben",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "bringen",
+      "present3": "bringt",
+      "praeteritum": "brachte",
+      "participle": "gebracht",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "denken",
+      "present3": "denkt",
+      "praeteritum": "dachte",
+      "participle": "gedacht",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "essen",
+      "present3": "isst",
+      "praeteritum": "aß",
+      "participle": "gegessen",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "fahren",
+      "present3": "fährt",
+      "praeteritum": "fuhr",
+      "participle": "gefahren",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "finden",
+      "present3": "findet",
+      "praeteritum": "fand",
+      "participle": "gefunden",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "geben",
+      "present3": "gibt",
+      "praeteritum": "gab",
+      "participle": "gegeben",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "gehen",
+      "present3": "geht",
+      "praeteritum": "ging",
+      "participle": "gegangen",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "haben",
+      "present3": "hat",
+      "praeteritum": "hatte",
+      "participle": "gehabt",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "kommen",
+      "present3": "kommt",
+      "praeteritum": "kam",
+      "participle": "gekommen",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "laufen",
+      "present3": "läuft",
+      "praeteritum": "lief",
+      "participle": "gelaufen",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "lesen",
+      "present3": "liest",
+      "praeteritum": "las",
+      "participle": "gelesen",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "nehmen",
+      "present3": "nimmt",
+      "praeteritum": "nahm",
+      "participle": "genommen",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "schreiben",
+      "present3": "schreibt",
+      "praeteritum": "schrieb",
+      "participle": "geschrieben",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "sehen",
+      "present3": "sieht",
+      "praeteritum": "sah",
+      "participle": "gesehen",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "sprechen",
+      "present3": "spricht",
+      "praeteritum": "sprach",
+      "participle": "gesprochen",
+      "auxiliary": "haben"
+    },
+    {
+      "infinitive": "werden",
+      "present3": "wird",
+      "praeteritum": "wurde",
+      "participle": "geworden",
+      "auxiliary": "sein"
+    },
+    {
+      "infinitive": "wissen",
+      "present3": "weiß",
+      "praeteritum": "wusste",
+      "participle": "gewusst",
+      "auxiliary": "haben"
+    }
+  ]
+}

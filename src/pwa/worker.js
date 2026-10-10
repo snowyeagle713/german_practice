@@ -40,7 +40,7 @@ self.addEventListener('message', event => {
   if (event.data?.type === 'READINESS') event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     const ready = (await Promise.all(ASSETS.map(asset => cache.match(asset).then(response => valid(response, asset))))).every(Boolean);
-    event.ports[0]?.postMessage({ ready, cache: CACHE, count: ASSETS.length });
+    event.ports[0]?.postMessage({ ready, runtimeVersion: 2, cache: CACHE, count: ASSETS.length });
   })());
   if (event.data?.type === 'PREPARE_CACHE') event.waitUntil(prepare().then(() => event.ports[0]?.postMessage({ ok: true })).catch(() => event.ports[0]?.postMessage({ ok: false })));
   if (event.data?.type === 'ACTIVATE_UPDATE') event.waitUntil((async () => {

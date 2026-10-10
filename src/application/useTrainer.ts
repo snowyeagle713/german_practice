@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { DraftBuffer } from './draftBuffer';
-import type { ContentPack } from '../domain/content/types';
+import type { AnyContentPack } from '../domain/content/types';
+import { rotationKey } from '../domain/content/catalog';
 import { createSession, isActive, transition } from '../domain/practice/session';
 import type { PracticeCommand } from '../domain/practice/types';
 import { IndexedDbRepository } from '../storage/indexedDb';
@@ -68,13 +69,13 @@ export function useTrainer() {
     data, ready, error, busy,
     canUpdate: () => loaded.current && !drafts.current!.pending && pending.current === 0 && !failed.current && !current.current.sessions.some(isActive),
     session: data.sessions.find(item => item.sessionId === data.currentId) ?? null,
-    start: (pack: ContentPack, blockId: string, replace = false, questionIds?: string[]) => operate(value => {
+    start: (pack: AnyContentPack, blockId: string, replace = false, questionIds?: string[]) => operate(value => {
       const active = value.sessions.find(isActive);
       if (active && !replace) return value;
       const session = createSession(pack, blockId, { random: Math.random, now: () => new Date().toISOString(), id: () => crypto.randomUUID() }, {
-        size: value.settings.sessionSize, cursor: Object.hasOwn(value.cursors, blockId) ? value.cursors[blockId]! : 0, ...(questionIds ? { questionIds } : {}),
+        size: value.settings.sessionSize, cursor: Object.hasOwn(value.cursors, rotationKey(pack, blockId)) ? value.cursors[rotationKey(pack, blockId)]! : 0, ...(questionIds ? { questionIds } : {}),
       });
-      return { ...value, currentId: session.sessionId, cursors: questionIds ? value.cursors : { ...value.cursors, [blockId]: session.rotationNext },
+      return { ...value, currentId: session.sessionId, cursors: questionIds ? value.cursors : { ...value.cursors, [rotationKey(pack, blockId)]: session.rotationNext },
         sessions: [...value.sessions.map(item => isActive(item) ? { ...item, status: 'abandoned' as const } : item), session] };
     }),
     send: (command: PracticeCommand) => {
