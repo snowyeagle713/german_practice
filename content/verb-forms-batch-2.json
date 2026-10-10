@@ -3724,6 +3724,479 @@
         "separability": "inseparable",
         "prefix": "ver"
       }
+    },
+    {
+      "id": "forms-vermitteln",
+      "contentType": "verb-forms",
+      "title": "vermitteln",
+      "meaningEn": "to convey / teach (knowledge)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-vermitteln-example",
+          "domain": "everyday",
+          "de": "Er hat den Teilnehmern die Grundlagen vermittelt.",
+          "en": "He taught the participants the basics."
+        },
+        {
+          "id": "forms-vermitteln-technical",
+          "domain": "technical",
+          "de": "Er hat dem Team die Grundlagen der Messtechnik vermittelt.",
+          "en": "He taught the team the fundamentals of measurement technology."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#vermitteln",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "vermitteln",
+        "present3": "vermittelt",
+        "stemChange": null,
+        "praeteritum": "vermittelte",
+        "participle": "vermittelt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Teilnehmern die Grundlagen vermittelt.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-veroeffentlichen",
+      "contentType": "verb-forms",
+      "title": "veröffentlichen",
+      "meaningEn": "to publish",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-veroeffentlichen-example",
+          "domain": "everyday",
+          "de": "Er hat die Ergebnisse in einem ausführlichen Bericht veröffentlicht.",
+          "en": "He published the results in a detailed report."
+        },
+        {
+          "id": "forms-veroeffentlichen-technical",
+          "domain": "technical",
+          "de": "Er hat die Versuchsergebnisse im Projektbericht veröffentlicht.",
+          "en": "He published the experimental results in the project report."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#veröffentlichen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "veröffentlichen",
+        "present3": "veröffentlicht",
+        "stemChange": null,
+        "praeteritum": "veröffentlichte",
+        "participle": "veröffentlicht",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Ergebnisse in einem ausführlichen Bericht veröffentlicht.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-versagen",
+      "contentType": "verb-forms",
+      "title": "versagen",
+      "meaningEn": "to fail (a device or function)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-versagen-example",
+          "domain": "everyday",
+          "de": "Die Bremse hat im entscheidenden Moment versagt.",
+          "en": "The brake failed at the critical moment."
+        },
+        {
+          "id": "forms-versagen-technical",
+          "domain": "technical",
+          "de": "Die Pumpe hat bei hoher Belastung versagt.",
+          "en": "The pump failed under high load."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#versagen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "versagen",
+        "present3": "versagt",
+        "stemChange": null,
+        "praeteritum": "versagte",
+        "participle": "versagt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Die Bremse hat im entscheidenden Moment versagt.",
+        "auxiliaryNote": "Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-verschieben",
+      "contentType": "verb-forms",
+      "title": "verschieben",
+      "meaningEn": "to postpone / reschedule",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-verschieben-example",
+          "domain": "everyday",
+          "de": "Er hat die Besprechung auf nächste Woche verschoben.",
+          "en": "He postponed the meeting until next week."
+        },
+        {
+          "id": "forms-verschieben-technical",
+          "domain": "technical",
+          "de": "Er hat den Versuch wegen eines defekten Sensors verschoben.",
+          "en": "He postponed the trial because of a faulty sensor."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#verschieben",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "verschieben",
+        "present3": "verschiebt",
+        "stemChange": null,
+        "praeteritum": "verschob",
+        "participle": "verschoben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Besprechung auf nächste Woche verschoben.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "strong",
+        "separability": "inseparable",
+        "prefix": "ver"
+      }
+    },
+    {
+      "id": "forms-voraussetzen",
+      "contentType": "verb-forms",
+      "title": "voraussetzen",
+      "meaningEn": "to presuppose / require as a prerequisite",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-voraussetzen-example",
+          "domain": "everyday",
+          "de": "Der Kurs hat grundlegende Vorkenntnisse vorausgesetzt.",
+          "en": "The course required basic prior knowledge."
+        },
+        {
+          "id": "forms-voraussetzen-technical",
+          "domain": "technical",
+          "de": "Das Prüfverfahren hat eine genaue Kalibrierung vorausgesetzt.",
+          "en": "The test procedure required accurate calibration."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#voraussetzen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "voraussetzen",
+        "present3": "setzt voraus",
+        "stemChange": null,
+        "praeteritum": "setzte voraus",
+        "participle": "vorausgesetzt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Der Kurs hat grundlegende Vorkenntnisse vorausgesetzt.",
+        "auxiliaryNote": "Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "voraus"
+      }
+    },
+    {
+      "id": "forms-vorsehen",
+      "contentType": "verb-forms",
+      "title": "vorsehen",
+      "meaningEn": "to plan for / provide for",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "V",
+      "examples": [
+        {
+          "id": "forms-vorsehen-example",
+          "domain": "everyday",
+          "de": "Er hat für die Wartung zwei Stunden vorgesehen.",
+          "en": "He allowed two hours for maintenance."
+        },
+        {
+          "id": "forms-vorsehen-technical",
+          "domain": "technical",
+          "de": "Er hat im Entwurf Platz für einen zusätzlichen Sensor vorgesehen.",
+          "en": "He provided space for an additional sensor in the design."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#vorsehen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "vorsehen",
+        "present3": "sieht vor",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "sah vor",
+        "participle": "vorgesehen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat für die Wartung zwei Stunden vorgesehen.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "vor"
+      }
+    },
+    {
+      "id": "forms-wahrnehmen",
+      "contentType": "verb-forms",
+      "title": "wahrnehmen",
+      "meaningEn": "to perceive / notice",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "W",
+      "examples": [
+        {
+          "id": "forms-wahrnehmen-example",
+          "domain": "everyday",
+          "de": "Er hat die Veränderungen in seiner Umgebung wahrgenommen.",
+          "en": "He noticed the changes around him."
+        },
+        {
+          "id": "forms-wahrnehmen-technical",
+          "domain": "technical",
+          "de": "Er hat während des Versuchs ungewöhnliche Geräusche wahrgenommen.",
+          "en": "He noticed unusual noises during the trial."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#wahrnehmen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "wahrnehmen",
+        "present3": "nimmt wahr",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "nahm wahr",
+        "participle": "wahrgenommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Veränderungen in seiner Umgebung wahrgenommen.",
+        "auxiliaryNote": "Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "wahr"
+      }
+    },
+    {
+      "id": "forms-zunehmen",
+      "contentType": "verb-forms",
+      "title": "zunehmen",
+      "meaningEn": "to increase",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "Z",
+      "examples": [
+        {
+          "id": "forms-zunehmen-example",
+          "domain": "everyday",
+          "de": "Die Nachfrage hat seit dem Frühjahr zugenommen.",
+          "en": "Demand has increased since spring."
+        },
+        {
+          "id": "forms-zunehmen-technical",
+          "domain": "technical",
+          "de": "Die Schwingungen haben bei hoher Drehzahl zugenommen.",
+          "en": "The vibrations increased at high rotational speed."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#zunehmen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "zunehmen",
+        "present3": "nimmt zu",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "nahm zu",
+        "participle": "zugenommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Die Nachfrage hat seit dem Frühjahr zugenommen.",
+        "auxiliaryNote": "The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "zu"
+      }
+    },
+    {
+      "id": "forms-zurueckfuehren",
+      "contentType": "verb-forms",
+      "title": "zurückführen",
+      "meaningEn": "to attribute (a result to a cause)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "Z",
+      "examples": [
+        {
+          "id": "forms-zurueckfuehren-example",
+          "domain": "everyday",
+          "de": "Er hat die Verzögerung auf fehlende Informationen zurückgeführt.",
+          "en": "He attributed the delay to missing information."
+        },
+        {
+          "id": "forms-zurueckfuehren-technical",
+          "domain": "technical",
+          "de": "Er hat die Abweichung auf einen Fehler im Versuchsaufbau zurückgeführt.",
+          "en": "He attributed the deviation to an error in the experimental setup."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#zurückführen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "zurückführen",
+        "present3": "führt zurück",
+        "stemChange": null,
+        "praeteritum": "führte zurück",
+        "participle": "zurückgeführt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Verzögerung auf fehlende Informationen zurückgeführt.",
+        "auxiliaryNote": "Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "zurück"
+      }
+    },
+    {
+      "id": "forms-zustimmen",
+      "contentType": "verb-forms",
+      "title": "zustimmen",
+      "meaningEn": "to agree / consent",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "Z",
+      "examples": [
+        {
+          "id": "forms-zustimmen-example",
+          "domain": "everyday",
+          "de": "Er hat dem Vorschlag nach der Diskussion zugestimmt.",
+          "en": "He agreed to the proposal after the discussion."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#zustimmen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "zustimmen",
+        "present3": "stimmt zu",
+        "stemChange": null,
+        "praeteritum": "stimmte zu",
+        "participle": "zugestimmt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat dem Vorschlag nach der Diskussion zugestimmt.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "zu"
+      }
     }
   ],
   "questions": [
@@ -15886,6 +16359,1526 @@
         }
       ],
       "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-vermitteln-past-recall",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): vermitteln — to convey / teach (knowledge)",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The third-person singular Präteritum for to convey / teach (knowledge) is vermittelte. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vermittelte"
+      ]
+    },
+    {
+      "id": "forms-vermitteln-participle-recall",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: vermitteln — to convey / teach (knowledge)",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The Partizip II for to convey / teach (knowledge) is vermittelt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vermittelt"
+      ]
+    },
+    {
+      "id": "forms-vermitteln-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Teilnehmern die Grundlagen vermittelt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to convey / teach (knowledge) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-vermitteln-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: vermittelte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The dictionary infinitive for to convey / teach (knowledge) is vermitteln. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vermitteln"
+      ]
+    },
+    {
+      "id": "forms-vermitteln-present-recall",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): vermitteln — to convey / teach (knowledge)",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The third-person singular Präsens for to convey / teach (knowledge) is vermittelt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vermittelt"
+      ]
+    },
+    {
+      "id": "forms-vermitteln-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat dem Team die Grundlagen der Messtechnik ___.",
+      "exampleId": "forms-vermitteln-technical",
+      "explanation": "The Partizip II for to convey / teach (knowledge) is vermittelt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vermittelt"
+      ]
+    },
+    {
+      "id": "forms-vermitteln-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-vermitteln",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for vermitteln — to convey / teach (knowledge): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-vermitteln-example",
+      "explanation": "The principal-form sequence for to convey / teach (knowledge) is vermitteln · vermittelte · vermittelt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to convey / teach (knowledge)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "vermitteln · vermittelte · vermittelt"
+        },
+        {
+          "id": "past-error",
+          "text": "vermitteln · vermittle · vermittelt"
+        },
+        {
+          "id": "participle-error",
+          "text": "vermitteln · vermittelte · gevermittelt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-veroeffentlichen-past-recall",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): veröffentlichen — to publish",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The third-person singular Präteritum for to publish is veröffentlichte. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to publish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veröffentlichte"
+      ]
+    },
+    {
+      "id": "forms-veroeffentlichen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: veröffentlichen — to publish",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The Partizip II for to publish is veröffentlicht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to publish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veröffentlicht"
+      ]
+    },
+    {
+      "id": "forms-veroeffentlichen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Ergebnisse in einem ausführlichen Bericht veröffentlicht. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to publish is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to publish",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-veroeffentlichen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: veröffentlichte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The dictionary infinitive for to publish is veröffentlichen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veröffentlichen"
+      ]
+    },
+    {
+      "id": "forms-veroeffentlichen-present-recall",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): veröffentlichen — to publish",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The third-person singular Präsens for to publish is veröffentlicht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to publish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veröffentlicht"
+      ]
+    },
+    {
+      "id": "forms-veroeffentlichen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Versuchsergebnisse im Projektbericht ___.",
+      "exampleId": "forms-veroeffentlichen-technical",
+      "explanation": "The Partizip II for to publish is veröffentlicht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to publish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "veröffentlicht"
+      ]
+    },
+    {
+      "id": "forms-veroeffentlichen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-veroeffentlichen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for veröffentlichen — to publish: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-veroeffentlichen-example",
+      "explanation": "The principal-form sequence for to publish is veröffentlichen · veröffentlichte · veröffentlicht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to publish",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "veröffentlichen · veröffentlichte · veröffentlicht"
+        },
+        {
+          "id": "past-error",
+          "text": "veröffentlichen · veröffentliche · veröffentlicht"
+        },
+        {
+          "id": "participle-error",
+          "text": "veröffentlichen · veröffentlichte · geveröffentlicht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-versagen-past-recall",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): versagen — to fail (a device or function)",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The third-person singular Präteritum for to fail (a device or function) is versagte. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "versagte"
+      ]
+    },
+    {
+      "id": "forms-versagen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: versagen — to fail (a device or function)",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The Partizip II for to fail (a device or function) is versagt. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "versagt"
+      ]
+    },
+    {
+      "id": "forms-versagen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Die Bremse ___ im entscheidenden Moment versagt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to fail (a device or function) is haben. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-versagen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: versagte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The dictionary infinitive for to fail (a device or function) is versagen. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "versagen"
+      ]
+    },
+    {
+      "id": "forms-versagen-present-recall",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): versagen — to fail (a device or function)",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The third-person singular Präsens for to fail (a device or function) is versagt. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "versagt"
+      ]
+    },
+    {
+      "id": "forms-versagen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Die Pumpe hat bei hoher Belastung ___.",
+      "exampleId": "forms-versagen-technical",
+      "explanation": "The Partizip II for to fail (a device or function) is versagt. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "versagt"
+      ]
+    },
+    {
+      "id": "forms-versagen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-versagen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for versagen — to fail (a device or function): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-versagen-example",
+      "explanation": "The principal-form sequence for to fail (a device or function) is versagen · versagte · versagt. Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes.",
+      "hint": [
+        "Meaning: to fail (a device or function)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "versagen · versagte · versagt"
+        },
+        {
+          "id": "past-error",
+          "text": "versagen · versage · versagt"
+        },
+        {
+          "id": "participle-error",
+          "text": "versagen · versagte · geversagt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-verschieben-past-recall",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): verschieben — to postpone / reschedule",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The third-person singular Präteritum for to postpone / reschedule is verschob. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verschob"
+      ]
+    },
+    {
+      "id": "forms-verschieben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: verschieben — to postpone / reschedule",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The Partizip II for to postpone / reschedule is verschoben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verschoben"
+      ]
+    },
+    {
+      "id": "forms-verschieben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Besprechung auf nächste Woche verschoben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to postpone / reschedule is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-verschieben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: verschob (Präteritum, first/third-person singular).",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The dictionary infinitive for to postpone / reschedule is verschieben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verschieben"
+      ]
+    },
+    {
+      "id": "forms-verschieben-present-recall",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): verschieben — to postpone / reschedule",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The third-person singular Präsens for to postpone / reschedule is verschiebt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verschiebt"
+      ]
+    },
+    {
+      "id": "forms-verschieben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Versuch wegen eines defekten Sensors ___.",
+      "exampleId": "forms-verschieben-technical",
+      "explanation": "The Partizip II for to postpone / reschedule is verschoben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "verschoben"
+      ]
+    },
+    {
+      "id": "forms-verschieben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-verschieben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for verschieben — to postpone / reschedule: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-verschieben-example",
+      "explanation": "The principal-form sequence for to postpone / reschedule is verschieben · verschob · verschoben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to postpone / reschedule",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "verschieben · verschob · verschoben"
+        },
+        {
+          "id": "past-error",
+          "text": "verschieben · verschiebte · verschoben"
+        },
+        {
+          "id": "participle-error",
+          "text": "verschieben · verschob · geverschiebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-voraussetzen-past-recall",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): voraussetzen — to presuppose / require as a prerequisite",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The third-person singular Präteritum for to presuppose / require as a prerequisite is setzte voraus. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "setzte voraus"
+      ]
+    },
+    {
+      "id": "forms-voraussetzen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: voraussetzen — to presuppose / require as a prerequisite",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The Partizip II for to presuppose / require as a prerequisite is vorausgesetzt. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vorausgesetzt"
+      ]
+    },
+    {
+      "id": "forms-voraussetzen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Der Kurs ___ grundlegende Vorkenntnisse vorausgesetzt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to presuppose / require as a prerequisite is haben. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-voraussetzen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: setzte voraus (Präteritum, first/third-person singular).",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The dictionary infinitive for to presuppose / require as a prerequisite is voraussetzen. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "voraussetzen"
+      ]
+    },
+    {
+      "id": "forms-voraussetzen-present-recall",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): voraussetzen — to presuppose / require as a prerequisite",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The third-person singular Präsens for to presuppose / require as a prerequisite is setzt voraus. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "setzt voraus"
+      ]
+    },
+    {
+      "id": "forms-voraussetzen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Das Prüfverfahren hat eine genaue Kalibrierung ___.",
+      "exampleId": "forms-voraussetzen-technical",
+      "explanation": "The Partizip II for to presuppose / require as a prerequisite is vorausgesetzt. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vorausgesetzt"
+      ]
+    },
+    {
+      "id": "forms-voraussetzen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-voraussetzen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for voraussetzen — to presuppose / require as a prerequisite: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-voraussetzen-example",
+      "explanation": "The principal-form sequence for to presuppose / require as a prerequisite is voraussetzen · setzte voraus · vorausgesetzt. Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question.",
+      "hint": [
+        "Meaning: to presuppose / require as a prerequisite",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "voraussetzen · setzte voraus · vorausgesetzt"
+        },
+        {
+          "id": "past-error",
+          "text": "voraussetzen · setzte · vorausgesetzt"
+        },
+        {
+          "id": "participle-error",
+          "text": "voraussetzen · setzte voraus · gevoraussetzt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-vorsehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): vorsehen — to plan for / provide for",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The third-person singular Präteritum for to plan for / provide for is sah vor. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sah vor"
+      ]
+    },
+    {
+      "id": "forms-vorsehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: vorsehen — to plan for / provide for",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The Partizip II for to plan for / provide for is vorgesehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vorgesehen"
+      ]
+    },
+    {
+      "id": "forms-vorsehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ für die Wartung zwei Stunden vorgesehen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to plan for / provide for is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-vorsehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: sah vor (Präteritum, first/third-person singular).",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The dictionary infinitive for to plan for / provide for is vorsehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vorsehen"
+      ]
+    },
+    {
+      "id": "forms-vorsehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): vorsehen — to plan for / provide for",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The third-person singular Präsens for to plan for / provide for is sieht vor. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sieht vor"
+      ]
+    },
+    {
+      "id": "forms-vorsehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat im Entwurf Platz für einen zusätzlichen Sensor ___.",
+      "exampleId": "forms-vorsehen-technical",
+      "explanation": "The Partizip II for to plan for / provide for is vorgesehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "vorgesehen"
+      ]
+    },
+    {
+      "id": "forms-vorsehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-vorsehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for vorsehen — to plan for / provide for: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-vorsehen-example",
+      "explanation": "The principal-form sequence for to plan for / provide for is vorsehen · sah vor · vorgesehen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to plan for / provide for",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "vorsehen · sah vor · vorgesehen"
+        },
+        {
+          "id": "past-error",
+          "text": "vorsehen · sehte vor · vorgesehen"
+        },
+        {
+          "id": "participle-error",
+          "text": "vorsehen · sah vor · vorgeseht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-wahrnehmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): wahrnehmen — to perceive / notice",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The third-person singular Präteritum for to perceive / notice is nahm wahr. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nahm wahr"
+      ]
+    },
+    {
+      "id": "forms-wahrnehmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: wahrnehmen — to perceive / notice",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The Partizip II for to perceive / notice is wahrgenommen. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wahrgenommen"
+      ]
+    },
+    {
+      "id": "forms-wahrnehmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Veränderungen in seiner Umgebung wahrgenommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to perceive / notice is haben. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-wahrnehmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: nahm wahr (Präteritum, first/third-person singular).",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The dictionary infinitive for to perceive / notice is wahrnehmen. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wahrnehmen"
+      ]
+    },
+    {
+      "id": "forms-wahrnehmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): wahrnehmen — to perceive / notice",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The third-person singular Präsens for to perceive / notice is nimmt wahr. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nimmt wahr"
+      ]
+    },
+    {
+      "id": "forms-wahrnehmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat während des Versuchs ungewöhnliche Geräusche ___.",
+      "exampleId": "forms-wahrnehmen-technical",
+      "explanation": "The Partizip II for to perceive / notice is wahrgenommen. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wahrgenommen"
+      ]
+    },
+    {
+      "id": "forms-wahrnehmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-wahrnehmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for wahrnehmen — to perceive / notice: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-wahrnehmen-example",
+      "explanation": "The principal-form sequence for to perceive / notice is wahrnehmen · nahm wahr · wahrgenommen. Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed.",
+      "hint": [
+        "Meaning: to perceive / notice",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "wahrnehmen · nahm wahr · wahrgenommen"
+        },
+        {
+          "id": "past-error",
+          "text": "wahrnehmen · nehmte wahr · wahrgenommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "wahrnehmen · nahm wahr · wahrgenehmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-zurueckfuehren-past-recall",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): zurückführen — to attribute (a result to a cause)",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The third-person singular Präteritum for to attribute (a result to a cause) is führte zurück. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "führte zurück"
+      ]
+    },
+    {
+      "id": "forms-zurueckfuehren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: zurückführen — to attribute (a result to a cause)",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The Partizip II for to attribute (a result to a cause) is zurückgeführt. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zurückgeführt"
+      ]
+    },
+    {
+      "id": "forms-zurueckfuehren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Verzögerung auf fehlende Informationen zurückgeführt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to attribute (a result to a cause) is haben. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-zurueckfuehren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: führte zurück (Präteritum, first/third-person singular).",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The dictionary infinitive for to attribute (a result to a cause) is zurückführen. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zurückführen"
+      ]
+    },
+    {
+      "id": "forms-zurueckfuehren-present-recall",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): zurückführen — to attribute (a result to a cause)",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The third-person singular Präsens for to attribute (a result to a cause) is führt zurück. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "führt zurück"
+      ]
+    },
+    {
+      "id": "forms-zurueckfuehren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Abweichung auf einen Fehler im Versuchsaufbau ___.",
+      "exampleId": "forms-zurueckfuehren-technical",
+      "explanation": "The Partizip II for to attribute (a result to a cause) is zurückgeführt. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zurückgeführt"
+      ]
+    },
+    {
+      "id": "forms-zurueckfuehren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-zurueckfuehren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for zurückführen — to attribute (a result to a cause): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-zurueckfuehren-example",
+      "explanation": "The principal-form sequence for to attribute (a result to a cause) is zurückführen · führte zurück · zurückgeführt. Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared.",
+      "hint": [
+        "Meaning: to attribute (a result to a cause)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "zurückführen · führte zurück · zurückgeführt"
+        },
+        {
+          "id": "past-error",
+          "text": "zurückführen · führte · zurückgeführt"
+        },
+        {
+          "id": "participle-error",
+          "text": "zurückführen · führte zurück · gezurückführt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-zustimmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): zustimmen — to agree / consent",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The third-person singular Präteritum for to agree / consent is stimmte zu. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stimmte zu"
+      ]
+    },
+    {
+      "id": "forms-zustimmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: zustimmen — to agree / consent",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The Partizip II for to agree / consent is zugestimmt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zugestimmt"
+      ]
+    },
+    {
+      "id": "forms-zustimmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ dem Vorschlag nach der Diskussion zugestimmt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to agree / consent is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-zustimmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: stimmte zu (Präteritum, first/third-person singular).",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The dictionary infinitive for to agree / consent is zustimmen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zustimmen"
+      ]
+    },
+    {
+      "id": "forms-zustimmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): zustimmen — to agree / consent",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The third-person singular Präsens for to agree / consent is stimmt zu. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stimmt zu"
+      ]
+    },
+    {
+      "id": "forms-zustimmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat dem Vorschlag nach der Diskussion ___.",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The Partizip II for to agree / consent is zugestimmt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zugestimmt"
+      ]
+    },
+    {
+      "id": "forms-zustimmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-zustimmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for zustimmen — to agree / consent: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-zustimmen-example",
+      "explanation": "The principal-form sequence for to agree / consent is zustimmen · stimmte zu · zugestimmt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to agree / consent",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "zustimmen · stimmte zu · zugestimmt"
+        },
+        {
+          "id": "past-error",
+          "text": "zustimmen · stimmte · zugestimmt"
+        },
+        {
+          "id": "participle-error",
+          "text": "zustimmen · stimmte zu · gezugestimmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-zunehmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): zunehmen — to increase",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The third-person singular Präteritum for to increase is nahm zu. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to increase",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nahm zu"
+      ]
+    },
+    {
+      "id": "forms-zunehmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: zunehmen — to increase",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The Partizip II for to increase is zugenommen. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to increase",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zugenommen"
+      ]
+    },
+    {
+      "id": "forms-zunehmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Die Nachfrage ___ seit dem Frühjahr zugenommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to increase is haben. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted.",
+      "hint": [
+        "Meaning: to increase",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-zunehmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: nahm zu (Präteritum, first/third-person singular).",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The dictionary infinitive for to increase is zunehmen. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zunehmen"
+      ]
+    },
+    {
+      "id": "forms-zunehmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): zunehmen — to increase",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The third-person singular Präsens for to increase is nimmt zu. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to increase",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nimmt zu"
+      ]
+    },
+    {
+      "id": "forms-zunehmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Die Schwingungen haben bei hoher Drehzahl ___.",
+      "exampleId": "forms-zunehmen-technical",
+      "explanation": "The Partizip II for to increase is zugenommen. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to increase",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zugenommen"
+      ]
+    },
+    {
+      "id": "forms-zunehmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-zunehmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for zunehmen — to increase: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-zunehmen-example",
+      "explanation": "The principal-form sequence for to increase is zunehmen · nahm zu · zugenommen. The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted.",
+      "hint": [
+        "Meaning: to increase",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "zunehmen · nahm zu · zugenommen"
+        },
+        {
+          "id": "past-error",
+          "text": "zunehmen · nehmte zu · zugenommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "zunehmen · nahm zu · zugenehmt"
+        }
+      ],
+      "correctChoiceId": "correct"
     }
   ],
   "blocks": [
@@ -16599,6 +18592,95 @@
         "forms-vermeiden-present-recall",
         "forms-vermeiden-sentence-completion",
         "forms-vermeiden-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-batch-2-09",
+      "title": "Verb Forms · Batch 2 / 09 · vermitteln–zustimmen",
+      "description": "Ten alphabetically grouped verb profiles for productive general, formal and professional German. Recall forms in scoped natural contexts.",
+      "itemIds": [
+        "forms-vermitteln",
+        "forms-veroeffentlichen",
+        "forms-versagen",
+        "forms-verschieben",
+        "forms-voraussetzen",
+        "forms-vorsehen",
+        "forms-wahrnehmen",
+        "forms-zunehmen",
+        "forms-zurueckfuehren",
+        "forms-zustimmen"
+      ],
+      "questionIds": [
+        "forms-vermitteln-past-recall",
+        "forms-vermitteln-participle-recall",
+        "forms-vermitteln-auxiliary-choice",
+        "forms-vermitteln-infinitive-recall",
+        "forms-vermitteln-present-recall",
+        "forms-vermitteln-sentence-completion",
+        "forms-vermitteln-sequence-choice",
+        "forms-veroeffentlichen-past-recall",
+        "forms-veroeffentlichen-participle-recall",
+        "forms-veroeffentlichen-auxiliary-choice",
+        "forms-veroeffentlichen-infinitive-recall",
+        "forms-veroeffentlichen-present-recall",
+        "forms-veroeffentlichen-sentence-completion",
+        "forms-veroeffentlichen-sequence-choice",
+        "forms-versagen-past-recall",
+        "forms-versagen-participle-recall",
+        "forms-versagen-auxiliary-choice",
+        "forms-versagen-infinitive-recall",
+        "forms-versagen-present-recall",
+        "forms-versagen-sentence-completion",
+        "forms-versagen-sequence-choice",
+        "forms-verschieben-past-recall",
+        "forms-verschieben-participle-recall",
+        "forms-verschieben-auxiliary-choice",
+        "forms-verschieben-infinitive-recall",
+        "forms-verschieben-present-recall",
+        "forms-verschieben-sentence-completion",
+        "forms-verschieben-sequence-choice",
+        "forms-voraussetzen-past-recall",
+        "forms-voraussetzen-participle-recall",
+        "forms-voraussetzen-auxiliary-choice",
+        "forms-voraussetzen-infinitive-recall",
+        "forms-voraussetzen-present-recall",
+        "forms-voraussetzen-sentence-completion",
+        "forms-voraussetzen-sequence-choice",
+        "forms-vorsehen-past-recall",
+        "forms-vorsehen-participle-recall",
+        "forms-vorsehen-auxiliary-choice",
+        "forms-vorsehen-infinitive-recall",
+        "forms-vorsehen-present-recall",
+        "forms-vorsehen-sentence-completion",
+        "forms-vorsehen-sequence-choice",
+        "forms-wahrnehmen-past-recall",
+        "forms-wahrnehmen-participle-recall",
+        "forms-wahrnehmen-auxiliary-choice",
+        "forms-wahrnehmen-infinitive-recall",
+        "forms-wahrnehmen-present-recall",
+        "forms-wahrnehmen-sentence-completion",
+        "forms-wahrnehmen-sequence-choice",
+        "forms-zurueckfuehren-past-recall",
+        "forms-zurueckfuehren-participle-recall",
+        "forms-zurueckfuehren-auxiliary-choice",
+        "forms-zurueckfuehren-infinitive-recall",
+        "forms-zurueckfuehren-present-recall",
+        "forms-zurueckfuehren-sentence-completion",
+        "forms-zurueckfuehren-sequence-choice",
+        "forms-zustimmen-past-recall",
+        "forms-zustimmen-participle-recall",
+        "forms-zustimmen-auxiliary-choice",
+        "forms-zustimmen-infinitive-recall",
+        "forms-zustimmen-present-recall",
+        "forms-zustimmen-sentence-completion",
+        "forms-zustimmen-sequence-choice",
+        "forms-zunehmen-past-recall",
+        "forms-zunehmen-participle-recall",
+        "forms-zunehmen-auxiliary-choice",
+        "forms-zunehmen-infinitive-recall",
+        "forms-zunehmen-present-recall",
+        "forms-zunehmen-sentence-completion",
+        "forms-zunehmen-sequence-choice"
       ]
     }
   ]

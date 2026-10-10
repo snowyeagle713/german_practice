@@ -907,6 +907,116 @@
       "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
       "productiveBand": "core-intermediate",
       "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "vermitteln",
+      "present3": "vermittelt",
+      "praeteritum": "vermittelte",
+      "participle": "vermittelt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Teilnehmern die Grundlagen vermittelt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "veröffentlichen",
+      "present3": "veröffentlicht",
+      "praeteritum": "veröffentlichte",
+      "participle": "veröffentlicht",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Ergebnisse in einem ausführlichen Bericht veröffentlicht.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "versagen",
+      "present3": "versagt",
+      "praeteritum": "versagte",
+      "participle": "versagt",
+      "auxiliary": "haben",
+      "selectedContext": "Die Bremse hat im entscheidenden Moment versagt.",
+      "editorialScope": "Selected use is intransitive functional failure of a device, with haben. Transitive refuse or deny shares forms but is not tested; do not substitute sein just because a state changes.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "verschieben",
+      "present3": "verschiebt",
+      "praeteritum": "verschob",
+      "participle": "verschoben",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Besprechung auf nächste Woche verschoben.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "voraussetzen",
+      "present3": "setzt voraus",
+      "praeteritum": "setzte voraus",
+      "participle": "vorausgesetzt",
+      "auxiliary": "haben",
+      "selectedContext": "Der Kurs hat grundlegende Vorkenntnisse vorausgesetzt.",
+      "editorialScope": "Require as a prerequisite, with separable voraus-. The noun-like voraus in other contexts is not part of this form question.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "vorsehen",
+      "present3": "sieht vor",
+      "praeteritum": "sah vor",
+      "participle": "vorgesehen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat für die Wartung zwei Stunden vorgesehen.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "wahrnehmen",
+      "present3": "nimmt wahr",
+      "praeteritum": "nahm wahr",
+      "participle": "wahrgenommen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Veränderungen in seiner Umgebung wahrgenommen.",
+      "editorialScope": "Selected use is perceive a change or sound. Taking an opportunity shares forms but is not separately assessed.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "zurückführen",
+      "present3": "führt zurück",
+      "praeteritum": "führte zurück",
+      "participle": "zurückgeführt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Verzögerung auf fehlende Informationen zurückgeführt.",
+      "editorialScope": "Separable attribute a result to a cause with auf plus accusative, not physically escort someone back; forms are shared.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "zustimmen",
+      "present3": "stimmt zu",
+      "praeteritum": "stimmte zu",
+      "participle": "zugestimmt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat dem Vorschlag nach der Diskussion zugestimmt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "zunehmen",
+      "present3": "nimmt zu",
+      "praeteritum": "nahm zu",
+      "participle": "zugenommen",
+      "auxiliary": "haben",
+      "selectedContext": "Die Nachfrage hat seit dem Frühjahr zugenommen.",
+      "editorialScope": "The selected profile is intransitive increase in demand or vibration, using haben. Weight gain shares forms but is not separately counted.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
     }
   ]
 }
