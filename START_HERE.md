@@ -1,4 +1,8 @@
 # Starting development and responsibilities
+
+Implementation is complete on `mvp/completion`. This file preserves the original
+preparation workflow; begin with README.md and docs/WINDOWS_MVP.md for current
+run instructions, and docs/RELEASE_READINESS.md for release gates.
 ## Platform scope
 Windows desktop is the V1 release target. Edge is the primary Windows acceptance browser. Linux remains an architecture/portability requirement; actual Linux testing is later. iPhone/iPad remains a future goal; installation, touch keyboard and mobile device testing are deferred. No native installer is required for V1.
 
@@ -19,7 +23,7 @@ Choose either:
 No Cursor subscription, API key, LLM service or Python runtime is required by the finished application. Python is only for the optional content tooling supplied here.
 
 ## Local development prerequisites
-Node.js and npm, Git for version control, a browser and a Codex-capable environment. Select a supported Node LTS release meeting the chosen Vite version's requirements; verify actual installed versions before scaffolding. Current Vite documentation lists Node 20.19+ or 22.12+ as its baseline (checked 3 October 2026). Existing Python/PyCharm alone does not provide the JavaScript toolchain.
+Node.js and npm, Git for version control, a browser and a Codex-capable environment. Select a supported Node LTS release meeting the chosen Vite version's requirements; verify actual installed versions before scaffolding. The locked project accepts Node 24 LTS or Node 22.12+ in the 22 line; Node 20 is not supported. Existing Python/PyCharm alone does not provide the JavaScript toolchain.
 
 The agent should inspect first, not ask you to install everything pre-emptively. It must not claim to have configured your Windows laptop from this remote workspace.
 
@@ -34,7 +38,7 @@ npm run build
 npm run preview
 npm run test:e2e
 ```
-These are required future scripts, not commands available in this preparation-only pack. The first dependency install generates package-lock.json; later installs use npm ci. Automated checks should not require Python.
+These scripts are now implemented. The committed package-lock.json is installed with npm ci; automated checks do not require Python. For current prerequisites and usage, follow README.md and docs/WINDOWS_MVP.md rather than the historical preparation instructions above.
 
 ## Your testing role
 After the first build, spend roughly 15–30 minutes trying one block: answer correctly and incorrectly, reload mid-session, finish, revise mistakes, and export/import a backup. Judge whether feedback is clear and practice is useful.

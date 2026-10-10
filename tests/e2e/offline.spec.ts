@@ -1,5 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { quick, finish } from './helpers';
+import { readFile } from 'node:fs/promises';
 
 test('production cache enables new-page offline Learn, exact resume, revision, history and theme', async ({ page, context }) => {
   test.setTimeout(90_000);
@@ -35,6 +36,22 @@ test('production cache enables new-page offline Learn, exact resume, revision, h
   await expect(offline.getByRole('button', { name: 'View saved summary', exact: true })).toHaveCount(3);
   await offline.reload();
   await expect(offline.getByRole('heading', { name: 'Awaiting revision (0)' })).toBeVisible();
+  await offline.goto('/#/settings');
+  await offline.getByRole('combobox', { name: 'Palette' }).selectOption('jetbrains-spring');
+  await expect(offline.locator('html')).toHaveAttribute('data-theme', 'jetbrains-spring');
+  await offline.getByRole('combobox', { name: 'Preferred session size' }).selectOption('20');
+  await expect(offline.locator('.save-state')).toHaveText('Automatic local saving');
+  await offline.reload();
+  await expect(offline.getByRole('combobox', { name: 'Palette' })).toHaveValue('jetbrains-spring');
+  await expect(offline.getByRole('combobox', { name: 'Preferred session size' })).toHaveValue('20');
+  const downloaded = offline.waitForEvent('download');
+  await offline.getByRole('button', { name: 'Export backup' }).click();
+  const backup = await downloaded;
+  const path = await backup.path(); if (!path) throw new Error('Offline backup download missing');
+  const exported = JSON.parse(await readFile(path, 'utf8'));
+  expect(exported.schemaVersion).toBe(1);
+  expect(exported.settings).toEqual({ theme: 'jetbrains-spring', sessionSize: 20 });
+  expect(exported.sessions).toHaveLength(3);
 });
 
 test('readiness requires all precached assets and can recover a missing asset', async ({ page }) => {

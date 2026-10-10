@@ -162,6 +162,7 @@ test('reload preserves graded answer, exact shuffled order, draft and assistance
   await expect(page.locator('#question-prompt')).toHaveText(first.prompt);
   await expect(page.locator('#feedback-title')).toContainText('Assisted');
   await page.getByRole('button', { name: 'Next question' }).click();
+  await expect(page.getByText('Question 2 of 20', { exact: true })).toBeVisible();
   const second = await answer(page, false);
   await page.getByRole('button', { name: 'Hint', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Hint', exact: true })).toBeDisabled();

@@ -1,5 +1,9 @@
 # Autonomous MVP completion handoff
 
+Historical checkpoint record (`ac2329c`). Later polish/publication and current
+verification results are in RELEASE_READINESS.md and WINDOWS_MVP.md; the original
+test counts and publication statement below describe this checkpoint only.
+
 Development branch: `mvp/completion`, based on `eb782ec` (Stage 2). Main and existing
 Stage 1/1.5/2 history are preserved. No deployment, merge, force-push or publication
 was performed. The new autonomous MVP request explicitly supersedes the historical

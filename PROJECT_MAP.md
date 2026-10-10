@@ -2,9 +2,9 @@
 Windows-first development scope, updated 3 October 2026.
 
 ## Purpose and current position
-Build a practical German-learning app for Yacine, starting with verb constructions, everyday fluency and technical examples. Preparation is complete; application implementation has not begun.
+Build a practical German-learning app for Yacine, starting with verb constructions, everyday fluency and technical examples. The MVP implementation is complete; automated release checks and remaining device gates are recorded in docs/RELEASE_READINESS.md.
 
-The current pack is the development brief: standing rules, architecture, content contracts, a validated starter dataset, milestones and acceptance criteria. It is not an executable app yet.
+The current pack is the development brief: standing rules, architecture, content contracts, a validated starter dataset, milestones and acceptance criteria. The MVP is now implemented on `mvp/completion`; see README.md and docs/RELEASE_READINESS.md for current usage and release status. The milestone table below records the original starter brief.
 
 ## Platform map
 | Platform | What we do now | What waits |

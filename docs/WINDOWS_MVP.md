@@ -3,21 +3,28 @@
 Use a checkout containing the `mvp/completion` implementation. The autonomous
 completion request supersedes the historical full-40-session requirement: Standard
 is 20, Quick is 10, while all 40 authored questions remain intact. Original starter
-specifications are preserved; see MVP_COMPLETION_HANDOFF.md for current behaviour.
+specifications are preserved; see README.md and RELEASE_READINESS.md for current behavior.
 
-## Obtaining the review branch
+## Obtaining and updating the review branch
 
-This task leaves main unchanged and does not publish the development branch. If you
-have the supplied `german-trainer-mvp.bundle`, copy it next to your local repository
-and, while on another branch, import the review branch:
+The review branch is published on GitHub. Clone it without modifying main:
 
 ```text
-git fetch ../german-trainer-mvp.bundle mvp/completion:refs/heads/mvp/completion
-git switch mvp/completion
+git clone --branch mvp/completion https://github.com/snowyeagle713/german_practice.git
+cd german_practice
 ```
 
-The bundle includes the preserved starter/Stage 1/1.5/2 history and MVP commits.
-No force option or main merge is needed for local review.
+For an existing checkout, first preserve any local edits, then:
+
+```text
+git fetch origin
+git switch mvp/completion
+git pull --ff-only origin mvp/completion
+npm ci
+```
+
+Keep using this branch until the final merge is separately approved. No force
+option, bundle, history rewrite or main merge is needed for review.
 
 ## Prerequisites and development
 
@@ -46,8 +53,12 @@ npm run typecheck
 npm test
 npm run build
 npx playwright install chromium
-npm run test:e2e
+npm run test:e2e -- --workers=1
 ```
+
+Single-worker execution is the verified release command. Earlier two-worker runs
+showed cross-tab update timing sensitivity; the default configuration still uses
+two workers. See RELEASE_READINESS.md for results and manual gates.
 
 The browser suite starts its own production preview on port 4173. Stop an existing
 preview on that port before running it. npm scripts and tests are portable. To use
@@ -65,10 +76,12 @@ npm run preview -- --port 4173 --strictPort
 
 Open http://127.0.0.1:4173 in Edge. Use the same address (do not switch between
 localhost and 127.0.0.1), port and browser profile on later visits.
-In Settings, wait for **Offline ready · 7 required files cached** (the count may
+In Settings, use **Prepare offline files** if readiness is incomplete, then wait for **Offline ready · 7 required files cached** (the count may
 increase with future assets). Readiness verifies a controlling worker and the
 actual cached build/content bytes. Install using Edge's address-bar app icon or
-**… → Apps → Install this site as an app**, then open it from Start/taskbar.
+**… → Apps → Install this site as an app**, then open it from Start/taskbar. Chrome offers an install icon or its install-app
+menu when installation is supported. Actual installed-window behavior is a manual
+device check, not verified by the production browser automation.
 
 After readiness, Learn/practice/resume/revision/history/settings/backups work
 without the local server or internet. An initial online/server-available visit is
@@ -82,9 +95,25 @@ explicitly abandon active runs, wait for saves, and reload stale tabs first. Eve
 open app tab must agree it is safe. Updates replace asset caches, never IndexedDB.
 Do not clear site data as an update procedure.
 
+## Practice and themes
+
+Standard Practice selects 20 unique questions; Quick Practice selects 10. New runs
+rotate through the unchanged 40-question pool, then shuffle the selection. The
+selection/order of an active run stays fixed. Typed preposition, case choice and
+meaning choice use authored deterministic answers. Hint/reveal excludes unaided
+credit. Previous retains graded answers; Skip defers unanswered questions until
+later in the same run. Wrong/assisted questions remain pending revision until an
+unaided correct revision attempt; revision never replaces the original run score.
+
+Settings provides Lingua Learning (default), Finance Dashboard, JetBrains Spring
+and Proton-inspired. All palettes share one responsive layout. Palette and new-run
+size persist locally, and are included in backups.
+
 ## Data and backup
 
-Data is local to this browser profile/origin. Export a JSON backup from Settings
+Data is in IndexedDB database `german-trainer`, local to this browser profile/origin.
+There is no cloud sync. Clearing browser/site data deletes these records and offline
+asset caches; browser cleanup policies can also remove them. Export a JSON backup from Settings
 before changing computers/origins/profiles, clearing browsing data or uninstalling.
 Keep the downloaded file privately; it contains your answers and history.
 Import accepts schema v1 files up to 10 MiB, validates snapshots and scoring, shows
@@ -98,12 +127,13 @@ The most recently committed state is recoverable on reload.
 ## Manual Windows / Edge acceptance (not performed in Linux)
 
 - [ ] npm ci and all checks succeed with the documented Node/npm runtime.
-- [ ] Home, grouped Learn, Blocks, practice and feedback fit 768/1280/1920 px at normal zoom.
+- [ ] At Windows 150% scaling and 100% browser zoom, record actual CSS viewport size; verify Home footer fit and Practice controls without artificial gaps.
+- [ ] Navigation/Learn/Practice/Settings/reports remain usable without horizontal overflow; natural scrolling is expected for long content.
 - [ ] Native keyboard controls, focus, Enter, radio arrows, Previous and Skip work in Edge.
 - [ ] Standard is 20 by default; Quick is 10; repeated runs rotate through the 40-question pool.
 - [ ] Closing/reopening Edge or the installed app resumes order, drafts, hints, feedback and deferred questions exactly.
 - [ ] Wrong/assisted revision clears only after unaided revision success; original scores stay unchanged.
-- [ ] Finance and session-size preferences survive closing/reopening; layout remains Lingua.
+- [ ] All four palette and session-size preferences survive closing/reopening; layout remains Lingua.
 - [ ] JSON export produces a file; cancel/invalid import preserves progress; replacement restores it.
 - [ ] Address-bar install works; Start/taskbar launch displays the correct local icon/name.
 - [ ] With production cache ready, stop the preview server, disconnect network and launch the installed app: Learn, practice, resume, revision, progress, history and themes work.

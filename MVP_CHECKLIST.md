@@ -1,5 +1,8 @@
 # Autonomous MVP completion checklist
 
+Historical implementation audit/checkpoint record. Current four-theme, responsive
+and release verification status: docs/RELEASE_READINESS.md.
+
 Baseline: eb782ec (Stage 2), verified against live origin/main on 9 October 2026 UTC.
 Development branch: mvp/completion. Do not merge or force-push main.
 
@@ -89,6 +92,8 @@ Milestone H / final verification (9 October 2026 UTC):
 | G — Offline/PWA | c003e01 |
 | H — Final verification and Windows handoff | Final branch HEAD; see git log -1 |
 
-Implementation milestones complete. No main merge, force-push or external publication.
-A portable git bundle is supplied for local review/Windows checkout.
-Next action: manual Windows/Edge acceptance in docs/WINDOWS_MVP.md; then review the development branch before any separately authorized publication/merge.
+Implementation milestones complete. The review branch `mvp/completion` is now
+published normally on GitHub. Main has not been merged or rewritten.
+Use docs/WINDOWS_MVP.md to clone/pull; no bundle is required.
+Current release evidence and remaining device gates: docs/RELEASE_READINESS.md.
+Final main merge remains a separately authorized action.

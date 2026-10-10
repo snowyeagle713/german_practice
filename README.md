@@ -1,19 +1,71 @@
-# German Trainer — Codex starter pack
-Prepared 3 October 2026 for Yacine. Updated for Windows-first V1.
+# German Trainer — MVP
 
-This is a build-ready specification and content starter, not an implemented application. No React app, installed dependencies or verified browser build is included yet.
+A local-first German construction trainer built with React, strict TypeScript and
+Vite. The MVP is implemented on `mvp/completion`; Windows Edge installed-app
+acceptance remains a manual release gate. No backend, account or API key required.
 
-## Platform scope
-Windows is the required V1 platform. Keep the browser architecture and development scripts portable to Linux; Linux execution testing and iPhone/iPad installation/testing are later milestones. Do not let mobile polish delay the Windows release.
+## Run on Windows
 
-See PROJECT_MAP.md for the complete product and development map.
+Install Git, Node.js 24 LTS with npm, and current Edge or Chrome. In PowerShell or
+Command Prompt:
 
-## Start here
-1. Read START_HERE.md for responsibilities and environment setup.
-2. Put this folder in the workspace/repository where Codex will implement the app.
-3. Give Codex CODEX_START_PROMPT.md. AGENTS.md contains standing development rules.
-4. Implement the five milestones in docs/IMPLEMENTATION_PLAN.md.
-5. Use docs/ACCEPTANCE_TESTS.md to distinguish automated verification from testing on real devices.
+```text
+git clone --branch mvp/completion https://github.com/snowyeagle713/german_practice.git
+cd german_practice
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite. Do not double-click `index.html`.
+For production/offline testing:
+
+```text
+npm run build
+npm run preview -- --port 4173 --strictPort
+```
+
+Open http://127.0.0.1:4173. Keep the same origin/port/profile on later visits.
+Development and production use different origins and separate local progress.
+See [Windows setup, updates, data and PWA guide](docs/WINDOWS_MVP.md).
+
+## What is included
+
+- Learn: 10 constructions with everyday and technical examples.
+- Quick Practice: 10 questions; Standard Practice: 20. Unique authored questions
+  rotate through the preserved 40-question pool across repeated new runs.
+- Deterministic grading, retrieval hints, explicit Reveal Answer, exact saved
+  resume, Previous/Skip, wrong/assisted revision and original-score history.
+- Four palettes: Lingua Learning (default), Finance Dashboard, JetBrains Spring,
+  and Proton-inspired. They share the accepted learning layout.
+- IndexedDB stores progress locally in this browser profile/origin. Export JSON
+  backups from Settings. Import validates and previews before **Replace progress**;
+  it restores preferences, sessions and revision evidence. It does not merge.
+- Built PWA: first visit with the server available, confirm offline readiness in
+  Settings (use **Prepare offline files** if needed), then install through Edge or
+  Chrome. Cached core flows can reopen offline; installed-device behavior still
+  needs manual Windows verification. Clearing site data removes local progress.
+
+## Verification and release status
+
+```text
+npm run validate:content
+npm run typecheck
+npm test
+npm run build
+npx playwright install chromium
+npm run test:e2e -- --workers=1
+```
+
+The browser suite serves the built app on port 4173; stop any preview there first.
+Use a single worker for the documented stable release run. Earlier two-worker
+execution exposed timing sensitivity in the cross-tab PWA update test; see the
+[release readiness checklist](docs/RELEASE_READINESS.md) for exact evidence and
+manual device gates. No external hosting or installed-device certification is
+implied by automated Chromium tests.
+
+The starter specifications below remain available as historical implementation
+briefs. Current accepted behavior is documented above and in the Windows guide;
+the original mandatory full-40-session milestone is superseded by Quick/Standard.
 
 ## Included
 - AGENTS.md: permanent implementation rules.
@@ -34,12 +86,4 @@ See PROJECT_MAP.md for the complete product and development map.
 The retrieved earlier reference has 200 numbered entries but only 37 distinct exact headings, with 163 repeated numbered entries. This is not a verified 200-verb curriculum. See docs/CONTENT_AUDIT.md. Distinct headings can still combine multiple meanings, constructions or prepositions.
 
 The prototype uses a curated starter subset. Larger content expansion is independent of building V1. CEFR assignments remain unset rather than guessed.
-
-## Validation available now
-Run from this folder:
-```sh
-python3 tools/validate_content.py content/seed-pack.json
-```
-On Windows with Python installed, use `py` instead of `python3` if needed.
-App build and browser tests become available during implementation.
 
