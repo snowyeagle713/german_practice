@@ -56,3 +56,22 @@ and radio choices without jumping, immediate submit/skip/return/reload, saved
 answers after reopening, Home at 100% zoom on a 1920×1080 display, all four palettes,
 keyboard focus and the existing installed/offline workflow. Abrupt-close behavior
 should be assessed with the asynchronous-save limitation above in mind.
+
+## Final targeted acceptance pass
+
+Hints now depend on the question type: preposition cloze shows construction meaning
+and governed case without the construction/preposition; case choice shows meaning
+and a reminder to retrieve the construction's fixed case without naming it; meaning
+choice shows governed case and a context-reading cue without the English answer.
+Reveal Answer remains explicit, and hint/reveal assistance tracking, scoring and all
+authored questions/answers are unchanged. Pure hint generation lives in the practice
+domain. All 40 seed questions have tests for non-answer hints.
+
+Revision construction rows now wrap using flex with explicit gaps, a separate pending
+badge and a separate action. Browser checks cover 768, 1280 and 1920px spacing and
+starting construction revision, plus hint/reveal/assisted grading for all question types.
+Windows/Edge visual acceptance remains a local-device check.
+
+Final pass verification: 193 unit tests and 43 browser tests pass; content validation,
+strict typecheck and production build pass. Existing offline/PWA, persistence,
+practice, autosave stability, desktop density and all four palette tests pass.

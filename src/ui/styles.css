@@ -293,3 +293,9 @@ select { font: inherit; color: var(--text-primary); background: var(--surface-ba
   .page-home .progress-card .eyebrow { margin-top: 14px; }
   .page-home .progress-summary { padding-block: 10px; margin-bottom: 12px; }
 }
+
+/* Keep construction, queue status and action distinct without constraining row height. */
+.review-list .revision-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; padding-block: 14px; }
+.revision-construction { flex: 1 1 180px; overflow-wrap: anywhere; }
+.revision-pending { flex: 0 0 auto; white-space: nowrap; }
+.revision-row button { flex: 0 0 auto; }

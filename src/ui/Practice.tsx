@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { questionHint } from '../domain/practice/hints';
 import { correctAnswer } from '../domain/practice/grading';
 import { currentQuestion } from '../domain/practice/session';
 import type { PracticeCommand, PracticeSession } from '../domain/practice/types';
@@ -51,7 +52,7 @@ export function Practice({ session, send, onAbandon, blocked }: { session: Pract
         {session.guidance && <p id="answer-guidance" role="alert" className="answer-guidance">{session.guidance}</p>}
         {!graded && <>
           <div className="assistance-actions"><button type="button" className="quiet-button" onClick={() => sendForQuestion('hint')} disabled={blocked || session.hintUsed}>Hint</button><button type="button" className="quiet-button" onClick={() => sendForQuestion('reveal')} disabled={blocked || session.revealed}>Reveal answer</button><small>Hint or reveal excludes this answer from the unaided score.</small></div>
-          {session.hintUsed && <div className="assistance-note" role="status"><strong>Hint used</strong><p lang="de">{entry.construction} + {entry.governedCase}{entry.reflexiveCase ? ` · reflexive pronoun: ${entry.reflexiveCase}` : ''}</p><p>{entry.meaningEn}</p></div>}
+          {session.hintUsed && <div className="assistance-note" role="status"><strong>Hint used</strong>{questionHint(question, entry).map(line => <p key={line}>{line}</p>)}</div>}
           {session.revealed && <div className="assistance-note" role="status"><strong>Answer revealed</strong><p>{correctAnswer(question)}</p><small>Enter or select your answer, then check it. It will count as assisted.</small></div>}
           <div className="submit-area"><button type="submit" disabled={blocked}>Check answer</button><small>Press Enter to check; press it again after feedback to continue.</small></div>
         </>}
