@@ -101,3 +101,18 @@ backup schema 2, which the older MVP cannot import; v1-only exports stay schema 
 No database-store upgrade or learner-data reset is required. See
 [V2 runtime handoff](docs/V2_RUNTIME_PILOT.md) and
 [pilot source audit](docs/VERB_FORMS_PILOT_AUDIT.md) for scope and verification.
+
+## Verb Forms Population Batch 1
+
+The `content/verb-forms-batch-1` review branch adds 80 source-checked profiles in
+eight alphabetical ten-verb blocks: **100 Verb Forms / ten blocks / 700 authored
+questions** including the preserved pilot. Quick remains 10 and Standard 20.
+The existing alphabetical index spans both packs; Starter, palettes, saved
+snapshots, backup formats and offline workflow remain supported.
+
+See [batch source, content and regression audit](docs/VERB_FORMS_BATCH_1_AUDIT.md)
+for all added verbs, scoped auxiliary/variant decisions, editorial level estimates
+and remaining independent linguistic/Windows device review. To use this branch:
+`git fetch origin`, `git switch content/verb-forms-batch-1`, `npm ci`, then the
+normal build/preview commands above. Confirm updated offline readiness before
+relying on new blocks without the server.
