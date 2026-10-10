@@ -247,6 +247,226 @@
       "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
       "productiveBand": "core-intermediate",
       "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "berücksichtigen",
+      "present3": "berücksichtigt",
+      "praeteritum": "berücksichtigte",
+      "participle": "berücksichtigt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat bei der Planung die Bedürfnisse der Gäste berücksichtigt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bestehen",
+      "present3": "besteht",
+      "praeteritum": "bestand",
+      "participle": "bestanden",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Abschlussprüfung beim ersten Versuch bestanden.",
+      "editorialScope": "The profile is transitive pass an examination, not bestehen aus or bestehen auf. Existing v1 construction records stay unchanged.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bestimmen",
+      "present3": "bestimmt",
+      "praeteritum": "bestimmte",
+      "participle": "bestimmt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Zeitpunkt der Abreise bestimmt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "beurteilen",
+      "present3": "beurteilt",
+      "praeteritum": "beurteilte",
+      "participle": "beurteilt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Situation anhand der verfügbaren Informationen beurteilt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bewerten",
+      "present3": "bewertet",
+      "praeteritum": "bewertete",
+      "participle": "bewertet",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die verschiedenen Vorschläge nach klaren Kriterien bewertet.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "beweisen",
+      "present3": "beweist",
+      "praeteritum": "bewies",
+      "participle": "bewiesen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat mit den Unterlagen seine Unschuld bewiesen.",
+      "editorialScope": "Prove is stronger than merely suggest evidence; an original formal-proof example is used rather than claiming ordinary test data prove every general statement.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bewirken",
+      "present3": "bewirkt",
+      "praeteritum": "bewirkte",
+      "participle": "bewirkt",
+      "auxiliary": "haben",
+      "selectedContext": "Die neue Regel hat eine deutliche Veränderung bewirkt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "beziehen",
+      "present3": "bezieht",
+      "praeteritum": "bezog",
+      "participle": "bezogen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Strom von einem regionalen Anbieter bezogen.",
+      "editorialScope": "This profile means obtain goods or services. Reflexive sich beziehen auf (refer to) and other meanings are not independently assessed here.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "binden",
+      "present3": "bindet",
+      "praeteritum": "band",
+      "participle": "gebunden",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Blumen mit einem Band gebunden.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "brennen",
+      "present3": "brennt",
+      "praeteritum": "brannte",
+      "participle": "gebrannt",
+      "auxiliary": "haben",
+      "selectedContext": "Die Kerze hat bis zum Abend gebrannt.",
+      "editorialScope": "Intransitive burning or a light remaining lit uses haben. Mixed: changed past stem and dental ending, not a present vowel-change rule.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "darstellen",
+      "present3": "stellt dar",
+      "praeteritum": "stellte dar",
+      "participle": "dargestellt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Entwicklung in einer übersichtlichen Grafik dargestellt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "definieren",
+      "present3": "definiert",
+      "praeteritum": "definierte",
+      "participle": "definiert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Begriff zu Beginn des Vortrags definiert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "dokumentieren",
+      "present3": "dokumentiert",
+      "praeteritum": "dokumentierte",
+      "participle": "dokumentiert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die einzelnen Arbeitsschritte dokumentiert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "durchführen",
+      "present3": "führt durch",
+      "praeteritum": "führte durch",
+      "participle": "durchgeführt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Befragung nach einem festen Plan durchgeführt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "einführen",
+      "present3": "führt ein",
+      "praeteritum": "führte ein",
+      "participle": "eingeführt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat für das Team eine neue Arbeitsweise eingeführt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "einhalten",
+      "present3": "hält ein",
+      "praeteritum": "hielt ein",
+      "participle": "eingehalten",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die vereinbarte Frist eingehalten.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "einstellen",
+      "present3": "stellt ein",
+      "praeteritum": "stellte ein",
+      "participle": "eingestellt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Lautstärke niedriger eingestellt.",
+      "editorialScope": "Selected use adjusts a parameter. Hiring and discontinuing an operation are different uses, although their principal parts match.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "entnehmen",
+      "present3": "entnimmt",
+      "praeteritum": "entnahm",
+      "participle": "entnommen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat dem Bericht die wichtigsten Angaben entnommen.",
+      "editorialScope": "Take information or a sample from a source; the source is dative in the selected examples. No automated free paraphrase is graded.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "entsprechen",
+      "present3": "entspricht",
+      "praeteritum": "entsprach",
+      "participle": "entsprochen",
+      "auxiliary": "haben",
+      "selectedContext": "Die Lösung hat den vereinbarten Anforderungen entsprochen.",
+      "editorialScope": "Correspond to or meet a requirement uses a dative complement; the scoped auxiliary is haben.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "entwerfen",
+      "present3": "entwirft",
+      "praeteritum": "entwarf",
+      "participle": "entworfen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat einen Plan für das neue Gemeindehaus entworfen.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
     }
   ]
 }
