@@ -1,0 +1,4164 @@
+{
+  "schemaVersion": 2,
+  "packId": "verb-forms-batch-2",
+  "packVersion": 1,
+  "title": "Verb Forms · Population Batch 2",
+  "items": [
+    {
+      "id": "forms-ablehnen",
+      "contentType": "verb-forms",
+      "title": "ablehnen",
+      "meaningEn": "to reject (a proposal)",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ablehnen-example",
+          "domain": "everyday",
+          "de": "Er hat den Vorschlag nach sorgfältiger Prüfung abgelehnt.",
+          "en": "He rejected the proposal after careful consideration."
+        },
+        {
+          "id": "forms-ablehnen-technical",
+          "domain": "technical",
+          "de": "Er hat den Entwurf wegen fehlender Sicherheitsnachweise abgelehnt.",
+          "en": "He rejected the design because safety evidence was missing."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ablehnen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ablehnen",
+        "present3": "lehnt ab",
+        "stemChange": null,
+        "praeteritum": "lehnte ab",
+        "participle": "abgelehnt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Vorschlag nach sorgfältiger Prüfung abgelehnt.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-ableiten",
+      "contentType": "verb-forms",
+      "title": "ableiten",
+      "meaningEn": "to derive (a conclusion)",
+      "level": "B2",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ableiten-example",
+          "domain": "everyday",
+          "de": "Er hat aus den Beobachtungen eine Schlussfolgerung abgeleitet.",
+          "en": "He derived a conclusion from the observations."
+        },
+        {
+          "id": "forms-ableiten-technical",
+          "domain": "technical",
+          "de": "Er hat aus den Messwerten eine Belastungsgrenze abgeleitet.",
+          "en": "He derived a load limit from the measured values."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ableiten",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ableiten",
+        "present3": "leitet ab",
+        "stemChange": null,
+        "praeteritum": "leitete ab",
+        "participle": "abgeleitet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat aus den Beobachtungen eine Schlussfolgerung abgeleitet.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-abschaffen",
+      "contentType": "verb-forms",
+      "title": "abschaffen",
+      "meaningEn": "to abolish / discontinue",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abschaffen-example",
+          "domain": "everyday",
+          "de": "Die Gemeinde hat die alte Regel abgeschafft.",
+          "en": "The municipality abolished the old rule."
+        },
+        {
+          "id": "forms-abschaffen-technical",
+          "domain": "technical",
+          "de": "Er hat das veraltete Prüfverfahren abgeschafft.",
+          "en": "He discontinued the outdated test procedure."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abschaffen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abschaffen",
+        "present3": "schafft ab",
+        "stemChange": null,
+        "praeteritum": "schaffte ab",
+        "participle": "abgeschafft",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Die Gemeinde hat die alte Regel abgeschafft.",
+        "auxiliaryNote": "Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-abstimmen",
+      "contentType": "verb-forms",
+      "title": "abstimmen",
+      "meaningEn": "to coordinate / agree (details)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abstimmen-example",
+          "domain": "everyday",
+          "de": "Er hat die Termine mit dem Team abgestimmt.",
+          "en": "He coordinated the dates with the team."
+        },
+        {
+          "id": "forms-abstimmen-technical",
+          "domain": "technical",
+          "de": "Er hat die Schnittstellen mit dem Entwicklungsteam abgestimmt.",
+          "en": "He coordinated the interfaces with the development team."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abstimmen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abstimmen",
+        "present3": "stimmt ab",
+        "stemChange": null,
+        "praeteritum": "stimmte ab",
+        "participle": "abgestimmt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Termine mit dem Team abgestimmt.",
+        "auxiliaryNote": "Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-anbringen",
+      "contentType": "verb-forms",
+      "title": "anbringen",
+      "meaningEn": "to attach / mount",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anbringen-example",
+          "domain": "everyday",
+          "de": "Er hat das Schild neben dem Eingang angebracht.",
+          "en": "He attached the sign beside the entrance."
+        },
+        {
+          "id": "forms-anbringen-technical",
+          "domain": "technical",
+          "de": "Er hat den Sensor am Gehäuse angebracht.",
+          "en": "He mounted the sensor on the housing."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anbringen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anbringen",
+        "present3": "bringt an",
+        "stemChange": null,
+        "praeteritum": "brachte an",
+        "participle": "angebracht",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat das Schild neben dem Eingang angebracht.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "mixed",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-anerkennen",
+      "contentType": "verb-forms",
+      "title": "anerkennen",
+      "meaningEn": "to recognize / acknowledge (a contribution)",
+      "level": "B2",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anerkennen-example",
+          "domain": "everyday",
+          "de": "Er hat den Beitrag seiner Kollegin anerkannt.",
+          "en": "He acknowledged his colleague's contribution."
+        },
+        {
+          "id": "forms-anerkennen-technical",
+          "domain": "technical",
+          "de": "Er hat den Nachweis als ausreichend anerkannt.",
+          "en": "He recognized the evidence as sufficient."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anerkennen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anerkennen",
+        "present3": "erkennt an",
+        "stemChange": null,
+        "praeteritum": "erkannte an",
+        "participle": "anerkannt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Beitrag seiner Kollegin anerkannt.",
+        "auxiliaryNote": "The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family.",
+        "classification": "mixed",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-angeben",
+      "contentType": "verb-forms",
+      "title": "angeben",
+      "meaningEn": "to specify / state",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-angeben-example",
+          "domain": "everyday",
+          "de": "Er hat im Formular seine aktuelle Adresse angegeben.",
+          "en": "He stated his current address on the form."
+        },
+        {
+          "id": "forms-angeben-technical",
+          "domain": "technical",
+          "de": "Er hat die Toleranz in der Zeichnung angegeben.",
+          "en": "He specified the tolerance in the drawing."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#angeben",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "angeben",
+        "present3": "gibt an",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "gab an",
+        "participle": "angegeben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat im Formular seine aktuelle Adresse angegeben.",
+        "auxiliaryNote": "Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-anschliessen",
+      "contentType": "verb-forms",
+      "title": "anschließen",
+      "meaningEn": "to connect (a device)",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anschliessen-example",
+          "domain": "everyday",
+          "de": "Er hat den Drucker an den Computer angeschlossen.",
+          "en": "He connected the printer to the computer."
+        },
+        {
+          "id": "forms-anschliessen-technical",
+          "domain": "technical",
+          "de": "Er hat das Messgerät an die Stromversorgung angeschlossen.",
+          "en": "He connected the measuring instrument to the power supply."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anschließen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anschließen",
+        "present3": "schließt an",
+        "stemChange": null,
+        "praeteritum": "schloss an",
+        "participle": "angeschlossen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Drucker an den Computer angeschlossen.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-aufbauen",
+      "contentType": "verb-forms",
+      "title": "aufbauen",
+      "meaningEn": "to build / establish",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufbauen-example",
+          "domain": "everyday",
+          "de": "Er hat im Laufe der Jahre ein Netzwerk aufgebaut.",
+          "en": "He built a network over the years."
+        },
+        {
+          "id": "forms-aufbauen-technical",
+          "domain": "technical",
+          "de": "Er hat einen einfachen Versuchsaufbau aufgebaut.",
+          "en": "He assembled a simple experimental setup."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufbauen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufbauen",
+        "present3": "baut auf",
+        "stemChange": null,
+        "praeteritum": "baute auf",
+        "participle": "aufgebaut",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat im Laufe der Jahre ein Netzwerk aufgebaut.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-auffallen",
+      "contentType": "verb-forms",
+      "title": "auffallen",
+      "meaningEn": "to stand out / be noticed",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-auffallen-example",
+          "domain": "everyday",
+          "de": "Der Fehler ist ihm beim Lesen sofort aufgefallen.",
+          "en": "He noticed the error immediately while reading."
+        },
+        {
+          "id": "forms-auffallen-technical",
+          "domain": "technical",
+          "de": "Die Abweichung ist ihm bei der Kontrolle aufgefallen.",
+          "en": "He noticed the deviation during the inspection."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#auffallen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "auffallen",
+        "present3": "fällt auf",
+        "stemChange": {
+          "from": "a",
+          "to": "ä"
+        },
+        "praeteritum": "fiel auf",
+        "participle": "aufgefallen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Der Fehler ist ihm beim Lesen sofort aufgefallen.",
+        "auxiliaryNote": "The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-aufweisen",
+      "contentType": "verb-forms",
+      "title": "aufweisen",
+      "meaningEn": "to exhibit / have (features)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufweisen-example",
+          "domain": "everyday",
+          "de": "Der Bericht hat mehrere Lücken aufgewiesen.",
+          "en": "The report had several gaps."
+        },
+        {
+          "id": "forms-aufweisen-technical",
+          "domain": "technical",
+          "de": "Der Prototyp hat bei hoher Last deutliche Schwingungen aufgewiesen.",
+          "en": "The prototype exhibited noticeable vibrations under high load."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufweisen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufweisen",
+        "present3": "weist auf",
+        "stemChange": null,
+        "praeteritum": "wies auf",
+        "participle": "aufgewiesen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Der Bericht hat mehrere Lücken aufgewiesen.",
+        "auxiliaryNote": "Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-ausfuehren",
+      "contentType": "verb-forms",
+      "title": "ausführen",
+      "meaningEn": "to carry out (an instruction)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ausfuehren-example",
+          "domain": "everyday",
+          "de": "Er hat den Auftrag wie vereinbart ausgeführt.",
+          "en": "He carried out the assignment as agreed."
+        },
+        {
+          "id": "forms-ausfuehren-technical",
+          "domain": "technical",
+          "de": "Er hat die Wartungsarbeiten nach der Anleitung ausgeführt.",
+          "en": "He carried out the maintenance work according to the instructions."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ausführen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ausführen",
+        "present3": "führt aus",
+        "stemChange": null,
+        "praeteritum": "führte aus",
+        "participle": "ausgeführt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Auftrag wie vereinbart ausgeführt.",
+        "auxiliaryNote": "Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-ausschliessen",
+      "contentType": "verb-forms",
+      "title": "ausschließen",
+      "meaningEn": "to rule out",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ausschliessen-example",
+          "domain": "everyday",
+          "de": "Er hat einen Rechenfehler als Ursache ausgeschlossen.",
+          "en": "He ruled out a calculation error as the cause."
+        },
+        {
+          "id": "forms-ausschliessen-technical",
+          "domain": "technical",
+          "de": "Er hat einen Sensorfehler durch eine zweite Messung ausgeschlossen.",
+          "en": "He ruled out a sensor fault through a second measurement."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ausschließen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ausschließen",
+        "present3": "schließt aus",
+        "stemChange": null,
+        "praeteritum": "schloss aus",
+        "participle": "ausgeschlossen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat einen Rechenfehler als Ursache ausgeschlossen.",
+        "auxiliaryNote": "Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-auswerten",
+      "contentType": "verb-forms",
+      "title": "auswerten",
+      "meaningEn": "to analyze / evaluate (data)",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-auswerten-example",
+          "domain": "everyday",
+          "de": "Er hat die Antworten der Befragten ausgewertet.",
+          "en": "He analyzed the respondents' answers."
+        },
+        {
+          "id": "forms-auswerten-technical",
+          "domain": "technical",
+          "de": "Er hat die Ergebnisse der Dauerprüfung ausgewertet.",
+          "en": "He analyzed the results of the endurance test."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#auswerten",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "auswerten",
+        "present3": "wertet aus",
+        "stemChange": null,
+        "praeteritum": "wertete aus",
+        "participle": "ausgewertet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Antworten der Befragten ausgewertet.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-beantragen",
+      "contentType": "verb-forms",
+      "title": "beantragen",
+      "meaningEn": "to apply for / request officially",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beantragen-example",
+          "domain": "everyday",
+          "de": "Er hat bei der Stadt eine Genehmigung beantragt.",
+          "en": "He applied to the city for a permit."
+        },
+        {
+          "id": "forms-beantragen-technical",
+          "domain": "technical",
+          "de": "Er hat die Freigabe für den Versuch beantragt.",
+          "en": "He requested approval for the trial."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beantragen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beantragen",
+        "present3": "beantragt",
+        "stemChange": null,
+        "praeteritum": "beantragte",
+        "participle": "beantragt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat bei der Stadt eine Genehmigung beantragt.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bearbeiten",
+      "contentType": "verb-forms",
+      "title": "bearbeiten",
+      "meaningEn": "to work on / process",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bearbeiten-example",
+          "domain": "everyday",
+          "de": "Er hat den Antrag innerhalb einer Woche bearbeitet.",
+          "en": "He processed the application within a week."
+        },
+        {
+          "id": "forms-bearbeiten-technical",
+          "domain": "technical",
+          "de": "Er hat die Oberfläche mit einem geeigneten Werkzeug bearbeitet.",
+          "en": "He worked the surface using a suitable tool."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bearbeiten",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bearbeiten",
+        "present3": "bearbeitet",
+        "stemChange": null,
+        "praeteritum": "bearbeitete",
+        "participle": "bearbeitet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Antrag innerhalb einer Woche bearbeitet.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-begruenden",
+      "contentType": "verb-forms",
+      "title": "begründen",
+      "meaningEn": "to justify / give reasons for",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-begruenden-example",
+          "domain": "everyday",
+          "de": "Er hat seine Entscheidung mit konkreten Beispielen begründet.",
+          "en": "He justified his decision with concrete examples."
+        },
+        {
+          "id": "forms-begruenden-technical",
+          "domain": "technical",
+          "de": "Er hat die Wahl des Materials mit den Anforderungen begründet.",
+          "en": "He justified the choice of material with the requirements."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#begründen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "begründen",
+        "present3": "begründet",
+        "stemChange": null,
+        "praeteritum": "begründete",
+        "participle": "begründet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine Entscheidung mit konkreten Beispielen begründet.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-behaupten",
+      "contentType": "verb-forms",
+      "title": "behaupten",
+      "meaningEn": "to claim / assert",
+      "level": "B2",
+      "levelNote": "B2 core productive vocabulary for reports, processes and professional communication. Recorded acquisition/scheduling estimate: B2. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-behaupten-example",
+          "domain": "everyday",
+          "de": "Er hat behauptet, dass die Angaben vollständig sind.",
+          "en": "He claimed that the information is complete."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#behaupten",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "behaupten",
+        "present3": "behauptet",
+        "stemChange": null,
+        "praeteritum": "behauptete",
+        "participle": "behauptet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat behauptet, dass die Angaben vollständig sind.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-belegen",
+      "contentType": "verb-forms",
+      "title": "belegen",
+      "meaningEn": "to substantiate (with evidence)",
+      "level": "C1",
+      "levelNote": "Advanced productive value (B2+/C1-oriented) in formal, academic or professional use. Recorded acquisition/scheduling estimate: C1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "formal",
+      "relevance": {
+        "everyday": "medium",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-belegen-example",
+          "domain": "everyday",
+          "de": "Er hat seine These mit aktuellen Quellen belegt.",
+          "en": "He substantiated his thesis with current sources."
+        },
+        {
+          "id": "forms-belegen-technical",
+          "domain": "technical",
+          "de": "Er hat die Eignung des Verfahrens mit Versuchsdaten belegt.",
+          "en": "He substantiated the suitability of the procedure with experimental data."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#belegen",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "belegen",
+        "present3": "belegt",
+        "stemChange": null,
+        "praeteritum": "belegte",
+        "participle": "belegt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine These mit aktuellen Quellen belegt.",
+        "auxiliaryNote": "Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bemerken",
+      "contentType": "verb-forms",
+      "title": "bemerken",
+      "meaningEn": "to notice / remark",
+      "level": "B1",
+      "levelNote": "Core intermediate productivity in a general or work context. Recorded acquisition/scheduling estimate: B1. Editorial estimate, not an official CEFR vocabulary assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bemerken-example",
+          "domain": "everyday",
+          "de": "Er hat die Änderung im Text erst später bemerkt.",
+          "en": "He noticed the change in the text only later."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bemerken",
+        "Four principal-part/auxiliary fields match the reference row checked 2026-10-10. Sense, examples, classification, prefix notes and level placement are editorial/self-review; see docs/VERB_FORMS_BATCH_2_AUDIT.md and content/source/verb-forms-batch-2-verification.json."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bemerken",
+        "present3": "bemerkt",
+        "stemChange": null,
+        "praeteritum": "bemerkte",
+        "participle": "bemerkt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Änderung im Text erst später bemerkt.",
+        "auxiliaryNote": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "forms-ablehnen-past-recall",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): ablehnen — to reject (a proposal)",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The third-person singular Präteritum for to reject (a proposal) is lehnte ab. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "lehnte ab"
+      ]
+    },
+    {
+      "id": "forms-ablehnen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ablehnen — to reject (a proposal)",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The Partizip II for to reject (a proposal) is abgelehnt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgelehnt"
+      ]
+    },
+    {
+      "id": "forms-ablehnen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Vorschlag nach sorgfältiger Prüfung abgelehnt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to reject (a proposal) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ablehnen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: lehnte ab (Präteritum, first/third-person singular).",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The dictionary infinitive for to reject (a proposal) is ablehnen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ablehnen"
+      ]
+    },
+    {
+      "id": "forms-ablehnen-present-recall",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ablehnen — to reject (a proposal)",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The third-person singular Präsens for to reject (a proposal) is lehnt ab. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "lehnt ab"
+      ]
+    },
+    {
+      "id": "forms-ablehnen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Entwurf wegen fehlender Sicherheitsnachweise ___.",
+      "exampleId": "forms-ablehnen-technical",
+      "explanation": "The Partizip II for to reject (a proposal) is abgelehnt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgelehnt"
+      ]
+    },
+    {
+      "id": "forms-ablehnen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ablehnen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ablehnen — to reject (a proposal): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ablehnen-example",
+      "explanation": "The principal-form sequence for to reject (a proposal) is ablehnen · lehnte ab · abgelehnt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to reject (a proposal)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ablehnen · lehnte ab · abgelehnt"
+        },
+        {
+          "id": "past-error",
+          "text": "ablehnen · lehnte · abgelehnt"
+        },
+        {
+          "id": "participle-error",
+          "text": "ablehnen · lehnte ab · geablehnt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ableiten-past-recall",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): ableiten — to derive (a conclusion)",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The third-person singular Präteritum for to derive (a conclusion) is leitete ab. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "leitete ab"
+      ]
+    },
+    {
+      "id": "forms-ableiten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ableiten — to derive (a conclusion)",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The Partizip II for to derive (a conclusion) is abgeleitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeleitet"
+      ]
+    },
+    {
+      "id": "forms-ableiten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ aus den Beobachtungen eine Schlussfolgerung abgeleitet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to derive (a conclusion) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ableiten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: leitete ab (Präteritum, first/third-person singular).",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The dictionary infinitive for to derive (a conclusion) is ableiten. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ableiten"
+      ]
+    },
+    {
+      "id": "forms-ableiten-present-recall",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ableiten — to derive (a conclusion)",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The third-person singular Präsens for to derive (a conclusion) is leitet ab. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "leitet ab"
+      ]
+    },
+    {
+      "id": "forms-ableiten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat aus den Messwerten eine Belastungsgrenze ___.",
+      "exampleId": "forms-ableiten-technical",
+      "explanation": "The Partizip II for to derive (a conclusion) is abgeleitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeleitet"
+      ]
+    },
+    {
+      "id": "forms-ableiten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ableiten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ableiten — to derive (a conclusion): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ableiten-example",
+      "explanation": "The principal-form sequence for to derive (a conclusion) is ableiten · leitete ab · abgeleitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to derive (a conclusion)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ableiten · leitete ab · abgeleitet"
+        },
+        {
+          "id": "past-error",
+          "text": "ableiten · leitete · abgeleitet"
+        },
+        {
+          "id": "participle-error",
+          "text": "ableiten · leitete ab · geableitet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-abschaffen-past-recall",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): abschaffen — to abolish / discontinue",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The third-person singular Präteritum for to abolish / discontinue is schaffte ab. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schaffte ab"
+      ]
+    },
+    {
+      "id": "forms-abschaffen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abschaffen — to abolish / discontinue",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The Partizip II for to abolish / discontinue is abgeschafft. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeschafft"
+      ]
+    },
+    {
+      "id": "forms-abschaffen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Die Gemeinde ___ die alte Regel abgeschafft. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to abolish / discontinue is haben. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-abschaffen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: schaffte ab (Präteritum, first/third-person singular).",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The dictionary infinitive for to abolish / discontinue is abschaffen. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abschaffen"
+      ]
+    },
+    {
+      "id": "forms-abschaffen-present-recall",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abschaffen — to abolish / discontinue",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The third-person singular Präsens for to abolish / discontinue is schafft ab. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schafft ab"
+      ]
+    },
+    {
+      "id": "forms-abschaffen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat das veraltete Prüfverfahren ___.",
+      "exampleId": "forms-abschaffen-technical",
+      "explanation": "The Partizip II for to abolish / discontinue is abgeschafft. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeschafft"
+      ]
+    },
+    {
+      "id": "forms-abschaffen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abschaffen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abschaffen — to abolish / discontinue: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abschaffen-example",
+      "explanation": "The principal-form sequence for to abolish / discontinue is abschaffen · schaffte ab · abgeschafft. Weak discontinue or abolish uses schaffte ab / abgeschafft. Do not transfer the strong create profile of schaffen (schuf / geschaffen) to this lexical compound.",
+      "hint": [
+        "Meaning: to abolish / discontinue",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abschaffen · schaffte ab · abgeschafft"
+        },
+        {
+          "id": "past-error",
+          "text": "abschaffen · schuf ab · abgeschafft"
+        },
+        {
+          "id": "participle-error",
+          "text": "abschaffen · schaffte ab · abgeschaffen"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-abstimmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): abstimmen — to coordinate / agree (details)",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The third-person singular Präteritum for to coordinate / agree (details) is stimmte ab. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stimmte ab"
+      ]
+    },
+    {
+      "id": "forms-abstimmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abstimmen — to coordinate / agree (details)",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The Partizip II for to coordinate / agree (details) is abgestimmt. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgestimmt"
+      ]
+    },
+    {
+      "id": "forms-abstimmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Termine mit dem Team abgestimmt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to coordinate / agree (details) is haben. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-abstimmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: stimmte ab (Präteritum, first/third-person singular).",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The dictionary infinitive for to coordinate / agree (details) is abstimmen. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abstimmen"
+      ]
+    },
+    {
+      "id": "forms-abstimmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abstimmen — to coordinate / agree (details)",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The third-person singular Präsens for to coordinate / agree (details) is stimmt ab. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stimmt ab"
+      ]
+    },
+    {
+      "id": "forms-abstimmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Schnittstellen mit dem Entwicklungsteam ___.",
+      "exampleId": "forms-abstimmen-technical",
+      "explanation": "The Partizip II for to coordinate / agree (details) is abgestimmt. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgestimmt"
+      ]
+    },
+    {
+      "id": "forms-abstimmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abstimmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abstimmen — to coordinate / agree (details): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abstimmen-example",
+      "explanation": "The principal-form sequence for to coordinate / agree (details) is abstimmen · stimmte ab · abgestimmt. Transitive coordination of details uses a direct object here. Voting and reflexive agreement are separate uses with the same principal parts, not extra records.",
+      "hint": [
+        "Meaning: to coordinate / agree (details)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abstimmen · stimmte ab · abgestimmt"
+        },
+        {
+          "id": "past-error",
+          "text": "abstimmen · stimmte · abgestimmt"
+        },
+        {
+          "id": "participle-error",
+          "text": "abstimmen · stimmte ab · geabstimmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anbringen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): anbringen — to attach / mount",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The third-person singular Präteritum for to attach / mount is brachte an. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "brachte an"
+      ]
+    },
+    {
+      "id": "forms-anbringen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anbringen — to attach / mount",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The Partizip II for to attach / mount is angebracht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angebracht"
+      ]
+    },
+    {
+      "id": "forms-anbringen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ das Schild neben dem Eingang angebracht. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to attach / mount is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anbringen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: brachte an (Präteritum, first/third-person singular).",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The dictionary infinitive for to attach / mount is anbringen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anbringen"
+      ]
+    },
+    {
+      "id": "forms-anbringen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anbringen — to attach / mount",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The third-person singular Präsens for to attach / mount is bringt an. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bringt an"
+      ]
+    },
+    {
+      "id": "forms-anbringen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Sensor am Gehäuse ___.",
+      "exampleId": "forms-anbringen-technical",
+      "explanation": "The Partizip II for to attach / mount is angebracht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angebracht"
+      ]
+    },
+    {
+      "id": "forms-anbringen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anbringen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anbringen — to attach / mount: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anbringen-example",
+      "explanation": "The principal-form sequence for to attach / mount is anbringen · brachte an · angebracht. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to attach / mount",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anbringen · brachte an · angebracht"
+        },
+        {
+          "id": "past-error",
+          "text": "anbringen · bringte an · angebracht"
+        },
+        {
+          "id": "participle-error",
+          "text": "anbringen · brachte an · angebringt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anerkennen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): anerkennen — to recognize / acknowledge (a contribution)",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The third-person singular Präteritum for to recognize / acknowledge (a contribution) is erkannte an. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkannte an"
+      ]
+    },
+    {
+      "id": "forms-anerkennen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anerkennen — to recognize / acknowledge (a contribution)",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The Partizip II for to recognize / acknowledge (a contribution) is anerkannt. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anerkannt"
+      ]
+    },
+    {
+      "id": "forms-anerkennen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Beitrag seiner Kollegin anerkannt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to recognize / acknowledge (a contribution) is haben. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anerkennen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: erkannte an (Präteritum, first/third-person singular).",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The dictionary infinitive for to recognize / acknowledge (a contribution) is anerkennen. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anerkennen"
+      ]
+    },
+    {
+      "id": "forms-anerkennen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anerkennen — to recognize / acknowledge (a contribution)",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The third-person singular Präsens for to recognize / acknowledge (a contribution) is erkennt an. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "erkennt an"
+      ]
+    },
+    {
+      "id": "forms-anerkennen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Nachweis als ausreichend ___.",
+      "exampleId": "forms-anerkennen-technical",
+      "explanation": "The Partizip II for to recognize / acknowledge (a contribution) is anerkannt. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Recall the requested form of this mixed lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anerkannt"
+      ]
+    },
+    {
+      "id": "forms-anerkennen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anerkennen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anerkennen — to recognize / acknowledge (a contribution): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anerkennen-example",
+      "explanation": "The principal-form sequence for to recognize / acknowledge (a contribution) is anerkennen · erkannte an · anerkannt. The outer an- particle is separable, but the inner erkennen stem prevents an inserted ge-: anerkannt. Classified as mixed with the kennen family.",
+      "hint": [
+        "Meaning: to recognize / acknowledge (a contribution)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anerkennen · erkannte an · anerkannt"
+        },
+        {
+          "id": "past-error",
+          "text": "anerkennen · erkennte an · anerkannt"
+        },
+        {
+          "id": "participle-error",
+          "text": "anerkennen · erkannte an · angeerkennt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-angeben-past-recall",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): angeben — to specify / state",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The third-person singular Präteritum for to specify / state is gab an. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gab an"
+      ]
+    },
+    {
+      "id": "forms-angeben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: angeben — to specify / state",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The Partizip II for to specify / state is angegeben. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angegeben"
+      ]
+    },
+    {
+      "id": "forms-angeben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ im Formular seine aktuelle Adresse angegeben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to specify / state is haben. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-angeben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: gab an (Präteritum, first/third-person singular).",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The dictionary infinitive for to specify / state is angeben. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angeben"
+      ]
+    },
+    {
+      "id": "forms-angeben-present-recall",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): angeben — to specify / state",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The third-person singular Präsens for to specify / state is gibt an. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gibt an"
+      ]
+    },
+    {
+      "id": "forms-angeben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Toleranz in der Zeichnung ___.",
+      "exampleId": "forms-angeben-technical",
+      "explanation": "The Partizip II for to specify / state is angegeben. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angegeben"
+      ]
+    },
+    {
+      "id": "forms-angeben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-angeben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for angeben — to specify / state: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-angeben-example",
+      "explanation": "The principal-form sequence for to specify / state is angeben · gab an · angegeben. Selected use is specifying information, not the colloquial boast sense. Both share forms; no separate morphology inventory is claimed.",
+      "hint": [
+        "Meaning: to specify / state",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "angeben · gab an · angegeben"
+        },
+        {
+          "id": "past-error",
+          "text": "angeben · gebte an · angegeben"
+        },
+        {
+          "id": "participle-error",
+          "text": "angeben · gab an · angegebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anschliessen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): anschließen — to connect (a device)",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The third-person singular Präteritum for to connect (a device) is schloss an. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schloss an"
+      ]
+    },
+    {
+      "id": "forms-anschliessen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anschließen — to connect (a device)",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The Partizip II for to connect (a device) is angeschlossen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angeschlossen"
+      ]
+    },
+    {
+      "id": "forms-anschliessen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Drucker an den Computer angeschlossen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to connect (a device) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anschliessen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: schloss an (Präteritum, first/third-person singular).",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The dictionary infinitive for to connect (a device) is anschließen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anschließen"
+      ]
+    },
+    {
+      "id": "forms-anschliessen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anschließen — to connect (a device)",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The third-person singular Präsens for to connect (a device) is schließt an. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schließt an"
+      ]
+    },
+    {
+      "id": "forms-anschliessen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat das Messgerät an die Stromversorgung ___.",
+      "exampleId": "forms-anschliessen-technical",
+      "explanation": "The Partizip II for to connect (a device) is angeschlossen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angeschlossen"
+      ]
+    },
+    {
+      "id": "forms-anschliessen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anschliessen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anschließen — to connect (a device): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anschliessen-example",
+      "explanation": "The principal-form sequence for to connect (a device) is anschließen · schloss an · angeschlossen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to connect (a device)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anschließen · schloss an · angeschlossen"
+        },
+        {
+          "id": "past-error",
+          "text": "anschließen · schließte an · angeschlossen"
+        },
+        {
+          "id": "participle-error",
+          "text": "anschließen · schloss an · angeschließt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufbauen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): aufbauen — to build / establish",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The third-person singular Präteritum for to build / establish is baute auf. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "baute auf"
+      ]
+    },
+    {
+      "id": "forms-aufbauen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufbauen — to build / establish",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The Partizip II for to build / establish is aufgebaut. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgebaut"
+      ]
+    },
+    {
+      "id": "forms-aufbauen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ im Laufe der Jahre ein Netzwerk aufgebaut. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to build / establish is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aufbauen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: baute auf (Präteritum, first/third-person singular).",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The dictionary infinitive for to build / establish is aufbauen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufbauen"
+      ]
+    },
+    {
+      "id": "forms-aufbauen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufbauen — to build / establish",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The third-person singular Präsens for to build / establish is baut auf. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "baut auf"
+      ]
+    },
+    {
+      "id": "forms-aufbauen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat einen einfachen Versuchsaufbau ___.",
+      "exampleId": "forms-aufbauen-technical",
+      "explanation": "The Partizip II for to build / establish is aufgebaut. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgebaut"
+      ]
+    },
+    {
+      "id": "forms-aufbauen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufbauen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufbauen — to build / establish: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufbauen-example",
+      "explanation": "The principal-form sequence for to build / establish is aufbauen · baute auf · aufgebaut. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to build / establish",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufbauen · baute auf · aufgebaut"
+        },
+        {
+          "id": "past-error",
+          "text": "aufbauen · baute · aufgebaut"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufbauen · baute auf · geaufbaut"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-auffallen-past-recall",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): auffallen — to stand out / be noticed",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The third-person singular Präteritum for to stand out / be noticed is fiel auf. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fiel auf"
+      ]
+    },
+    {
+      "id": "forms-auffallen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: auffallen — to stand out / be noticed",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The Partizip II for to stand out / be noticed is aufgefallen. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgefallen"
+      ]
+    },
+    {
+      "id": "forms-auffallen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Der Fehler ___ ihm beim Lesen sofort aufgefallen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to stand out / be noticed is sein. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-auffallen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: fiel auf (Präteritum, first/third-person singular).",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The dictionary infinitive for to stand out / be noticed is auffallen. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "auffallen"
+      ]
+    },
+    {
+      "id": "forms-auffallen-present-recall",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): auffallen — to stand out / be noticed",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The third-person singular Präsens for to stand out / be noticed is fällt auf. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fällt auf"
+      ]
+    },
+    {
+      "id": "forms-auffallen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Die Abweichung ist ihm bei der Kontrolle ___.",
+      "exampleId": "forms-auffallen-technical",
+      "explanation": "The Partizip II for to stand out / be noticed is aufgefallen. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgefallen"
+      ]
+    },
+    {
+      "id": "forms-auffallen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-auffallen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for auffallen — to stand out / be noticed: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-auffallen-example",
+      "explanation": "The principal-form sequence for to stand out / be noticed is auffallen · fiel auf · aufgefallen. The thing noticed is the subject, with a dative experiencer. This profile uses sein; it is not a transitive notice construction.",
+      "hint": [
+        "Meaning: to stand out / be noticed",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "auffallen · fiel auf · aufgefallen"
+        },
+        {
+          "id": "past-error",
+          "text": "auffallen · fallte auf · aufgefallen"
+        },
+        {
+          "id": "participle-error",
+          "text": "auffallen · fiel auf · aufgefallt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufweisen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): aufweisen — to exhibit / have (features)",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The third-person singular Präteritum for to exhibit / have (features) is wies auf. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wies auf"
+      ]
+    },
+    {
+      "id": "forms-aufweisen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufweisen — to exhibit / have (features)",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The Partizip II for to exhibit / have (features) is aufgewiesen. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgewiesen"
+      ]
+    },
+    {
+      "id": "forms-aufweisen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Der Bericht ___ mehrere Lücken aufgewiesen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to exhibit / have (features) is haben. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aufweisen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: wies auf (Präteritum, first/third-person singular).",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The dictionary infinitive for to exhibit / have (features) is aufweisen. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufweisen"
+      ]
+    },
+    {
+      "id": "forms-aufweisen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufweisen — to exhibit / have (features)",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The third-person singular Präsens for to exhibit / have (features) is weist auf. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "weist auf"
+      ]
+    },
+    {
+      "id": "forms-aufweisen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Der Prototyp hat bei hoher Last deutliche Schwingungen ___.",
+      "exampleId": "forms-aufweisen-technical",
+      "explanation": "The Partizip II for to exhibit / have (features) is aufgewiesen. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgewiesen"
+      ]
+    },
+    {
+      "id": "forms-aufweisen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufweisen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufweisen — to exhibit / have (features): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufweisen-example",
+      "explanation": "The principal-form sequence for to exhibit / have (features) is aufweisen · wies auf · aufgewiesen. Formal exhibit or have features uses haben, often with an inanimate subject; it is distinct from separable hinweisen and nachweisen.",
+      "hint": [
+        "Meaning: to exhibit / have (features)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufweisen · wies auf · aufgewiesen"
+        },
+        {
+          "id": "past-error",
+          "text": "aufweisen · weiste auf · aufgewiesen"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufweisen · wies auf · aufgeweist"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ausfuehren-past-recall",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): ausführen — to carry out (an instruction)",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The third-person singular Präteritum for to carry out (an instruction) is führte aus. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "führte aus"
+      ]
+    },
+    {
+      "id": "forms-ausfuehren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ausführen — to carry out (an instruction)",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The Partizip II for to carry out (an instruction) is ausgeführt. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgeführt"
+      ]
+    },
+    {
+      "id": "forms-ausfuehren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Auftrag wie vereinbart ausgeführt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to carry out (an instruction) is haben. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ausfuehren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: führte aus (Präteritum, first/third-person singular).",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The dictionary infinitive for to carry out (an instruction) is ausführen. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausführen"
+      ]
+    },
+    {
+      "id": "forms-ausfuehren-present-recall",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ausführen — to carry out (an instruction)",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The third-person singular Präsens for to carry out (an instruction) is führt aus. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "führt aus"
+      ]
+    },
+    {
+      "id": "forms-ausfuehren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Wartungsarbeiten nach der Anleitung ___.",
+      "exampleId": "forms-ausfuehren-technical",
+      "explanation": "The Partizip II for to carry out (an instruction) is ausgeführt. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgeführt"
+      ]
+    },
+    {
+      "id": "forms-ausfuehren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ausfuehren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ausführen — to carry out (an instruction): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ausfuehren-example",
+      "explanation": "The principal-form sequence for to carry out (an instruction) is ausführen · führte aus · ausgeführt. Selected sense is carry out an assignment. Other senses such as explain in detail share forms but are not separately assessed.",
+      "hint": [
+        "Meaning: to carry out (an instruction)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ausführen · führte aus · ausgeführt"
+        },
+        {
+          "id": "past-error",
+          "text": "ausführen · führte · ausgeführt"
+        },
+        {
+          "id": "participle-error",
+          "text": "ausführen · führte aus · geausführt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ausschliessen-past-recall",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): ausschließen — to rule out",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The third-person singular Präteritum for to rule out is schloss aus. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to rule out",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schloss aus"
+      ]
+    },
+    {
+      "id": "forms-ausschliessen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ausschließen — to rule out",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The Partizip II for to rule out is ausgeschlossen. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to rule out",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgeschlossen"
+      ]
+    },
+    {
+      "id": "forms-ausschliessen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ einen Rechenfehler als Ursache ausgeschlossen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to rule out is haben. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile.",
+      "hint": [
+        "Meaning: to rule out",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ausschliessen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: schloss aus (Präteritum, first/third-person singular).",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The dictionary infinitive for to rule out is ausschließen. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausschließen"
+      ]
+    },
+    {
+      "id": "forms-ausschliessen-present-recall",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ausschließen — to rule out",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The third-person singular Präsens for to rule out is schließt aus. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to rule out",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schließt aus"
+      ]
+    },
+    {
+      "id": "forms-ausschliessen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat einen Sensorfehler durch eine zweite Messung ___.",
+      "exampleId": "forms-ausschliessen-technical",
+      "explanation": "The Partizip II for to rule out is ausgeschlossen. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to rule out",
+        "Recall the requested form of this strong lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgeschlossen"
+      ]
+    },
+    {
+      "id": "forms-ausschliessen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ausschliessen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ausschließen — to rule out: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ausschliessen-example",
+      "explanation": "The principal-form sequence for to rule out is ausschließen · schloss aus · ausgeschlossen. Selected sense is rule out a possible cause. Expelling someone shares forms but is outside the tested profile.",
+      "hint": [
+        "Meaning: to rule out",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ausschließen · schloss aus · ausgeschlossen"
+        },
+        {
+          "id": "past-error",
+          "text": "ausschließen · schließte aus · ausgeschlossen"
+        },
+        {
+          "id": "participle-error",
+          "text": "ausschließen · schloss aus · ausgeschließt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-auswerten-past-recall",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): auswerten — to analyze / evaluate (data)",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The third-person singular Präteritum for to analyze / evaluate (data) is wertete aus. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wertete aus"
+      ]
+    },
+    {
+      "id": "forms-auswerten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: auswerten — to analyze / evaluate (data)",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The Partizip II for to analyze / evaluate (data) is ausgewertet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgewertet"
+      ]
+    },
+    {
+      "id": "forms-auswerten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Antworten der Befragten ausgewertet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to analyze / evaluate (data) is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-auswerten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: wertete aus (Präteritum, first/third-person singular).",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The dictionary infinitive for to analyze / evaluate (data) is auswerten. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "auswerten"
+      ]
+    },
+    {
+      "id": "forms-auswerten-present-recall",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): auswerten — to analyze / evaluate (data)",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The third-person singular Präsens for to analyze / evaluate (data) is wertet aus. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "wertet aus"
+      ]
+    },
+    {
+      "id": "forms-auswerten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Ergebnisse der Dauerprüfung ___.",
+      "exampleId": "forms-auswerten-technical",
+      "explanation": "The Partizip II for to analyze / evaluate (data) is ausgewertet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is separable.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgewertet"
+      ]
+    },
+    {
+      "id": "forms-auswerten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-auswerten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for auswerten — to analyze / evaluate (data): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-auswerten-example",
+      "explanation": "The principal-form sequence for to analyze / evaluate (data) is auswerten · wertete aus · ausgewertet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to analyze / evaluate (data)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "auswerten · wertete aus · ausgewertet"
+        },
+        {
+          "id": "past-error",
+          "text": "auswerten · wertete · ausgewertet"
+        },
+        {
+          "id": "participle-error",
+          "text": "auswerten · wertete aus · geauswertet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bearbeiten-past-recall",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): bearbeiten — to work on / process",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The third-person singular Präteritum for to work on / process is bearbeitete. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bearbeitete"
+      ]
+    },
+    {
+      "id": "forms-bearbeiten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bearbeiten — to work on / process",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The Partizip II for to work on / process is bearbeitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "forms-bearbeiten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Antrag innerhalb einer Woche bearbeitet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to work on / process is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bearbeiten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: bearbeitete (Präteritum, first/third-person singular).",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The dictionary infinitive for to work on / process is bearbeiten. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bearbeiten"
+      ]
+    },
+    {
+      "id": "forms-bearbeiten-present-recall",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bearbeiten — to work on / process",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The third-person singular Präsens for to work on / process is bearbeitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "forms-bearbeiten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Oberfläche mit einem geeigneten Werkzeug ___.",
+      "exampleId": "forms-bearbeiten-technical",
+      "explanation": "The Partizip II for to work on / process is bearbeitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bearbeitet"
+      ]
+    },
+    {
+      "id": "forms-bearbeiten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bearbeiten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bearbeiten — to work on / process: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bearbeiten-example",
+      "explanation": "The principal-form sequence for to work on / process is bearbeiten · bearbeitete · bearbeitet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to work on / process",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bearbeiten · bearbeitete · bearbeitet"
+        },
+        {
+          "id": "past-error",
+          "text": "bearbeiten · bearbeite · bearbeitet"
+        },
+        {
+          "id": "participle-error",
+          "text": "bearbeiten · bearbeitete · gebearbeitet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beantragen-past-recall",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): beantragen — to apply for / request officially",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The third-person singular Präteritum for to apply for / request officially is beantragte. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantragte"
+      ]
+    },
+    {
+      "id": "forms-beantragen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beantragen — to apply for / request officially",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The Partizip II for to apply for / request officially is beantragt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantragt"
+      ]
+    },
+    {
+      "id": "forms-beantragen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ bei der Stadt eine Genehmigung beantragt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to apply for / request officially is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beantragen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: beantragte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The dictionary infinitive for to apply for / request officially is beantragen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantragen"
+      ]
+    },
+    {
+      "id": "forms-beantragen-present-recall",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beantragen — to apply for / request officially",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The third-person singular Präsens for to apply for / request officially is beantragt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantragt"
+      ]
+    },
+    {
+      "id": "forms-beantragen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Freigabe für den Versuch ___.",
+      "exampleId": "forms-beantragen-technical",
+      "explanation": "The Partizip II for to apply for / request officially is beantragt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantragt"
+      ]
+    },
+    {
+      "id": "forms-beantragen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beantragen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beantragen — to apply for / request officially: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beantragen-example",
+      "explanation": "The principal-form sequence for to apply for / request officially is beantragen · beantragte · beantragt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to apply for / request officially",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beantragen · beantragte · beantragt"
+        },
+        {
+          "id": "past-error",
+          "text": "beantragen · beantrage · beantragt"
+        },
+        {
+          "id": "participle-error",
+          "text": "beantragen · beantragte · gebeantragt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-begruenden-past-recall",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): begründen — to justify / give reasons for",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The third-person singular Präteritum for to justify / give reasons for is begründete. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begründete"
+      ]
+    },
+    {
+      "id": "forms-begruenden-participle-recall",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: begründen — to justify / give reasons for",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The Partizip II for to justify / give reasons for is begründet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begründet"
+      ]
+    },
+    {
+      "id": "forms-begruenden-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine Entscheidung mit konkreten Beispielen begründet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to justify / give reasons for is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-begruenden-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: begründete (Präteritum, first/third-person singular).",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The dictionary infinitive for to justify / give reasons for is begründen. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begründen"
+      ]
+    },
+    {
+      "id": "forms-begruenden-present-recall",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): begründen — to justify / give reasons for",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The third-person singular Präsens for to justify / give reasons for is begründet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begründet"
+      ]
+    },
+    {
+      "id": "forms-begruenden-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Wahl des Materials mit den Anforderungen ___.",
+      "exampleId": "forms-begruenden-technical",
+      "explanation": "The Partizip II for to justify / give reasons for is begründet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "begründet"
+      ]
+    },
+    {
+      "id": "forms-begruenden-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-begruenden",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for begründen — to justify / give reasons for: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-begruenden-example",
+      "explanation": "The principal-form sequence for to justify / give reasons for is begründen · begründete · begründet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to justify / give reasons for",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "begründen · begründete · begründet"
+        },
+        {
+          "id": "past-error",
+          "text": "begründen · begründe · begründet"
+        },
+        {
+          "id": "participle-error",
+          "text": "begründen · begründete · gebegründet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-behaupten-past-recall",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): behaupten — to claim / assert",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The third-person singular Präteritum for to claim / assert is behauptete. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behauptete"
+      ]
+    },
+    {
+      "id": "forms-behaupten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: behaupten — to claim / assert",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The Partizip II for to claim / assert is behauptet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behauptet"
+      ]
+    },
+    {
+      "id": "forms-behaupten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ behauptet, dass die Angaben vollständig sind. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to claim / assert is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-behaupten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: behauptete (Präteritum, first/third-person singular).",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The dictionary infinitive for to claim / assert is behaupten. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behaupten"
+      ]
+    },
+    {
+      "id": "forms-behaupten-present-recall",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): behaupten — to claim / assert",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The third-person singular Präsens for to claim / assert is behauptet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behauptet"
+      ]
+    },
+    {
+      "id": "forms-behaupten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat ___, dass die Angaben vollständig sind.",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The Partizip II for to claim / assert is behauptet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "behauptet"
+      ]
+    },
+    {
+      "id": "forms-behaupten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-behaupten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for behaupten — to claim / assert: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-behaupten-example",
+      "explanation": "The principal-form sequence for to claim / assert is behaupten · behauptete · behauptet. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to claim / assert",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "behaupten · behauptete · behauptet"
+        },
+        {
+          "id": "past-error",
+          "text": "behaupten · behaupte · behauptet"
+        },
+        {
+          "id": "participle-error",
+          "text": "behaupten · behauptete · gebehauptet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-belegen-past-recall",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): belegen — to substantiate (with evidence)",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The third-person singular Präteritum for to substantiate (with evidence) is belegte. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "belegte"
+      ]
+    },
+    {
+      "id": "forms-belegen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: belegen — to substantiate (with evidence)",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The Partizip II for to substantiate (with evidence) is belegt. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "forms-belegen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine These mit aktuellen Quellen belegt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to substantiate (with evidence) is haben. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-belegen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: belegte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The dictionary infinitive for to substantiate (with evidence) is belegen. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "belegen"
+      ]
+    },
+    {
+      "id": "forms-belegen-present-recall",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): belegen — to substantiate (with evidence)",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The third-person singular Präsens for to substantiate (with evidence) is belegt. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "forms-belegen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Eignung des Verfahrens mit Versuchsdaten ___.",
+      "exampleId": "forms-belegen-technical",
+      "explanation": "The Partizip II for to substantiate (with evidence) is belegt. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "belegt"
+      ]
+    },
+    {
+      "id": "forms-belegen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-belegen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for belegen — to substantiate (with evidence): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-belegen-example",
+      "explanation": "The principal-form sequence for to substantiate (with evidence) is belegen · belegte · belegt. Formal support a claim with evidence is tested, not booking a course or occupying a seat; the morphology is shared.",
+      "hint": [
+        "Meaning: to substantiate (with evidence)",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "belegen · belegte · belegt"
+        },
+        {
+          "id": "past-error",
+          "text": "belegen · belege · belegt"
+        },
+        {
+          "id": "participle-error",
+          "text": "belegen · belegte · gebelegt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bemerken-past-recall",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (er/sie/es): bemerken — to notice / remark",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The third-person singular Präteritum for to notice / remark is bemerkte. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bemerkte"
+      ]
+    },
+    {
+      "id": "forms-bemerken-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bemerken — to notice / remark",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The Partizip II for to notice / remark is bemerkt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bemerkt"
+      ]
+    },
+    {
+      "id": "forms-bemerken-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Änderung im Text erst später bemerkt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to notice / remark is haben. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Recall the lexical Perfekt pattern for this specific event and sense; abstract events need not involve physical motion."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bemerken-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: bemerkte (Präteritum, first/third-person singular).",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The dictionary infinitive for to notice / remark is bemerken. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Recover the dictionary form from the past form; preserve a separable particle where present."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bemerken"
+      ]
+    },
+    {
+      "id": "forms-bemerken-present-recall",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bemerken — to notice / remark",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The third-person singular Präsens for to notice / remark is bemerkt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bemerkt"
+      ]
+    },
+    {
+      "id": "forms-bemerken-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Änderung im Text erst später ___.",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The Partizip II for to notice / remark is bemerkt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning. The selected prefix profile is inseparable.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Recall the requested form of this weak lexical profile; keep any separable particle in its correct position."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bemerkt"
+      ]
+    },
+    {
+      "id": "forms-bemerken-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bemerken",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bemerken — to notice / remark: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bemerken-example",
+      "explanation": "The principal-form sequence for to notice / remark is bemerken · bemerkte · bemerkt. The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "hint": [
+        "Meaning: to notice / remark",
+        "Compare the past stem, particle placement and participle pattern in each option."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bemerken · bemerkte · bemerkt"
+        },
+        {
+          "id": "past-error",
+          "text": "bemerken · bemerke · bemerkt"
+        },
+        {
+          "id": "participle-error",
+          "text": "bemerken · bemerkte · gebemerkt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "verb-forms-batch-2-01",
+      "title": "Verb Forms · Batch 2 / 01 · ablehnen–auffallen",
+      "description": "Ten alphabetically grouped verb profiles for productive general, formal and professional German. Recall forms in scoped natural contexts.",
+      "itemIds": [
+        "forms-ablehnen",
+        "forms-ableiten",
+        "forms-abschaffen",
+        "forms-abstimmen",
+        "forms-anbringen",
+        "forms-anerkennen",
+        "forms-angeben",
+        "forms-anschliessen",
+        "forms-aufbauen",
+        "forms-auffallen"
+      ],
+      "questionIds": [
+        "forms-ablehnen-past-recall",
+        "forms-ablehnen-participle-recall",
+        "forms-ablehnen-auxiliary-choice",
+        "forms-ablehnen-infinitive-recall",
+        "forms-ablehnen-present-recall",
+        "forms-ablehnen-sentence-completion",
+        "forms-ablehnen-sequence-choice",
+        "forms-ableiten-past-recall",
+        "forms-ableiten-participle-recall",
+        "forms-ableiten-auxiliary-choice",
+        "forms-ableiten-infinitive-recall",
+        "forms-ableiten-present-recall",
+        "forms-ableiten-sentence-completion",
+        "forms-ableiten-sequence-choice",
+        "forms-abschaffen-past-recall",
+        "forms-abschaffen-participle-recall",
+        "forms-abschaffen-auxiliary-choice",
+        "forms-abschaffen-infinitive-recall",
+        "forms-abschaffen-present-recall",
+        "forms-abschaffen-sentence-completion",
+        "forms-abschaffen-sequence-choice",
+        "forms-abstimmen-past-recall",
+        "forms-abstimmen-participle-recall",
+        "forms-abstimmen-auxiliary-choice",
+        "forms-abstimmen-infinitive-recall",
+        "forms-abstimmen-present-recall",
+        "forms-abstimmen-sentence-completion",
+        "forms-abstimmen-sequence-choice",
+        "forms-anbringen-past-recall",
+        "forms-anbringen-participle-recall",
+        "forms-anbringen-auxiliary-choice",
+        "forms-anbringen-infinitive-recall",
+        "forms-anbringen-present-recall",
+        "forms-anbringen-sentence-completion",
+        "forms-anbringen-sequence-choice",
+        "forms-anerkennen-past-recall",
+        "forms-anerkennen-participle-recall",
+        "forms-anerkennen-auxiliary-choice",
+        "forms-anerkennen-infinitive-recall",
+        "forms-anerkennen-present-recall",
+        "forms-anerkennen-sentence-completion",
+        "forms-anerkennen-sequence-choice",
+        "forms-angeben-past-recall",
+        "forms-angeben-participle-recall",
+        "forms-angeben-auxiliary-choice",
+        "forms-angeben-infinitive-recall",
+        "forms-angeben-present-recall",
+        "forms-angeben-sentence-completion",
+        "forms-angeben-sequence-choice",
+        "forms-anschliessen-past-recall",
+        "forms-anschliessen-participle-recall",
+        "forms-anschliessen-auxiliary-choice",
+        "forms-anschliessen-infinitive-recall",
+        "forms-anschliessen-present-recall",
+        "forms-anschliessen-sentence-completion",
+        "forms-anschliessen-sequence-choice",
+        "forms-aufbauen-past-recall",
+        "forms-aufbauen-participle-recall",
+        "forms-aufbauen-auxiliary-choice",
+        "forms-aufbauen-infinitive-recall",
+        "forms-aufbauen-present-recall",
+        "forms-aufbauen-sentence-completion",
+        "forms-aufbauen-sequence-choice",
+        "forms-auffallen-past-recall",
+        "forms-auffallen-participle-recall",
+        "forms-auffallen-auxiliary-choice",
+        "forms-auffallen-infinitive-recall",
+        "forms-auffallen-present-recall",
+        "forms-auffallen-sentence-completion",
+        "forms-auffallen-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-batch-2-02",
+      "title": "Verb Forms · Batch 2 / 02 · aufweisen–bemerken",
+      "description": "Ten alphabetically grouped verb profiles for productive general, formal and professional German. Recall forms in scoped natural contexts.",
+      "itemIds": [
+        "forms-aufweisen",
+        "forms-ausfuehren",
+        "forms-ausschliessen",
+        "forms-auswerten",
+        "forms-beantragen",
+        "forms-bearbeiten",
+        "forms-begruenden",
+        "forms-behaupten",
+        "forms-belegen",
+        "forms-bemerken"
+      ],
+      "questionIds": [
+        "forms-aufweisen-past-recall",
+        "forms-aufweisen-participle-recall",
+        "forms-aufweisen-auxiliary-choice",
+        "forms-aufweisen-infinitive-recall",
+        "forms-aufweisen-present-recall",
+        "forms-aufweisen-sentence-completion",
+        "forms-aufweisen-sequence-choice",
+        "forms-ausfuehren-past-recall",
+        "forms-ausfuehren-participle-recall",
+        "forms-ausfuehren-auxiliary-choice",
+        "forms-ausfuehren-infinitive-recall",
+        "forms-ausfuehren-present-recall",
+        "forms-ausfuehren-sentence-completion",
+        "forms-ausfuehren-sequence-choice",
+        "forms-ausschliessen-past-recall",
+        "forms-ausschliessen-participle-recall",
+        "forms-ausschliessen-auxiliary-choice",
+        "forms-ausschliessen-infinitive-recall",
+        "forms-ausschliessen-present-recall",
+        "forms-ausschliessen-sentence-completion",
+        "forms-ausschliessen-sequence-choice",
+        "forms-auswerten-past-recall",
+        "forms-auswerten-participle-recall",
+        "forms-auswerten-auxiliary-choice",
+        "forms-auswerten-infinitive-recall",
+        "forms-auswerten-present-recall",
+        "forms-auswerten-sentence-completion",
+        "forms-auswerten-sequence-choice",
+        "forms-bearbeiten-past-recall",
+        "forms-bearbeiten-participle-recall",
+        "forms-bearbeiten-auxiliary-choice",
+        "forms-bearbeiten-infinitive-recall",
+        "forms-bearbeiten-present-recall",
+        "forms-bearbeiten-sentence-completion",
+        "forms-bearbeiten-sequence-choice",
+        "forms-beantragen-past-recall",
+        "forms-beantragen-participle-recall",
+        "forms-beantragen-auxiliary-choice",
+        "forms-beantragen-infinitive-recall",
+        "forms-beantragen-present-recall",
+        "forms-beantragen-sentence-completion",
+        "forms-beantragen-sequence-choice",
+        "forms-begruenden-past-recall",
+        "forms-begruenden-participle-recall",
+        "forms-begruenden-auxiliary-choice",
+        "forms-begruenden-infinitive-recall",
+        "forms-begruenden-present-recall",
+        "forms-begruenden-sentence-completion",
+        "forms-begruenden-sequence-choice",
+        "forms-behaupten-past-recall",
+        "forms-behaupten-participle-recall",
+        "forms-behaupten-auxiliary-choice",
+        "forms-behaupten-infinitive-recall",
+        "forms-behaupten-present-recall",
+        "forms-behaupten-sentence-completion",
+        "forms-behaupten-sequence-choice",
+        "forms-belegen-past-recall",
+        "forms-belegen-participle-recall",
+        "forms-belegen-auxiliary-choice",
+        "forms-belegen-infinitive-recall",
+        "forms-belegen-present-recall",
+        "forms-belegen-sentence-completion",
+        "forms-belegen-sequence-choice",
+        "forms-bemerken-past-recall",
+        "forms-bemerken-participle-recall",
+        "forms-bemerken-auxiliary-choice",
+        "forms-bemerken-infinitive-recall",
+        "forms-bemerken-present-recall",
+        "forms-bemerken-sentence-completion",
+        "forms-bemerken-sequence-choice"
+      ]
+    }
+  ]
+}
