@@ -127,3 +127,17 @@ See [Batch 2 source/content/regression audit](docs/VERB_FORMS_BATCH_2_AUDIT.md)
 for the full inventory, advanced productive selection, scoped senses, verification
 limits and remaining Windows/independent linguistic review. Confirm updated
 offline readiness before using new blocks without the server.
+
+## Verb Forms v1 final curated core
+
+The `content/verb-forms-final` review branch completes the planned population at
+**240 Verb Forms / 24 blocks / 1,680 authored questions**. Fifty additional
+profiles cover remaining strong morphology, formal interpretation/refutation and
+project/technical actions. Quick remains 10 and Standard 20; existing snapshots,
+backups, themes and offline flows remain supported.
+
+See the [final batch audit](docs/VERB_FORMS_FINAL_BATCH_AUDIT.md) and
+[whole-category audit and consolidated review list](docs/VERB_FORMS_V1_FINAL_AUDIT.md).
+This is a curated core, not all German verbs or a complete modal grammar course.
+Independent linguistic review and Windows installed-app checks remain documented
+follow-ups. Confirm updated offline readiness before relying on the new blocks.

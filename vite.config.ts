@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 import { pwaPlugin } from './scripts/pwa-plugin.ts';
 
 // One authoring source: expose it in development and emit the same bytes in builds.
-const contentFiles = ['seed-pack.json', 'verb-forms-pilot.json', 'verb-forms-batch-1.json', 'verb-forms-batch-2.json'];
+const contentFiles = ['seed-pack.json', 'verb-forms-pilot.json', 'verb-forms-batch-1.json', 'verb-forms-batch-2.json', 'verb-forms-final.json'];
 export default defineConfig({
   plugins: [react(), {
     name: 'authored-content-asset',

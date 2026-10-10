@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import batch from '../../content/verb-forms-batch-1.json' with { type: 'json' };
 import pilot from '../../content/verb-forms-pilot.json' with { type: 'json' };
 import batch2 from '../../content/verb-forms-batch-2.json' with { type: 'json' };
+import final from '../../content/verb-forms-final.json' with { type: 'json' };
 import type { ContentPackV2 } from '../../src/domain/content/v2';
 const pack = batch as unknown as ContentPackV2;
 
@@ -36,9 +37,9 @@ async function finish(page: Page, count: number, mistakes = false) {
 
 test('Batch 1 links survive the expanded global alphabetical index and ship the exact authored pack', async ({ page, request }) => {
   await page.goto('/#/blocks'); await page.getByRole('button', { name: 'Verb Forms', exact: true }).click();
-  await expect(page.getByRole('article')).toHaveCount(19);
+  await expect(page.getByRole('article')).toHaveCount(24);
   const index = page.getByRole('navigation', { name: 'Alphabetical verbs' });
-  const labels = [...pilot.items, ...pack.items, ...batch2.items].map(i => i.title).sort((a, b) => a.localeCompare(b, 'de'));
+  const labels = [...pilot.items, ...pack.items, ...batch2.items, ...final.items].map(i => i.title).sort((a, b) => a.localeCompare(b, 'de'));
   expect(await index.getByRole('link').allTextContents()).toEqual(labels);
   for (const p of [pilot, pack]) for (const item of p.items) {
     const block = p.blocks.find(b => b.itemIds.includes(item.id))!;

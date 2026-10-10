@@ -1,9 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import batch from '../../content/verb-forms-batch-2.json' with { type: 'json' };
+import batch from '../../content/verb-forms-final.json' with { type: 'json' };
 import pilot from '../../content/verb-forms-pilot.json' with { type: 'json' };
 import previous from '../../content/verb-forms-batch-1.json' with { type: 'json' };
-import final from '../../content/verb-forms-final.json' with { type: 'json' };
+import earlier from '../../content/verb-forms-batch-2.json' with { type: 'json' };
 import type { ContentPackV2 } from '../../src/domain/content/v2';
 const pack = batch as unknown as ContentPackV2;
 
@@ -35,19 +35,19 @@ async function finish(page: Page, count: number, mistakes = false) {
   await expect(page.getByRole('heading', { name: 'Session summary', exact: true })).toBeVisible(); return seen;
 }
 
-test('190-verb global alphabetical index preserves old blocks and routes all Batch 2 profiles and ship the exact authored pack', async ({ page, request }) => {
+test('240-verb global alphabetical index preserves old blocks and routes all Final batch profiles and ships the exact authored pack', async ({ page, request }) => {
   await page.goto('/#/blocks'); await page.getByRole('button', { name: 'Verb Forms', exact: true }).click();
   await expect(page.getByRole('article')).toHaveCount(24);
   const index = page.getByRole('navigation', { name: 'Alphabetical verbs' });
-  const labels = [...pilot.items, ...previous.items, ...pack.items, ...final.items].map(i => i.title).sort((a, b) => a.localeCompare(b, 'de'));
+  const labels = [...pilot.items, ...previous.items, ...earlier.items, ...pack.items].map(i => i.title).sort((a, b) => a.localeCompare(b, 'de'));
   expect(await index.getByRole('link').allTextContents()).toEqual(labels);
-  for (const p of [pilot, previous, pack]) for (const item of p.items) {
+  for (const p of [pilot, previous, earlier, pack]) for (const item of p.items) {
     const block = p.blocks.find(b => b.itemIds.includes(item.id))!;
     await expect(index.getByRole('link', { name: item.title, exact: true })).toHaveAttribute('href', `#/learn/${block.id}/${item.id}`);
   }
-  const response = await request.get('/content/verb-forms-batch-2.json');
+  const response = await request.get('/content/verb-forms-final.json');
   expect(response.ok()).toBe(true);
-  expect(await response.text()).toBe(await readFile('content/verb-forms-batch-2.json', 'utf8'));
+  expect(await response.text()).toBe(await readFile('content/verb-forms-final.json', 'utf8'));
 });
 
 for (const [n, block] of pack.blocks.entries()) {
@@ -73,19 +73,43 @@ for (const [n, block] of pack.blocks.entries()) {
   });
 }
 
-test('Batch 2 Quick block completes, revises wrong/assisted facets, preserves score and restores exact draft/theme in a fresh profile', async ({ page, browser }) => {
+test('scoped modal, reflexive and advanced profiles render; Skip, Previous and Reveal retain assisted feedback', async ({ page }) => {
+  await page.addInitScript(() => { Math.random = () => .999; });
+  for (const lemma of ['wollen', 'befassen', 'stoßen', 'veranlassen', 'widerlegen', 'gelingen']) {
+    const item = pack.items.find(i => i.title === lemma)!;
+    const block = pack.blocks.find(b => b.itemIds.includes(item.id))!;
+    await page.goto(`/#/learn/${block.id}/${item.id}`);
+    await expect(page.getByRole('heading', { name: lemma, exact: true })).toBeVisible();
+    await expect(page.locator('.verb-form-grid')).toContainText(item.properties.participle);
+    await expect(page.getByText(item.properties.auxiliaryNote, { exact: true })).toBeVisible();
+  }
+  await start(page, 3);
+  const prompt = await page.locator('#question-prompt').textContent();
+  await page.getByRole('button', { name: 'Skip for now', exact: true }).click();
+  await expect(page.getByText('Question 2 of 10', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Previous question', exact: true }).click();
+  await expect(page.locator('#question-prompt')).toHaveText(prompt!);
+  await page.getByRole('button', { name: 'Reveal answer', exact: true }).click();
+  await answer(page);
+  await expect(page.locator('#feedback-title')).toContainText('Assisted');
+  await page.reload();
+  await expect(page.locator('#question-prompt')).toHaveText(prompt!);
+  await expect(page.locator('#feedback-title')).toContainText('Assisted');
+});
+
+test('Final batch Quick block completes, revises wrong/assisted facets, preserves score and restores exact draft/theme in a fresh profile', async ({ page, browser }) => {
   test.setTimeout(90_000);
   await page.addInitScript(() => { Math.random = () => .999; });
-  await start(page, 8); await finish(page, 10, true);
+  await start(page, 4); await finish(page, 10, true);
   await expect(page.getByText('80%', { exact: true })).toBeVisible();
   await page.goto('/#/progress'); await expect(page.getByRole('heading', { name: 'Awaiting revision (2)' })).toBeVisible();
-  await expect(page.locator('.revision-row')).toContainText('vermitteln');
+  await expect(page.locator('.revision-row')).toContainText('veranlassen');
   await page.getByRole('button', { name: 'Revise verb', exact: true }).click(); await finish(page, 2);
   await page.goto('/#/progress'); await expect(page.getByRole('heading', { name: 'Awaiting revision (0)' })).toBeVisible();
   await page.getByRole('button', { name: 'View saved summary', exact: true }).last().click();
   await expect(page.getByText('80%', { exact: true })).toBeVisible();
   await start(page, 0); const prompt = await page.locator('#question-prompt').textContent();
-  await page.getByRole('textbox', { name: 'Your verb form' }).fill('saved batch 2 draft');
+  await page.getByRole('textbox', { name: 'Your verb form' }).fill('saved final draft');
   await expect(page.locator('.save-state')).toHaveText('Automatic local saving'); await page.waitForTimeout(450);
   await page.goto('/#/settings'); await page.getByRole('combobox', { name: 'Palette' }).selectOption('finance-dashboard');
   const download = page.waitForEvent('download'); await page.getByRole('button', { name: 'Export backup' }).click();
@@ -99,21 +123,21 @@ test('Batch 2 Quick block completes, revises wrong/assisted facets, preserves sc
     await restored.getByRole('button', { name: 'Replace progress' }).click(); await expect(restored.getByText(/Backup restored successfully/)).toBeVisible();
     await expect(restored.locator('html')).toHaveAttribute('data-theme', 'finance-dashboard');
     await restored.goto('/#/practice'); await expect(restored.locator('#question-prompt')).toHaveText(prompt!);
-    await expect(restored.getByRole('textbox', { name: 'Your verb form' })).toHaveValue('saved batch 2 draft');
+    await expect(restored.getByRole('textbox', { name: 'Your verb form' })).toHaveValue('saved final draft');
   } finally { await fresh.close(); }
 });
 
-test('Batch 2 Standard 20 completes exactly once per authored question and next run rotates the pool', async ({ page }) => {
+test('Final batch Standard 20 completes exactly once per authored question and next run rotates the pool', async ({ page }) => {
   test.setTimeout(90_000); await page.addInitScript(() => { Math.random = () => .999; });
-  await start(page, 5, 20); const first = await page.locator('#question-prompt').textContent();
-  const ids = await finish(page, 20); expect(ids.every(id => pack.blocks[5]!.questionIds.includes(id))).toBe(true);
+  await start(page, 2, 20); const first = await page.locator('#question-prompt').textContent();
+  const ids = await finish(page, 20); expect(ids.every(id => pack.blocks[2]!.questionIds.includes(id))).toBe(true);
   await expect(page.getByText('100%', { exact: true })).toBeVisible();
-  await start(page, 5, 20); expect(await page.locator('#question-prompt').textContent()).not.toBe(first);
+  await start(page, 2, 20); expect(await page.locator('#question-prompt').textContent()).not.toBe(first);
 });
 
 test('production offline fresh launch loads every new block and resumes/completes new practice with export', async ({ page, context }) => {
   test.setTimeout(90_000); await page.addInitScript(() => { Math.random = () => .999; });
-  await start(page, 6); const prompt = await page.locator('#question-prompt').textContent();
+  await start(page, 3); const prompt = await page.locator('#question-prompt').textContent();
   await page.getByRole('textbox', { name: 'Your verb form' }).fill('offline draft');
   await page.goto('/#/settings'); await expect(page.getByText(/^Offline ready ·/)).toBeVisible();
   await context.setOffline(true); await page.close(); const offline = await context.newPage();
@@ -125,7 +149,7 @@ test('production offline fresh launch loads every new block and resumes/complete
   await offline.goto('/#/practice'); await expect(offline.locator('#question-prompt')).toHaveText(prompt!);
   await expect(offline.getByRole('textbox', { name: 'Your verb form' })).toHaveValue('offline draft');
   await finish(offline, 10);
-  await offline.goto('/#/progress'); await expect(offline.getByText(pack.blocks[6]!.title, { exact: true }).first()).toBeVisible();
+  await offline.goto('/#/progress'); await expect(offline.getByText(pack.blocks[3]!.title, { exact: true }).first()).toBeVisible();
   await offline.goto('/#/settings'); const download = offline.waitForEvent('download'); await offline.getByRole('button', { name: 'Export backup' }).click();
   const path = await (await download).path(); if (!path) throw new Error('No offline export');
   expect(JSON.parse(await readFile(path, 'utf8')).sessions[0].contentSnapshot.packId).toBe(pack.packId);

@@ -1,0 +1,3861 @@
+{
+  "documentType": "verb-forms-v1-review",
+  "checkedAt": "2026-10-11",
+  "inventoryCount": 240,
+  "records": [
+    {
+      "itemId": "forms-arbeiten",
+      "lemma": "arbeiten",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufstehen",
+      "lemma": "aufstehen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bleiben",
+      "lemma": "bleiben",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bringen",
+      "lemma": "bringen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-denken",
+      "lemma": "denken",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-essen",
+      "lemma": "essen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fahren",
+      "lemma": "fahren",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-finden",
+      "lemma": "finden",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-geben",
+      "lemma": "geben",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-gehen",
+      "lemma": "gehen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-haben",
+      "lemma": "haben",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-kommen",
+      "lemma": "kommen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-laufen",
+      "lemma": "laufen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-lesen",
+      "lemma": "lesen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nehmen",
+      "lemma": "nehmen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schreiben",
+      "lemma": "schreiben",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-sehen",
+      "lemma": "sehen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-sprechen",
+      "lemma": "sprechen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-werden",
+      "lemma": "werden",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-wissen",
+      "lemma": "wissen",
+      "packId": "verb-forms-pilot",
+      "levelEstimate": "A2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abfahren",
+      "lemma": "abfahren",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abgeben",
+      "lemma": "abgeben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abholen",
+      "lemma": "abholen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abschliessen",
+      "lemma": "abschließen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anbieten",
+      "lemma": "anbieten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anfangen",
+      "lemma": "anfangen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ankommen",
+      "lemma": "ankommen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-annehmen",
+      "lemma": "annehmen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anrufen",
+      "lemma": "anrufen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ansehen",
+      "lemma": "ansehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anziehen",
+      "lemma": "anziehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufgeben",
+      "lemma": "aufgeben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufhoeren",
+      "lemma": "aufhören",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufnehmen",
+      "lemma": "aufnehmen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ausgeben",
+      "lemma": "ausgeben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aussehen",
+      "lemma": "aussehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aussteigen",
+      "lemma": "aussteigen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ausziehen",
+      "lemma": "ausziehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beantworten",
+      "lemma": "beantworten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bedeuten",
+      "lemma": "bedeuten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beginnen",
+      "lemma": "beginnen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-behalten",
+      "lemma": "behalten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bekommen",
+      "lemma": "bekommen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-benutzen",
+      "lemma": "benutzen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beobachten",
+      "lemma": "beobachten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beschliessen",
+      "lemma": "beschließen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beschreiben",
+      "lemma": "beschreiben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-besprechen",
+      "lemma": "besprechen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bestellen",
+      "lemma": "bestellen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bitten",
+      "lemma": "bitten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-empfehlen",
+      "lemma": "empfehlen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entscheiden",
+      "lemma": "entscheiden",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entwickeln",
+      "lemma": "entwickeln",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erkennen",
+      "lemma": "erkennen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erklaeren",
+      "lemma": "erklären",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erlauben",
+      "lemma": "erlauben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erreichen",
+      "lemma": "erreichen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erscheinen",
+      "lemma": "erscheinen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erwarten",
+      "lemma": "erwarten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erzaehlen",
+      "lemma": "erzählen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fallen",
+      "lemma": "fallen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fliegen",
+      "lemma": "fliegen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-folgen",
+      "lemma": "folgen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fuehren",
+      "lemma": "führen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-gefallen",
+      "lemma": "gefallen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-gewinnen",
+      "lemma": "gewinnen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-halten",
+      "lemma": "halten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-helfen",
+      "lemma": "helfen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-kennen",
+      "lemma": "kennen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-lassen",
+      "lemma": "lassen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-oeffnen",
+      "lemma": "öffnen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-planen",
+      "lemma": "planen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-pruefen",
+      "lemma": "prüfen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-rechnen",
+      "lemma": "rechnen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-reisen",
+      "lemma": "reisen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-rufen",
+      "lemma": "rufen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schaffen",
+      "lemma": "schaffen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "variant-boundary",
+          "reason": "Confirm strong/weak sense boundaries and that the authored prompt disambiguates the selected profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schlafen",
+      "lemma": "schlafen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schliessen",
+      "lemma": "schließen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-sterben",
+      "lemma": "sterben",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-suchen",
+      "lemma": "suchen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-teilnehmen",
+      "lemma": "teilnehmen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-treffen",
+      "lemma": "treffen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-trinken",
+      "lemma": "trinken",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-tun",
+      "lemma": "tun",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-uebernehmen",
+      "lemma": "übernehmen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ueberzeugen",
+      "lemma": "überzeugen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-unterstuetzen",
+      "lemma": "unterstützen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verbessern",
+      "lemma": "verbessern",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vergleichen",
+      "lemma": "vergleichen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verlieren",
+      "lemma": "verlieren",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verstehen",
+      "lemma": "verstehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-versuchen",
+      "lemma": "versuchen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vorbereiten",
+      "lemma": "vorbereiten",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vorschlagen",
+      "lemma": "vorschlagen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-wachsen",
+      "lemma": "wachsen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "variant-boundary",
+          "reason": "Confirm strong/weak sense boundaries and that the authored prompt disambiguates the selected profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-wechseln",
+      "lemma": "wechseln",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zeigen",
+      "lemma": "zeigen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "A2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ziehen",
+      "lemma": "ziehen",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zuhoeren",
+      "lemma": "zuhören",
+      "packId": "verb-forms-batch-1",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ablehnen",
+      "lemma": "ablehnen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ableiten",
+      "lemma": "ableiten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abschaffen",
+      "lemma": "abschaffen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abstimmen",
+      "lemma": "abstimmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anbringen",
+      "lemma": "anbringen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anerkennen",
+      "lemma": "anerkennen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-angeben",
+      "lemma": "angeben",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anschliessen",
+      "lemma": "anschließen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufbauen",
+      "lemma": "aufbauen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-auffallen",
+      "lemma": "auffallen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-aufweisen",
+      "lemma": "aufweisen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ausfuehren",
+      "lemma": "ausführen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ausschliessen",
+      "lemma": "ausschließen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-auswerten",
+      "lemma": "auswerten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beantragen",
+      "lemma": "beantragen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bearbeiten",
+      "lemma": "bearbeiten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-begruenden",
+      "lemma": "begründen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-behaupten",
+      "lemma": "behaupten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-belegen",
+      "lemma": "belegen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bemerken",
+      "lemma": "bemerken",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beruecksichtigen",
+      "lemma": "berücksichtigen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bestehen",
+      "lemma": "bestehen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bestimmen",
+      "lemma": "bestimmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beurteilen",
+      "lemma": "beurteilen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beweisen",
+      "lemma": "beweisen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bewerten",
+      "lemma": "bewerten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bewirken",
+      "lemma": "bewirken",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beziehen",
+      "lemma": "beziehen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-binden",
+      "lemma": "binden",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-brennen",
+      "lemma": "brennen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-darstellen",
+      "lemma": "darstellen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-definieren",
+      "lemma": "definieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-dokumentieren",
+      "lemma": "dokumentieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-durchfuehren",
+      "lemma": "durchführen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-einfuehren",
+      "lemma": "einführen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-einhalten",
+      "lemma": "einhalten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-einstellen",
+      "lemma": "einstellen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entnehmen",
+      "lemma": "entnehmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entsprechen",
+      "lemma": "entsprechen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entwerfen",
+      "lemma": "entwerfen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erfordern",
+      "lemma": "erfordern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erfuellen",
+      "lemma": "erfüllen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ergeben",
+      "lemma": "ergeben",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erlaeutern",
+      "lemma": "erläutern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ermitteln",
+      "lemma": "ermitteln",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ermoeglichen",
+      "lemma": "ermöglichen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ersetzen",
+      "lemma": "ersetzen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erstellen",
+      "lemma": "erstellen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-feststellen",
+      "lemma": "feststellen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-foerdern",
+      "lemma": "fördern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-genehmigen",
+      "lemma": "genehmigen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-gewaehrleisten",
+      "lemma": "gewährleisten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-hervorheben",
+      "lemma": "hervorheben",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-hinweisen",
+      "lemma": "hinweisen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-installieren",
+      "lemma": "installieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-klaeren",
+      "lemma": "klären",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-koennen",
+      "lemma": "können",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "A2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-koordinieren",
+      "lemma": "koordinieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-laden",
+      "lemma": "laden",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-leisten",
+      "lemma": "leisten",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-liefern",
+      "lemma": "liefern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-messen",
+      "lemma": "messen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-mitteilen",
+      "lemma": "mitteilen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-moegen",
+      "lemma": "mögen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "A2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nachdenken",
+      "lemma": "nachdenken",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nachkommen",
+      "lemma": "nachkommen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nachlassen",
+      "lemma": "nachlassen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nachweisen",
+      "lemma": "nachweisen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-nennen",
+      "lemma": "nennen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-regeln",
+      "lemma": "regeln",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-scheitern",
+      "lemma": "scheitern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-simulieren",
+      "lemma": "simulieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-steuern",
+      "lemma": "steuern",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-uebertragen",
+      "lemma": "übertragen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-umsetzen",
+      "lemma": "umsetzen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-unterscheiden",
+      "lemma": "unterscheiden",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-untersuchen",
+      "lemma": "untersuchen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-validieren",
+      "lemma": "validieren",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verbinden",
+      "lemma": "verbinden",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vermeiden",
+      "lemma": "vermeiden",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vermitteln",
+      "lemma": "vermitteln",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-veroeffentlichen",
+      "lemma": "veröffentlichen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-versagen",
+      "lemma": "versagen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        },
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verschieben",
+      "lemma": "verschieben",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-voraussetzen",
+      "lemma": "voraussetzen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-vorsehen",
+      "lemma": "vorsehen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-wahrnehmen",
+      "lemma": "wahrnehmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zunehmen",
+      "lemma": "zunehmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zurueckfuehren",
+      "lemma": "zurückführen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zustimmen",
+      "lemma": "zustimmen",
+      "packId": "verb-forms-batch-2",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-abbrechen",
+      "lemma": "abbrechen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-absagen",
+      "lemma": "absagen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-anpassen",
+      "lemma": "anpassen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ausloesen",
+      "lemma": "auslösen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beeinflussen",
+      "lemma": "beeinflussen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-befassen",
+      "lemma": "befassen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-begrenzen",
+      "lemma": "begrenzen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-beheben",
+      "lemma": "beheben",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bestaetigen",
+      "lemma": "bestätigen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-betreiben",
+      "lemma": "betreiben",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-bewahren",
+      "lemma": "bewahren",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-dringen",
+      "lemma": "dringen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-einschaetzen",
+      "lemma": "einschätzen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-entfallen",
+      "lemma": "entfallen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-ergreifen",
+      "lemma": "ergreifen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-eroertern",
+      "lemma": "erörtern",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-erweitern",
+      "lemma": "erweitern",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fertigen",
+      "lemma": "fertigen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-festlegen",
+      "lemma": "festlegen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-fliehen",
+      "lemma": "fliehen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-gelingen",
+      "lemma": "gelingen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-geniessen",
+      "lemma": "genießen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-greifen",
+      "lemma": "greifen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-heben",
+      "lemma": "heben",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-hervorgehen",
+      "lemma": "hervorgehen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        },
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-interpretieren",
+      "lemma": "interpretieren",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-leiden",
+      "lemma": "leiden",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-montieren",
+      "lemma": "montieren",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-optimieren",
+      "lemma": "optimieren",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-rechtfertigen",
+      "lemma": "rechtfertigen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-riechen",
+      "lemma": "riechen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schaetzen",
+      "lemma": "schätzen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schlagen",
+      "lemma": "schlagen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schneiden",
+      "lemma": "schneiden",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-schweigen",
+      "lemma": "schweigen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-sinken",
+      "lemma": "sinken",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-steigen",
+      "lemma": "steigen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-stossen",
+      "lemma": "stoßen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "auxiliary-sense",
+          "reason": "Confirm auxiliary in the stated sense/context; do not generalize motion or change into a universal rule."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-streiten",
+      "lemma": "streiten",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-treiben",
+      "lemma": "treiben",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-veranlassen",
+      "lemma": "veranlassen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verfuegen",
+      "lemma": "verfügen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verringern",
+      "lemma": "verringern",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verweisen",
+      "lemma": "verweisen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "polysemy-scope",
+          "reason": "Confirm scoped lexical meaning/complements and excluded readings; shared principal parts do not mean interchangeable constructions."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-verzeihen",
+      "lemma": "verzeihen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B1",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-widerlegen",
+      "lemma": "widerlegen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-widersprechen",
+      "lemma": "widersprechen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "C1",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "prefix-stress",
+          "reason": "Confirm selected prefix/compound morphology and finite/participle pattern; this flag is not a claim that every lemma has a second stress-dependent profile."
+        },
+        {
+          "category": "precision-technical",
+          "reason": "Review evidential strength, technical meaning and translations; an example must not imply universal proof, interchangeable control concepts or proficiency certification."
+        },
+        {
+          "category": "register-level",
+          "reason": "Review formal/advanced productive placement; editorial CEFR and usefulness estimates are not official assignments."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-wollen",
+      "lemma": "wollen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "A2",
+      "priority": "focused",
+      "reviewFlags": [
+        {
+          "category": "modal-special-paradigm",
+          "reason": "Confirm lexical versus auxiliary/modal treatment; dependent-infinitive/Ersatzinfinitiv and passive worden are not normal participle questions here."
+        }
+      ],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zusammenfassen",
+      "lemma": "zusammenfassen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    },
+    {
+      "itemId": "forms-zwingen",
+      "lemma": "zwingen",
+      "packId": "verb-forms-final",
+      "levelEstimate": "B2",
+      "priority": "routine",
+      "reviewFlags": [],
+      "routineReview": [
+        "Editorial level/relevance estimate",
+        "Original German examples and English glosses"
+      ],
+      "reviewStatus": "Source-checked four factual fields; no independent linguistic certification"
+    }
+  ],
+  "deferredCandidates": [
+    {
+      "lemma": "sein",
+      "reason": "Important lexical/copular irregular prerequisite missing from inspected source; dedicated sourcing required."
+    },
+    {
+      "lemma": "dürfen",
+      "reason": "Modal dependent-infinitive grammar; standalone profile not forced into neutral completion templates."
+    },
+    {
+      "lemma": "müssen",
+      "reason": "Modal/Ersatzinfinitiv and elliptical standalone gemusst need independent template review."
+    },
+    {
+      "lemma": "sollen",
+      "reason": "Neutral standalone gesollt examples not established; modal/reporting grammar deferred."
+    },
+    {
+      "lemma": "senden",
+      "reason": "Weak/strong alternatives require a supported variant contract and sourcing."
+    },
+    {
+      "lemma": "wenden",
+      "reason": "Weak/strong alternatives require independent context/variant verification."
+    },
+    {
+      "lemma": "anwenden",
+      "reason": "Weak/strong alternatives remain deferred from Batch 2."
+    },
+    {
+      "lemma": "abwägen",
+      "reason": "Present/past variant contract remains deferred."
+    },
+    {
+      "lemma": "erwägen",
+      "reason": "Present/past variant contract remains deferred."
+    },
+    {
+      "lemma": "stehen",
+      "reason": "Regional haben/sein variants need explicit supported context policy."
+    },
+    {
+      "lemma": "sitzen",
+      "reason": "Regional haben/sein variants need explicit supported context policy."
+    },
+    {
+      "lemma": "liegen",
+      "reason": "Regional haben/sein variants need explicit supported context policy."
+    },
+    {
+      "lemma": "vorliegen",
+      "reason": "Regional auxiliary alternatives remain deferred."
+    },
+    {
+      "lemma": "aufrechterhalten",
+      "reason": "Finite-form alternatives/source scope need independent confirmation."
+    },
+    {
+      "lemma": "mahlen",
+      "reason": "Useful mixed-type weak-past/strong-participle pattern needs dedicated classification review."
+    },
+    {
+      "lemma": "ausgleichen",
+      "reason": "No inspected source row."
+    },
+    {
+      "lemma": "zurücknehmen",
+      "reason": "No inspected source row."
+    },
+    {
+      "lemma": "verdeutlichen",
+      "reason": "No inspected source row."
+    },
+    {
+      "lemma": "zugrundelegen",
+      "reason": "Source/spelling verification pending."
+    },
+    {
+      "lemma": "nachfragen",
+      "reason": "No inspected source row; retained from Batch 2 deferral."
+    },
+    {
+      "lemma": "leihen",
+      "reason": "Useful strong verb; lower priority in this curated closure, not a statement of low frequency."
+    },
+    {
+      "lemma": "stehlen",
+      "reason": "Useful strong verb; lower priority than productive gaps, not an exhaustive list."
+    }
+  ]
+}
