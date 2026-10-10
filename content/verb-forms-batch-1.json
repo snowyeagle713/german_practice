@@ -1,0 +1,4113 @@
+{
+  "schemaVersion": 2,
+  "packId": "verb-forms-batch-1",
+  "packVersion": 1,
+  "title": "Verb Forms · Population Batch 1",
+  "items": [
+    {
+      "id": "forms-abfahren",
+      "contentType": "verb-forms",
+      "title": "abfahren",
+      "meaningEn": "to depart (vehicle)",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abfahren-example",
+          "domain": "everyday",
+          "de": "Er ist pünktlich mit dem Bus abgefahren.",
+          "en": "He departed on time by bus."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abfahren",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abfahren",
+        "present3": "fährt ab",
+        "stemChange": {
+          "from": "a",
+          "to": "ä"
+        },
+        "praeteritum": "fuhr ab",
+        "participle": "abgefahren",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist pünktlich mit dem Bus abgefahren.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-abgeben",
+      "contentType": "verb-forms",
+      "title": "abgeben",
+      "meaningEn": "to hand in",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abgeben-example",
+          "domain": "everyday",
+          "de": "Er hat den Antrag rechtzeitig abgegeben.",
+          "en": "He handed in the application on time."
+        },
+        {
+          "id": "forms-abgeben-technical",
+          "domain": "technical",
+          "de": "Er hat den Prüfbericht abgegeben.",
+          "en": "He submitted the test report."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abgeben",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abgeben",
+        "present3": "gibt ab",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "gab ab",
+        "participle": "abgegeben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Antrag rechtzeitig abgegeben.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-abholen",
+      "contentType": "verb-forms",
+      "title": "abholen",
+      "meaningEn": "to pick up",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abholen-example",
+          "domain": "everyday",
+          "de": "Er hat seine Tochter von der Schule abgeholt.",
+          "en": "He picked up his daughter from school."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abholen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abholen",
+        "present3": "holt ab",
+        "stemChange": null,
+        "praeteritum": "holte ab",
+        "participle": "abgeholt",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine Tochter von der Schule abgeholt.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-abschliessen",
+      "contentType": "verb-forms",
+      "title": "abschließen",
+      "meaningEn": "to complete / conclude",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-abschliessen-example",
+          "domain": "everyday",
+          "de": "Er hat den Kurs erfolgreich abgeschlossen.",
+          "en": "He completed the course successfully."
+        },
+        {
+          "id": "forms-abschliessen-technical",
+          "domain": "technical",
+          "de": "Er hat die Validierung abgeschlossen.",
+          "en": "He completed the validation."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#abschließen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "abschließen",
+        "present3": "schließt ab",
+        "stemChange": null,
+        "praeteritum": "schloss ab",
+        "participle": "abgeschlossen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Kurs erfolgreich abgeschlossen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "ab"
+      }
+    },
+    {
+      "id": "forms-anbieten",
+      "contentType": "verb-forms",
+      "title": "anbieten",
+      "meaningEn": "to offer",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anbieten-example",
+          "domain": "everyday",
+          "de": "Er hat seiner Nachbarin Hilfe angeboten.",
+          "en": "He offered his neighbour help."
+        },
+        {
+          "id": "forms-anbieten-technical",
+          "domain": "technical",
+          "de": "Er hat dem Kunden eine technische Schulung angeboten.",
+          "en": "He offered the customer technical training."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anbieten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anbieten",
+        "present3": "bietet an",
+        "stemChange": null,
+        "praeteritum": "bot an",
+        "participle": "angeboten",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seiner Nachbarin Hilfe angeboten.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-anfangen",
+      "contentType": "verb-forms",
+      "title": "anfangen",
+      "meaningEn": "to start",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anfangen-example",
+          "domain": "everyday",
+          "de": "Er hat mit dem Training angefangen.",
+          "en": "He started training."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anfangen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anfangen",
+        "present3": "fängt an",
+        "stemChange": {
+          "from": "a",
+          "to": "ä"
+        },
+        "praeteritum": "fing an",
+        "participle": "angefangen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat mit dem Training angefangen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-ankommen",
+      "contentType": "verb-forms",
+      "title": "ankommen",
+      "meaningEn": "to arrive",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ankommen-example",
+          "domain": "everyday",
+          "de": "Er ist am Bahnhof angekommen.",
+          "en": "He arrived at the station."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ankommen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ankommen",
+        "present3": "kommt an",
+        "stemChange": null,
+        "praeteritum": "kam an",
+        "participle": "angekommen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist am Bahnhof angekommen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-annehmen",
+      "contentType": "verb-forms",
+      "title": "annehmen",
+      "meaningEn": "to accept",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-annehmen-example",
+          "domain": "everyday",
+          "de": "Er hat das Angebot angenommen.",
+          "en": "He accepted the offer."
+        },
+        {
+          "id": "forms-annehmen-technical",
+          "domain": "technical",
+          "de": "Er hat den Projektauftrag angenommen.",
+          "en": "He accepted the project assignment."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#annehmen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "annehmen",
+        "present3": "nimmt an",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "nahm an",
+        "participle": "angenommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat das Angebot angenommen.",
+        "auxiliaryNote": "This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-anrufen",
+      "contentType": "verb-forms",
+      "title": "anrufen",
+      "meaningEn": "to call by phone",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anrufen-example",
+          "domain": "everyday",
+          "de": "Er hat seine Schwester angerufen.",
+          "en": "He called his sister."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anrufen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anrufen",
+        "present3": "ruft an",
+        "stemChange": null,
+        "praeteritum": "rief an",
+        "participle": "angerufen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat seine Schwester angerufen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-ansehen",
+      "contentType": "verb-forms",
+      "title": "ansehen",
+      "meaningEn": "to look at / watch",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "communication",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ansehen-example",
+          "domain": "everyday",
+          "de": "Er hat den Film angesehen.",
+          "en": "He watched the film."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ansehen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ansehen",
+        "present3": "sieht an",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "sah an",
+        "participle": "angesehen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat den Film angesehen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-anziehen",
+      "contentType": "verb-forms",
+      "title": "anziehen",
+      "meaningEn": "to put on (clothing)",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-anziehen-example",
+          "domain": "everyday",
+          "de": "Er hat eine warme Jacke angezogen.",
+          "en": "He put on a warm jacket."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#anziehen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "anziehen",
+        "present3": "zieht an",
+        "stemChange": null,
+        "praeteritum": "zog an",
+        "participle": "angezogen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat eine warme Jacke angezogen.",
+        "auxiliaryNote": "This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "an"
+      }
+    },
+    {
+      "id": "forms-aufgeben",
+      "contentType": "verb-forms",
+      "title": "aufgeben",
+      "meaningEn": "to give up",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufgeben-example",
+          "domain": "everyday",
+          "de": "Er hat trotz der Schwierigkeiten nicht aufgegeben.",
+          "en": "He did not give up despite the difficulties."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufgeben",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufgeben",
+        "present3": "gibt auf",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "gab auf",
+        "participle": "aufgegeben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat trotz der Schwierigkeiten nicht aufgegeben.",
+        "auxiliaryNote": "This profile means give up; handing in a consignment is a different lexical use with the same forms.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-aufhoeren",
+      "contentType": "verb-forms",
+      "title": "aufhören",
+      "meaningEn": "to stop (an activity)",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufhoeren-example",
+          "domain": "everyday",
+          "de": "Er hat mit dem Rauchen aufgehört.",
+          "en": "He stopped smoking."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufhören",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufhören",
+        "present3": "hört auf",
+        "stemChange": null,
+        "praeteritum": "hörte auf",
+        "participle": "aufgehört",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat mit dem Rauchen aufgehört.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-aufnehmen",
+      "contentType": "verb-forms",
+      "title": "aufnehmen",
+      "meaningEn": "to record (audio)",
+      "level": "B2",
+      "levelNote": "Intermediate extension with advanced productive value, especially in formal or professional contexts. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aufnehmen-example",
+          "domain": "everyday",
+          "de": "Er hat das Gespräch aufgenommen.",
+          "en": "He recorded the conversation."
+        },
+        {
+          "id": "forms-aufnehmen-technical",
+          "domain": "technical",
+          "de": "Er hat die Messwerte aufgenommen.",
+          "en": "He recorded the measured values."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aufnehmen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aufnehmen",
+        "present3": "nimmt auf",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "nahm auf",
+        "participle": "aufgenommen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat das Gespräch aufgenommen.",
+        "auxiliaryNote": "This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "auf"
+      }
+    },
+    {
+      "id": "forms-ausgeben",
+      "contentType": "verb-forms",
+      "title": "ausgeben",
+      "meaningEn": "to spend (money)",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ausgeben-example",
+          "domain": "everyday",
+          "de": "Er hat für das Fahrrad viel Geld ausgegeben.",
+          "en": "He spent a lot of money on the bicycle."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ausgeben",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ausgeben",
+        "present3": "gibt aus",
+        "stemChange": {
+          "from": "e",
+          "to": "i"
+        },
+        "praeteritum": "gab aus",
+        "participle": "ausgegeben",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat für das Fahrrad viel Geld ausgegeben.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-aussehen",
+      "contentType": "verb-forms",
+      "title": "aussehen",
+      "meaningEn": "to look / appear",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aussehen-example",
+          "domain": "everyday",
+          "de": "Er hat nach der Reise müde ausgesehen.",
+          "en": "He looked tired after the journey."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aussehen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aussehen",
+        "present3": "sieht aus",
+        "stemChange": {
+          "from": "e",
+          "to": "ie"
+        },
+        "praeteritum": "sah aus",
+        "participle": "ausgesehen",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat nach der Reise müde ausgesehen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-aussteigen",
+      "contentType": "verb-forms",
+      "title": "aussteigen",
+      "meaningEn": "to get out / get off",
+      "level": "A2",
+      "levelNote": "Common prerequisite retained for an intermediate path. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-aussteigen-example",
+          "domain": "everyday",
+          "de": "Er ist an der nächsten Haltestelle ausgestiegen.",
+          "en": "He got off at the next stop."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#aussteigen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "aussteigen",
+        "present3": "steigt aus",
+        "stemChange": null,
+        "praeteritum": "stieg aus",
+        "participle": "ausgestiegen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist an der nächsten Haltestelle ausgestiegen.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-ausziehen",
+      "contentType": "verb-forms",
+      "title": "ausziehen",
+      "meaningEn": "to move out (of a home)",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "movement-and-change",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "medium"
+      },
+      "alphabeticalGroup": "A",
+      "examples": [
+        {
+          "id": "forms-ausziehen-example",
+          "domain": "everyday",
+          "de": "Er ist aus seiner alten Wohnung ausgezogen.",
+          "en": "He moved out of his old flat."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#ausziehen",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "ausziehen",
+        "present3": "zieht aus",
+        "stemChange": null,
+        "praeteritum": "zog aus",
+        "participle": "ausgezogen",
+        "auxiliary": "sein",
+        "auxiliaryContext": "Er ist aus seiner alten Wohnung ausgezogen.",
+        "auxiliaryNote": "This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here.",
+        "classification": "strong",
+        "separability": "separable",
+        "prefix": "aus"
+      }
+    },
+    {
+      "id": "forms-beantworten",
+      "contentType": "verb-forms",
+      "title": "beantworten",
+      "meaningEn": "to answer (a question)",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "professional-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "high"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-beantworten-example",
+          "domain": "everyday",
+          "de": "Er hat die Frage beantwortet.",
+          "en": "He answered the question."
+        },
+        {
+          "id": "forms-beantworten-technical",
+          "domain": "technical",
+          "de": "Er hat die technischen Fragen beantwortet.",
+          "en": "He answered the technical questions."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#beantworten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "beantworten",
+        "present3": "beantwortet",
+        "stemChange": null,
+        "praeteritum": "beantwortete",
+        "participle": "beantwortet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat die Frage beantwortet.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    },
+    {
+      "id": "forms-bedeuten",
+      "contentType": "verb-forms",
+      "title": "bedeuten",
+      "meaningEn": "to mean / signify",
+      "level": "B1",
+      "levelNote": "Core intermediate productive vocabulary. Editorial scheduling estimate, not an official CEFR word-list assignment or proficiency claim.",
+      "themeId": "common-action",
+      "register": "neutral",
+      "relevance": {
+        "everyday": "high",
+        "professional": "low"
+      },
+      "alphabeticalGroup": "B",
+      "examples": [
+        {
+          "id": "forms-bedeuten-example",
+          "domain": "everyday",
+          "de": "Er hat ihr immer viel bedeutet.",
+          "en": "He always meant a lot to her."
+        }
+      ],
+      "sourceNotes": [
+        "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv#bedeuten",
+        "Principal parts and scoped auxiliary cross-checked against the Wiktionary-derived dataset on 2026-10-10; factual row and editorial caveats in content/source/verb-forms-batch-1-verification.json and docs/VERB_FORMS_BATCH_1_AUDIT.md."
+      ],
+      "editorialStatus": "source-checked",
+      "properties": {
+        "infinitive": "bedeuten",
+        "present3": "bedeutet",
+        "stemChange": null,
+        "praeteritum": "bedeutete",
+        "participle": "bedeutet",
+        "auxiliary": "haben",
+        "auxiliaryContext": "Er hat ihr immer viel bedeutet.",
+        "auxiliaryNote": "Auxiliary is given for the lexical use in the authored example.",
+        "classification": "weak",
+        "separability": "inseparable",
+        "prefix": "be"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "forms-abfahren-past-recall",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): abfahren — to depart (vehicle)",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The first-person Präteritum for to depart (vehicle) is fuhr ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fuhr ab"
+      ]
+    },
+    {
+      "id": "forms-abfahren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abfahren — to depart (vehicle)",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The Partizip II for to depart (vehicle) is abgefahren. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgefahren"
+      ]
+    },
+    {
+      "id": "forms-abfahren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ pünktlich mit dem Bus abgefahren. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to depart (vehicle) is sein. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-abfahren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich fuhr ab (Präteritum).",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The dictionary infinitive for to depart (vehicle) is abfahren. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abfahren"
+      ]
+    },
+    {
+      "id": "forms-abfahren-present-recall",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abfahren — to depart (vehicle)",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The third-person singular Präsens for to depart (vehicle) is fährt ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fährt ab"
+      ]
+    },
+    {
+      "id": "forms-abfahren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist pünktlich mit dem Bus ___.",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The Partizip II for to depart (vehicle) is abgefahren. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgefahren"
+      ]
+    },
+    {
+      "id": "forms-abfahren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abfahren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abfahren — to depart (vehicle): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abfahren-example",
+      "explanation": "The principal-form sequence for to depart (vehicle) is abfahren · fuhr ab · abgefahren. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to depart (vehicle)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abfahren · fuhr ab · abgefahren"
+        },
+        {
+          "id": "past-error",
+          "text": "abfahren · fahrte ab · abgefahren"
+        },
+        {
+          "id": "participle-error",
+          "text": "abfahren · fuhr ab · abgefahrt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-abgeben-past-recall",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): abgeben — to hand in",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The first-person Präteritum for to hand in is gab ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to hand in",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gab ab"
+      ]
+    },
+    {
+      "id": "forms-abgeben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abgeben — to hand in",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The Partizip II for to hand in is abgegeben. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to hand in",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgegeben"
+      ]
+    },
+    {
+      "id": "forms-abgeben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Antrag rechtzeitig abgegeben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to hand in is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to hand in",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-abgeben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich gab ab (Präteritum).",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The dictionary infinitive for to hand in is abgeben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeben"
+      ]
+    },
+    {
+      "id": "forms-abgeben-present-recall",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abgeben — to hand in",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The third-person singular Präsens for to hand in is gibt ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to hand in",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gibt ab"
+      ]
+    },
+    {
+      "id": "forms-abgeben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Prüfbericht ___.",
+      "exampleId": "forms-abgeben-technical",
+      "explanation": "The Partizip II for to hand in is abgegeben. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to hand in",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgegeben"
+      ]
+    },
+    {
+      "id": "forms-abgeben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abgeben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abgeben — to hand in: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abgeben-example",
+      "explanation": "The principal-form sequence for to hand in is abgeben · gab ab · abgegeben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to hand in",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abgeben · gab ab · abgegeben"
+        },
+        {
+          "id": "past-error",
+          "text": "abgeben · gebte ab · abgegeben"
+        },
+        {
+          "id": "participle-error",
+          "text": "abgeben · gab ab · abgegebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-abholen-past-recall",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): abholen — to pick up",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The first-person Präteritum for to pick up is holte ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to pick up",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "holte ab"
+      ]
+    },
+    {
+      "id": "forms-abholen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abholen — to pick up",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The Partizip II for to pick up is abgeholt. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to pick up",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeholt"
+      ]
+    },
+    {
+      "id": "forms-abholen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine Tochter von der Schule abgeholt. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to pick up is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to pick up",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-abholen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich holte ab (Präteritum).",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The dictionary infinitive for to pick up is abholen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abholen"
+      ]
+    },
+    {
+      "id": "forms-abholen-present-recall",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abholen — to pick up",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The third-person singular Präsens for to pick up is holt ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to pick up",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "holt ab"
+      ]
+    },
+    {
+      "id": "forms-abholen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat seine Tochter von der Schule ___.",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The Partizip II for to pick up is abgeholt. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to pick up",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeholt"
+      ]
+    },
+    {
+      "id": "forms-abholen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abholen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abholen — to pick up: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abholen-example",
+      "explanation": "The principal-form sequence for to pick up is abholen · holte ab · abgeholt. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to pick up",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abholen · holte ab · abgeholt"
+        },
+        {
+          "id": "past-error",
+          "text": "abholen · holte · abgeholt"
+        },
+        {
+          "id": "participle-error",
+          "text": "abholen · holte ab · geabholt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-abschliessen-past-recall",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): abschließen — to complete / conclude",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The first-person Präteritum for to complete / conclude is schloss ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schloss ab"
+      ]
+    },
+    {
+      "id": "forms-abschliessen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: abschließen — to complete / conclude",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The Partizip II for to complete / conclude is abgeschlossen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeschlossen"
+      ]
+    },
+    {
+      "id": "forms-abschliessen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Kurs erfolgreich abgeschlossen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to complete / conclude is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-abschliessen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich schloss ab (Präteritum).",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The dictionary infinitive for to complete / conclude is abschließen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abschließen"
+      ]
+    },
+    {
+      "id": "forms-abschliessen-present-recall",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): abschließen — to complete / conclude",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The third-person singular Präsens for to complete / conclude is schließt ab. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "schließt ab"
+      ]
+    },
+    {
+      "id": "forms-abschliessen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Validierung ___.",
+      "exampleId": "forms-abschliessen-technical",
+      "explanation": "The Partizip II for to complete / conclude is abgeschlossen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "abgeschlossen"
+      ]
+    },
+    {
+      "id": "forms-abschliessen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-abschliessen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for abschließen — to complete / conclude: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-abschliessen-example",
+      "explanation": "The principal-form sequence for to complete / conclude is abschließen · schloss ab · abgeschlossen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to complete / conclude",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "abschließen · schloss ab · abgeschlossen"
+        },
+        {
+          "id": "past-error",
+          "text": "abschließen · schließte ab · abgeschlossen"
+        },
+        {
+          "id": "participle-error",
+          "text": "abschließen · schloss ab · abgeschließt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anbieten-past-recall",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): anbieten — to offer",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The first-person Präteritum for to offer is bot an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to offer",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bot an"
+      ]
+    },
+    {
+      "id": "forms-anbieten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anbieten — to offer",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The Partizip II for to offer is angeboten. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to offer",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angeboten"
+      ]
+    },
+    {
+      "id": "forms-anbieten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seiner Nachbarin Hilfe angeboten. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to offer is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to offer",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anbieten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich bot an (Präteritum).",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The dictionary infinitive for to offer is anbieten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anbieten"
+      ]
+    },
+    {
+      "id": "forms-anbieten-present-recall",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anbieten — to offer",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The third-person singular Präsens for to offer is bietet an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to offer",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bietet an"
+      ]
+    },
+    {
+      "id": "forms-anbieten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat dem Kunden eine technische Schulung ___.",
+      "exampleId": "forms-anbieten-technical",
+      "explanation": "The Partizip II for to offer is angeboten. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to offer",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angeboten"
+      ]
+    },
+    {
+      "id": "forms-anbieten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anbieten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anbieten — to offer: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anbieten-example",
+      "explanation": "The principal-form sequence for to offer is anbieten · bot an · angeboten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to offer",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anbieten · bot an · angeboten"
+        },
+        {
+          "id": "past-error",
+          "text": "anbieten · bietete an · angeboten"
+        },
+        {
+          "id": "participle-error",
+          "text": "anbieten · bot an · angebiet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anfangen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): anfangen — to start",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The first-person Präteritum for to start is fing an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to start",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fing an"
+      ]
+    },
+    {
+      "id": "forms-anfangen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anfangen — to start",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The Partizip II for to start is angefangen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to start",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angefangen"
+      ]
+    },
+    {
+      "id": "forms-anfangen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ mit dem Training angefangen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to start is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to start",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anfangen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich fing an (Präteritum).",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The dictionary infinitive for to start is anfangen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anfangen"
+      ]
+    },
+    {
+      "id": "forms-anfangen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anfangen — to start",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The third-person singular Präsens for to start is fängt an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to start",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "fängt an"
+      ]
+    },
+    {
+      "id": "forms-anfangen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat mit dem Training ___.",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The Partizip II for to start is angefangen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to start",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angefangen"
+      ]
+    },
+    {
+      "id": "forms-anfangen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anfangen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anfangen — to start: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anfangen-example",
+      "explanation": "The principal-form sequence for to start is anfangen · fing an · angefangen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to start",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anfangen · fing an · angefangen"
+        },
+        {
+          "id": "past-error",
+          "text": "anfangen · fangte an · angefangen"
+        },
+        {
+          "id": "participle-error",
+          "text": "anfangen · fing an · angefangt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ankommen-past-recall",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): ankommen — to arrive",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The first-person Präteritum for to arrive is kam an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to arrive",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "kam an"
+      ]
+    },
+    {
+      "id": "forms-ankommen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ankommen — to arrive",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The Partizip II for to arrive is angekommen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to arrive",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angekommen"
+      ]
+    },
+    {
+      "id": "forms-ankommen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ am Bahnhof angekommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to arrive is sein. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to arrive",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-ankommen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich kam an (Präteritum).",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The dictionary infinitive for to arrive is ankommen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ankommen"
+      ]
+    },
+    {
+      "id": "forms-ankommen-present-recall",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ankommen — to arrive",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The third-person singular Präsens for to arrive is kommt an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to arrive",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "kommt an"
+      ]
+    },
+    {
+      "id": "forms-ankommen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist am Bahnhof ___.",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The Partizip II for to arrive is angekommen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to arrive",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angekommen"
+      ]
+    },
+    {
+      "id": "forms-ankommen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ankommen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ankommen — to arrive: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ankommen-example",
+      "explanation": "The principal-form sequence for to arrive is ankommen · kam an · angekommen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to arrive",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ankommen · kam an · angekommen"
+        },
+        {
+          "id": "past-error",
+          "text": "ankommen · kommte an · angekommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "ankommen · kam an · angekommt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-annehmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): annehmen — to accept",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The first-person Präteritum for to accept is nahm an. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to accept",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nahm an"
+      ]
+    },
+    {
+      "id": "forms-annehmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: annehmen — to accept",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The Partizip II for to accept is angenommen. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to accept",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angenommen"
+      ]
+    },
+    {
+      "id": "forms-annehmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ das Angebot angenommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to accept is haben. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record.",
+      "hint": [
+        "Meaning: to accept",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-annehmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich nahm an (Präteritum).",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The dictionary infinitive for to accept is annehmen. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "annehmen"
+      ]
+    },
+    {
+      "id": "forms-annehmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): annehmen — to accept",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The third-person singular Präsens for to accept is nimmt an. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to accept",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nimmt an"
+      ]
+    },
+    {
+      "id": "forms-annehmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Projektauftrag ___.",
+      "exampleId": "forms-annehmen-technical",
+      "explanation": "The Partizip II for to accept is angenommen. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to accept",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angenommen"
+      ]
+    },
+    {
+      "id": "forms-annehmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-annehmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for annehmen — to accept: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-annehmen-example",
+      "explanation": "The principal-form sequence for to accept is annehmen · nahm an · angenommen. This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record.",
+      "hint": [
+        "Meaning: to accept",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "annehmen · nahm an · angenommen"
+        },
+        {
+          "id": "past-error",
+          "text": "annehmen · nehmte an · angenommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "annehmen · nahm an · angenehmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anrufen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): anrufen — to call by phone",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The first-person Präteritum for to call by phone is rief an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "rief an"
+      ]
+    },
+    {
+      "id": "forms-anrufen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anrufen — to call by phone",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The Partizip II for to call by phone is angerufen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angerufen"
+      ]
+    },
+    {
+      "id": "forms-anrufen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ seine Schwester angerufen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to call by phone is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anrufen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich rief an (Präteritum).",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The dictionary infinitive for to call by phone is anrufen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anrufen"
+      ]
+    },
+    {
+      "id": "forms-anrufen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anrufen — to call by phone",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The third-person singular Präsens for to call by phone is ruft an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ruft an"
+      ]
+    },
+    {
+      "id": "forms-anrufen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat seine Schwester ___.",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The Partizip II for to call by phone is angerufen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angerufen"
+      ]
+    },
+    {
+      "id": "forms-anrufen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anrufen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anrufen — to call by phone: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anrufen-example",
+      "explanation": "The principal-form sequence for to call by phone is anrufen · rief an · angerufen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to call by phone",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anrufen · rief an · angerufen"
+        },
+        {
+          "id": "past-error",
+          "text": "anrufen · rufte an · angerufen"
+        },
+        {
+          "id": "participle-error",
+          "text": "anrufen · rief an · angeruft"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ansehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): ansehen — to look at / watch",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The first-person Präteritum for to look at / watch is sah an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sah an"
+      ]
+    },
+    {
+      "id": "forms-ansehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ansehen — to look at / watch",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The Partizip II for to look at / watch is angesehen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angesehen"
+      ]
+    },
+    {
+      "id": "forms-ansehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ den Film angesehen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to look at / watch is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ansehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich sah an (Präteritum).",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The dictionary infinitive for to look at / watch is ansehen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ansehen"
+      ]
+    },
+    {
+      "id": "forms-ansehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ansehen — to look at / watch",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The third-person singular Präsens for to look at / watch is sieht an. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sieht an"
+      ]
+    },
+    {
+      "id": "forms-ansehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat den Film ___.",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The Partizip II for to look at / watch is angesehen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angesehen"
+      ]
+    },
+    {
+      "id": "forms-ansehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ansehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ansehen — to look at / watch: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ansehen-example",
+      "explanation": "The principal-form sequence for to look at / watch is ansehen · sah an · angesehen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to look at / watch",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ansehen · sah an · angesehen"
+        },
+        {
+          "id": "past-error",
+          "text": "ansehen · sehte an · angesehen"
+        },
+        {
+          "id": "participle-error",
+          "text": "ansehen · sah an · angeseht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-anziehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): anziehen — to put on (clothing)",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The first-person Präteritum for to put on (clothing) is zog an. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zog an"
+      ]
+    },
+    {
+      "id": "forms-anziehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: anziehen — to put on (clothing)",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The Partizip II for to put on (clothing) is angezogen. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angezogen"
+      ]
+    },
+    {
+      "id": "forms-anziehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ eine warme Jacke angezogen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to put on (clothing) is haben. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-anziehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich zog an (Präteritum).",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The dictionary infinitive for to put on (clothing) is anziehen. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "anziehen"
+      ]
+    },
+    {
+      "id": "forms-anziehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): anziehen — to put on (clothing)",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The third-person singular Präsens for to put on (clothing) is zieht an. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zieht an"
+      ]
+    },
+    {
+      "id": "forms-anziehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat eine warme Jacke ___.",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The Partizip II for to put on (clothing) is angezogen. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "angezogen"
+      ]
+    },
+    {
+      "id": "forms-anziehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-anziehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for anziehen — to put on (clothing): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-anziehen-example",
+      "explanation": "The principal-form sequence for to put on (clothing) is anziehen · zog an · angezogen. This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here.",
+      "hint": [
+        "Meaning: to put on (clothing)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "anziehen · zog an · angezogen"
+        },
+        {
+          "id": "past-error",
+          "text": "anziehen · ziehte an · angezogen"
+        },
+        {
+          "id": "participle-error",
+          "text": "anziehen · zog an · angezieht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufgeben-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aufgeben — to give up",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The first-person Präteritum for to give up is gab auf. This profile means give up; handing in a consignment is a different lexical use with the same forms. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to give up",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gab auf"
+      ]
+    },
+    {
+      "id": "forms-aufgeben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufgeben — to give up",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The Partizip II for to give up is aufgegeben. This profile means give up; handing in a consignment is a different lexical use with the same forms. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to give up",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgegeben"
+      ]
+    },
+    {
+      "id": "forms-aufgeben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ trotz der Schwierigkeiten nicht aufgegeben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to give up is haben. This profile means give up; handing in a consignment is a different lexical use with the same forms.",
+      "hint": [
+        "Meaning: to give up",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aufgeben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich gab auf (Präteritum).",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The dictionary infinitive for to give up is aufgeben. This profile means give up; handing in a consignment is a different lexical use with the same forms.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgeben"
+      ]
+    },
+    {
+      "id": "forms-aufgeben-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufgeben — to give up",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The third-person singular Präsens for to give up is gibt auf. This profile means give up; handing in a consignment is a different lexical use with the same forms. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to give up",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gibt auf"
+      ]
+    },
+    {
+      "id": "forms-aufgeben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat trotz der Schwierigkeiten nicht ___.",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The Partizip II for to give up is aufgegeben. This profile means give up; handing in a consignment is a different lexical use with the same forms. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to give up",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgegeben"
+      ]
+    },
+    {
+      "id": "forms-aufgeben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufgeben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufgeben — to give up: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufgeben-example",
+      "explanation": "The principal-form sequence for to give up is aufgeben · gab auf · aufgegeben. This profile means give up; handing in a consignment is a different lexical use with the same forms.",
+      "hint": [
+        "Meaning: to give up",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufgeben · gab auf · aufgegeben"
+        },
+        {
+          "id": "past-error",
+          "text": "aufgeben · gebte auf · aufgegeben"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufgeben · gab auf · aufgegebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufhoeren-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aufhören — to stop (an activity)",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The first-person Präteritum for to stop (an activity) is hörte auf. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "hörte auf"
+      ]
+    },
+    {
+      "id": "forms-aufhoeren-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufhören — to stop (an activity)",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The Partizip II for to stop (an activity) is aufgehört. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgehört"
+      ]
+    },
+    {
+      "id": "forms-aufhoeren-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ mit dem Rauchen aufgehört. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to stop (an activity) is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aufhoeren-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich hörte auf (Präteritum).",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The dictionary infinitive for to stop (an activity) is aufhören. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufhören"
+      ]
+    },
+    {
+      "id": "forms-aufhoeren-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufhören — to stop (an activity)",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The third-person singular Präsens for to stop (an activity) is hört auf. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "hört auf"
+      ]
+    },
+    {
+      "id": "forms-aufhoeren-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat mit dem Rauchen ___.",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The Partizip II for to stop (an activity) is aufgehört. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgehört"
+      ]
+    },
+    {
+      "id": "forms-aufhoeren-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufhoeren",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufhören — to stop (an activity): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufhoeren-example",
+      "explanation": "The principal-form sequence for to stop (an activity) is aufhören · hörte auf · aufgehört. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to stop (an activity)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufhören · hörte auf · aufgehört"
+        },
+        {
+          "id": "past-error",
+          "text": "aufhören · hörte · aufgehört"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufhören · hörte auf · geaufhört"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aufnehmen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aufnehmen — to record (audio)",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The first-person Präteritum for to record (audio) is nahm auf. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nahm auf"
+      ]
+    },
+    {
+      "id": "forms-aufnehmen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aufnehmen — to record (audio)",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The Partizip II for to record (audio) is aufgenommen. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgenommen"
+      ]
+    },
+    {
+      "id": "forms-aufnehmen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ das Gespräch aufgenommen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to record (audio) is haben. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aufnehmen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich nahm auf (Präteritum).",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The dictionary infinitive for to record (audio) is aufnehmen. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufnehmen"
+      ]
+    },
+    {
+      "id": "forms-aufnehmen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aufnehmen — to record (audio)",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The third-person singular Präsens for to record (audio) is nimmt auf. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "nimmt auf"
+      ]
+    },
+    {
+      "id": "forms-aufnehmen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die Messwerte ___.",
+      "exampleId": "forms-aufnehmen-technical",
+      "explanation": "The Partizip II for to record (audio) is aufgenommen. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aufgenommen"
+      ]
+    },
+    {
+      "id": "forms-aufnehmen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aufnehmen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aufnehmen — to record (audio): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aufnehmen-example",
+      "explanation": "The principal-form sequence for to record (audio) is aufnehmen · nahm auf · aufgenommen. This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed.",
+      "hint": [
+        "Meaning: to record (audio)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aufnehmen · nahm auf · aufgenommen"
+        },
+        {
+          "id": "past-error",
+          "text": "aufnehmen · nehmte auf · aufgenommen"
+        },
+        {
+          "id": "participle-error",
+          "text": "aufnehmen · nahm auf · aufgenehmt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ausgeben-past-recall",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): ausgeben — to spend (money)",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The first-person Präteritum for to spend (money) is gab aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gab aus"
+      ]
+    },
+    {
+      "id": "forms-ausgeben-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ausgeben — to spend (money)",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The Partizip II for to spend (money) is ausgegeben. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgegeben"
+      ]
+    },
+    {
+      "id": "forms-ausgeben-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ für das Fahrrad viel Geld ausgegeben. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to spend (money) is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-ausgeben-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich gab aus (Präteritum).",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The dictionary infinitive for to spend (money) is ausgeben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgeben"
+      ]
+    },
+    {
+      "id": "forms-ausgeben-present-recall",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ausgeben — to spend (money)",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The third-person singular Präsens for to spend (money) is gibt aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "gibt aus"
+      ]
+    },
+    {
+      "id": "forms-ausgeben-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat für das Fahrrad viel Geld ___.",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The Partizip II for to spend (money) is ausgegeben. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgegeben"
+      ]
+    },
+    {
+      "id": "forms-ausgeben-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ausgeben",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ausgeben — to spend (money): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ausgeben-example",
+      "explanation": "The principal-form sequence for to spend (money) is ausgeben · gab aus · ausgegeben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to spend (money)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ausgeben · gab aus · ausgegeben"
+        },
+        {
+          "id": "past-error",
+          "text": "ausgeben · gebte aus · ausgegeben"
+        },
+        {
+          "id": "participle-error",
+          "text": "ausgeben · gab aus · ausgegebt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aussehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aussehen — to look / appear",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The first-person Präteritum for to look / appear is sah aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sah aus"
+      ]
+    },
+    {
+      "id": "forms-aussehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aussehen — to look / appear",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The Partizip II for to look / appear is ausgesehen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgesehen"
+      ]
+    },
+    {
+      "id": "forms-aussehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ nach der Reise müde ausgesehen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to look / appear is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-aussehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich sah aus (Präteritum).",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The dictionary infinitive for to look / appear is aussehen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aussehen"
+      ]
+    },
+    {
+      "id": "forms-aussehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aussehen — to look / appear",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The third-person singular Präsens for to look / appear is sieht aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "sieht aus"
+      ]
+    },
+    {
+      "id": "forms-aussehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat nach der Reise müde ___.",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The Partizip II for to look / appear is ausgesehen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgesehen"
+      ]
+    },
+    {
+      "id": "forms-aussehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aussehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aussehen — to look / appear: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aussehen-example",
+      "explanation": "The principal-form sequence for to look / appear is aussehen · sah aus · ausgesehen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to look / appear",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aussehen · sah aus · ausgesehen"
+        },
+        {
+          "id": "past-error",
+          "text": "aussehen · sehte aus · ausgesehen"
+        },
+        {
+          "id": "participle-error",
+          "text": "aussehen · sah aus · ausgeseht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-aussteigen-past-recall",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): aussteigen — to get out / get off",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The first-person Präteritum for to get out / get off is stieg aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "stieg aus"
+      ]
+    },
+    {
+      "id": "forms-aussteigen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: aussteigen — to get out / get off",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The Partizip II for to get out / get off is ausgestiegen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgestiegen"
+      ]
+    },
+    {
+      "id": "forms-aussteigen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ an der nächsten Haltestelle ausgestiegen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to get out / get off is sein. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-aussteigen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich stieg aus (Präteritum).",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The dictionary infinitive for to get out / get off is aussteigen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "aussteigen"
+      ]
+    },
+    {
+      "id": "forms-aussteigen-present-recall",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): aussteigen — to get out / get off",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The third-person singular Präsens for to get out / get off is steigt aus. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "steigt aus"
+      ]
+    },
+    {
+      "id": "forms-aussteigen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist an der nächsten Haltestelle ___.",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The Partizip II for to get out / get off is ausgestiegen. Auxiliary is given for the lexical use in the authored example. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgestiegen"
+      ]
+    },
+    {
+      "id": "forms-aussteigen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-aussteigen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for aussteigen — to get out / get off: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-aussteigen-example",
+      "explanation": "The principal-form sequence for to get out / get off is aussteigen · stieg aus · ausgestiegen. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to get out / get off",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "aussteigen · stieg aus · ausgestiegen"
+        },
+        {
+          "id": "past-error",
+          "text": "aussteigen · steigte aus · ausgestiegen"
+        },
+        {
+          "id": "participle-error",
+          "text": "aussteigen · stieg aus · ausgesteigt"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-ausziehen-past-recall",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): ausziehen — to move out (of a home)",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The first-person Präteritum for to move out (of a home) is zog aus. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Recall the past-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zog aus"
+      ]
+    },
+    {
+      "id": "forms-ausziehen-participle-recall",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: ausziehen — to move out (of a home)",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The Partizip II for to move out (of a home) is ausgezogen. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgezogen"
+      ]
+    },
+    {
+      "id": "forms-ausziehen-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ aus seiner alten Wohnung ausgezogen. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to move out (of a home) is sein. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "sein"
+    },
+    {
+      "id": "forms-ausziehen-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich zog aus (Präteritum).",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The dictionary infinitive for to move out (of a home) is ausziehen. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausziehen"
+      ]
+    },
+    {
+      "id": "forms-ausziehen-present-recall",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): ausziehen — to move out (of a home)",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The third-person singular Präsens for to move out (of a home) is zieht aus. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Recall the present-tense form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "zieht aus"
+      ]
+    },
+    {
+      "id": "forms-ausziehen-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er ist aus seiner alten Wohnung ___.",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The Partizip II for to move out (of a home) is ausgezogen. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here. The prefix is separable in this lexical profile.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Recall the participle form of this strong lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "ausgezogen"
+      ]
+    },
+    {
+      "id": "forms-ausziehen-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-ausziehen",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for ausziehen — to move out (of a home): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-ausziehen-example",
+      "explanation": "The principal-form sequence for to move out (of a home) is ausziehen · zog aus · ausgezogen. This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here.",
+      "hint": [
+        "Meaning: to move out (of a home)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "ausziehen · zog aus · ausgezogen"
+        },
+        {
+          "id": "past-error",
+          "text": "ausziehen · ziehte aus · ausgezogen"
+        },
+        {
+          "id": "participle-error",
+          "text": "ausziehen · zog aus · ausgezieht"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-beantworten-past-recall",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): beantworten — to answer (a question)",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The first-person Präteritum for to answer (a question) is beantwortete. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantwortete"
+      ]
+    },
+    {
+      "id": "forms-beantworten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: beantworten — to answer (a question)",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The Partizip II for to answer (a question) is beantwortet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantwortet"
+      ]
+    },
+    {
+      "id": "forms-beantworten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ die Frage beantwortet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to answer (a question) is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-beantworten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich beantwortete (Präteritum).",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The dictionary infinitive for to answer (a question) is beantworten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantworten"
+      ]
+    },
+    {
+      "id": "forms-beantworten-present-recall",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): beantworten — to answer (a question)",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The third-person singular Präsens for to answer (a question) is beantwortet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantwortet"
+      ]
+    },
+    {
+      "id": "forms-beantworten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat die technischen Fragen ___.",
+      "exampleId": "forms-beantworten-technical",
+      "explanation": "The Partizip II for to answer (a question) is beantwortet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "beantwortet"
+      ]
+    },
+    {
+      "id": "forms-beantworten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-beantworten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for beantworten — to answer (a question): infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-beantworten-example",
+      "explanation": "The principal-form sequence for to answer (a question) is beantworten · beantwortete · beantwortet. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to answer (a question)",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "beantworten · beantwortete · beantwortet"
+        },
+        {
+          "id": "past-error",
+          "text": "beantworten · beantworte · beantwortet"
+        },
+        {
+          "id": "participle-error",
+          "text": "beantworten · beantwortete · gebeantwortet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    },
+    {
+      "id": "forms-bedeuten-past-recall",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "praeteritum",
+      "templateId": "past-recall",
+      "templateVersion": 1,
+      "prompt": "Präteritum (ich): bedeuten — to mean / signify",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The first-person Präteritum for to mean / signify is bedeutete. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Recall the past-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bedeutete"
+      ]
+    },
+    {
+      "id": "forms-bedeuten-participle-recall",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "participle",
+      "templateId": "participle-recall",
+      "templateVersion": 1,
+      "prompt": "Partizip II: bedeuten — to mean / signify",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The Partizip II for to mean / signify is bedeutet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bedeutet"
+      ]
+    },
+    {
+      "id": "forms-bedeuten-auxiliary-choice",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "auxiliary",
+      "templateId": "auxiliary-choice",
+      "templateVersion": 1,
+      "prompt": "Perfekt: Er ___ ihr immer viel bedeutet. Choose the infinitive of the auxiliary.",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The Perfekt auxiliary (infinitive) for to mean / signify is haben. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Consider the event and its complements in this particular Perfekt sentence; a direct object and a change of location behave differently."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "haben",
+          "text": "haben"
+        },
+        {
+          "id": "sein",
+          "text": "sein"
+        }
+      ],
+      "correctChoiceId": "haben"
+    },
+    {
+      "id": "forms-bedeuten-infinitive-recall",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "infinitive",
+      "templateId": "infinitive-recall",
+      "templateVersion": 1,
+      "prompt": "Identify the infinitive: ich bedeutete (Präteritum).",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The dictionary infinitive for to mean / signify is bedeuten. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Recover the dictionary form from this first-person past form; retain any separable particle."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bedeuten"
+      ]
+    },
+    {
+      "id": "forms-bedeuten-present-recall",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "present",
+      "templateId": "present-recall",
+      "templateVersion": 1,
+      "prompt": "Präsens (er/sie/es): bedeuten — to mean / signify",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The third-person singular Präsens for to mean / signify is bedeutet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Recall the present-tense form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bedeutet"
+      ]
+    },
+    {
+      "id": "forms-bedeuten-sentence-completion",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "participle",
+      "templateId": "sentence-completion",
+      "templateVersion": 1,
+      "prompt": "Er hat ihr immer viel ___.",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The Partizip II for to mean / signify is bedeutet. Auxiliary is given for the lexical use in the authored example. The prefix is inseparable in this lexical profile.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Recall the participle form of this weak lexical profile; check particle placement where applicable."
+      ],
+      "type": "verb_form_text",
+      "acceptedAnswers": [
+        "bedeutet"
+      ]
+    },
+    {
+      "id": "forms-bedeuten-sequence-choice",
+      "revision": 1,
+      "itemId": "forms-bedeuten",
+      "facetId": "sequence",
+      "templateId": "sequence-choice",
+      "templateVersion": 1,
+      "prompt": "Choose the principal-form sequence for bedeuten — to mean / signify: infinitive · Präteritum · Partizip II.",
+      "exampleId": "forms-bedeuten-example",
+      "explanation": "The principal-form sequence for to mean / signify is bedeuten · bedeutete · bedeutet. Auxiliary is given for the lexical use in the authored example.",
+      "hint": [
+        "Meaning: to mean / signify",
+        "Compare the past stem and participle formation in each sequence, not just the infinitive."
+      ],
+      "type": "verb_form_choice",
+      "choices": [
+        {
+          "id": "correct",
+          "text": "bedeuten · bedeutete · bedeutet"
+        },
+        {
+          "id": "past-error",
+          "text": "bedeuten · bedeute · bedeutet"
+        },
+        {
+          "id": "participle-error",
+          "text": "bedeuten · bedeutete · gebedeutet"
+        }
+      ],
+      "correctChoiceId": "correct"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "verb-forms-batch-1-01",
+      "title": "Verb Forms · Batch 1 / 01 · abfahren–ansehen",
+      "description": "Ten useful verbs in an alphabetical range. Learn scoped forms, then practise recall and everyday/professional contexts.",
+      "itemIds": [
+        "forms-abfahren",
+        "forms-abgeben",
+        "forms-abholen",
+        "forms-abschliessen",
+        "forms-anbieten",
+        "forms-anfangen",
+        "forms-ankommen",
+        "forms-annehmen",
+        "forms-anrufen",
+        "forms-ansehen"
+      ],
+      "questionIds": [
+        "forms-abfahren-past-recall",
+        "forms-abfahren-participle-recall",
+        "forms-abfahren-auxiliary-choice",
+        "forms-abfahren-infinitive-recall",
+        "forms-abfahren-present-recall",
+        "forms-abfahren-sentence-completion",
+        "forms-abfahren-sequence-choice",
+        "forms-abgeben-past-recall",
+        "forms-abgeben-participle-recall",
+        "forms-abgeben-auxiliary-choice",
+        "forms-abgeben-infinitive-recall",
+        "forms-abgeben-present-recall",
+        "forms-abgeben-sentence-completion",
+        "forms-abgeben-sequence-choice",
+        "forms-abholen-past-recall",
+        "forms-abholen-participle-recall",
+        "forms-abholen-auxiliary-choice",
+        "forms-abholen-infinitive-recall",
+        "forms-abholen-present-recall",
+        "forms-abholen-sentence-completion",
+        "forms-abholen-sequence-choice",
+        "forms-abschliessen-past-recall",
+        "forms-abschliessen-participle-recall",
+        "forms-abschliessen-auxiliary-choice",
+        "forms-abschliessen-infinitive-recall",
+        "forms-abschliessen-present-recall",
+        "forms-abschliessen-sentence-completion",
+        "forms-abschliessen-sequence-choice",
+        "forms-anbieten-past-recall",
+        "forms-anbieten-participle-recall",
+        "forms-anbieten-auxiliary-choice",
+        "forms-anbieten-infinitive-recall",
+        "forms-anbieten-present-recall",
+        "forms-anbieten-sentence-completion",
+        "forms-anbieten-sequence-choice",
+        "forms-anfangen-past-recall",
+        "forms-anfangen-participle-recall",
+        "forms-anfangen-auxiliary-choice",
+        "forms-anfangen-infinitive-recall",
+        "forms-anfangen-present-recall",
+        "forms-anfangen-sentence-completion",
+        "forms-anfangen-sequence-choice",
+        "forms-ankommen-past-recall",
+        "forms-ankommen-participle-recall",
+        "forms-ankommen-auxiliary-choice",
+        "forms-ankommen-infinitive-recall",
+        "forms-ankommen-present-recall",
+        "forms-ankommen-sentence-completion",
+        "forms-ankommen-sequence-choice",
+        "forms-annehmen-past-recall",
+        "forms-annehmen-participle-recall",
+        "forms-annehmen-auxiliary-choice",
+        "forms-annehmen-infinitive-recall",
+        "forms-annehmen-present-recall",
+        "forms-annehmen-sentence-completion",
+        "forms-annehmen-sequence-choice",
+        "forms-anrufen-past-recall",
+        "forms-anrufen-participle-recall",
+        "forms-anrufen-auxiliary-choice",
+        "forms-anrufen-infinitive-recall",
+        "forms-anrufen-present-recall",
+        "forms-anrufen-sentence-completion",
+        "forms-anrufen-sequence-choice",
+        "forms-ansehen-past-recall",
+        "forms-ansehen-participle-recall",
+        "forms-ansehen-auxiliary-choice",
+        "forms-ansehen-infinitive-recall",
+        "forms-ansehen-present-recall",
+        "forms-ansehen-sentence-completion",
+        "forms-ansehen-sequence-choice"
+      ]
+    },
+    {
+      "id": "verb-forms-batch-1-02",
+      "title": "Verb Forms · Batch 1 / 02 · anziehen–bedeuten",
+      "description": "Ten useful verbs in an alphabetical range. Learn scoped forms, then practise recall and everyday/professional contexts.",
+      "itemIds": [
+        "forms-anziehen",
+        "forms-aufgeben",
+        "forms-aufhoeren",
+        "forms-aufnehmen",
+        "forms-ausgeben",
+        "forms-aussehen",
+        "forms-aussteigen",
+        "forms-ausziehen",
+        "forms-beantworten",
+        "forms-bedeuten"
+      ],
+      "questionIds": [
+        "forms-anziehen-past-recall",
+        "forms-anziehen-participle-recall",
+        "forms-anziehen-auxiliary-choice",
+        "forms-anziehen-infinitive-recall",
+        "forms-anziehen-present-recall",
+        "forms-anziehen-sentence-completion",
+        "forms-anziehen-sequence-choice",
+        "forms-aufgeben-past-recall",
+        "forms-aufgeben-participle-recall",
+        "forms-aufgeben-auxiliary-choice",
+        "forms-aufgeben-infinitive-recall",
+        "forms-aufgeben-present-recall",
+        "forms-aufgeben-sentence-completion",
+        "forms-aufgeben-sequence-choice",
+        "forms-aufhoeren-past-recall",
+        "forms-aufhoeren-participle-recall",
+        "forms-aufhoeren-auxiliary-choice",
+        "forms-aufhoeren-infinitive-recall",
+        "forms-aufhoeren-present-recall",
+        "forms-aufhoeren-sentence-completion",
+        "forms-aufhoeren-sequence-choice",
+        "forms-aufnehmen-past-recall",
+        "forms-aufnehmen-participle-recall",
+        "forms-aufnehmen-auxiliary-choice",
+        "forms-aufnehmen-infinitive-recall",
+        "forms-aufnehmen-present-recall",
+        "forms-aufnehmen-sentence-completion",
+        "forms-aufnehmen-sequence-choice",
+        "forms-ausgeben-past-recall",
+        "forms-ausgeben-participle-recall",
+        "forms-ausgeben-auxiliary-choice",
+        "forms-ausgeben-infinitive-recall",
+        "forms-ausgeben-present-recall",
+        "forms-ausgeben-sentence-completion",
+        "forms-ausgeben-sequence-choice",
+        "forms-aussehen-past-recall",
+        "forms-aussehen-participle-recall",
+        "forms-aussehen-auxiliary-choice",
+        "forms-aussehen-infinitive-recall",
+        "forms-aussehen-present-recall",
+        "forms-aussehen-sentence-completion",
+        "forms-aussehen-sequence-choice",
+        "forms-aussteigen-past-recall",
+        "forms-aussteigen-participle-recall",
+        "forms-aussteigen-auxiliary-choice",
+        "forms-aussteigen-infinitive-recall",
+        "forms-aussteigen-present-recall",
+        "forms-aussteigen-sentence-completion",
+        "forms-aussteigen-sequence-choice",
+        "forms-ausziehen-past-recall",
+        "forms-ausziehen-participle-recall",
+        "forms-ausziehen-auxiliary-choice",
+        "forms-ausziehen-infinitive-recall",
+        "forms-ausziehen-present-recall",
+        "forms-ausziehen-sentence-completion",
+        "forms-ausziehen-sequence-choice",
+        "forms-beantworten-past-recall",
+        "forms-beantworten-participle-recall",
+        "forms-beantworten-auxiliary-choice",
+        "forms-beantworten-infinitive-recall",
+        "forms-beantworten-present-recall",
+        "forms-beantworten-sentence-completion",
+        "forms-beantworten-sequence-choice",
+        "forms-bedeuten-past-recall",
+        "forms-bedeuten-participle-recall",
+        "forms-bedeuten-auxiliary-choice",
+        "forms-bedeuten-infinitive-recall",
+        "forms-bedeuten-present-recall",
+        "forms-bedeuten-sentence-completion",
+        "forms-bedeuten-sequence-choice"
+      ]
+    }
+  ]
+}

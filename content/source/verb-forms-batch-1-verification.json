@@ -1,0 +1,199 @@
+{
+  "source": "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv",
+  "provenance": "German Verbs Database README identifies its table as a Wiktionary-derived transcription; not direct Duden/DWDS inspection.",
+  "checkedAt": "2026-10-10",
+  "sourceSha256": "7fbac9b469e6226614385c20fc59f15b6014dd070f04387a875e2465cb223ce3",
+  "sourceRowCount": 8047,
+  "reviewLevel": "Source-checked factual forms plus editorial/self-review; no independent native-speaker certification.",
+  "editorialVariantFollowUp": [
+    {
+      "itemId": "forms-wachsen",
+      "selectedSense": "grow: wuchs / gewachsen / sein; these canonical fields match the captured CSV row",
+      "excludedSense": "wax or coat with wax: weak wachste / gewachst / haben; not independently dictionary-verified in this environment",
+      "questionScope": "Isolated recall and sequence prompts explicitly say to grow; the Perfekt example also disambiguates the lexical use.",
+      "reviewStatus": "Editorial caveat; independent German-language follow-up recommended. No extra accepted answer or new inventory record."
+    }
+  ],
+  "verifiedFacts": [
+    {
+      "infinitive": "abfahren",
+      "present3": "fährt ab",
+      "praeteritum": "fuhr ab",
+      "participle": "abgefahren",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "abgeben",
+      "present3": "gibt ab",
+      "praeteritum": "gab ab",
+      "participle": "abgegeben",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "abholen",
+      "present3": "holt ab",
+      "praeteritum": "holte ab",
+      "participle": "abgeholt",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "abschließen",
+      "present3": "schließt ab",
+      "praeteritum": "schloss ab",
+      "participle": "abgeschlossen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "anbieten",
+      "present3": "bietet an",
+      "praeteritum": "bot an",
+      "participle": "angeboten",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "anfangen",
+      "present3": "fängt an",
+      "praeteritum": "fing an",
+      "participle": "angefangen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "ankommen",
+      "present3": "kommt an",
+      "praeteritum": "kam an",
+      "participle": "angekommen",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "annehmen",
+      "present3": "nimmt an",
+      "praeteritum": "nahm an",
+      "participle": "angenommen",
+      "auxiliary": "haben",
+      "editorialScope": "This profile means accept an offer; the sense assume shares its forms and is not a separate inventory record.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "anrufen",
+      "present3": "ruft an",
+      "praeteritum": "rief an",
+      "participle": "angerufen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "ansehen",
+      "present3": "sieht an",
+      "praeteritum": "sah an",
+      "participle": "angesehen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "anziehen",
+      "present3": "zieht an",
+      "praeteritum": "zog an",
+      "participle": "angezogen",
+      "auxiliary": "haben",
+      "editorialScope": "This profile is transitive: put on an item of clothing. Attraction and reflexive getting dressed share forms but are not separate records here.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "aufgeben",
+      "present3": "gibt auf",
+      "praeteritum": "gab auf",
+      "participle": "aufgegeben",
+      "auxiliary": "haben",
+      "editorialScope": "This profile means give up; handing in a consignment is a different lexical use with the same forms.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "aufhören",
+      "present3": "hört auf",
+      "praeteritum": "hörte auf",
+      "participle": "aufgehört",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "aufnehmen",
+      "present3": "nimmt auf",
+      "praeteritum": "nahm auf",
+      "participle": "aufgenommen",
+      "auxiliary": "haben",
+      "editorialScope": "This profile means record audio or measured data; other senses such as admit share forms but are not independently assessed.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "ausgeben",
+      "present3": "gibt aus",
+      "praeteritum": "gab aus",
+      "participle": "ausgegeben",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "aussehen",
+      "present3": "sieht aus",
+      "praeteritum": "sah aus",
+      "participle": "ausgesehen",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "aussteigen",
+      "present3": "steigt aus",
+      "praeteritum": "stieg aus",
+      "participle": "ausgestiegen",
+      "auxiliary": "sein",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "ausziehen",
+      "present3": "zieht aus",
+      "praeteritum": "zog aus",
+      "participle": "ausgezogen",
+      "auxiliary": "sein",
+      "editorialScope": "This profile means move out of a home and uses sein. Taking off clothing is a different transitive or reflexive use with haben; that use is not tested here.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "beantworten",
+      "present3": "beantwortet",
+      "praeteritum": "beantwortete",
+      "participle": "beantwortet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    },
+    {
+      "infinitive": "bedeuten",
+      "present3": "bedeutet",
+      "praeteritum": "bedeutete",
+      "participle": "bedeutet",
+      "auxiliary": "haben",
+      "editorialScope": "Auxiliary is given for the lexical use in the authored example.",
+      "variantPolicy": "Standard modern form in the stated lexical context; no unverified or regional alternative accepted."
+    }
+  ]
+}
