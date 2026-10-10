@@ -1,0 +1,276 @@
+{
+  "source": "https://raw.githubusercontent.com/viorelsfetea/german-verbs-database/master/output/verbs.csv",
+  "provenance": "German Verbs Database README identifies the conjugations as a Wiktionary-derived transcription. No direct dictionary or independent native-speaker certification is claimed.",
+  "checkedAt": "2026-10-11",
+  "sourceSha256": "7fbac9b469e6226614385c20fc59f15b6014dd070f04387a875e2465cb223ce3",
+  "sourceRowCount": 8047,
+  "reviewLevel": "Four factual fields source-checked per selected profile; meanings, contextual auxiliaries, morphology metadata, examples and level estimates editorial/self-reviewed. Independent review recommended for flagged sense boundaries.",
+  "deferredCandidates": [
+    {
+      "lemma": "dürfen",
+      "reason": "Common modal usage normally requires a dependent infinitive; standalone participle examples need separate sourcing and template review."
+    },
+    {
+      "lemma": "müssen",
+      "reason": "Do not force colloquial elliptical gemusst clauses into neutral formal completion templates."
+    },
+    {
+      "lemma": "sollen",
+      "reason": "Standalone gesollt is not a suitable neutral core sentence-completion target; modal and reported-obligation grammar deferred."
+    },
+    {
+      "lemma": "aufrechterhalten",
+      "reason": "Alternative finite formulations and source/context scope need independent confirmation."
+    },
+    {
+      "lemma": "ausgleichen",
+      "reason": "No matching row in inspected reference."
+    },
+    {
+      "lemma": "zurücknehmen",
+      "reason": "No matching row in inspected reference."
+    },
+    {
+      "lemma": "verdeutlichen",
+      "reason": "No matching row in inspected reference."
+    },
+    {
+      "lemma": "zugrundelegen",
+      "reason": "Spelling and absent source row require separate verification."
+    },
+    {
+      "lemma": "mahlen",
+      "reason": "Weak past / strong participle special pattern needs dedicated metadata/editorial review; not added just for irregularity."
+    },
+    {
+      "lemma": "leihen",
+      "reason": "Useful but lower priority than remaining productive gaps in this final batch."
+    },
+    {
+      "lemma": "stehlen",
+      "reason": "Common strong verb, deferred in favour of productive professional scope; inventory is curated, not exhaustive."
+    }
+  ],
+  "verifiedFacts": [
+    {
+      "infinitive": "abbrechen",
+      "present3": "bricht ab",
+      "praeteritum": "brach ab",
+      "participle": "abgebrochen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Verhandlungen nach dem zweiten Treffen abgebrochen.",
+      "editorialScope": "Selected transitive discontinue an activity uses haben. Intransitive break off or collapse readings can differ; these are not tested.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "absagen",
+      "present3": "sagt ab",
+      "praeteritum": "sagte ab",
+      "participle": "abgesagt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Termin wegen der Zugverspätung abgesagt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "anpassen",
+      "present3": "passt an",
+      "praeteritum": "passte an",
+      "participle": "angepasst",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Zeitplan an die neuen Bedingungen angepasst.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "auslösen",
+      "present3": "löst aus",
+      "praeteritum": "löste aus",
+      "participle": "ausgelöst",
+      "auxiliary": "haben",
+      "selectedContext": "Die Meldung hat eine öffentliche Debatte ausgelöst.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "beeinflussen",
+      "present3": "beeinflusst",
+      "praeteritum": "beeinflusste",
+      "participle": "beeinflusst",
+      "auxiliary": "haben",
+      "selectedContext": "Die Rückmeldung hat die Entscheidung beeinflusst.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "befassen",
+      "present3": "befasst",
+      "praeteritum": "befasste",
+      "participle": "befasst",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat sich eingehend mit den Einwänden befasst.",
+      "editorialScope": "Selected reflexive sich befassen mit means deal with a topic; mit takes dative. Bare principal parts omit sich, while every context retains it. Transitive assign a body a task is outside this profile.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "begrenzen",
+      "present3": "begrenzt",
+      "praeteritum": "begrenzte",
+      "participle": "begrenzt",
+      "auxiliary": "haben",
+      "selectedContext": "Die Vereinbarung hat die Kosten auf einen festen Betrag begrenzt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "beheben",
+      "present3": "behebt",
+      "praeteritum": "behob",
+      "participle": "behoben",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Fehler in der Berechnung behoben.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bestätigen",
+      "present3": "bestätigt",
+      "praeteritum": "bestätigte",
+      "participle": "bestätigt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Angaben in der Nachricht schriftlich bestätigt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "betreiben",
+      "present3": "betreibt",
+      "praeteritum": "betrieb",
+      "participle": "betrieben",
+      "auxiliary": "haben",
+      "selectedContext": "Das Unternehmen hat mehrere Verkaufsstellen betrieben.",
+      "editorialScope": "Selected transitive operate a facility or system uses haben; pursue a matter shares the same form profile but is not assessed.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "bewahren",
+      "present3": "bewahrt",
+      "praeteritum": "bewahrte",
+      "participle": "bewahrt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat trotz der schwierigen Diskussion seine Ruhe bewahrt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "dringen",
+      "present3": "dringt",
+      "praeteritum": "drang",
+      "participle": "gedrungen",
+      "auxiliary": "sein",
+      "selectedContext": "Das Wasser ist durch einen Riss in den Keller gedrungen.",
+      "editorialScope": "Selected literal entry of liquid into a space uses sein. Figurative insist on a demand is outside this context; no universal auxiliary rule is inferred.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "einschätzen",
+      "present3": "schätzt ein",
+      "praeteritum": "schätzte ein",
+      "participle": "eingeschätzt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Folgen der Entscheidung realistisch eingeschätzt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "entfallen",
+      "present3": "entfällt",
+      "praeteritum": "entfiel",
+      "participle": "entfallen",
+      "auxiliary": "sein",
+      "selectedContext": "Die zusätzliche Gebühr ist nach der Vertragsänderung entfallen.",
+      "editorialScope": "Selected cease to apply or be omitted uses sein. The dative forget or escape memory reading shares forms but is not separately assessed.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "ergreifen",
+      "present3": "ergreift",
+      "praeteritum": "ergriff",
+      "participle": "ergriffen",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat rechtzeitig die notwendigen Maßnahmen ergriffen.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "erweitern",
+      "present3": "erweitert",
+      "praeteritum": "erweiterte",
+      "participle": "erweitert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat den Bericht um eine zusätzliche Analyse erweitert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "erörtern",
+      "present3": "erörtert",
+      "praeteritum": "erörterte",
+      "participle": "erörtert",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Vor- und Nachteile des Vorschlags erörtert.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "advanced-productive",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "fertigen",
+      "present3": "fertigt",
+      "praeteritum": "fertigte",
+      "participle": "gefertigt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat das Regal nach einer eigenen Zeichnung gefertigt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "festlegen",
+      "present3": "legt fest",
+      "praeteritum": "legte fest",
+      "participle": "festgelegt",
+      "auxiliary": "haben",
+      "selectedContext": "Er hat die Zuständigkeiten vor Beginn des Projekts festgelegt.",
+      "editorialScope": "The scoped lexical use in the authored example is tested; this record does not assert rules for every possible meaning.",
+      "productiveBand": "b2-core",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    },
+    {
+      "infinitive": "fliehen",
+      "present3": "flieht",
+      "praeteritum": "floh",
+      "participle": "geflohen",
+      "auxiliary": "sein",
+      "selectedContext": "Er ist vor dem Feuer ins Freie geflohen.",
+      "editorialScope": "Selected escape a danger by moving away uses sein; the stated context is unambiguous.",
+      "productiveBand": "core-intermediate",
+      "variantPolicy": "Only the standard canonical form in the stated lexical context is authored. Semantic caveats are editorial, not verified by a single CSV row."
+    }
+  ]
+}
